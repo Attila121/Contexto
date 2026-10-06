@@ -1,0 +1,9 @@
+.conda/
+.venv/
+__pycache__/
+runs/
+.env
+html/**/Contexto_files/
+Contexto_Project.docx
+Proposed_project_design.docx
+Functional_Requirements_Clarification.md

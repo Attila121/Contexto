@@ -1,0 +1,2407 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)https://contexto.me/en/daily -->
+<html lang="en-US" translate="no" data-theme="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><style>:root{--litepicker-container-months-color-bg: #fff;--litepicker-container-months-box-shadow-color: #ddd;--litepicker-footer-color-bg: #fafafa;--litepicker-footer-box-shadow-color: #ddd;--litepicker-tooltip-color-bg: #fff;--litepicker-month-header-color: #333;--litepicker-button-prev-month-color: #9e9e9e;--litepicker-button-next-month-color: #9e9e9e;--litepicker-button-prev-month-color-hover: #2196f3;--litepicker-button-next-month-color-hover: #2196f3;--litepicker-month-width: calc(var(--litepicker-day-width) * 7);--litepicker-month-weekday-color: #9e9e9e;--litepicker-month-week-number-color: #9e9e9e;--litepicker-day-width: 38px;--litepicker-day-color: #333;--litepicker-day-color-hover: #2196f3;--litepicker-is-today-color: #f44336;--litepicker-is-in-range-color: #bbdefb;--litepicker-is-locked-color: #9e9e9e;--litepicker-is-start-color: #fff;--litepicker-is-start-color-bg: #2196f3;--litepicker-is-end-color: #fff;--litepicker-is-end-color-bg: #2196f3;--litepicker-button-cancel-color: #fff;--litepicker-button-cancel-color-bg: #9e9e9e;--litepicker-button-apply-color: #fff;--litepicker-button-apply-color-bg: #2196f3;--litepicker-button-reset-color: #909090;--litepicker-button-reset-color-hover: #2196f3;--litepicker-highlighted-day-color: #333;--litepicker-highlighted-day-color-bg: #ffeb3b}.show-week-numbers{--litepicker-month-width: calc(var(--litepicker-day-width) * 8)}.litepicker{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-size:0.8em;display:none}.litepicker button{border:none;background:none}.litepicker .container__main{display:-webkit-box;display:-ms-flexbox;display:flex}.litepicker .container__months{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;background-color:var(--litepicker-container-months-color-bg);border-radius:5px;-webkit-box-shadow:0 0 5px var(--litepicker-container-months-box-shadow-color);box-shadow:0 0 5px var(--litepicker-container-months-box-shadow-color);width:calc(var(--litepicker-month-width) + 10px);-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__months.columns-2{width:calc((var(--litepicker-month-width) * 2) + 20px)}.litepicker .container__months.columns-3{width:calc((var(--litepicker-month-width) * 3) + 30px)}.litepicker .container__months.columns-4{width:calc((var(--litepicker-month-width) * 4) + 40px)}.litepicker .container__months.split-view .month-item-header .button-previous-month,.litepicker .container__months.split-view .month-item-header .button-next-month{visibility:visible}.litepicker .container__months .month-item{padding:5px;width:var(--litepicker-month-width);-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__months .month-item-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;font-weight:500;padding:10px 5px;text-align:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:var(--litepicker-month-header-color)}.litepicker .container__months .month-item-header div{-webkit-box-flex:1;-ms-flex:1;flex:1}.litepicker .container__months .month-item-header div>.month-item-name{margin-right:5px}.litepicker .container__months .month-item-header div>.month-item-year{padding:0}.litepicker .container__months .month-item-header .reset-button{color:var(--litepicker-button-reset-color)}.litepicker .container__months .month-item-header .reset-button>svg{fill:var(--litepicker-button-reset-color)}.litepicker .container__months .month-item-header .reset-button *{pointer-events:none}.litepicker .container__months .month-item-header .reset-button:hover{color:var(--litepicker-button-reset-color-hover)}.litepicker .container__months .month-item-header .reset-button:hover>svg{fill:var(--litepicker-button-reset-color-hover)}.litepicker .container__months .month-item-header .button-previous-month,.litepicker .container__months .month-item-header .button-next-month{visibility:hidden;text-decoration:none;padding:3px 5px;border-radius:3px;-webkit-transition:color 0.3s, border 0.3s;transition:color 0.3s, border 0.3s;cursor:default}.litepicker .container__months .month-item-header .button-previous-month *,.litepicker .container__months .month-item-header .button-next-month *{pointer-events:none}.litepicker .container__months .month-item-header .button-previous-month{color:var(--litepicker-button-prev-month-color)}.litepicker .container__months .month-item-header .button-previous-month>svg,.litepicker .container__months .month-item-header .button-previous-month>img{fill:var(--litepicker-button-prev-month-color)}.litepicker .container__months .month-item-header .button-previous-month:hover{color:var(--litepicker-button-prev-month-color-hover)}.litepicker .container__months .month-item-header .button-previous-month:hover>svg{fill:var(--litepicker-button-prev-month-color-hover)}.litepicker .container__months .month-item-header .button-next-month{color:var(--litepicker-button-next-month-color)}.litepicker .container__months .month-item-header .button-next-month>svg,.litepicker .container__months .month-item-header .button-next-month>img{fill:var(--litepicker-button-next-month-color)}.litepicker .container__months .month-item-header .button-next-month:hover{color:var(--litepicker-button-next-month-color-hover)}.litepicker .container__months .month-item-header .button-next-month:hover>svg{fill:var(--litepicker-button-next-month-color-hover)}.litepicker .container__months .month-item-weekdays-row{display:-webkit-box;display:-ms-flexbox;display:flex;justify-self:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;color:var(--litepicker-month-weekday-color)}.litepicker .container__months .month-item-weekdays-row>div{padding:5px 0;font-size:85%;-webkit-box-flex:1;-ms-flex:1;flex:1;width:var(--litepicker-day-width);text-align:center}.litepicker .container__months .month-item:first-child .button-previous-month{visibility:visible}.litepicker .container__months .month-item:last-child .button-next-month{visibility:visible}.litepicker .container__months .month-item.no-previous-month .button-previous-month{visibility:hidden}.litepicker .container__months .month-item.no-next-month .button-next-month{visibility:hidden}.litepicker .container__days{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;justify-self:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:center;-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__days>div,.litepicker .container__days>a{padding:5px 0;width:var(--litepicker-day-width)}.litepicker .container__days .day-item{color:var(--litepicker-day-color);text-align:center;text-decoration:none;border-radius:3px;-webkit-transition:color 0.3s, border 0.3s;transition:color 0.3s, border 0.3s;cursor:default}.litepicker .container__days .day-item:hover{color:var(--litepicker-day-color-hover);-webkit-box-shadow:inset 0 0 0 1px var(--litepicker-day-color-hover);box-shadow:inset 0 0 0 1px var(--litepicker-day-color-hover)}.litepicker .container__days .day-item.is-today{color:var(--litepicker-is-today-color)}.litepicker .container__days .day-item.is-locked{color:var(--litepicker-is-locked-color)}.litepicker .container__days .day-item.is-locked:hover{color:var(--litepicker-is-locked-color);-webkit-box-shadow:none;box-shadow:none;cursor:default}.litepicker .container__days .day-item.is-in-range{background-color:var(--litepicker-is-in-range-color);border-radius:0}.litepicker .container__days .day-item.is-start-date{color:var(--litepicker-is-start-color);background-color:var(--litepicker-is-start-color-bg);border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0}.litepicker .container__days .day-item.is-start-date.is-flipped{border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-end-date{color:var(--litepicker-is-end-color);background-color:var(--litepicker-is-end-color-bg);border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-end-date.is-flipped{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0}.litepicker .container__days .day-item.is-start-date.is-end-date{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-highlighted{color:var(--litepicker-highlighted-day-color);background-color:var(--litepicker-highlighted-day-color-bg)}.litepicker .container__days .week-number{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;color:var(--litepicker-month-week-number-color);font-size:85%}.litepicker .container__footer{text-align:right;padding:10px 5px;margin:0 5px;background-color:var(--litepicker-footer-color-bg);-webkit-box-shadow:inset 0px 3px 3px 0px var(--litepicker-footer-box-shadow-color);box-shadow:inset 0px 3px 3px 0px var(--litepicker-footer-box-shadow-color);border-bottom-left-radius:5px;border-bottom-right-radius:5px}.litepicker .container__footer .preview-date-range{margin-right:10px;font-size:90%}.litepicker .container__footer .button-cancel{background-color:var(--litepicker-button-cancel-color-bg);color:var(--litepicker-button-cancel-color);border:0;padding:3px 7px 4px;border-radius:3px}.litepicker .container__footer .button-cancel *{pointer-events:none}.litepicker .container__footer .button-apply{background-color:var(--litepicker-button-apply-color-bg);color:var(--litepicker-button-apply-color);border:0;padding:3px 7px 4px;border-radius:3px;margin-left:10px;margin-right:10px}.litepicker .container__footer .button-apply:disabled{opacity:0.7}.litepicker .container__footer .button-apply *{pointer-events:none}.litepicker .container__tooltip{position:absolute;margin-top:-4px;padding:4px 8px;border-radius:4px;background-color:var(--litepicker-tooltip-color-bg);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.25);box-shadow:0 1px 3px rgba(0,0,0,0.25);white-space:nowrap;font-size:11px;pointer-events:none;visibility:hidden}.litepicker .container__tooltip:before{position:absolute;bottom:-5px;left:calc(50% - 5px);border-top:5px solid rgba(0,0,0,0.12);border-right:5px solid transparent;border-left:5px solid transparent;content:""}.litepicker .container__tooltip:after{position:absolute;bottom:-4px;left:calc(50% - 4px);border-top:4px solid var(--litepicker-tooltip-color-bg);border-right:4px solid transparent;border-left:4px solid transparent;content:""}
+</style>
+    
+    <link rel="icon" href="https://contexto.me/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Can you guess the secret word with the help of AI? At each guess it will tell you how close you are to the answer.">
+    <link rel="apple-touch-icon" href="https://contexto.me/logo192.png">
+    <link rel="manifest" href="https://contexto.me/manifest.json">
+    <title>Contexto</title>
+    <script type="text/javascript" async="" charset="utf-8" src="./Contexto_files/recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-hC9D98xBXYbEu4dt1OTOUEfSfKHxW5VSB/KvC5wfm1Dl42E/ppKetKNpzoO9NCxo"></script><script type="module" crossorigin="" src="./Contexto_files/index-BIKca6DH.js.download"></script>
+    <link rel="stylesheet" crossorigin="" href="./Contexto_files/index-Dz7OhltK.css">
+  <style type="text/css">.styles_faq-row-wrapper__3vA1D {
+  background-color: var(--faq-bg-color, white); }
+  .styles_faq-row-wrapper__3vA1D h2 {
+    margin: 0;
+    color: var(--title-text-color, black);
+    font-size: var(--title-text-size, 30px); }
+  .styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc; }
+  .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c {
+    flex-direction: column;
+    position: relative; }
+    .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY {
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      color: var(--row-title-color, black);
+      font-size: var(--row-title-text-size, large);
+      cursor: pointer;
+      align-items: center; }
+      .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_no-tabfocus__1HmyD {
+        outline: none; }
+      .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY .styles_row-title-text__1MuhU {
+        padding-right: 3em; }
+      .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY .styles_icon-wrapper__2cftw {
+        max-width: 25px;
+        max-height: 25px;
+        margin: 0;
+        padding: 0;
+        color: var(--arrow-color, black);
+        transform: rotate(0deg);
+        transition: transform var(--transition-duration, 0.3s);
+        position: absolute;
+        top: 13px;
+        right: 12px; }
+        .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY .styles_icon-wrapper__2cftw svg {
+          width: 100%;
+          height: 100%; }
+        .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY .styles_icon-wrapper__2cftw svg {
+          fill: var(--arrow-color, black); }
+      .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_closed__39w54 + .styles_row-content__QOGZd {
+        visibility: hidden; }
+        .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_closed__39w54 + .styles_row-content__QOGZd.styles_animate__3ecdr {
+          opacity: 0;
+          transition: height var(--transition-duration, 0.3s); }
+        .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_closed__39w54 + .styles_row-content__QOGZd.styles_static__3chYW {
+          display: none; }
+      .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_expanded__3elPy + .styles_row-content__QOGZd {
+        visibility: visible; }
+        .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_expanded__3elPy + .styles_row-content__QOGZd.styles_static__3chYW {
+          display: block; }
+      .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_expanded__3elPy .styles_icon-wrapper__2cftw {
+        transform: rotate(180deg); }
+      .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_expanding__2OAFB .styles_icon-wrapper__2cftw {
+        transform: rotate(180deg); }
+    .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-content__QOGZd {
+      overflow: hidden;
+      transition: height var(--transition-duration, 0.3s);
+      transition-timing-function: var(--timing-function, ease); }
+      .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-content__QOGZd .styles_row-content-text__2sgAB {
+        color: var(--row-content-color, black);
+        font-size: var(--row-content-text-size, medium);
+        padding: var(--row-content-padding-top, 0) var(--row-content-padding-right, 0) var(--row-content-padding-bottom, 0) var(--row-content-padding-left, 0); }
+</style><style type="text/css">.react-loading-indicator-normalize,
+[class$=rli-bounding-box] {
+  font-size: 1rem;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: unset;
+  isolation: isolate;
+}
+
+.rli-d-i-b {
+  display: inline-block;
+}
+
+.rli-text-format {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  width: 90%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.7em;
+  letter-spacing: 0.5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+}</style><style type="text/css">.atom-rli-bounding-box {
+  --atom-phase1-rgb: 50, 205, 50;
+  color: rgba(var(--atom-phase1-rgb), 1);
+  font-size: 16px;
+  position: relative;
+  text-align: unset;
+  isolation: isolate;
+}
+.atom-rli-bounding-box .atom-indicator {
+  width: 6em;
+  height: 6em;
+  position: relative;
+  perspective: 6em;
+  overflow: hidden;
+  color: rgba(var(--atom-phase1-rgb), 1);
+  animation: calc(var(--rli-animation-duration, 1s) * 4) var(--rli-animation-function, linear) infinite uxlv7gg;
+}
+.atom-rli-bounding-box .atom-indicator::after, .atom-rli-bounding-box .atom-indicator::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 0.48em;
+  height: 0.48em;
+  margin: auto;
+  border-radius: 50%;
+  background-image: radial-gradient(circle at 35% 15%, rgba(var(--atom-phase1-rgb), 0.1), rgba(var(--atom-phase1-rgb), 0.3) 37%, rgba(var(--atom-phase1-rgb), 1) 100%);
+  animation: calc(var(--rli-animation-duration, 1s) * 4) var(--rli-animation-function, linear) infinite uxlv7eg;
+}
+.atom-rli-bounding-box .atom-indicator::before {
+  filter: drop-shadow(0px 0px 0.0625em currentColor);
+}
+.atom-rli-bounding-box .atom-indicator .electron-orbit {
+  color: rgba(var(--atom-phase1-rgb), 0.85);
+  border: 0;
+  border-left: 0.4em solid currentColor;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 4.8em;
+  height: 4.8em;
+  background-color: transparent;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+  animation: var(--rli-animation-duration, 1s) var(--rli-animation-function, linear) infinite uxlv7fj, calc(var(--rli-animation-duration, 1s) * 4) var(--rli-animation-function, linear) infinite uxlv7gy;
+}
+.atom-rli-bounding-box .atom-indicator .electron-orbit::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  color: rgba(var(--atom-phase1-rgb), 0.18);
+  animation: calc(var(--rli-animation-duration, 1s) * 4) var(--rli-animation-function, linear) infinite uxlv7hv;
+  border: 0.125em solid currentColor;
+}
+.atom-rli-bounding-box .atom-indicator .electron-orbit::before {
+  content: "";
+  width: 0.192em;
+  height: 0.192em;
+  position: absolute;
+  border-radius: 50%;
+  top: -0.096em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  color: rgba(var(--atom-phase1-rgb), 1);
+  box-shadow: 0px 0px 0.0625em 0.0625em currentColor, 0px 0px 0.0625em 0.125em currentColor;
+  background-color: currentColor;
+  transform: rotateY(-70deg);
+  animation: var(--rli-animation-duration, 1s) var(--rli-animation-function, linear) infinite uxlv7ew, calc(var(--rli-animation-duration, 1s) * 4) var(--rli-animation-function, linear) infinite uxlv7gg;
+}
+.atom-rli-bounding-box .atom-indicator .electron-orbit:nth-of-type(1) {
+  --orbit-vector-factor: -1;
+  transform: rotateY(65deg) rotateX(calc(54deg * var(--orbit-vector-factor)));
+}
+.atom-rli-bounding-box .atom-indicator .electron-orbit:nth-of-type(2) {
+  --orbit-vector-factor: 1;
+  transform: rotateY(65deg) rotateX(calc(54deg * var(--orbit-vector-factor)));
+}
+.atom-rli-bounding-box .atom-indicator .electron-orbit:nth-of-type(3) {
+  --orbit-vector-factor: 0;
+  transform: rotateY(65deg) rotateX(calc(54deg * var(--orbit-vector-factor)));
+  animation-delay: calc(var(--rli-animation-duration, 1s) * 0.5 * -1), calc(var(--rli-animation-duration, 1s) * 4 * -1);
+}
+.atom-rli-bounding-box .atom-indicator .electron-orbit:nth-of-type(3)::before {
+  animation-delay: calc(var(--rli-animation-duration, 1s) * 0.5 * -1), calc(var(--rli-animation-duration, 1s) * 4 * -1);
+}
+.atom-rli-bounding-box .atom-text {
+  color: currentColor;
+  mix-blend-mode: difference;
+  width: unset;
+  display: block;
+}
+
+@property --atom-phase1-rgb {
+  syntax: "<number>#";
+  inherits: true;
+  initial-value: 50, 205, 50;
+}
+@property --atom-phase2-rgb {
+  syntax: "<number>#";
+  inherits: true;
+  initial-value: 50, 205, 50;
+}
+@property --atom-phase3-rgb {
+  syntax: "<number>#";
+  inherits: true;
+  initial-value: 50, 205, 50;
+}
+@property --atom-phase4-rgb {
+  syntax: "<number>#";
+  inherits: true;
+  initial-value: 50, 205, 50;
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1s;
+}
+@keyframes uxlv7fj {
+  from {
+    transform: rotateY(70deg) rotateX(calc(54deg * var(--orbit-vector-factor))) rotateZ(0deg);
+  }
+  to {
+    transform: rotateY(70deg) rotateX(calc(54deg * var(--orbit-vector-factor))) rotateZ(360deg);
+  }
+}
+@keyframes uxlv7ew {
+  from {
+    transform: rotateY(-70deg) rotateX(0deg);
+  }
+  to {
+    transform: rotateY(-70deg) rotateX(-360deg);
+  }
+}
+@keyframes uxlv7eg {
+  100%, 0% {
+    background-image: radial-gradient(circle at 35% 15%, rgba(var(--atom-phase1-rgb), 0.1), rgba(var(--atom-phase1-rgb), 0.3) 37%, rgba(var(--atom-phase1-rgb), 1) 100%);
+  }
+  20% {
+    background-image: radial-gradient(circle at 35% 15%, rgba(var(--atom-phase1-rgb), 0.1), rgba(var(--atom-phase1-rgb), 0.3) 37%, rgba(var(--atom-phase1-rgb), 1) 100%);
+  }
+  25% {
+    background-image: radial-gradient(circle at 35% 15%, rgba(var(--atom-phase2-rgb, var(--atom-phase1-rgb)), 0.1), rgba(var(--atom-phase2-rgb, var(--atom-phase1-rgb)), 0.3) 37%, rgba(var(--atom-phase2-rgb, var(--atom-phase1-rgb)), 1) 100%);
+  }
+  45% {
+    background-image: radial-gradient(circle at 35% 15%, rgba(var(--atom-phase2-rgb, var(--atom-phase1-rgb)), 0.1), rgba(var(--atom-phase2-rgb, var(--atom-phase1-rgb)), 0.3) 37%, rgba(var(--atom-phase2-rgb, var(--atom-phase1-rgb)), 1) 100%);
+  }
+  50% {
+    background-image: radial-gradient(circle at 35% 15%, rgba(var(--atom-phase3-rgb, var(--atom-phase1-rgb)), 0.1), rgba(var(--atom-phase3-rgb, var(--atom-phase1-rgb)), 0.3) 37%, rgba(var(--atom-phase3-rgb, var(--atom-phase1-rgb)), 1) 100%);
+  }
+  70% {
+    background-image: radial-gradient(circle at 35% 15%, rgba(var(--atom-phase3-rgb, var(--atom-phase1-rgb)), 0.1), rgba(var(--atom-phase3-rgb, var(--atom-phase1-rgb)), 0.3) 37%, rgba(var(--atom-phase3-rgb, var(--atom-phase1-rgb)), 1) 100%);
+  }
+  75% {
+    background-image: radial-gradient(circle at 35% 15%, rgba(var(--atom-phase4-rgb, var(--atom-phase1-rgb)), 0.1), rgba(var(--atom-phase4-rgb, var(--atom-phase1-rgb)), 0.3) 37%, rgba(var(--atom-phase4-rgb, var(--atom-phase1-rgb)), 1) 100%);
+  }
+  95% {
+    background-image: radial-gradient(circle at 35% 15%, rgba(var(--atom-phase4-rgb, var(--atom-phase1-rgb)), 0.1), rgba(var(--atom-phase4-rgb, var(--atom-phase1-rgb)), 0.3) 37%, rgba(var(--atom-phase4-rgb, var(--atom-phase1-rgb)), 1) 100%);
+  }
+}
+@keyframes uxlv7gg {
+  100%, 0% {
+    color: rgba(var(--atom-phase1-rgb), 1);
+  }
+  20% {
+    color: rgba(var(--atom-phase1-rgb), 1);
+  }
+  25% {
+    color: rgba(var(--atom-phase2-rgb, var(--atom-phase1-rgb)), 1);
+  }
+  45% {
+    color: rgba(var(--atom-phase2-rgb, var(--atom-phase1-rgb)), 1);
+  }
+  50% {
+    color: rgba(var(--atom-phase3-rgb, var(--atom-phase1-rgb)), 1);
+  }
+  70% {
+    color: rgba(var(--atom-phase3-rgb, var(--atom-phase1-rgb)), 1);
+  }
+  75% {
+    color: rgba(var(--atom-phase4-rgb, var(--atom-phase1-rgb)), 1);
+  }
+  95% {
+    color: rgba(var(--atom-phase4-rgb, var(--atom-phase1-rgb)), 1);
+  }
+}
+@keyframes uxlv7gy {
+  100%, 0% {
+    color: rgba(var(--atom-phase1-rgb), 0.85);
+  }
+  20% {
+    color: rgba(var(--atom-phase1-rgb), 0.85);
+  }
+  25% {
+    color: rgba(var(--atom-phase2-rgb, var(--atom-phase1-rgb)), 0.85);
+  }
+  45% {
+    color: rgba(var(--atom-phase2-rgb, var(--atom-phase1-rgb)), 0.85);
+  }
+  50% {
+    color: rgba(var(--atom-phase3-rgb, var(--atom-phase1-rgb)), 0.85);
+  }
+  70% {
+    color: rgba(var(--atom-phase3-rgb, var(--atom-phase1-rgb)), 0.85);
+  }
+  75% {
+    color: rgba(var(--atom-phase4-rgb, var(--atom-phase1-rgb)), 0.85);
+  }
+  95% {
+    color: rgba(var(--atom-phase4-rgb, var(--atom-phase1-rgb)), 0.85);
+  }
+}
+@keyframes uxlv7hv {
+  100%, 0% {
+    color: rgba(var(--atom-phase1-rgb), 0.18);
+  }
+  20% {
+    color: rgba(var(--atom-phase1-rgb), 0.18);
+  }
+  25% {
+    color: rgba(var(--atom-phase2-rgb, var(--atom-phase1-rgb)), 0.18);
+  }
+  45% {
+    color: rgba(var(--atom-phase2-rgb, var(--atom-phase1-rgb)), 0.18);
+  }
+  50% {
+    color: rgba(var(--atom-phase3-rgb, var(--atom-phase1-rgb)), 0.18);
+  }
+  70% {
+    color: rgba(var(--atom-phase3-rgb, var(--atom-phase1-rgb)), 0.18);
+  }
+  75% {
+    color: rgba(var(--atom-phase4-rgb, var(--atom-phase1-rgb)), 0.18);
+  }
+  95% {
+    color: rgba(var(--atom-phase4-rgb, var(--atom-phase1-rgb)), 0.18);
+  }
+}</style><style type="text/css">.commet-rli-bounding-box {
+  --commet-phase1-color: rgb(50, 205, 50);
+  font-size: 16px;
+  width: 6.85em;
+  height: 6.85em;
+  overflow: hidden;
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+}
+.commet-rli-bounding-box .commet-indicator {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  box-sizing: border-box;
+  width: 6em;
+  height: 6em;
+  color: var(--commet-phase1-color);
+  display: inline-block;
+  isolation: isolate;
+  position: absolute;
+  z-index: 0;
+  animation: calc(var(--rli-animation-duration, 1.2s) * 4) var(--rli-animation-function, cubic-bezier(0.08, 0.03, 0.91, 0.93)) infinite uxlv7cp;
+}
+.commet-rli-bounding-box .commet-indicator .commet-box {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  animation: uxlv7bx var(--rli-animation-duration, 1.2s) var(--rli-animation-function, cubic-bezier(0.08, 0.03, 0.91, 0.93)) infinite;
+}
+.commet-rli-bounding-box .commet-indicator .commet-box:nth-of-type(1) {
+  width: 100%;
+  height: 100%;
+  animation-direction: normal;
+}
+.commet-rli-bounding-box .commet-indicator .commet-box:nth-of-type(2) {
+  width: 70%;
+  height: 70%;
+  animation-direction: reverse;
+}
+.commet-rli-bounding-box .commet-indicator .commet-box .commetball-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+}
+.commet-rli-bounding-box .commet-indicator .commet-box .commetball-box::before {
+  content: "";
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: currentColor;
+  position: absolute;
+  top: -0.125em;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 0.2em 0em currentColor, 0 0 0.6em 0em currentColor;
+}
+.commet-rli-bounding-box .commet-indicator .commet-box .commet-trail {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-style: solid;
+}
+.commet-rli-bounding-box .commet-indicator .commet-box .commet-trail.trail1 {
+  border-color: currentColor transparent transparent currentColor;
+  border-width: 0.25em 0.25em 0 0;
+  transform: rotateZ(-45deg);
+}
+.commet-rli-bounding-box .commet-indicator .commet-box .commet-trail.trail2 {
+  border-color: currentColor currentColor transparent transparent;
+  border-width: 0.25em 0 0 0.25em;
+  transform: rotateZ(45deg);
+}
+.commet-rli-bounding-box .commet-text {
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--commet-phase1-color);
+}
+
+@property --commet-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --commet-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --commet-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --commet-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1.2s;
+}
+@keyframes uxlv7bx {
+  to {
+    transform: rotate(1turn);
+  }
+}
+@keyframes uxlv7cp {
+  100%, 0% {
+    color: var(--commet-phase1-color);
+  }
+  20% {
+    color: var(--commet-phase1-color);
+  }
+  25% {
+    color: var(--commet-phase2-color, var(--commet-phase1-color));
+  }
+  45% {
+    color: var(--commet-phase2-color, var(--commet-phase1-color));
+  }
+  50% {
+    color: var(--commet-phase3-color, var(--commet-phase1-color));
+  }
+  70% {
+    color: var(--commet-phase3-color, var(--commet-phase1-color));
+  }
+  75% {
+    color: var(--commet-phase4-color, var(--commet-phase1-color));
+  }
+  95% {
+    color: var(--commet-phase4-color, var(--commet-phase1-color));
+  }
+}</style><style type="text/css">.OP-annulus-rli-bounding-box {
+  --OP-annulus-phase1-color: rgb(50, 205, 50);
+  font-size: 16px;
+  display: inline-block;
+}
+.OP-annulus-rli-bounding-box .OP-annulus-indicator {
+  width: 5em;
+  height: 5em;
+  color: var(--OP-annulus-phase1-color);
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+}
+.OP-annulus-rli-bounding-box .OP-annulus-indicator .whirl {
+  animation: uxlv7n7 calc(var(--rli-animation-duration, 1.5s) * 1.33) linear infinite;
+  height: 100%;
+  transform-origin: center center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.OP-annulus-rli-bounding-box .OP-annulus-indicator .path {
+  stroke-dasharray: 1, 125;
+  stroke-dashoffset: 0;
+  animation: var(--rli-animation-duration, 1.5s) var(--rli-animation-function, ease-in-out) infinite uxlv7oa, calc(var(--rli-animation-duration, 1.5s) * 4) var(--rli-animation-function, ease-in-out) infinite uxlv7p5;
+  stroke-linecap: round;
+}
+.OP-annulus-rli-bounding-box .OP-annulus-text {
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+@property --OP-annulus-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-annulus-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-annulus-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-annulus-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1.5s;
+}
+@keyframes uxlv7n7 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes uxlv7oa {
+  0% {
+    stroke-dasharray: 1, 125;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 98, 125;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 98, 125;
+    stroke-dashoffset: -124px;
+  }
+}
+@keyframes uxlv7p5 {
+  100%, 0% {
+    stroke: var(--OP-annulus-phase1-color);
+  }
+  22% {
+    stroke: var(--OP-annulus-phase1-color);
+  }
+  25% {
+    stroke: var(--OP-annulus-phase2-color, var(--OP-annulus-phase1-color));
+  }
+  42% {
+    stroke: var(--OP-annulus-phase2-color, var(--OP-annulus-phase1-color));
+  }
+  50% {
+    stroke: var(--OP-annulus-phase3-color, var(--OP-annulus-phase1-color));
+  }
+  72% {
+    stroke: var(--OP-annulus-phase3-color, var(--OP-annulus-phase1-color));
+  }
+  75% {
+    stroke: var(--OP-annulus-phase4-color, var(--OP-annulus-phase1-color));
+  }
+  97% {
+    stroke: var(--OP-annulus-phase4-color, var(--OP-annulus-phase1-color));
+  }
+}</style><style type="text/css">.OP-dotted-rli-bounding-box {
+  --OP-dotted-phase1-color: rgb(50, 205, 50);
+  font-size: 16px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator {
+  width: 5em;
+  height: 5em;
+  color: var(--OP-dotted-phase1-color);
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .OP-dotted-text {
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder .dot {
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  height: 15%;
+  background-color: currentColor;
+  border-radius: 50%;
+  animation: var(--rli-animation-duration, 1.2s) var(--rli-animation-function, ease-in-out) infinite uxlv7nu, calc(var(--rli-animation-duration, 1.2s) * 4) var(--rli-animation-function, ease-in-out) infinite uxlv7ol;
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(1) {
+  transform: rotate(0deg);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(1) .dot {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) / 12 * 12 * -1);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(2) {
+  transform: rotate(30deg);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(2) .dot {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) / 12 * 11 * -1);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(3) {
+  transform: rotate(60deg);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(3) .dot {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) / 12 * 10 * -1);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(4) {
+  transform: rotate(90deg);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(4) .dot {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) / 12 * 9 * -1);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(5) {
+  transform: rotate(120deg);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(5) .dot {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) / 12 * 8 * -1);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(6) {
+  transform: rotate(150deg);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(6) .dot {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) / 12 * 7 * -1);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(7) {
+  transform: rotate(180deg);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(7) .dot {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) / 12 * 6 * -1);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(8) {
+  transform: rotate(210deg);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(8) .dot {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) / 12 * 5 * -1);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(9) {
+  transform: rotate(240deg);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(9) .dot {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) / 12 * 4 * -1);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(10) {
+  transform: rotate(270deg);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(10) .dot {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) / 12 * 3 * -1);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(11) {
+  transform: rotate(300deg);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(11) .dot {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) / 12 * 2 * -1);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(12) {
+  transform: rotate(330deg);
+}
+.OP-dotted-rli-bounding-box .OP-dotted-indicator .dot-shape-holder:nth-of-type(12) .dot {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) / 12 * 1 * -1);
+}
+
+@property --OP-dotted-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-dotted-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-dotted-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-dotted-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1.2s;
+}
+@keyframes uxlv7nu {
+  0%, 39%, 100% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+@keyframes uxlv7ol {
+  100%, 0% {
+    background-color: var(--OP-dotted-phase1-color);
+  }
+  22% {
+    background-color: var(--OP-dotted-phase1-color);
+  }
+  25% {
+    background-color: var(--OP-dotted-phase2-color, var(--OP-dotted-phase1-color));
+  }
+  47% {
+    background-color: var(--OP-dotted-phase2-color, var(--OP-dotted-phase1-color));
+  }
+  50% {
+    background-color: var(--OP-dotted-phase3-color, var(--OP-dotted-phase1-color));
+  }
+  72% {
+    background-color: var(--OP-dotted-phase3-color, var(--OP-dotted-phase1-color));
+  }
+  75% {
+    background-color: var(--OP-dotted-phase4-color, var(--OP-dotted-phase1-color));
+  }
+  97% {
+    background-color: var(--OP-dotted-phase4-color, var(--OP-dotted-phase1-color));
+  }
+}</style><style type="text/css">.OP-spokes-rli-bounding-box {
+  --OP-spokes-phase1-color: rgb(50, 205, 50);
+  font-size: 16px;
+  position: relative;
+  color: var(--OP-spokes-phase1-color);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator {
+  width: 4.8em;
+  height: 4.8em;
+  display: block;
+  position: relative;
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke {
+  position: absolute;
+  height: 1.2em;
+  width: 0.4em;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto auto auto 50%;
+  background-color: var(--OP-spokes-phase1-color);
+  border-radius: 0.24em;
+  opacity: 0;
+  animation: var(--rli-animation-duration, 1.2s) var(--rli-animation-function, ease-in-out) backwards infinite uxlv7pw, calc(var(--rli-animation-duration, 1.2s) * 4) var(--rli-animation-function, ease-in-out) infinite uxlv7qn;
+  transform-origin: left center;
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke:nth-of-type(1) {
+  transform: rotate(calc(0 * 360deg / 12)) translate(-50%, -1.56em);
+  animation-delay: calc(11 * var(--rli-animation-duration, 1.2s) / 12 * -1);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke:nth-of-type(2) {
+  transform: rotate(calc(1 * 360deg / 12)) translate(-50%, -1.56em);
+  animation-delay: calc(10 * var(--rli-animation-duration, 1.2s) / 12 * -1);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke:nth-of-type(3) {
+  transform: rotate(calc(2 * 360deg / 12)) translate(-50%, -1.56em);
+  animation-delay: calc(9 * var(--rli-animation-duration, 1.2s) / 12 * -1);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke:nth-of-type(4) {
+  transform: rotate(calc(3 * 360deg / 12)) translate(-50%, -1.56em);
+  animation-delay: calc(8 * var(--rli-animation-duration, 1.2s) / 12 * -1);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke:nth-of-type(5) {
+  transform: rotate(calc(4 * 360deg / 12)) translate(-50%, -1.56em);
+  animation-delay: calc(7 * var(--rli-animation-duration, 1.2s) / 12 * -1);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke:nth-of-type(6) {
+  transform: rotate(calc(5 * 360deg / 12)) translate(-50%, -1.56em);
+  animation-delay: calc(6 * var(--rli-animation-duration, 1.2s) / 12 * -1);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke:nth-of-type(7) {
+  transform: rotate(calc(6 * 360deg / 12)) translate(-50%, -1.56em);
+  animation-delay: calc(5 * var(--rli-animation-duration, 1.2s) / 12 * -1);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke:nth-of-type(8) {
+  transform: rotate(calc(7 * 360deg / 12)) translate(-50%, -1.56em);
+  animation-delay: calc(4 * var(--rli-animation-duration, 1.2s) / 12 * -1);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke:nth-of-type(9) {
+  transform: rotate(calc(8 * 360deg / 12)) translate(-50%, -1.56em);
+  animation-delay: calc(3 * var(--rli-animation-duration, 1.2s) / 12 * -1);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke:nth-of-type(10) {
+  transform: rotate(calc(9 * 360deg / 12)) translate(-50%, -1.56em);
+  animation-delay: calc(2 * var(--rli-animation-duration, 1.2s) / 12 * -1);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke:nth-of-type(11) {
+  transform: rotate(calc(10 * 360deg / 12)) translate(-50%, -1.56em);
+  animation-delay: calc(1 * var(--rli-animation-duration, 1.2s) / 12 * -1);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator .spoke:nth-of-type(12) {
+  transform: rotate(calc(11 * 360deg / 12)) translate(-50%, -1.56em);
+  animation-delay: calc(0 * var(--rli-animation-duration, 1.2s) / 12 * -1);
+}
+.OP-spokes-rli-bounding-box .OP-spokes-indicator-text {
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--OP-spokes-phase1-color);
+  z-index: -2;
+}
+
+@property --OP-spokes-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-spokes-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-spokes-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-spokes-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1.2s;
+}
+@keyframes uxlv7pw {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes uxlv7qn {
+  100%, 0% {
+    background-color: var(--OP-spokes-phase1-color);
+  }
+  22% {
+    background-color: var(--OP-spokes-phase1-color);
+  }
+  25% {
+    background-color: var(--OP-spokes-phase2-color, var(--OP-spokes-phase1-color));
+  }
+  42% {
+    background-color: var(--OP-spokes-phase2-color, var(--OP-spokes-phase1-color));
+  }
+  50% {
+    background-color: var(--OP-spokes-phase3-color, var(--OP-spokes-phase1-color));
+  }
+  72% {
+    background-color: var(--OP-spokes-phase3-color, var(--OP-spokes-phase1-color));
+  }
+  75% {
+    background-color: var(--OP-spokes-phase4-color, var(--OP-spokes-phase1-color));
+  }
+  97% {
+    background-color: var(--OP-spokes-phase4-color, var(--OP-spokes-phase1-color));
+  }
+}</style><style type="text/css">.OP-annulus-dual-sectors-rli-bounding-box {
+  --OP-annulus-dual-sectors-phase1-color: rgb(50, 205, 50);
+  font-size: 16px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.OP-annulus-dual-sectors-rli-bounding-box .OP-annulus-dual-sectors-indicator {
+  width: 5em;
+  height: 5em;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  color: var(--OP-annulus-dual-sectors-phase1-color);
+}
+.OP-annulus-dual-sectors-rli-bounding-box .OP-annulus-dual-sectors-indicator .annulus-sectors {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-width: 0.34em;
+  border-style: solid;
+  border-color: var(--OP-annulus-dual-sectors-phase1-color) transparent var(--OP-annulus-dual-sectors-phase1-color) transparent;
+  background-color: transparent;
+  animation: var(--rli-animation-duration, 1.2s) var(--rli-animation-function, linear) infinite uxlv7ra, calc(var(--rli-animation-duration, 1.2s) * 4) var(--rli-animation-function, linear) infinite uxlv7sv;
+}
+.OP-annulus-dual-sectors-rli-bounding-box .OP-annulus-dual-sectors-indicator .OP-annulus-dual-sectors-text {
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+@property --OP-annulus-dual-sectors-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-annulus-dual-sectors-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-annulus-dual-sectors-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-annulus-dual-sectors-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1.2s;
+}
+@keyframes uxlv7ra {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes uxlv7sv {
+  100%, 0% {
+    border-color: var(--OP-annulus-dual-sectors-phase1-color) transparent;
+  }
+  20% {
+    border-color: var(--OP-annulus-dual-sectors-phase1-color) transparent;
+  }
+  25% {
+    border-color: var(--OP-annulus-dual-sectors-phase2-color, var(--OP-annulus-dual-sectors-phase1-color)) transparent;
+  }
+  45% {
+    border-color: var(--OP-annulus-dual-sectors-phase2-color, var(--OP-annulus-dual-sectors-phase1-color)) transparent;
+  }
+  50% {
+    border-color: var(--OP-annulus-dual-sectors-phase3-color, var(--OP-annulus-dual-sectors-phase1-color)) transparent;
+  }
+  70% {
+    border-color: var(--OP-annulus-dual-sectors-phase3-color, var(--OP-annulus-dual-sectors-phase1-color)) transparent;
+  }
+  75% {
+    border-color: var(--OP-annulus-dual-sectors-phase4-color, var(--OP-annulus-dual-sectors-phase1-color)) transparent;
+  }
+  95% {
+    border-color: var(--OP-annulus-dual-sectors-phase4-color, var(--OP-annulus-dual-sectors-phase1-color)) transparent;
+  }
+}</style><style type="text/css">.OP-annulus-sector-track-rli-bounding-box {
+  --OP-annulus-track-phase1-color: rgba(50, 205, 50, 0.22);
+  --OP-annulus-sector-phase1-color: rgb(50, 205, 50);
+  font-size: 16px;
+  display: inline-block;
+}
+.OP-annulus-sector-track-rli-bounding-box .OP-annulus-sector-track-indicator {
+  width: 5em;
+  height: 5em;
+  color: var(--OP-annulus-sector-phase1-color);
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+}
+.OP-annulus-sector-track-rli-bounding-box .OP-annulus-sector-track-indicator .annulus-track-ring {
+  width: 100%;
+  height: 100%;
+  border-width: 0.34em;
+  border-style: solid;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-color: var(--OP-annulus-track-phase1-color);
+  border-top-color: var(--OP-annulus-sector-phase1-color);
+  animation: var(--rli-animation-duration, 1s) var(--rli-animation-function, linear) infinite uxlv7rl, calc(var(--rli-animation-duration, 1s) * 4) var(--rli-animation-function, linear) infinite uxlv7tf;
+}
+.OP-annulus-sector-track-rli-bounding-box .OP-annulus-sector-track-indicator .OP-annulus-sector-text {
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+@property --OP-annulus-track-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgba(50, 205, 50, 0.22);
+}
+@property --OP-annulus-track-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgba(50, 205, 50, 0.22);
+}
+@property --OP-annulus-track-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgba(50, 205, 50, 0.22);
+}
+@property --OP-annulus-track-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgba(50, 205, 50, 0.22);
+}
+@property --OP-annulus-sector-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-annulus-sector-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-annulus-sector-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --OP-annulus-sector-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1s;
+}
+@keyframes uxlv7rl {
+  to {
+    transform: rotate(1turn);
+  }
+}
+@keyframes uxlv7tf {
+  100%, 0% {
+    border-color: var(--OP-annulus-track-phase1-color);
+    border-top-color: var(--OP-annulus-sector-phase1-color);
+  }
+  18% {
+    border-color: var(--OP-annulus-track-phase1-color);
+    border-top-color: var(--OP-annulus-sector-phase1-color);
+  }
+  25% {
+    border-color: var(--OP-annulus-track-phase2-color, var(--OP-annulus-track-phase1-color));
+    border-top-color: var(--OP-annulus-sector-phase2-color, var(--OP-annulus-sector-phase1-color));
+  }
+  43% {
+    border-color: var(--OP-annulus-track-phase2-color, var(--OP-annulus-track-phase1-color));
+    border-top-color: var(--OP-annulus-sector-phase2-color, var(--OP-annulus-sector-phase1-color));
+  }
+  50% {
+    border-color: var(--OP-annulus-track-phase3-color, var(--OP-annulus-track-phase1-color));
+    border-top-color: var(--OP-annulus-sector-phase3-color, var(--OP-annulus-sector-phase1-color));
+  }
+  68% {
+    border-color: var(--OP-annulus-track-phase3-color, var(--OP-annulus-track-phase1-color));
+    border-top-color: var(--OP-annulus-sector-phase3-color, var(--OP-annulus-sector-phase1-color));
+  }
+  75% {
+    border-color: var(--OP-annulus-track-phase4-color, var(--OP-annulus-track-phase1-color));
+    border-top-color: var(--OP-annulus-sector-phase4-color, var(--OP-annulus-sector-phase1-color));
+  }
+  93% {
+    border-color: var(--OP-annulus-track-phase4-color, var(--OP-annulus-track-phase1-color));
+    border-top-color: var(--OP-annulus-sector-phase4-color, var(--OP-annulus-sector-phase1-color));
+  }
+}</style><style type="text/css">.foursquare-rli-bounding-box {
+  --four-square-phase1-color: rgb(50, 205, 50);
+  font-size: 16px;
+  box-sizing: border-box;
+  color: var(--four-square-phase1-color);
+  display: inline-block;
+  overflow: hidden;
+}
+.foursquare-rli-bounding-box .foursquare-indicator {
+  height: 5.3033008589em;
+  width: 5.3033008589em;
+  position: relative;
+  display: block;
+}
+.foursquare-rli-bounding-box .foursquare-indicator .squares-container {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 2.5em;
+  width: 2.5em;
+  color: inherit;
+  will-change: color, width, height;
+  transform: rotate(45deg);
+  animation: var(--rli-animation-duration, 1s) var(--rli-animation-function, cubic-bezier(0.05, 0.28, 0.79, 0.98)) infinite uxlv7dk, calc(var(--rli-animation-duration, 1s) * 4) var(--rli-animation-function, cubic-bezier(0.05, 0.28, 0.79, 0.98)) infinite uxlv7es;
+}
+.foursquare-rli-bounding-box .foursquare-indicator .squares-container .square {
+  position: absolute;
+  width: 1.25em;
+  height: 1.25em;
+  border-radius: 0.1875em;
+  background-color: currentColor;
+  animation: uxlv7dd var(--rli-animation-duration, 1s) var(--rli-animation-function, cubic-bezier(0.05, 0.28, 0.79, 0.98)) both infinite;
+}
+.foursquare-rli-bounding-box .foursquare-indicator .squares-container .square.square1 {
+  top: 0;
+  left: 0;
+}
+.foursquare-rli-bounding-box .foursquare-indicator .squares-container .square.square2 {
+  top: 0;
+  right: 0;
+}
+.foursquare-rli-bounding-box .foursquare-indicator .squares-container .square.square3 {
+  bottom: 0;
+  left: 0;
+}
+.foursquare-rli-bounding-box .foursquare-indicator .squares-container .square.square4 {
+  bottom: 0;
+  right: 0;
+}
+
+@property --four-square-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --four-square-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --four-square-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --four-square-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1s;
+}
+@keyframes uxlv7dk {
+  0% {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  10% {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  50% {
+    width: 3.75em;
+    height: 3.75em;
+  }
+  90% {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  100% {
+    width: 2.5em;
+    height: 2.5em;
+  }
+}
+@keyframes uxlv7dd {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  10% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(90deg);
+  }
+  90% {
+    transform: rotateZ(90deg);
+  }
+  100% {
+    transform: rotateZ(90deg);
+  }
+}
+@keyframes uxlv7es {
+  100%, 0% {
+    color: var(--four-square-phase1-color);
+  }
+  20% {
+    color: var(--four-square-phase1-color);
+  }
+  25% {
+    color: var(--four-square-phase2-color, var(--four-square-phase1-color));
+  }
+  45% {
+    color: var(--four-square-phase2-color, var(--four-square-phase1-color));
+  }
+  50% {
+    color: var(--four-square-phase3-color, var(--four-square-phase1-color));
+  }
+  70% {
+    color: var(--four-square-phase3-color, var(--four-square-phase1-color));
+  }
+  75% {
+    color: var(--four-square-phase4-color, var(--four-square-phase1-color));
+  }
+  95% {
+    color: var(--four-square-phase4-color, var(--four-square-phase1-color));
+  }
+}</style><style type="text/css">.mosaic-rli-bounding-box {
+  --mosaic-phase1-color: rgb(50, 205, 50);
+  box-sizing: border-box;
+  font-size: 16px;
+  color: var(--mosaic-phase1-color);
+}
+.mosaic-rli-bounding-box .mosaic-indicator {
+  width: 5em;
+  height: 5em;
+  color: currentColor;
+  display: grid;
+  gap: 0.125em;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "a b c" "d e f" "g h i";
+  position: relative;
+  z-index: 0;
+}
+.mosaic-rli-bounding-box .mosaic-indicator .mosaic-cube-text {
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -2;
+}
+.mosaic-rli-bounding-box .mosaic-indicator .mosaic-cube {
+  background-color: var(--mosaic-phase1-color);
+  animation-name: uxlv7i4, uxlv7is;
+  animation-duration: var(--rli-animation-duration, 1.5s), calc(var(--rli-animation-duration, 1.5s) * 4);
+  animation-timing-function: var(--rli-animation-function, ease-in-out);
+  animation-iteration-count: infinite;
+}
+.mosaic-rli-bounding-box .mosaic-indicator .mosaic-cube1 {
+  animation-delay: calc(var(--mosaic-skip-interval, 0.1s) * 2);
+  grid-area: a;
+}
+.mosaic-rli-bounding-box .mosaic-indicator .mosaic-cube2 {
+  animation-delay: calc(var(--mosaic-skip-interval, 0.1s) * 3);
+  grid-area: b;
+}
+.mosaic-rli-bounding-box .mosaic-indicator .mosaic-cube3 {
+  grid-area: c;
+  animation-delay: calc(var(--mosaic-skip-interval, 0.1s) * 4);
+}
+.mosaic-rli-bounding-box .mosaic-indicator .mosaic-cube4 {
+  grid-area: d;
+  animation-delay: calc(var(--mosaic-skip-interval, 0.1s) * 1);
+}
+.mosaic-rli-bounding-box .mosaic-indicator .mosaic-cube5 {
+  grid-area: e;
+  animation-delay: calc(var(--mosaic-skip-interval, 0.1s) * 2);
+}
+.mosaic-rli-bounding-box .mosaic-indicator .mosaic-cube6 {
+  grid-area: f;
+  animation-delay: calc(var(--mosaic-skip-interval, 0.1s) * 3);
+}
+.mosaic-rli-bounding-box .mosaic-indicator .mosaic-cube7 {
+  grid-area: g;
+  animation-delay: 0s;
+}
+.mosaic-rli-bounding-box .mosaic-indicator .mosaic-cube8 {
+  grid-area: h;
+  animation-delay: calc(var(--mosaic-skip-interval, 0.1s) * 1);
+}
+.mosaic-rli-bounding-box .mosaic-indicator .mosaic-cube9 {
+  grid-area: i;
+  animation-delay: calc(var(--mosaic-skip-interval, 0.1s) * 2);
+}
+
+@property --mosaic-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --mosaic-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --mosaic-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --mosaic-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1.5s;
+}
+@keyframes uxlv7i4 {
+  0%, 60%, 100% {
+    transform: scale3D(1, 1, 1);
+  }
+  30% {
+    transform: scale3D(0, 0, 1);
+  }
+}
+@keyframes uxlv7is {
+  100%, 0% {
+    background-color: var(--mosaic-phase1-color);
+  }
+  25% {
+    background-color: var(--mosaic-phase2-color, var(--mosaic-phase1-color));
+  }
+  50% {
+    background-color: var(--mosaic-phase3-color, var(--mosaic-phase1-color));
+  }
+  75% {
+    background-color: var(--mosaic-phase4-color, var(--mosaic-phase1-color));
+  }
+}</style><style type="text/css">.riple-rli-bounding-box {
+  --riple-phase1-color: rgb(50, 205, 50);
+  box-sizing: border-box;
+  font-size: 16px;
+  display: inline-block;
+  color: var(--riple-phase1-color);
+}
+.riple-rli-bounding-box .riple-indicator {
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+  position: relative;
+  z-index: 0;
+}
+.riple-rli-bounding-box .riple-indicator .riple-text {
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+.riple-rli-bounding-box .riple-indicator .riple {
+  --border-width: 0.25em;
+  position: absolute;
+  border: var(--border-width) solid var(--riple-phase1-color);
+  opacity: 1;
+  border-radius: 50%;
+  will-change: top, right, left, bottom, border-color;
+  animation: var(--rli-animation-duration, 1s) var(--rli-animation-function, cubic-bezier(0, 0.2, 0.8, 1)) infinite uxlv7i1, calc(var(--rli-animation-duration, 1s) * 4) var(--rli-animation-function, cubic-bezier(0, 0.2, 0.8, 1)) infinite uxlv7io;
+}
+.riple-rli-bounding-box .riple-indicator .riple:nth-of-type(2) {
+  animation-delay: calc(var(--rli-animation-duration, 1s) / 2 * -1);
+}
+
+@property --riple-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --riple-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --riple-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --riple-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1s;
+}
+@keyframes uxlv7i1 {
+  0% {
+    top: calc(50% - var(--border-width));
+    left: calc(50% - var(--border-width));
+    right: calc(50% - var(--border-width));
+    bottom: calc(50% - var(--border-width));
+    opacity: 0;
+  }
+  4.9% {
+    top: calc(50% - var(--border-width));
+    left: calc(50% - var(--border-width));
+    right: calc(50% - var(--border-width));
+    bottom: calc(50% - var(--border-width));
+    opacity: 0;
+  }
+  5% {
+    top: calc(50% - var(--border-width));
+    left: calc(50% - var(--border-width));
+    right: calc(50% - var(--border-width));
+    bottom: calc(50% - var(--border-width));
+    opacity: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+  }
+}
+@keyframes uxlv7io {
+  100%, 0% {
+    border-color: var(--riple-phase1-color);
+  }
+  24.9% {
+    border-color: var(--riple-phase1-color);
+  }
+  25% {
+    border-color: var(--riple-phase2-color, var(--riple-phase1-color));
+  }
+  49.9% {
+    border-color: var(--riple-phase2-color, var(--riple-phase1-color));
+  }
+  50% {
+    border-color: var(--riple-phase3-color, var(--riple-phase1-color));
+  }
+  74.9% {
+    border-color: var(--riple-phase3-color, var(--riple-phase1-color));
+  }
+  75% {
+    border-color: var(--riple-phase4-color, var(--riple-phase1-color));
+  }
+  99.9% {
+    border-color: var(--riple-phase4-color, var(--riple-phase1-color));
+  }
+}</style><style type="text/css">.pulsate-rli-bounding-box {
+  --TD-pulsate-phase1-color: rgb(50, 205, 50);
+  font-size: 16px;
+  display: inline-block;
+  box-sizing: border-box;
+  color: var(--TD-pulsate-phase1-color);
+}
+.pulsate-rli-bounding-box .pulsate-indicator {
+  width: 4.4em;
+  height: 1.1em;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.pulsate-rli-bounding-box .pulsate-indicator .pulsate-dot {
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  background-color: var(--TD-pulsate-phase1-color);
+  transform: scale(0);
+  animation: var(--rli-animation-duration, 1.2s) var(--rli-animation-function, ease-in-out) var(--delay) infinite uxlv7s0, calc(var(--rli-animation-duration, 1.2s) * 4) var(--rli-animation-function, ease-in-out) var(--delay) infinite uxlv7to;
+}
+.pulsate-rli-bounding-box .pulsate-indicator .pulsate-dot:nth-of-type(1) {
+  --delay: calc(var(--rli-animation-duration, 1.2s) * 0.15 * -1);
+}
+.pulsate-rli-bounding-box .pulsate-indicator .pulsate-dot:nth-of-type(2) {
+  --delay: calc(var(--rli-animation-duration, 1.2s) * 0);
+}
+.pulsate-rli-bounding-box .pulsate-indicator .pulsate-dot:nth-of-type(3) {
+  --delay: calc(var(--rli-animation-duration, 1.2s) * 0.15);
+}
+.pulsate-rli-bounding-box .pulsate-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.6em;
+  letter-spacing: 0.5px;
+  font-family: sans-serif;
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+@property --TD-pulsate-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --TD-pulsate-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --TD-pulsate-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --TD-pulsate-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1.2s;
+}
+@keyframes uxlv7s0 {
+  0%, 90%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+@keyframes uxlv7to {
+  0%, 100% {
+    background-color: var(--TD-pulsate-phase1-color);
+  }
+  24.9% {
+    background-color: var(--TD-pulsate-phase1-color);
+  }
+  25% {
+    background-color: var(--TD-pulsate-phase2-color, var(--TD-pulsate-phase1-color));
+  }
+  49.9% {
+    background-color: var(--TD-pulsate-phase2-color, var(--TD-pulsate-phase1-color));
+  }
+  50% {
+    background-color: var(--TD-pulsate-phase3-color, var(--TD-pulsate-phase1-color));
+  }
+  74.9% {
+    background-color: var(--TD-pulsate-phase3-color, var(--TD-pulsate-phase1-color));
+  }
+  75% {
+    background-color: var(--TD-pulsate-phase4-color, var(--TD-pulsate-phase1-color));
+  }
+  99.9% {
+    background-color: var(--TD-pulsate-phase4-color, var(--TD-pulsate-phase1-color));
+  }
+}</style><style type="text/css">.brick-stack-rli-bounding-box {
+  --TD-brick-stack-phase1-color: rgb(50, 205, 50);
+  box-sizing: border-box;
+  font-size: 16px;
+  display: inline-block;
+  color: var(--TD-brick-stack-phase1-color);
+}
+.brick-stack-rli-bounding-box .brick-stack-indicator {
+  width: 2.8em;
+  height: 2.8em;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+.brick-stack-rli-bounding-box .brick-stack {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle closest-side, currentColor 0% 95%, rgba(0, 0, 0, 0) calc(95% + 1px)) 0 0/40% 40% no-repeat, radial-gradient(circle closest-side, currentColor 0% 95%, rgba(0, 0, 0, 0) calc(95% + 1px)) 0 100%/40% 40% no-repeat, radial-gradient(circle closest-side, currentColor 0% 95%, rgba(0, 0, 0, 0) calc(95% + 1px)) 100% 100%/40% 40% no-repeat;
+  animation: var(--rli-animation-duration, 1s) var(--rli-animation-function, ease-out) infinite uxlv7tu, calc(var(--rli-animation-duration, 1s) * 4) var(--rli-animation-function, ease-out) infinite uxlv7us;
+}
+
+@property --TD-brick-stack-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --TD-brick-stack-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --TD-brick-stack-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --TD-brick-stack-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1s;
+}
+@keyframes uxlv7tu {
+  0% {
+    background-position: 0 0, 0 100%, 100% 100%;
+  }
+  25% {
+    background-position: 100% 0, 0 100%, 100% 100%;
+  }
+  50% {
+    background-position: 100% 0, 0 0, 100% 100%;
+  }
+  75% {
+    background-position: 100% 0, 0 0, 0 100%;
+  }
+  100% {
+    background-position: 100% 100%, 0 0, 0 100%;
+  }
+}
+@keyframes uxlv7us {
+  100%, 0% {
+    color: var(--TD-brick-stack-phase1-color);
+  }
+  20% {
+    color: var(--TD-brick-stack-phase1-color);
+  }
+  25% {
+    color: var(--TD-brick-stack-phase2-color, var(--TD-brick-stack-phase1-color));
+  }
+  45% {
+    color: var(--TD-brick-stack-phase2-color, var(--TD-brick-stack-phase1-color));
+  }
+  50% {
+    color: var(--TD-brick-stack-phase3-color, var(--TD-brick-stack-phase1-color));
+  }
+  70% {
+    color: var(--TD-brick-stack-phase3-color, var(--TD-brick-stack-phase1-color));
+  }
+  75% {
+    color: var(--TD-brick-stack-phase4-color, var(--TD-brick-stack-phase1-color));
+  }
+  95% {
+    color: var(--TD-brick-stack-phase4-color, var(--TD-brick-stack-phase1-color));
+  }
+}</style><style type="text/css">.bob-rli-bounding-box {
+  --TD-bob-phase1-color: rgb(50, 205, 50);
+  box-sizing: border-box;
+  font-size: 16px;
+  display: inline-block;
+  color: var(--TD-bob-phase1-color);
+}
+.bob-rli-bounding-box .bob-indicator {
+  width: 4.4em;
+  height: 2.2em;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+.bob-rli-bounding-box .bob-indicator .bobbing,
+.bob-rli-bounding-box .bob-indicator .bobbing::before,
+.bob-rli-bounding-box .bob-indicator .bobbing::after {
+  width: 1.1em;
+  height: 100%;
+  display: grid;
+  animation: var(--rli-animation-duration, 1.2s) var(--rli-animation-function, linear) var(--delay) infinite uxlv7u0, calc(var(--rli-animation-duration, 1.2s) * 4) var(--rli-animation-function, linear) var(--delay) infinite uxlv7vq;
+}
+.bob-rli-bounding-box .bob-indicator .bobbing::before,
+.bob-rli-bounding-box .bob-indicator .bobbing::after {
+  content: "";
+  grid-area: 1/1;
+}
+.bob-rli-bounding-box .bob-indicator .bobbing {
+  --delay: calc(var(--rli-animation-duration, 1.2s) * 0.12 * -1);
+  background: radial-gradient(circle closest-side at center, currentColor 0% 92%, rgba(0, 0, 0, 0) calc(92% + 1px)) 50% 50%/100% 50% no-repeat;
+}
+.bob-rli-bounding-box .bob-indicator .bobbing::before {
+  --delay: calc(var(--rli-animation-duration, 1.2s) * 0);
+  transform: translateX(150%);
+  background: radial-gradient(circle closest-side at center, currentColor 0% 92%, rgba(0, 0, 0, 0) calc(92% + 1px)) 50% 50%/100% 50% no-repeat;
+}
+.bob-rli-bounding-box .bob-indicator .bobbing::after {
+  --delay: calc(var(--rli-animation-duration, 1.2s) * 0.12);
+  transform: translateX(300%);
+  background: radial-gradient(circle closest-side at center, currentColor 0% 92%, rgba(0, 0, 0, 0) calc(92% + 1px)) 50% 50%/100% 50% no-repeat;
+}
+
+@property --TD-bob-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --TD-bob-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --TD-bob-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --TD-bob-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1.2s;
+}
+@keyframes uxlv7u0 {
+  100%, 0% {
+    background-position: 50% 50%;
+  }
+  15% {
+    background-position: 50% 10%;
+  }
+  30% {
+    background-position: 50% 100%;
+  }
+  40% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 90%;
+  }
+  70% {
+    background-position: 50% 10%;
+  }
+  98% {
+    background-position: 50% 50%;
+  }
+}
+@keyframes uxlv7vq {
+  100%, 0% {
+    color: var(--TD-bob-phase1-color);
+  }
+  22% {
+    color: var(--TD-bob-phase1-color);
+  }
+  25% {
+    color: var(--TD-bob-phase2-color, var(--TD-bob-phase1-color));
+  }
+  47% {
+    color: var(--TD-bob-phase2-color, var(--TD-bob-phase1-color));
+  }
+  50% {
+    color: var(--TD-bob-phase3-color, var(--TD-bob-phase1-color));
+  }
+  72% {
+    color: var(--TD-bob-phase3-color, var(--TD-bob-phase1-color));
+  }
+  75% {
+    color: var(--TD-bob-phase4-color, var(--TD-bob-phase1-color));
+  }
+  97% {
+    color: var(--TD-bob-phase4-color, var(--TD-bob-phase1-color));
+  }
+}</style><style type="text/css">.bounce-rli-bounding-box {
+  --TD-bounce-phase1-color: rgb(50, 205, 50);
+  font-size: 16px;
+  color: var(--TD-bounce-phase1-color);
+  display: inline-block;
+  padding-bottom: 0.25125em;
+}
+.bounce-rli-bounding-box .wrapper {
+  --dot1-delay: 0s;
+  --dot1-x-offset: 0.55em;
+  --dot2-delay: calc((var(--rli-animation-duration, 0.5s) + var(--rli-animation-duration, 0.5s) * 0.75) * -1);
+  --dot2-x-offset: 2.2em;
+  --dot3-delay: calc((var(--rli-animation-duration, 0.5s) + var(--rli-animation-duration, 0.5s) * 0.5) * -1);
+  --dot3-x-offset: 3.85em;
+  width: 5.5em;
+  height: 3.125em;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+.bounce-rli-bounding-box .wrapper .group {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.bounce-rli-bounding-box .wrapper .group .dot {
+  width: 1.1em;
+  height: 1.1em;
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--TD-bounce-phase1-color);
+  transform-origin: 50%;
+  animation: var(--rli-animation-duration, 0.5s) var(--rli-animation-function, cubic-bezier(0.74, 0.1, 0.74, 1)) alternate infinite uxlv7wc, calc(var(--rli-animation-duration, 0.5s) * 4) var(--rli-animation-function, cubic-bezier(0.74, 0.1, 0.74, 1)) infinite uxlv7x6;
+}
+.bounce-rli-bounding-box .wrapper .group .dot:nth-of-type(1) {
+  left: var(--dot1-x-offset);
+  animation-delay: var(--dot1-delay), 0s;
+}
+.bounce-rli-bounding-box .wrapper .group .dot:nth-of-type(2) {
+  left: var(--dot2-x-offset);
+  animation-delay: var(--dot2-delay), 0s;
+}
+.bounce-rli-bounding-box .wrapper .group .dot:nth-of-type(3) {
+  left: var(--dot3-x-offset);
+  animation-delay: var(--dot3-delay), 0s;
+}
+.bounce-rli-bounding-box .wrapper .group .shadow {
+  width: 1.1em;
+  height: 0.22em;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 101%;
+  transform-origin: 50%;
+  z-index: -1;
+  filter: blur(1px);
+  animation: var(--rli-animation-duration, 0.5s) var(--rli-animation-function, cubic-bezier(0.74, 0.1, 0.74, 1)) alternate infinite uxlv7ww;
+}
+.bounce-rli-bounding-box .wrapper .group .shadow:nth-of-type(1) {
+  left: var(--dot1-x-offset);
+  animation-delay: var(--dot1-delay);
+}
+.bounce-rli-bounding-box .wrapper .group .shadow:nth-of-type(2) {
+  left: var(--dot2-x-offset);
+  animation-delay: var(--dot2-delay);
+}
+.bounce-rli-bounding-box .wrapper .group .shadow:nth-of-type(3) {
+  left: var(--dot3-x-offset);
+  animation-delay: var(--dot3-delay);
+}
+
+@property --TD-bounce-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --TD-bounce-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --TD-bounce-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --TD-bounce-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 0.5s;
+}
+@keyframes uxlv7wc {
+  0% {
+    top: 0%;
+  }
+  60% {
+    height: 1.25em;
+    border-radius: 50%;
+    transform: scaleX(1);
+  }
+  100% {
+    top: 100%;
+    height: 0.22em;
+    transform: scaleX(1.5);
+    filter: blur(0.4px);
+  }
+}
+@keyframes uxlv7ww {
+  0% {
+    transform: scaleX(0.2);
+    opacity: 0.2;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: scaleX(1.5);
+    opacity: 0.6;
+  }
+}
+@keyframes uxlv7x6 {
+  0%, 100% {
+    background-color: var(--TD-bounce-phase1-color);
+  }
+  20% {
+    background-color: var(--TD-bounce-phase1-color);
+  }
+  25% {
+    background-color: var(--TD-bounce-phase2-color, var(--TD-bounce-phase1-color));
+  }
+  45% {
+    background-color: var(--TD-bounce-phase2-color, var(--TD-bounce-phase1-color));
+  }
+  50% {
+    background-color: var(--TD-bounce-phase3-color, var(--TD-bounce-phase1-color));
+  }
+  70% {
+    background-color: var(--TD-bounce-phase3-color, var(--TD-bounce-phase1-color));
+  }
+  75% {
+    background-color: var(--TD-bounce-phase4-color, var(--TD-bounce-phase1-color));
+  }
+  95% {
+    background-color: var(--TD-bounce-phase4-color, var(--TD-bounce-phase1-color));
+  }
+}</style><style type="text/css">.blink-blur-rli-bounding-box {
+  --shape-phase1-color: rgb(50, 205, 50);
+  font-size: 16px;
+  color: var(--shape-phase1-color);
+}
+.blink-blur-rli-bounding-box .blink-blur-indicator {
+  isolation: isolate;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 0.4em;
+       column-gap: 0.4em;
+}
+.blink-blur-rli-bounding-box .blink-blur-indicator .blink-blur-shape {
+  --x-deg: -20deg;
+  width: 1.8em;
+  height: 2.25em;
+  border-radius: 0.25em;
+  color: inherit;
+  transform: skewX(var(--x-deg));
+  background-color: var(--shape-phase1-color);
+  animation-name: uxlv7id, uxlv7jl;
+  animation-duration: var(--rli-animation-duration, 1.2s), calc(var(--rli-animation-duration, 1.2s) * 4);
+  animation-timing-function: var(--rli-animation-function, ease-in);
+  animation-iteration-count: infinite;
+}
+.blink-blur-rli-bounding-box .blink-blur-indicator .blink-blur-shape.blink-blur-shape1 {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) * 0.5 * -1);
+}
+.blink-blur-rli-bounding-box .blink-blur-indicator .blink-blur-shape.blink-blur-shape2 {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) * 0.4 * -1);
+}
+.blink-blur-rli-bounding-box .blink-blur-indicator .blink-blur-shape.blink-blur-shape3 {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) * 0.3 * -1);
+}
+.blink-blur-rli-bounding-box .blink-blur-indicator .blink-blur-shape.blink-blur-shape4 {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) * 0.2 * -1);
+}
+.blink-blur-rli-bounding-box .blink-blur-indicator .blink-blur-shape.blink-blur-shape5 {
+  animation-delay: calc(var(--rli-animation-duration, 1.2s) * 0.1 * -1);
+}
+
+@property --shape-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --shape-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --shape-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --shape-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 1.2s;
+}
+@keyframes uxlv7id {
+  100%, 0% {
+    opacity: 0.3;
+    filter: blur(0.0675em) drop-shadow(0 0 0.0625em);
+    transform: skewX(var(--x-deg)) scale(1.2, 1.45);
+  }
+  39% {
+    opacity: 0.8;
+  }
+  40%, 41%, 42% {
+    opacity: 0;
+  }
+  43% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+    filter: blur(0em) drop-shadow(0 0 0em);
+    transform: skewX(var(--x-deg)) scale(1, 1);
+  }
+}
+@keyframes uxlv7jl {
+  100%, 0% {
+    color: var(--shape-phase1-color);
+    background-color: var(--shape-phase1-color);
+  }
+  25% {
+    color: var(--shape-phase2-color, var(--shape-phase1-color));
+    background-color: var(--shape-phase2-color, var(--shape-phase1-color));
+  }
+  50% {
+    color: var(--shape-phase3-color, var(--shape-phase1-color));
+    background-color: var(--shape-phase3-color, var(--shape-phase1-color));
+  }
+  75% {
+    color: var(--shape-phase4-color, var(--shape-phase1-color));
+    background-color: var(--shape-phase4-color, var(--shape-phase1-color));
+  }
+}</style><style type="text/css">.trophy-spin-rli-bounding-box {
+  --trophySpin-phase1-color: rgb(50, 205, 50);
+  box-sizing: border-box;
+  font-size: 16px;
+  position: relative;
+  isolation: isolate;
+  color: var(--trophySpin-phase1-color);
+}
+.trophy-spin-rli-bounding-box .trophy-spin-indicator {
+  width: 4em;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  display: block;
+  margin: 0 auto;
+}
+.trophy-spin-rli-bounding-box .trophy-spin-indicator .blade {
+  display: block;
+  width: 4em;
+  height: 0.5em;
+  background: var(--trophySpin-phase1-color);
+  animation: uxlv7ki var(--rli-animation-duration, 2.5s) var(--rli-animation-function, linear) infinite, uxlv7l2 calc(var(--rli-animation-duration, 2.5s) * 0.5) var(--rli-animation-function, linear) infinite, uxlv7ly calc(var(--rli-animation-duration, 2.5s) * 4) var(--rli-animation-function, linear) infinite;
+}
+.trophy-spin-rli-bounding-box .trophy-spin-indicator .blade:nth-of-type(8) {
+  animation-delay: calc(var(--rli-animation-duration, 2.5s) / 2 / 8 * 0 * -1);
+}
+.trophy-spin-rli-bounding-box .trophy-spin-indicator .blade:nth-of-type(7) {
+  animation-delay: calc(var(--rli-animation-duration, 2.5s) / 2 / 8 * 1 * -1);
+}
+.trophy-spin-rli-bounding-box .trophy-spin-indicator .blade:nth-of-type(6) {
+  animation-delay: calc(var(--rli-animation-duration, 2.5s) / 2 / 8 * 2 * -1);
+}
+.trophy-spin-rli-bounding-box .trophy-spin-indicator .blade:nth-of-type(5) {
+  animation-delay: calc(var(--rli-animation-duration, 2.5s) / 2 / 8 * 3 * -1);
+}
+.trophy-spin-rli-bounding-box .trophy-spin-indicator .blade:nth-of-type(4) {
+  animation-delay: calc(var(--rli-animation-duration, 2.5s) / 2 / 8 * 4 * -1);
+}
+.trophy-spin-rli-bounding-box .trophy-spin-indicator .blade:nth-of-type(3) {
+  animation-delay: calc(var(--rli-animation-duration, 2.5s) / 2 / 8 * 5 * -1);
+}
+.trophy-spin-rli-bounding-box .trophy-spin-indicator .blade:nth-of-type(2) {
+  animation-delay: calc(var(--rli-animation-duration, 2.5s) / 2 / 8 * 6 * -1);
+}
+.trophy-spin-rli-bounding-box .trophy-spin-indicator .blade:nth-of-type(1) {
+  animation-delay: calc(var(--rli-animation-duration, 2.5s) / 2 / 8 * 7 * -1);
+}
+
+@property --trophySpin-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --trophySpin-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --trophySpin-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --trophySpin-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 2.5s;
+}
+@keyframes uxlv7ki {
+  to {
+    transform: rotateY(1turn) rotateX(-25deg);
+  }
+}
+@keyframes uxlv7l2 {
+  100%, 0% {
+    filter: brightness(1);
+    opacity: 1;
+  }
+  15% {
+    filter: brightness(1);
+  }
+  25% {
+    opacity: 0.96;
+  }
+  30% {
+    filter: brightness(0.92);
+  }
+  50% {
+    filter: brightness(0.7);
+    opacity: 1;
+  }
+  75% {
+    filter: brightness(0.92);
+    opacity: 0.96;
+  }
+  90% {
+    filter: brightness(1);
+  }
+}
+@keyframes uxlv7ly {
+  100%, 0% {
+    background-color: var(--trophySpin-phase1-color);
+  }
+  18% {
+    background-color: var(--trophySpin-phase1-color);
+  }
+  25% {
+    background-color: var(--trophySpin-phase2-color, var(--trophySpin-phase1-color));
+  }
+  43% {
+    background-color: var(--trophySpin-phase2-color, var(--trophySpin-phase1-color));
+  }
+  50% {
+    background-color: var(--trophySpin-phase3-color, var(--trophySpin-phase1-color));
+  }
+  68% {
+    background-color: var(--trophySpin-phase3-color, var(--trophySpin-phase1-color));
+  }
+  75% {
+    background-color: var(--trophySpin-phase4-color, var(--trophySpin-phase1-color));
+  }
+  93% {
+    background-color: var(--trophySpin-phase4-color, var(--trophySpin-phase1-color));
+  }
+}</style><style type="text/css">.slab-rli-bounding-box {
+  --slab-phase1-color: rgb(50, 205, 50);
+  font-size: 16px;
+  color: var(--slab-phase1-color);
+  position: relative;
+}
+.slab-rli-bounding-box .slab-indicator {
+  position: relative;
+  display: block;
+  width: 7em;
+  height: 4em;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slab-rli-bounding-box .slab-indicator .slabs-wrapper {
+  width: 4em;
+  height: 4em;
+  transform: perspective(15em) rotateX(66deg) rotateZ(-25deg);
+  transform-style: preserve-3d;
+  transform-origin: 50% 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.slab-rli-bounding-box .slab-indicator .slabs-wrapper .slab {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--slab-phase1-color);
+  opacity: 0;
+  box-shadow: -0.08em 0.15em 0 rgba(0, 0, 0, 0.45);
+  transform-origin: 0% 0%;
+  animation: calc(var(--rli-animation-duration-unitless, 3) * 1s) var(--rli-animation-function, linear) infinite uxlv7md, calc(var(--rli-animation-duration-unitless, 3) * 4s) var(--rli-animation-function, linear) infinite uxlv7n0;
+}
+.slab-rli-bounding-box .slab-indicator .slabs-wrapper .slab:nth-child(1) {
+  animation-delay: calc(4 / (16 / var(--rli-animation-duration-unitless, 3)) * 3 * -1 * 1s);
+}
+.slab-rli-bounding-box .slab-indicator .slabs-wrapper .slab:nth-child(2) {
+  animation-delay: calc(4 / (16 / var(--rli-animation-duration-unitless, 3)) * 2 * -1 * 1s);
+}
+.slab-rli-bounding-box .slab-indicator .slabs-wrapper .slab:nth-child(3) {
+  animation-delay: calc(4 / (16 / var(--rli-animation-duration-unitless, 3)) * -1 * 1s);
+}
+.slab-rli-bounding-box .slab-indicator .slabs-wrapper .slab:nth-child(4) {
+  animation-delay: 0s;
+}
+
+@property --slab-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --slab-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --slab-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --slab-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration-unitless {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 3;
+}
+@keyframes uxlv7md {
+  0% {
+    transform: translateY(0) rotateX(30deg);
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(-40%) rotateX(0deg);
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-400%) rotateX(0deg);
+    opacity: 0;
+  }
+}
+@keyframes uxlv7n0 {
+  100%, 0% {
+    background-color: var(--slab-phase1-color);
+  }
+  24.9% {
+    background-color: var(--slab-phase1-color);
+  }
+  25% {
+    background-color: var(--slab-phase2-color, var(--slab-phase1-color));
+  }
+  49.9% {
+    background-color: var(--slab-phase2-color, var(--slab-phase1-color));
+  }
+  50% {
+    background-color: var(--slab-phase3-color, var(--slab-phase1-color));
+  }
+  74.9% {
+    background-color: var(--slab-phase3-color, var(--slab-phase1-color));
+  }
+  75% {
+    background-color: var(--slab-phase4-color, var(--slab-phase1-color));
+  }
+  99.9% {
+    background-color: var(--slab-phase4-color, var(--slab-phase1-color));
+  }
+}</style><style type="text/css">.lifeline-rli-bounding-box {
+  --life-line-phase1-color: rgb(50, 205, 50);
+  font-size: 16px;
+  isolation: isolate;
+  color: var(--life-line-phase1-color);
+}
+.lifeline-rli-bounding-box .lifeline-indicator {
+  position: relative;
+  text-align: center;
+}
+.lifeline-rli-bounding-box .lifeline-indicator path.rli-lifeline {
+  stroke-dasharray: 474.7616760254 30.3039367676;
+  animation: var(--rli-animation-duration, 2s) var(--rli-animation-function, linear) infinite uxlv7k3, calc(var(--rli-animation-duration, 2s) * 4) var(--rli-animation-function, linear) infinite uxlv7kg;
+}
+.lifeline-rli-bounding-box .lifeline-text {
+  color: currentColor;
+  mix-blend-mode: difference;
+  width: unset;
+  display: block;
+}
+
+@property --life-line-phase1-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --life-line-phase2-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --life-line-phase3-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --life-line-phase4-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgb(50, 205, 50);
+}
+@property --rli-animation-duration {
+  syntax: "<time>";
+  inherits: true;
+  initial-value: 2s;
+}
+@keyframes uxlv7k3 {
+  to {
+    stroke-dashoffset: -1010.1312255859;
+  }
+}
+@keyframes uxlv7kg {
+  100%, 0% {
+    color: var(--life-line-phase1-color);
+  }
+  20% {
+    color: var(--life-line-phase1-color);
+  }
+  25% {
+    color: var(--life-line-phase2-color, var(--life-line-phase1-color));
+  }
+  45% {
+    color: var(--life-line-phase2-color, var(--life-line-phase1-color));
+  }
+  50% {
+    color: var(--life-line-phase3-color, var(--life-line-phase1-color));
+  }
+  70% {
+    color: var(--life-line-phase3-color, var(--life-line-phase1-color));
+  }
+  75% {
+    color: var(--life-line-phase4-color, var(--life-line-phase1-color));
+  }
+  95% {
+    color: var(--life-line-phase4-color, var(--life-line-phase1-color));
+  }
+}</style><script async="" src="./Contexto_files/js"></script><script src="./Contexto_files/enterprise.js.download"></script><script async="" src="./Contexto_files/ramp.js.download"></script></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div><div class="_outerWrapper_i4nkf_1 top-ad-padding"><div class="_scrollContainer_i4nkf_11 "><div class="_pageWrapper_i4nkf_21"><main><div class="_topBanner_wn932_1 _vertical_wn932_16 _hidden_wn932_22"><div class="_topBannerText_wn932_36">O seu date para o Dia dos Namorados é por conta da Daydash!</div><div class="_topBannerButtons_wn932_41 _vertical_wn932_16"><a href="https://www.instagram.com/p/DKcVkjqNaHW/" target="_blank" rel="noreferrer" class="button small"><svg class="material-symbol" viewBox="0 -960 960 960" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h240q17 0 28.5 11.5T480-800q0 17-11.5 28.5T440-760H200v560h560v-240q0-17 11.5-28.5T800-480q17 0 28.5 11.5T840-440v240q0 33-23.5 56.5T760-120H200Zm560-584L416-360q-11 11-28 11t-28-11q-11-11-11-28t11-28l344-344H600q-17 0-28.5-11.5T560-800q0-17 11.5-28.5T600-840h200q17 0 28.5 11.5T840-800v200q0 17-11.5 28.5T800-560q-17 0-28.5-11.5T760-600v-104Z"></path></svg>Clique aqui e saiba mais</a><button type="button" class="button small subtle">Close</button></div></div><div class="_topBar_oxs9t_1"><button type="button" class="btn"><svg class="material-symbol" viewBox="0 -960 960 960" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false"><path d="m313-440 196 196q12 12 11.5 28T508-188q-12 11-28 11.5T452-188L188-452q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l264-264q11-11 27.5-11t28.5 11q12 12 12 28.5T508-715L313-520h447q17 0 28.5 11.5T800-480q0 17-11.5 28.5T760-440H313Z"></path></svg></button><div class="_topBarTitle_oxs9t_19"><div class="title"><h1>Contexto</h1></div></div><div style="position: relative;"><button type="button" class="btn "><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path></svg></button></div></div><div class="info-bar"><span>10/06/2026</span>&nbsp;&nbsp;<span class="label">Guesses:</span> <span>11</span>&nbsp;&nbsp;</div><form><input class="word" type="text" name="word" placeholder="type a word" autocapitalize="off" autocomplete="off" enterkeyhint="send" value=""></form><div class="message"><div><div class="row-wrapper current "><div class="outer-bar"><div class="inner-bar" style="width: 56.3409%; background-color: var(--yellow);"></div></div><div class="row"><span class="row-word">plant</span><span>460</span></div></div></div></div><div class="guess-history"><div class="row-wrapper  "><div class="outer-bar"><div class="inner-bar" style="width: 65.2953%; background-color: var(--yellow);"></div></div><div class="row"><span class="row-word">soil</span><span>342</span></div></div><div class="row-wrapper  "><div class="outer-bar"><div class="inner-bar" style="width: 63.0495%; background-color: var(--yellow);"></div></div><div class="row"><span class="row-word">earth</span><span>370</span></div></div><div class="row-wrapper  "><div class="outer-bar"><div class="inner-bar" style="width: 60.5773%; background-color: var(--yellow);"></div></div><div class="row"><span class="row-word">water</span><span>402</span></div></div><div class="row-wrapper current "><div class="outer-bar"><div class="inner-bar" style="width: 56.3409%; background-color: var(--yellow);"></div></div><div class="row"><span class="row-word">plant</span><span>460</span></div></div><div class="row-wrapper  "><div class="outer-bar"><div class="inner-bar" style="width: 22.8207%; background-color: var(--yellow);"></div></div><div class="row"><span class="row-word">fire</span><span>1183</span></div></div><div class="row-wrapper  "><div class="outer-bar"><div class="inner-bar" style="width: 13.3654%; background-color: var(--red);"></div></div><div class="row"><span class="row-word">air</span><span>1611</span></div></div><div class="row-wrapper  "><div class="outer-bar"><div class="inner-bar" style="width: 5.5785%; background-color: var(--red);"></div></div><div class="row"><span class="row-word">ice</span><span>2310</span></div></div><div class="row-wrapper  "><div class="outer-bar"><div class="inner-bar" style="width: 2.97478%; background-color: var(--red);"></div></div><div class="row"><span class="row-word">wash</span><span>2813</span></div></div><div class="row-wrapper  "><div class="outer-bar"><div class="inner-bar" style="width: 2.36356%; background-color: var(--red);"></div></div><div class="row"><span class="row-word">rain</span><span>2997</span></div></div><div class="row-wrapper  "><div class="outer-bar"><div class="inner-bar" style="width: 1.18847%; background-color: var(--red);"></div></div><div class="row"><span class="row-word">ocean</span><span>3547</span></div></div><div class="row-wrapper  "><div class="outer-bar"><div class="inner-bar" style="width: 1%; background-color: var(--red);"></div></div><div class="row"><span class="row-word">drink</span><span>3923</span></div></div></div></main></div></div></div></div></div>
+  
+
+<div id="fire_app_check_[DEFAULT]" style="display: none;"><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; position: fixed; visibility: hidden; display: block; transition: right 0.3s; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-qmvajwqghsmv" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./Contexto_files/anchor.html"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./Contexto_files/saved_resource(1).html"></iframe></div><deepl-input-controller translate="no"><template shadowrootmode="open"><link rel="stylesheet" href="chrome-extension://cofdbpoegempjloogbagkncekinflcnj/build/content.css"><div dir="ltr" data-dl-surface="inputTranslator" data-dl-impl="svelte" style="visibility: initial !important;"><div class="dl-input-translation-container svelte-95aucy"><div></div></div></div></template></deepl-input-controller></body></html>
