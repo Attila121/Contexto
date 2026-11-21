@@ -1,9 +1,10 @@
 """Automated-loop tests plus offline Chromium checks against the saved HTML."""
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 import re
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from automated_game import ContextoBrowser, classify_feedback, parse_date, ROOT
 from gemini_trial import GameLog, run_game
@@ -20,6 +21,10 @@ class AutomationTests(unittest.TestCase):
 
     def test_errors_are_not_silently_valid_guesses(self):
         self.assertEqual(classify_feedback({"kind": "error", "message": "Word not found"}), "invalid")
+        self.assertEqual(classify_feedback({"kind": "error", "message":
+                         "This word doesn't count, it's too common"}), "invalid")
+        self.assertEqual(classify_feedback({"kind": "error", "message":
+                         "This word doesn't count"}), "invalid")
         for result in [{"kind": "error", "message": "Rate limit exceeded"},
                        {"kind": "rank", "rank": 34, "repeated": True}]:
             with self.assertRaises(RuntimeError):
@@ -137,6 +142,28 @@ class SavedHtmlBrowserTests(unittest.TestCase):
         with self.assertRaises(Exception):
             self.adapter.submit("water", 1)
 
+    def test_identical_rejection_resets_transient_panel_before_submission(self):
+        self.page.set_content(self.html(3), wait_until="domcontentloaded")
+        self.adapter.evaluation = True
+        displayed = self.page.locator(".info-bar > span").first.inner_text().strip()
+        self.adapter.puzzle_date = datetime.strptime(displayed, "%m/%d/%Y").date()
+        self.page.evaluate("""() => {
+            document.querySelector('.message').innerHTML =
+                '<div class="message-text">This word doesn\u2019t count</div>';
+        }""")
+        def reload(**kwargs):
+            self.page.set_content(self.html(3), wait_until="domcontentloaded")
+            self.page.evaluate("""() => {
+                document.querySelector('form').addEventListener('submit', event => {
+                    event.preventDefault();
+                    document.querySelector('.message').innerHTML =
+                        '<div class="message-text">This word doesn\u2019t count</div>';
+                });
+            }""")
+        with patch.object(self.page, "reload", side_effect=reload) as reset:
+            self.assertEqual(self.adapter.submit("being", 1), "invalid")
+            reset.assert_called_once()
+
     def test_cookie_dialog_is_dismissed(self):
         self.page.set_content(self.html(3), wait_until="domcontentloaded")
         self.page.evaluate("""() => {
@@ -148,6 +175,73 @@ class SavedHtmlBrowserTests(unittest.TestCase):
         self.page.locator('input[name="word"]').click()
         self.assertEqual(self.page.get_by_role('button', name='Do not consent', exact=True).count(), 0)
         self.assertIn('cookie_choice', self.log.path.read_text(encoding='utf-8'))
+
+    def test_identical_canonical_duplicate_rows_reset_before_next_submission(self):
+        self.page.set_content(self.html(4), wait_until="domcontentloaded")
+        self.adapter.evaluation = True
+        displayed = self.page.locator(".info-bar > span").first.inner_text().strip()
+        self.adapter.puzzle_date = datetime.strptime(displayed, "%m/%d/%Y").date()
+        self.assertTrue(self.page.locator("main .message .row .row-note").count())
+        def reload(**kwargs):
+            self.page.set_content(self.html(3), wait_until="domcontentloaded")
+            self.set_response(4)
+        with patch.object(self.page, "reload", side_effect=reload) as reset:
+            self.assertEqual(self.adapter.submit("resources", 17), "invalid")
+            reset.assert_called_once()
+
+    def test_cookie_preferences_go_back_and_decline_consent(self):
+        self.page.set_content(self.html(3), wait_until="domcontentloaded")
+        self.page.evaluate("""() => {
+            const dialog = document.createElement('div');
+            dialog.setAttribute('role', 'dialog');
+            dialog.setAttribute('aria-label', 'Manage your data');
+            const back = document.createElement('button');
+            back.textContent = 'Back';
+            back.onclick = () => {
+                dialog.remove();
+                const decline = document.createElement('button');
+                decline.textContent = 'Do not consent';
+                decline.onclick = () => decline.remove();
+                document.body.appendChild(decline);
+            };
+            dialog.appendChild(back);
+            document.body.appendChild(dialog);
+        }""")
+        self.page.locator('input[name="word"]').click()
+        self.assertEqual(self.page.get_by_role('dialog', name='Manage your data', exact=True).count(), 0)
+        self.assertEqual(self.page.get_by_role('button', name='Do not consent', exact=True).count(), 0)
+        self.assertIn('do_not_consent', self.log.path.read_text(encoding='utf-8'))
+
+    def test_open_game_waits_for_delayed_consent_before_fast_replay(self):
+        html = """<main><div class="info-bar"><span>11/10/2026</span></div>
+        <div class="guess-history"></div><div class="message"></div>
+        <form><input name="word"></form></main><script>
+        window.declined = false;
+        document.querySelector('form').onsubmit = event => {
+            event.preventDefault();
+            if (!window.declined) return;
+            document.querySelector('input').value = '';
+            document.querySelector('.message').innerHTML =
+                '<div class="row"><span class="row-word">water</span><span>239</span></div>';
+        };
+        setTimeout(() => {
+            const dialog = document.createElement('div');
+            dialog.setAttribute('role', 'dialog');
+            dialog.setAttribute('aria-label', 'Manage your data');
+            const back = document.createElement('button'); back.textContent = 'Back';
+            back.onclick = () => {
+                dialog.remove();
+                const no = document.createElement('button'); no.textContent = 'Do not consent';
+                no.onclick = () => { window.declined = true; no.remove(); };
+                document.body.appendChild(no);
+            };
+            dialog.appendChild(back); document.body.appendChild(dialog);
+        }, 500);
+        </script>"""
+        with patch.object(self.page, 'goto', side_effect=lambda *a, **k: self.page.set_content(html)), \
+             patch.object(self.adapter, 'snapshot'):
+            self.adapter.open_game(date(2026, 11, 10))
+            self.assertEqual(self.adapter.submit('water', 1), 239)
 
 
 if __name__ == "__main__":

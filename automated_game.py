@@ -8,8 +8,9 @@ from pathlib import Path
 import re
 import sys
 from uuid import uuid4
+from urllib.parse import urlsplit
 
-from gemini_trial import DEFAULT_MODEL, MEMORY_MODES, GameLog, create_client, read_api_key, run_game
+from gemini_trial import DEFAULT_MAX_GUESSES, DEFAULT_MODEL, MEMORY_MODES, GameLog, create_client, read_api_key, run_game
 
 ROOT = Path(__file__).resolve().parent
 os.environ.setdefault("PLAYWRIGHT_BROWSERS_PATH", str(ROOT / ".conda" / "browsers"))
@@ -49,15 +50,20 @@ def parse_date(value):
     raise ValueError("Use YYYY-MM-DD, DD/MM/YYYY, or DD.MM.YYYY for the puzzle date.")
 
 
-def classify_feedback(result):
+def classify_feedback(result, allow_duplicate=False):
     if result["kind"] == "rank":
         if result["repeated"]:
+            if allow_duplicate:
+                return "invalid"
             raise RuntimeError("Contexto returned an already-guessed word; stopping to avoid a loop.")
         return result["rank"]
     message = result["message"]
+    if re.fullmatch(r"This word doesn.t count(?:,.*)?", message.strip(), re.IGNORECASE):
+        return "invalid"
     # Unknown failures (including service/access failures) must not become OOV guesses.
     if re.search(r"word.{0,30}(not found|not recognized|not recognised)|"
                  r"(don't|do not) know (that|this|the) word|"
+                 r"word doesn.t count.{0,30}too common|"
                  r"not (a |in the )?(valid word|dictionary|vocabulary)|unknown word",
                  message, re.IGNORECASE):
         return "invalid"
@@ -65,19 +71,32 @@ def classify_feedback(result):
 
 
 class ContextoBrowser:
-    def __init__(self, page, log, timeout_ms=45000):
+    def __init__(self, page, log, timeout_ms=45000, evaluation=False, artifact_subdir="browser"):
         self.page = page
         self.log = log
         self.timeout_ms = timeout_ms
-        self.artifacts = log.path.parent / "browser"
+        self.evaluation = evaluation
+        self.artifacts = log.path.parent / artifact_subdir
         self.artifacts.mkdir()
         page.set_default_timeout(timeout_ms)
+        def record_http_error(response):
+            address = urlsplit(response.url)
+            if response.status >= 400 and "contexto" in (address.hostname or ""):
+                self.log.write("website_http_error", status=response.status,
+                               url=address.scheme + "://" + address.netloc + address.path)
+        page.on("response", record_http_error)
         # A delayed consent overlay can steal focus during keyboard submission.
+        self.consent_prompt = page.get_by_role("button", name="Do not consent", exact=True).or_(
+            page.get_by_role("dialog", name="Manage your data", exact=True)).first
         page.add_locator_handler(
-            page.get_by_role("button", name="Do not consent", exact=True),
+            self.consent_prompt,
             lambda locator: self.dismiss_consent())
 
     def dismiss_consent(self):
+        preferences = self.page.get_by_role("dialog", name="Manage your data", exact=True)
+        if preferences.is_visible():
+            preferences.get_by_role("button", name="Back", exact=True).click()
+            self.page.get_by_role("button", name="Do not consent", exact=True).wait_for(state="visible")
         button = self.page.get_by_role("button", name="Do not consent", exact=True)
         if button.is_visible():
             button.click()
@@ -92,6 +111,7 @@ class ContextoBrowser:
             self.log.write("artifact_error", message=str(error))
 
     def open_game(self, puzzle_date):
+        self.puzzle_date = puzzle_date
         url = f"https://contexto.me/en/previous/{puzzle_date.isoformat()}"
         self.log.write("browser_navigation", requested_date=puzzle_date.isoformat(), url=url)
         self.page.goto(url, wait_until="domcontentloaded")
@@ -105,11 +125,37 @@ class ContextoBrowser:
             raise RuntimeError(f"Requested {puzzle_date}, but the site opened {actual}.")
         if self.page.locator(".guess-history .row").count() or self.page.locator(".end-msg").count():
             raise RuntimeError("The page already has guesses or is completed; expected a fresh game.")
+        # Probes/replays submit immediately; a late CMP can otherwise intercept Enter
+        # after the first click. Allow its initial view to arrive, then trigger the
+        # normal decline handler through an actionable focus click before guessing.
+        from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+        try:
+            self.consent_prompt.wait_for(state="visible", timeout=3000)
+        except PlaywrightTimeoutError:
+            pass  # Some contexts do not display a consent prompt.
+        self.page.locator('input[name="word"]').click()
         self.log.write("browser_ready", requested_date=puzzle_date.isoformat(),
                        displayed_date=displayed, url=self.page.url, fresh_game=True)
         self.snapshot("initial")
 
     def submit(self, guess, turn):
+        # Rejected words and repeated canonical lemmas leave a transient panel.
+        # Consecutive inflections can produce byte-for-byte identical HTML;
+        # reload clears that panel before the next submission while retaining
+        # messages while Contexto retains its ranked history in local storage.
+        # This lets the changed-panel check continue rejecting stale feedback.
+        transient_selector = "main .message .message-text, main .message .row .row-note"
+        error_panel = self.page.locator(transient_selector)
+        if self.evaluation and error_panel.count():
+            self.log.write("browser_transient_error_reset", turn=turn)
+            self.page.reload(wait_until="domcontentloaded")
+            self.page.locator('input[name="word"]').wait_for(state="visible")
+            displayed = self.page.locator(".info-bar > span").first.inner_text().strip()
+            actual = datetime.strptime(displayed, "%m/%d/%Y").date()
+            if actual != self.puzzle_date:
+                raise RuntimeError("Puzzle date changed while resetting transient feedback.")
+            if self.page.locator(transient_selector).count():
+                raise RuntimeError("Reload did not clear the previous error panel.")
         message = self.page.locator("main .message")
         before = message.inner_html() if message.count() else ""
         self.log.write("browser_submit", turn=turn, guess=guess)
@@ -124,7 +170,7 @@ class ContextoBrowser:
             self.log.write("browser_feedback", turn=turn, submitted_word=guess,
                            observed=result, url=self.page.url)
             self.snapshot(f"turn_{turn:02d}")
-            return classify_feedback(result)
+            return classify_feedback(result, allow_duplicate=self.evaluation)
         except Exception:
             self.snapshot(f"error_turn_{turn:02d}")
             raise
@@ -136,7 +182,7 @@ def main():
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--memory", choices=MEMORY_MODES, default="explicit",
                         help="explicit: send all guesses/ranks; linked: use previous_interaction_id")
-    parser.add_argument("--max-guesses", type=int, default=30)
+    parser.add_argument("--max-guesses", type=int, default=DEFAULT_MAX_GUESSES)
     parser.add_argument("--show-browser", action="store_true", help="Watch the browser as it plays")
     parser.add_argument("--check-site", action="store_true",
                         help="Verify date navigation only, without Gemini calls or guesses")

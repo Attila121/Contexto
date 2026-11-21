@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 from uuid import uuid4
 
 DEFAULT_MODEL = "gemini-3.8-flash"
+DEFAULT_MAX_GUESSES = 70
 MEMORY_MODES = ("explicit", "linked")
 SETTINGS = {"temperature": 0.6, "thinking_level": "low",
             "max_output_tokens": 4096, "thinking_summaries": "auto"}
@@ -61,19 +62,30 @@ def unpack_response(raw):
     return "\n".join(answers), "\n".join(summaries)
 
 
-def build_prompt(history, memory_mode="explicit"):
+def feedback_text(entry):
+    return {"invalid": "rejected as invalid by Contexto",
+            "duplicate": "duplicate guess; attempt consumed, no score",
+            "invalid_output": "invalid model output; attempt consumed, no score"}.get(
+                entry["feedback"], f"rank {entry.get('rank')}")
+
+
+def build_prompt(history, memory_mode="explicit", evaluation=False, max_guesses=70,
+                 instructions=None):
     """Build the explicit history or the latest feedback for linked memory."""
     if memory_mode == "linked" and history:
         entry = history[-1]
-        result = ("rejected as invalid by Contexto" if entry["feedback"] == "invalid"
-                  else f"rank {entry['rank']}")
+        result = feedback_text(entry)
         return (f"Submitted guess: {entry['guess']}. Feedback: {result}. "
                 "Lower ranks are closer; rank 1 is the target. "
                 "Choose your next guess. Return exactly one English word.")
-    lines = [INSTRUCTIONS, "", "Complete submitted guess history (oldest first):"]
-    for entry in history:
-        result = ("rejected as invalid by Contexto" if entry["feedback"] == "invalid"
-                  else f"rank {entry['rank']}")
+    lines = [INSTRUCTIONS if instructions is None else instructions]
+    if evaluation:
+        lines.append(f"You have at most {max_guesses} attempts. Invalid and repeated "
+                     "guesses consume an attempt and receive no score.")
+    order = "newest first" if evaluation else "oldest first"
+    lines.extend(["", f"Complete submitted guess history ({order}):"])
+    for entry in reversed(history) if evaluation else history:
+        result = feedback_text(entry)
         lines.append(f"Turn {entry['turn']}: {entry['guess']} -> {result}")
     if not history:
         lines.append("No guesses submitted yet.")
@@ -157,8 +169,7 @@ class GameLog:
                               "### Prior submitted guesses", ""])
                 snapshot = event.get("observed_guess_history", history)
                 lines.extend([f"- Turn {entry['turn']}: {entry['guess']} — "
-                              + ("invalid" if entry['feedback'] == "invalid"
-                                 else f"rank {entry['rank']}") for entry in snapshot]
+                              + feedback_text(entry) for entry in snapshot]
                              or ["No prior submitted guesses."])
                 mode = ("Previous interaction: " + str(request["previous_interaction_id"])
                         if request.get("previous_interaction_id") else
@@ -175,7 +186,9 @@ class GameLog:
             elif kind == "feedback":
                 feedback = event["feedback"]
                 result = f"rank {event['rank']}" if feedback == "rank" else feedback
-                label = ("### Website feedback read by the browser"
+                label = ("### Controller feedback (no website submission)"
+                         if feedback in {"duplicate", "invalid_output"} else
+                         "### Website feedback read by the browser"
                          if start.get("feedback_source") == "browser" else
                          "### Website feedback entered by the operator")
                 lines.extend([label, "", result, ""])
@@ -187,53 +200,114 @@ class GameLog:
         (self.path.parent / "timeline.md").write_text("\n".join(lines), encoding="utf-8")
 
 
-def run_game(client, log, model, puzzle, max_guesses=30, read=input, show=print,
-             get_feedback=None, memory_mode="explicit"):
+def run_game(client, log, model, puzzle, max_guesses=DEFAULT_MAX_GUESSES, read=input, show=print,
+             get_feedback=None, memory_mode="explicit", evaluation=False, resume=False,
+             instructions=None, condition="no_initial_plan"):
     if memory_mode not in MEMORY_MODES:
         raise ValueError(f"Unknown memory mode: {memory_mode}")
+    if evaluation and memory_mode != "explicit":
+        raise ValueError("The evaluation protocol requires explicit full history.")
+    if max_guesses < 1:
+        raise ValueError("max_guesses must be positive")
+    instructions = INSTRUCTIONS if instructions is None else instructions
     linked = memory_mode == "linked"
     previous_id = None
     seen = set()
     history = []
     submitted = 0
+    attempts_used = 0
     reason = "guess_limit"
-    log.write("start", puzzle=puzzle, language="English", model=model,
+    first_turn = 1
+    pending_response = None
+    if resume:
+        if not evaluation or linked:
+            raise ValueError("Only stateless evaluation games can be resumed.")
+        events = [json.loads(line) for line in log.path.read_text(encoding="utf-8").splitlines()]
+        start = next(e for e in events if e["event"] == "start")
+        if (start["model"] != model or start["puzzle"] != puzzle or
+                start["max_guesses"] != max_guesses or not start.get("evaluation") or
+                start["generation_config"] != SETTINGS or
+                start.get("instructions", INSTRUCTIONS) != instructions or
+                start.get("condition", "no_initial_plan") != condition):
+            raise ValueError("Resume configuration must match the original evaluation.")
+        history = [{key: e.get(key) for key in ("turn", "guess", "feedback", "rank")}
+                   for e in events if e["event"] == "feedback" and e["feedback"] != "quit"]
+        responses = [e for e in events if e["event"] == "response"]
+        if [e["turn"] for e in responses] != [e["turn"] for e in history]:
+            if (len(responses) == len(history) + 1 and
+                    [e["turn"] for e in responses[:-1]] == [e["turn"] for e in history]):
+                pending_response = responses[-1]["raw_response"]
+            else:
+                raise ValueError("Response and feedback histories do not align for resume.")
+        if any(e["rank"] == 1 for e in history):
+            raise ValueError("Cannot resume an already solved game.")
+        seen = {e["guess"] for e in history if e["feedback"] in {"rank", "invalid"}}
+        submitted = sum(e["feedback"] in {"rank", "invalid"} for e in history)
+        attempts_used = len(responses)
+        first_turn = len(history) + 1
+        failed_requests = [e for e in events if e["event"] == "api_error" and e["turn"] == first_turn]
+        log.write("resume", next_turn=first_turn, previous_attempts=attempts_used,
+                  pending_response_turn=first_turn if pending_response else None,
+                  model_requests_repeated=int(bool(failed_requests)),
+                  previous_transport_failures=len(failed_requests))
+    else:
+        log.write("start", puzzle=puzzle, language="English", model=model,
               generation_config=SETTINGS, max_guesses=max_guesses,
-              instructions=INSTRUCTIONS, condition="no_initial_plan",
+              instructions=instructions, condition=condition,
               context_mode="previous_interaction_id" if linked else "explicit_guess_history",
               memory_mode=memory_mode, interaction_storage=linked,
+              evaluation=evaluation,
+              history_order="newest_first" if evaluation else "oldest_first",
+              output_parser="final_whitespace_token_letters_only" if evaluation else "strict_one_word",
+              invalid_policy="consume_attempt" if evaluation else "stop_on_output_error",
               feedback_source="browser" if get_feedback else "operator",
               sdk_version=sdk_version(), tools=[], automatic_retries=False)
     try:
-        for turn in range(1, max_guesses + 1):
-            request = {"model": model, "input": build_prompt(history, memory_mode),
+        for turn in range(first_turn, max_guesses + 1):
+            request = {"model": model, "input": build_prompt(history, memory_mode,
+                                                            evaluation, max_guesses, instructions),
                        "generation_config": dict(SETTINGS), "tools": [], "store": linked}
             if linked and previous_id:
                 request["previous_interaction_id"] = previous_id
-            log.write("request", turn=turn, request=request, observed_guess_history=history)
-            try:
-                response = client.interactions.create(**request)
-                raw = response.model_dump(mode="json", exclude_none=True)
-            except Exception as error:
-                log.write("api_error", turn=turn, error_type=type(error).__name__,
-                          message=str(error))
-                show("API request failed; see the log. No automatic retry was made.")
-                reason = "api_error"
-                break
-            log.write("response", turn=turn, raw_response=raw)
+            if pending_response is not None:
+                raw, pending_response = pending_response, None
+                log.write("reuse_saved_response", turn=turn, new_model_requests=0)
+            else:
+                log.write("request", turn=turn, request=request, observed_guess_history=history)
+                try:
+                    response = client.interactions.create(**request)
+                    raw = response.model_dump(mode="json", exclude_none=True)
+                except Exception as error:
+                    log.write("api_error", turn=turn, error_type=type(error).__name__,
+                              message=str(error))
+                    show("API request failed; see the log. No automatic retry was made.")
+                    reason = "api_error"
+                    break
+                log.write("response", turn=turn, raw_response=raw)
+                attempts_used += 1
             answer, summary = unpack_response(raw)
             log.write("thought_summary", turn=turn, text=summary, present=bool(summary))
             log.export(csv_export=False)
+            guess = ""
             try:
                 if raw.get("status") != "completed":
                     raise ValueError("Interaction is not completed.")
                 if linked and not raw.get("id"):
                     raise ValueError("Linked memory requires a returned interaction ID.")
-                guess = parse_guess(answer)
+                guess = parse_guess(answer.split()[-1] if evaluation and answer.split() else answer)
                 if guess in seen:
                     raise ValueError("Model repeated an earlier guess.")
             except ValueError as error:
                 log.write("output_error", turn=turn, message=str(error))
+                if evaluation:
+                    kind = "duplicate" if guess in seen else "invalid_output"
+                    entry = {"turn": turn, "guess": guess or "[invalid output]",
+                             "feedback": kind, "rank": None}
+                    log.write("feedback", **entry)
+                    history.append(entry)
+                    log.export(csv_export=False)
+                    show(f"Turn {turn}: {kind}; attempt consumed.")
+                    continue
                 show(f"Stopped before submission: {error}")
                 reason = "invalid_model_output"
                 break
@@ -278,6 +352,7 @@ def run_game(client, log, model, puzzle, max_guesses=30, read=input, show=print,
         reason = "interrupted"
     finally:
         log.write("termination", reason=reason, submitted_guesses=submitted,
+                  attempts_used=attempts_used,
                   success=reason == "success")
         log.export()
     show(f"\nStopped: {reason}. Submitted guesses: {submitted}.")
@@ -325,7 +400,7 @@ def main():
     parser.add_argument("--memory", choices=MEMORY_MODES, default="explicit",
                         help="explicit: send all guesses/ranks; linked: use previous_interaction_id")
     parser.add_argument("--puzzle", help="Contexto puzzle identifier")
-    parser.add_argument("--max-guesses", type=int, default=30)
+    parser.add_argument("--max-guesses", type=int, default=DEFAULT_MAX_GUESSES)
     parser.add_argument("--output-dir", type=Path,
                         default=Path(__file__).resolve().parent / "runs")
     parser.add_argument("--export", type=Path,
