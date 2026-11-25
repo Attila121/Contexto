@@ -155,10 +155,10 @@ TimeoutError: [WinError 10060] A connection attempt failed because the connected
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\attil\AppData\Local\Temp\claude\e840e114a2755629\cec645c3-45ed-4df4-9640-c20396598481\scratchpad\scripts\wb_month.py", line 34, in <module>
+  File "<temp>\scripts\wb_month.py", line 34, in <module>
     st,b=fetch(f'https://api.contexto.me/machado/en/game/{g}/{w}',25)
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\attil\AppData\Local\Temp\claude\e840e114a2755629\cec645c3-45ed-4df4-9640-c20396598481\scratchpad\scripts\wb_month.py", line 13, in fetch
+  File "<temp>\scripts\wb_month.py", line 13, in fetch
     r=urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=timeout); b=r.read(); st=r.status
       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen

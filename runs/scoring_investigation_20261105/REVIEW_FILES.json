@@ -31,8 +31,8 @@
   },
   {
     "path": "runs\\scoring_investigation_20261105\\review\\VERIFICATION.json",
-    "bytes": 21504,
-    "sha256": "af44c5b688a0a69e9bd6bd2cc173251037543b7791eca53c45b3c75038c8aaab"
+    "bytes": 21396,
+    "sha256": "7c062a9f4fcaf299cba1aed96686429d7cd636da57a13ed166d281a4de41ef7f"
   },
   {
     "path": "runs\\scoring_investigation_20261105\\review\\verify_scoring_investigation.py",

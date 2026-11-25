@@ -229,7 +229,7 @@
     "A finite candidate comparison does not identify or exhaust possible live models."
   ],
   "independent_vector_checks": {
-    "input": "C:\\Users\\attil\\AppData\\Local\\Temp\\claude\\e840e114a2755629\\cec645c3-45ed-4df4-9640-c20396598481\\scratchpad\\vec\\x\\glove6B300.npz",
+    "input": "<temp>\\vec\\x\\glove6B300.npz",
     "sha256": "a3bac8a0e2a101c48c546d98962c8741ee36aec017da0f1f9fe31ff17dfb7bda",
     "numpy": "2.5.4",
     "vocabulary": 317756,
