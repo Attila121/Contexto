@@ -1,0 +1,928 @@
+{
+  "schema": "contexto-hint-study/v1",
+  "prepared_at": "2026-11-23T17:51:22.525747+00:00",
+  "model": "gemini-3.8-flash",
+  "settings": {
+    "temperature": 0.6,
+    "thinking_level": "low",
+    "max_output_tokens": 4096,
+    "thinking_summaries": "auto"
+  },
+  "report_settings": {
+    "temperature": 0.6,
+    "thinking_level": "low",
+    "max_output_tokens": 512,
+    "thinking_summaries": "auto"
+  },
+  "max_guesses": 30,
+  "seed": 20261123,
+  "repetitions": 1,
+  "instructions": "Play an English semantic hidden-word guessing game. Lower ranks are closer; rank 1 identifies the target. Use the provided guesses and ranks. Do not repeat guesses. Return exactly one English word, letters only, in your final answer. You have no external tools. Guess the hidden word using the rank after each guess. You have up to 30 guesses.",
+  "hint_paragraph": "You may request one website hint during the game. To request it, return the exact token [HINT] as your final answer instead of a word. A hint does not use a guess attempt. The hint is a real word and rank supplied by the website. It is not one of your guesses and does not count as solving the game. The hint becomes available after your first valid ranked guess. A hint request that is not available, or a second request, uses one guess attempt.",
+  "hint_instructions": "Play an English semantic hidden-word guessing game. Lower ranks are closer; rank 1 identifies the target. Use the provided guesses and ranks. Do not repeat guesses. Return exactly one English word, letters only, in your final answer. You have no external tools. Guess the hidden word using the rank after each guess. You have up to 30 guesses. You may request one website hint during the game. To request it, return the exact token [HINT] as your final answer instead of a word. A hint does not use a guess attempt. The hint is a real word and rank supplied by the website. It is not one of your guesses and does not count as solving the game. The hint becomes available after your first valid ranked guess. A hint request that is not available, or a second request, uses one guess attempt.",
+  "report_prompt": "The game has ended. In one or two sentences, describe the strategy you used in this game, and explain why you did or did not request the hint. Return prose rather than another guess.",
+  "hint_policy": {
+    "token": "[HINT]",
+    "valid_requests": 1,
+    "eligible": "after the first valid ranked guess, while at least one guess attempt remains",
+    "ineligible_requests": "consume a guess attempt; the website is not asked",
+    "hint_does_not_consume_guess": true,
+    "difficulty": "website default, recorded by the probe",
+    "answer_revealed": "terminate as answer_revealed_by_hint; never a model solve",
+    "guessing_the_hint_word": "website rejection counts as an invalid attempt",
+    "trajectory": "model-generated ranks only; hint rank never inserted"
+  },
+  "games": [
+    {
+      "id": "hint_production_2026-10-26",
+      "date": "2026-10-26",
+      "phase": "production",
+      "order": 1
+    },
+    {
+      "id": "hint_production_2026-10-27",
+      "date": "2026-10-27",
+      "phase": "production",
+      "order": 2
+    },
+    {
+      "id": "hint_production_2026-10-28",
+      "date": "2026-10-28",
+      "phase": "production",
+      "order": 3
+    },
+    {
+      "id": "hint_production_2026-10-29",
+      "date": "2026-10-29",
+      "phase": "production",
+      "order": 4
+    },
+    {
+      "id": "hint_production_2026-10-30",
+      "date": "2026-10-30",
+      "phase": "production",
+      "order": 5
+    },
+    {
+      "id": "hint_production_2026-10-31",
+      "date": "2026-10-31",
+      "phase": "production",
+      "order": 6
+    },
+    {
+      "id": "hint_production_2026-11-01",
+      "date": "2026-11-01",
+      "phase": "production",
+      "order": 7
+    },
+    {
+      "id": "hint_production_2026-11-02",
+      "date": "2026-11-02",
+      "phase": "production",
+      "order": 8
+    },
+    {
+      "id": "hint_production_2026-11-03",
+      "date": "2026-11-03",
+      "phase": "production",
+      "order": 9
+    },
+    {
+      "id": "hint_production_2026-11-04",
+      "date": "2026-11-04",
+      "phase": "production",
+      "order": 10
+    },
+    {
+      "id": "hint_production_2026-11-05",
+      "date": "2026-11-05",
+      "phase": "production",
+      "order": 11
+    },
+    {
+      "id": "hint_production_2026-11-06",
+      "date": "2026-11-06",
+      "phase": "production",
+      "order": 12
+    },
+    {
+      "id": "hint_production_2026-11-07",
+      "date": "2026-11-07",
+      "phase": "production",
+      "order": 13
+    },
+    {
+      "id": "hint_production_2026-11-08",
+      "date": "2026-11-08",
+      "phase": "production",
+      "order": 14
+    },
+    {
+      "id": "hint_production_2026-11-09",
+      "date": "2026-11-09",
+      "phase": "production",
+      "order": 15
+    },
+    {
+      "id": "hint_production_2026-11-10",
+      "date": "2026-11-10",
+      "phase": "production",
+      "order": 16
+    },
+    {
+      "id": "hint_production_2026-11-11",
+      "date": "2026-11-11",
+      "phase": "production",
+      "order": 17
+    },
+    {
+      "id": "hint_production_2026-11-12",
+      "date": "2026-11-12",
+      "phase": "production",
+      "order": 18
+    },
+    {
+      "id": "hint_production_2026-11-13",
+      "date": "2026-11-13",
+      "phase": "production",
+      "order": 19
+    },
+    {
+      "id": "hint_production_2026-11-14",
+      "date": "2026-11-14",
+      "phase": "production",
+      "order": 20
+    },
+    {
+      "id": "hint_production_2026-11-15",
+      "date": "2026-11-15",
+      "phase": "production",
+      "order": 21
+    },
+    {
+      "id": "hint_production_2026-11-16",
+      "date": "2026-11-16",
+      "phase": "production",
+      "order": 22
+    },
+    {
+      "id": "hint_production_2026-11-17",
+      "date": "2026-11-17",
+      "phase": "production",
+      "order": 23
+    },
+    {
+      "id": "hint_production_2026-11-18",
+      "date": "2026-11-18",
+      "phase": "production",
+      "order": 24
+    },
+    {
+      "id": "hint_production_2026-11-19",
+      "date": "2026-11-19",
+      "phase": "production",
+      "order": 25
+    }
+  ],
+  "pilot_games": [
+    {
+      "id": "hint_pilot_2026-10-23",
+      "date": "2026-10-23",
+      "phase": "pilot",
+      "order": 1
+    },
+    {
+      "id": "hint_pilot_2026-10-24",
+      "date": "2026-10-24",
+      "phase": "pilot",
+      "order": 2
+    }
+  ],
+  "target_dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19"
+  ],
+  "pilot_dates": [
+    "2026-10-23",
+    "2026-10-24"
+  ],
+  "baseline": {
+    "directory": "C:\\Users\\attil\\Desktop\\Egyetem\\MSC\\HU\\2_semester_HU\\Cognitive_Science\\Project\\Contexto\\runs\\20261120T213300Z_instruction_study_5625ddd2",
+    "manifest_fingerprint": "b99892b8bcb45639804024bd5c02d0bdbf11077986fea1db5a32181c25c86623",
+    "manifest_sha256": "110da4455787f2bd66c9c42d9a6f0c41c72c2e88425ba8796025d1087a3cdf72",
+    "audit_sha256": "1157f384834fb23c5fc9d9eed0a6199aef4c4c0a3a04821cb383d5fceae250ba",
+    "control_games": {
+      "production_2026-10-26_control_1": {
+        "phase": "production",
+        "date": "2026-10-26",
+        "repetition": 1,
+        "path": "production/2026-10-26/control/repeat_01/events.jsonl",
+        "sha256": "29a70d9fe454dbc7f207c1751673f2579cb9fa1e1d3f5be9abb68a348c7810b8"
+      },
+      "production_2026-10-26_control_2": {
+        "phase": "production",
+        "date": "2026-10-26",
+        "repetition": 2,
+        "path": "production/2026-10-26/control/repeat_02/events.jsonl",
+        "sha256": "fba231c57b9a26f5f2a873627e55f050a6d521e39c7f09f746dfabf1dd3e6099"
+      },
+      "production_2026-10-26_control_3": {
+        "phase": "production",
+        "date": "2026-10-26",
+        "repetition": 3,
+        "path": "production/2026-10-26/control/repeat_03/events.jsonl",
+        "sha256": "79fc5df098523583a9c18e5e83f9d32295f6dfb287bfafe8833354dfe4d8f6ed"
+      },
+      "production_2026-10-27_control_1": {
+        "phase": "production",
+        "date": "2026-10-27",
+        "repetition": 1,
+        "path": "production/2026-10-27/control/repeat_01/events.jsonl",
+        "sha256": "e81c1605c689875865b4c26224b1d19bae39d70501ef69a45e9df0c7d0d0774c"
+      },
+      "production_2026-10-27_control_2": {
+        "phase": "production",
+        "date": "2026-10-27",
+        "repetition": 2,
+        "path": "production/2026-10-27/control/repeat_02/events.jsonl",
+        "sha256": "d9a2a7457d15d35808f9797d497e7fe5d282002e9e8fe12858e21efc17db6001"
+      },
+      "production_2026-10-27_control_3": {
+        "phase": "production",
+        "date": "2026-10-27",
+        "repetition": 3,
+        "path": "production/2026-10-27/control/repeat_03/events.jsonl",
+        "sha256": "9d22c23c54df1407000db598fd93658cdcc0e939123cd9d9a8c6ac1bb45393da"
+      },
+      "production_2026-10-28_control_1": {
+        "phase": "production",
+        "date": "2026-10-28",
+        "repetition": 1,
+        "path": "production/2026-10-28/control/repeat_01/events.jsonl",
+        "sha256": "a56b18d133121a66ce152c11049befe7deaae776e3d02a01dbcc3ce5167f3186"
+      },
+      "production_2026-10-28_control_2": {
+        "phase": "production",
+        "date": "2026-10-28",
+        "repetition": 2,
+        "path": "production/2026-10-28/control/repeat_02/events.jsonl",
+        "sha256": "cb8d9e566426c18dcf18682b3ca80ee9e7e0ef44a28a24aa672b6b4a1c826e89"
+      },
+      "production_2026-10-28_control_3": {
+        "phase": "production",
+        "date": "2026-10-28",
+        "repetition": 3,
+        "path": "production/2026-10-28/control/repeat_03/events.jsonl",
+        "sha256": "20a9912c2e4aea0379627bc2ec02bea1232a02afb7cdb9d2e2a879501f0ec20f"
+      },
+      "production_2026-10-29_control_1": {
+        "phase": "production",
+        "date": "2026-10-29",
+        "repetition": 1,
+        "path": "production/2026-10-29/control/repeat_01/events.jsonl",
+        "sha256": "949f9a44238ee64b6da79c6c2215bb67d83dea1ab3323595f4b5d501ebf22c6c"
+      },
+      "production_2026-10-29_control_2": {
+        "phase": "production",
+        "date": "2026-10-29",
+        "repetition": 2,
+        "path": "production/2026-10-29/control/repeat_02/events.jsonl",
+        "sha256": "33c75e8f1fcb81d15468f6d251e012c3b7a7ea84f9fd9fea892587e24aab5d42"
+      },
+      "production_2026-10-29_control_3": {
+        "phase": "production",
+        "date": "2026-10-29",
+        "repetition": 3,
+        "path": "production/2026-10-29/control/repeat_03/events.jsonl",
+        "sha256": "ea1ba803ebdaadd6efdf52ebd0db2004fdaae97ec22a077823d2565aa6e9fbf1"
+      },
+      "production_2026-10-30_control_1": {
+        "phase": "production",
+        "date": "2026-10-30",
+        "repetition": 1,
+        "path": "production/2026-10-30/control/repeat_01/events.jsonl",
+        "sha256": "faaabb5e38e05980b666e2109cf26c28ef90d047883b0d2ef73138c1662368f7"
+      },
+      "production_2026-10-30_control_2": {
+        "phase": "production",
+        "date": "2026-10-30",
+        "repetition": 2,
+        "path": "production/2026-10-30/control/repeat_02/events.jsonl",
+        "sha256": "d4fc46f8907a02b677a82b60011546a61e73831aeb4698f03c1f4ed846b3243d"
+      },
+      "production_2026-10-30_control_3": {
+        "phase": "production",
+        "date": "2026-10-30",
+        "repetition": 3,
+        "path": "production/2026-10-30/control/repeat_03/events.jsonl",
+        "sha256": "46c9fa201157ee33f7744962edf4961cb91ccad705673f0c0706845dbe787bc2"
+      },
+      "production_2026-10-31_control_1": {
+        "phase": "production",
+        "date": "2026-10-31",
+        "repetition": 1,
+        "path": "production/2026-10-31/control/repeat_01/events.jsonl",
+        "sha256": "9643acda389511f4c5063c02f58ee89daa07b81561650ed966e4cb0bb29064e0"
+      },
+      "production_2026-10-31_control_2": {
+        "phase": "production",
+        "date": "2026-10-31",
+        "repetition": 2,
+        "path": "production/2026-10-31/control/repeat_02/events.jsonl",
+        "sha256": "aa0b8d18de2bacc4e0c7427dc951e2a7fa7e80dd4c396618e52f986d5f6b3a9a"
+      },
+      "production_2026-10-31_control_3": {
+        "phase": "production",
+        "date": "2026-10-31",
+        "repetition": 3,
+        "path": "production/2026-10-31/control/repeat_03/events.jsonl",
+        "sha256": "109b78850fdc8db89dda7c4f2ae1fdb9097e704a25d0b871624a6a3e68bab812"
+      },
+      "production_2026-11-01_control_1": {
+        "phase": "production",
+        "date": "2026-11-01",
+        "repetition": 1,
+        "path": "production/2026-11-01/control/repeat_01/events.jsonl",
+        "sha256": "25e6844d059871aece52ec617834a8e5f4785ff58c9b0d49881a62f95ed0399c"
+      },
+      "production_2026-11-01_control_2": {
+        "phase": "production",
+        "date": "2026-11-01",
+        "repetition": 2,
+        "path": "production/2026-11-01/control/repeat_02/events.jsonl",
+        "sha256": "801ce97d297cd3241ce1b03183641706ae788789bbc725e514a502ae2316b448"
+      },
+      "production_2026-11-01_control_3": {
+        "phase": "production",
+        "date": "2026-11-01",
+        "repetition": 3,
+        "path": "production/2026-11-01/control/repeat_03/events.jsonl",
+        "sha256": "776d15f11bd9539fbfc23646eb2bb1f9b42c345a83e4abba196b4b3588c8ef96"
+      },
+      "production_2026-11-02_control_1": {
+        "phase": "production",
+        "date": "2026-11-02",
+        "repetition": 1,
+        "path": "production/2026-11-02/control/repeat_01/events.jsonl",
+        "sha256": "71eb3c98bb3d52f5cbef729fa5e6f5a65b5f7fbd5196cf6d0aab4a7bf7c3afcb"
+      },
+      "production_2026-11-02_control_2": {
+        "phase": "production",
+        "date": "2026-11-02",
+        "repetition": 2,
+        "path": "production/2026-11-02/control/repeat_02/events.jsonl",
+        "sha256": "d21123f0de167dd9763c99f0d121afe0966b22c892067d2cf80b899ef0758041"
+      },
+      "production_2026-11-02_control_3": {
+        "phase": "production",
+        "date": "2026-11-02",
+        "repetition": 3,
+        "path": "production/2026-11-02/control/repeat_03/events.jsonl",
+        "sha256": "77e1ca14de5f3180d8f36fd1a63edbf59b29da5b0e6d9b9d34c224acf22c547a"
+      },
+      "production_2026-11-03_control_1": {
+        "phase": "production",
+        "date": "2026-11-03",
+        "repetition": 1,
+        "path": "production/2026-11-03/control/repeat_01/events.jsonl",
+        "sha256": "b4caeb52a1c5ec2aa5818853b5cd399779fa15fe4828a0927ee5c72468f419f2"
+      },
+      "production_2026-11-03_control_2": {
+        "phase": "production",
+        "date": "2026-11-03",
+        "repetition": 2,
+        "path": "production/2026-11-03/control/repeat_02/events.jsonl",
+        "sha256": "4eeb98d7460e06e76323d35e7aa31550f2ca0b9c4a383aec4f962bf52433eca8"
+      },
+      "production_2026-11-03_control_3": {
+        "phase": "production",
+        "date": "2026-11-03",
+        "repetition": 3,
+        "path": "production/2026-11-03/control/repeat_03/events.jsonl",
+        "sha256": "31debe4ea33353dfd7b0fb863a2b321cc63dc08beeebb3a2f7bb898c594efe58"
+      },
+      "production_2026-11-04_control_1": {
+        "phase": "production",
+        "date": "2026-11-04",
+        "repetition": 1,
+        "path": "production/2026-11-04/control/repeat_01/events.jsonl",
+        "sha256": "0f214dcceaaf41af34adab282d4fd6123f6ea8008253383d2269673ed1019331"
+      },
+      "production_2026-11-04_control_2": {
+        "phase": "production",
+        "date": "2026-11-04",
+        "repetition": 2,
+        "path": "production/2026-11-04/control/repeat_02/events.jsonl",
+        "sha256": "b8e279b1d9097a5a0a03fcf8f71c7a61c7b3f382bb80e380cc57849208077c8d"
+      },
+      "production_2026-11-04_control_3": {
+        "phase": "production",
+        "date": "2026-11-04",
+        "repetition": 3,
+        "path": "production/2026-11-04/control/repeat_03/events.jsonl",
+        "sha256": "2d4b3b382d2b6c81c1ebf53bc9c1552fad40f3e3692476ff32fdc11f7a908bbd"
+      },
+      "production_2026-11-05_control_1": {
+        "phase": "production",
+        "date": "2026-11-05",
+        "repetition": 1,
+        "path": "production/2026-11-05/control/repeat_01/events.jsonl",
+        "sha256": "ecef5d7ab82e1cec642bbb3e8d9fa850636357f789a7a3610c5dab9f69e2740f"
+      },
+      "production_2026-11-05_control_2": {
+        "phase": "production",
+        "date": "2026-11-05",
+        "repetition": 2,
+        "path": "production/2026-11-05/control/repeat_02/events.jsonl",
+        "sha256": "3639b4647baa59149e1b7ab279b1269432a4aa9bda9047e1b7c94d99b5ed3058"
+      },
+      "production_2026-11-05_control_3": {
+        "phase": "production",
+        "date": "2026-11-05",
+        "repetition": 3,
+        "path": "production/2026-11-05/control/repeat_03/events.jsonl",
+        "sha256": "525cd170a7a53fdf57667b9126ebb3babfa879dceb4091718d998a3ec3866bd4"
+      },
+      "production_2026-11-06_control_1": {
+        "phase": "production",
+        "date": "2026-11-06",
+        "repetition": 1,
+        "path": "production/2026-11-06/control/repeat_01/events.jsonl",
+        "sha256": "c9bbb847446dc5da2a523ae15e044d401cf597431ed71be7bd19847c7668160b"
+      },
+      "production_2026-11-06_control_2": {
+        "phase": "production",
+        "date": "2026-11-06",
+        "repetition": 2,
+        "path": "production/2026-11-06/control/repeat_02/events.jsonl",
+        "sha256": "af562fe1c75b6c4f01b954c5a46c6520ea41be9b1b1e639c13ddfd074e90f63e"
+      },
+      "production_2026-11-06_control_3": {
+        "phase": "production",
+        "date": "2026-11-06",
+        "repetition": 3,
+        "path": "production/2026-11-06/control/repeat_03/events.jsonl",
+        "sha256": "b644939d1d2002e3101225452a71cab475671c0335cd2337ce2b52c0369a54eb"
+      },
+      "production_2026-11-07_control_1": {
+        "phase": "production",
+        "date": "2026-11-07",
+        "repetition": 1,
+        "path": "production/2026-11-07/control/repeat_01/events.jsonl",
+        "sha256": "96d8e6ad7581d383f5b4920797847c6dfd335f0a82619004898e95f09921473a"
+      },
+      "production_2026-11-07_control_2": {
+        "phase": "production",
+        "date": "2026-11-07",
+        "repetition": 2,
+        "path": "production/2026-11-07/control/repeat_02/events.jsonl",
+        "sha256": "6dbc0e652f1d102a9f272038bf3f7bca8fdc69e565dd0dffb4f9dd0b5252c184"
+      },
+      "production_2026-11-07_control_3": {
+        "phase": "production",
+        "date": "2026-11-07",
+        "repetition": 3,
+        "path": "production/2026-11-07/control/repeat_03/events.jsonl",
+        "sha256": "47780288066b471d0fcb7b8bba4132d293641a1b59be48ab85ad69c26840d35c"
+      },
+      "production_2026-11-08_control_1": {
+        "phase": "production",
+        "date": "2026-11-08",
+        "repetition": 1,
+        "path": "production/2026-11-08/control/repeat_01/events.jsonl",
+        "sha256": "9a0d9c8bc29fc17af6dd0d049ce19da24b273666c826b41665e90c762a27fa6f"
+      },
+      "production_2026-11-08_control_2": {
+        "phase": "production",
+        "date": "2026-11-08",
+        "repetition": 2,
+        "path": "production/2026-11-08/control/repeat_02/events.jsonl",
+        "sha256": "c52e82b8ed43d3b161229b0ac59f9e17ac5e311b8d8757a347f89abfd91b779c"
+      },
+      "production_2026-11-08_control_3": {
+        "phase": "production",
+        "date": "2026-11-08",
+        "repetition": 3,
+        "path": "production/2026-11-08/control/repeat_03/events.jsonl",
+        "sha256": "0df08b9d7217fdfe3c5a0de3045fea576c2b9446d168f2056f5f5cfd49b7028e"
+      },
+      "production_2026-11-09_control_1": {
+        "phase": "production",
+        "date": "2026-11-09",
+        "repetition": 1,
+        "path": "production/2026-11-09/control/repeat_01/events.jsonl",
+        "sha256": "c25ff0e584bd226b2bc6cc744ec351214ced9f6ca3457058a049a9b73dd15f3e"
+      },
+      "production_2026-11-09_control_2": {
+        "phase": "production",
+        "date": "2026-11-09",
+        "repetition": 2,
+        "path": "production/2026-11-09/control/repeat_02/events.jsonl",
+        "sha256": "c384ec24d9fb3a301680a0d23894189ecf1fc16cf62d0b077ccaa4730c15f32b"
+      },
+      "production_2026-11-09_control_3": {
+        "phase": "production",
+        "date": "2026-11-09",
+        "repetition": 3,
+        "path": "production/2026-11-09/control/repeat_03/events.jsonl",
+        "sha256": "3eba2faf5bf8d66561f55e900563fe40282838d41c867f617d774aab73eaa590"
+      },
+      "production_2026-11-10_control_1": {
+        "phase": "production",
+        "date": "2026-11-10",
+        "repetition": 1,
+        "path": "production/2026-11-10/control/repeat_01/events.jsonl",
+        "sha256": "911206c9fddc26bbc62eea3930b4136a8d67d4b1e012b26c0decb1af4c8e2460"
+      },
+      "production_2026-11-10_control_2": {
+        "phase": "production",
+        "date": "2026-11-10",
+        "repetition": 2,
+        "path": "production/2026-11-10/control/repeat_02/events.jsonl",
+        "sha256": "9863b279e231027f429bf8dd1b5075034bec0d6f9c80687600fccb7ebad6c99c"
+      },
+      "production_2026-11-10_control_3": {
+        "phase": "production",
+        "date": "2026-11-10",
+        "repetition": 3,
+        "path": "production/2026-11-10/control/repeat_03/events.jsonl",
+        "sha256": "12e8c007b6a7ffa53d917b024b4914422af029b07944895df1c7ca27a84566ed"
+      },
+      "production_2026-11-11_control_1": {
+        "phase": "production",
+        "date": "2026-11-11",
+        "repetition": 1,
+        "path": "production/2026-11-11/control/repeat_01/events.jsonl",
+        "sha256": "c248d2f6988598da37cbfb99120712e1edb90ff10445e4ccffe6391df0cab5a0"
+      },
+      "production_2026-11-11_control_2": {
+        "phase": "production",
+        "date": "2026-11-11",
+        "repetition": 2,
+        "path": "production/2026-11-11/control/repeat_02/events.jsonl",
+        "sha256": "d89f537443be36f59d32a9074fd97e9564e147a140c5454c0eaebd15a8792036"
+      },
+      "production_2026-11-11_control_3": {
+        "phase": "production",
+        "date": "2026-11-11",
+        "repetition": 3,
+        "path": "production/2026-11-11/control/repeat_03/events.jsonl",
+        "sha256": "4c4fb00d77076e11b87968e21807089ef2b72a88ef0dde17d63601e2687a677f"
+      },
+      "production_2026-11-12_control_1": {
+        "phase": "production",
+        "date": "2026-11-12",
+        "repetition": 1,
+        "path": "production/2026-11-12/control/repeat_01/events.jsonl",
+        "sha256": "d0cc50e9e571190db6ea0cfdc6fa97ca9e874bd34869b975b13dcb139d0d733a"
+      },
+      "production_2026-11-12_control_2": {
+        "phase": "production",
+        "date": "2026-11-12",
+        "repetition": 2,
+        "path": "production/2026-11-12/control/repeat_02/events.jsonl",
+        "sha256": "80f599e36218fd9cdd02e258cd3306e45d411048e4da4681fdaa9f30130e89e9"
+      },
+      "production_2026-11-12_control_3": {
+        "phase": "production",
+        "date": "2026-11-12",
+        "repetition": 3,
+        "path": "production/2026-11-12/control/repeat_03/events.jsonl",
+        "sha256": "ac20aa88f23daa18bdfcf79187025e2024bf341539fbfc35c72872965f3aff28"
+      },
+      "production_2026-11-13_control_1": {
+        "phase": "production",
+        "date": "2026-11-13",
+        "repetition": 1,
+        "path": "production/2026-11-13/control/repeat_01/events.jsonl",
+        "sha256": "b923286a4da4a651fadb50c45c5015cbea42ceeb00c146833e25e3cc5ae3f3cc"
+      },
+      "production_2026-11-13_control_2": {
+        "phase": "production",
+        "date": "2026-11-13",
+        "repetition": 2,
+        "path": "production/2026-11-13/control/repeat_02/events.jsonl",
+        "sha256": "4d270d58a6a919c3035f8b9e656890c73cf88c8e2884f643ab1c5fb63491e5c5"
+      },
+      "production_2026-11-13_control_3": {
+        "phase": "production",
+        "date": "2026-11-13",
+        "repetition": 3,
+        "path": "production/2026-11-13/control/repeat_03/events.jsonl",
+        "sha256": "fb5c9a7af70f38441e63ce7b39fdfc72521449f4a59277c23f004fe7ab9e8e61"
+      },
+      "production_2026-11-14_control_1": {
+        "phase": "production",
+        "date": "2026-11-14",
+        "repetition": 1,
+        "path": "production/2026-11-14/control/repeat_01/events.jsonl",
+        "sha256": "abe68c43c1fe54fde92faf44a5b8fe707a2afd7866972aadb3834a45bd76ad74"
+      },
+      "production_2026-11-14_control_2": {
+        "phase": "production",
+        "date": "2026-11-14",
+        "repetition": 2,
+        "path": "production/2026-11-14/control/repeat_02/events.jsonl",
+        "sha256": "c96aaec2853d1291c05c666da1838d8f4bec563925bce6838c5f7bf09feaa1e9"
+      },
+      "production_2026-11-14_control_3": {
+        "phase": "production",
+        "date": "2026-11-14",
+        "repetition": 3,
+        "path": "production/2026-11-14/control/repeat_03/events.jsonl",
+        "sha256": "992b3bec0b5d77628551715ac3a696326558036c3b4c95864bc928209404748a"
+      },
+      "production_2026-11-15_control_1": {
+        "phase": "production",
+        "date": "2026-11-15",
+        "repetition": 1,
+        "path": "production/2026-11-15/control/repeat_01/events.jsonl",
+        "sha256": "84afcbace41dba99cc184dcf27d5222fd42750672f5cd0303df401b9586cb9ee"
+      },
+      "production_2026-11-15_control_2": {
+        "phase": "production",
+        "date": "2026-11-15",
+        "repetition": 2,
+        "path": "production/2026-11-15/control/repeat_02/events.jsonl",
+        "sha256": "6553c93db2503d4f075436153f131854b7ac08c30802672eb4ab4690663a04e7"
+      },
+      "production_2026-11-15_control_3": {
+        "phase": "production",
+        "date": "2026-11-15",
+        "repetition": 3,
+        "path": "production/2026-11-15/control/repeat_03/events.jsonl",
+        "sha256": "7c1c0a425ee4183474fd91644b779ef50374746f671c17bae8b73e44d8cdb0ca"
+      },
+      "production_2026-11-16_control_1": {
+        "phase": "production",
+        "date": "2026-11-16",
+        "repetition": 1,
+        "path": "production/2026-11-16/control/repeat_01/events.jsonl",
+        "sha256": "72484d9f13a16ace0aef1aa2b954f0151dbe9ff123238304eb5564fcf0fe06e2"
+      },
+      "production_2026-11-16_control_2": {
+        "phase": "production",
+        "date": "2026-11-16",
+        "repetition": 2,
+        "path": "production/2026-11-16/control/repeat_02/events.jsonl",
+        "sha256": "898ece4ac2e84e8052b2ba4bc88052e25d5da901e9e50099ab9494e717875d59"
+      },
+      "production_2026-11-16_control_3": {
+        "phase": "production",
+        "date": "2026-11-16",
+        "repetition": 3,
+        "path": "production/2026-11-16/control/repeat_03/events.jsonl",
+        "sha256": "9616fd038a49af63864c202b1370528d68b4c298123d774510494c6efd810d5d"
+      },
+      "production_2026-11-17_control_1": {
+        "phase": "production",
+        "date": "2026-11-17",
+        "repetition": 1,
+        "path": "production/2026-11-17/control/repeat_01/events.jsonl",
+        "sha256": "d67bdd322bfd7a28b61c7ecb4ea6c9049e9100f6077fc11091205efd4eff3e5d"
+      },
+      "production_2026-11-17_control_2": {
+        "phase": "production",
+        "date": "2026-11-17",
+        "repetition": 2,
+        "path": "production/2026-11-17/control/repeat_02/events.jsonl",
+        "sha256": "aee2ec1772ae3d206c935a4118585799e96f78b87a0eb538a615485074176430"
+      },
+      "production_2026-11-17_control_3": {
+        "phase": "production",
+        "date": "2026-11-17",
+        "repetition": 3,
+        "path": "production/2026-11-17/control/repeat_03/events.jsonl",
+        "sha256": "41e24a436f1e5f727f701d0857f327bc40c326269028bf5240fe69afe8ef34b6"
+      },
+      "production_2026-11-18_control_1": {
+        "phase": "production",
+        "date": "2026-11-18",
+        "repetition": 1,
+        "path": "production/2026-11-18/control/repeat_01/events.jsonl",
+        "sha256": "d2d72287c422a4be404a690a95f711f18af18380731a69f3570e8635b0b53b03"
+      },
+      "production_2026-11-18_control_2": {
+        "phase": "production",
+        "date": "2026-11-18",
+        "repetition": 2,
+        "path": "production/2026-11-18/control/repeat_02/events.jsonl",
+        "sha256": "2e1c19ea9efe3d01b6316be8aca7b451a9152272ddd0dccd48b11967df20dfbc"
+      },
+      "production_2026-11-18_control_3": {
+        "phase": "production",
+        "date": "2026-11-18",
+        "repetition": 3,
+        "path": "production/2026-11-18/control/repeat_03/events.jsonl",
+        "sha256": "eea635519649d3bd94e284a0d0ac92b2d466e3f024ec1bbe0c141dda41748000"
+      },
+      "production_2026-11-19_control_1": {
+        "phase": "production",
+        "date": "2026-11-19",
+        "repetition": 1,
+        "path": "production/2026-11-19/control/repeat_01/events.jsonl",
+        "sha256": "4698d5296bab33d436b5431a1b1bd70ca42c2d01cd5704ac4d5a8e3f4489b5b6"
+      },
+      "production_2026-11-19_control_2": {
+        "phase": "production",
+        "date": "2026-11-19",
+        "repetition": 2,
+        "path": "production/2026-11-19/control/repeat_02/events.jsonl",
+        "sha256": "d30c1d4070eda8fc29fcca099ff8f8659a8cb02c108ed1618146dd42995eedeb"
+      },
+      "production_2026-11-19_control_3": {
+        "phase": "production",
+        "date": "2026-11-19",
+        "repetition": 3,
+        "path": "production/2026-11-19/control/repeat_03/events.jsonl",
+        "sha256": "6acef9b89dfc21450810d4acdff23cd638760901a036973115807469584b5e72"
+      },
+      "pilot_2026-10-23_control_1": {
+        "phase": "pilot",
+        "date": "2026-10-23",
+        "repetition": 1,
+        "path": "pilot/2026-10-23/control/repeat_01/events.jsonl",
+        "sha256": "99db0fcb88fc4f7c34e4264213bb6210a79419997de5a4177cdce461f0255881"
+      },
+      "pilot_2026-10-24_control_1": {
+        "phase": "pilot",
+        "date": "2026-10-24",
+        "repetition": 1,
+        "path": "pilot/2026-10-24/control/repeat_01/events.jsonl",
+        "sha256": "bfdb1decb19905b99a285f7729ad965f49616ffa9a4cf0bdc40bbd7c0b9a7942"
+      }
+    },
+    "checks": {
+      "production_2026-10-26": {
+        "path": "checks/production_2026-10-26.json",
+        "sha256": "62386805946685d99f4f96d64751bac61ed804cc344cc6b59216cecefd0e6a43"
+      },
+      "production_2026-10-27": {
+        "path": "checks/production_2026-10-27.json",
+        "sha256": "69ab3185a18f22a3d7699581d8e48e82289b40fa7f2cc7a7ea994834a17d29ce"
+      },
+      "production_2026-10-28": {
+        "path": "checks/production_2026-10-28.json",
+        "sha256": "b9c81f5f6b60190014ac9d019c496d5ca5772a34a8169764caf5fd4677186a10"
+      },
+      "production_2026-10-29": {
+        "path": "checks/production_2026-10-29.json",
+        "sha256": "21a7effe601d1e7836f7876419ef722bceb4ec11c541a389405a132ef5544422"
+      },
+      "production_2026-10-30": {
+        "path": "checks/production_2026-10-30.json",
+        "sha256": "4c23b83ea8d71a1cd0732670c0caf1aa9e90d6898a0403a360ab53f31234bb1d"
+      },
+      "production_2026-10-31": {
+        "path": "checks/production_2026-10-31.json",
+        "sha256": "8a4356c7b9b780c87a42fc8f649e2e28fca1ebd323881ce63a12013cea280d85"
+      },
+      "production_2026-11-01": {
+        "path": "checks/production_2026-11-01.json",
+        "sha256": "49d5699ceb4d66ff1f61841f64786ac198dd6f8b1c187bcbabe209406ce59e22"
+      },
+      "production_2026-11-02": {
+        "path": "checks/production_2026-11-02.json",
+        "sha256": "7cc82d0df0f40a4f009c2507683c19405a5f9d70a367ee0011d4ba0d07f2998d"
+      },
+      "production_2026-11-03": {
+        "path": "checks/production_2026-11-03.json",
+        "sha256": "d79f6044a9c9d25824dec8898b4bc8812747d9366acad23150b591a8df65f8db"
+      },
+      "production_2026-11-04": {
+        "path": "checks/production_2026-11-04.json",
+        "sha256": "ca75173c921e63ec765022bd28f49975fc00f37c8c5952aac5a150ff07d80d04"
+      },
+      "production_2026-11-05": {
+        "path": "checks/production_2026-11-05.json",
+        "sha256": "13f869dcf8165d9061cde888a4b3149794ac89503e8507a36516b1c7fc997dc3"
+      },
+      "production_2026-11-06": {
+        "path": "checks/production_2026-11-06.json",
+        "sha256": "c3b92425001bf72f44c0f08705f137a56c0e30a76126e43f0724b7c871751ba6"
+      },
+      "production_2026-11-07": {
+        "path": "checks/production_2026-11-07.json",
+        "sha256": "5825024b56249fbc1e00e997abd03d42613dd84865ff73b2453119e3e8991a03"
+      },
+      "production_2026-11-08": {
+        "path": "checks/production_2026-11-08.json",
+        "sha256": "fa72094b55895ad0642c4af42c670c8acda913c38c192e58dcb1ae371cb9c5a5"
+      },
+      "production_2026-11-09": {
+        "path": "checks/production_2026-11-09.json",
+        "sha256": "a9c4ca46fe98ced3603c9bce9f2c2f0c3f13f4c5aa26059e50ab475d05969994"
+      },
+      "production_2026-11-10": {
+        "path": "checks/production_2026-11-10.json",
+        "sha256": "6a39ef62f1a466d03d4968afe8b26f545cb899f5d65215eb3d61accff0543cdd"
+      },
+      "production_2026-11-11": {
+        "path": "checks/production_2026-11-11.json",
+        "sha256": "65041c6e1e8e38a0615587cf8f6e12f7ff4fa6459d4cde3dfd7becaff82132ff"
+      },
+      "production_2026-11-12": {
+        "path": "checks/production_2026-11-12.json",
+        "sha256": "7ef1fbe117fd669e8df04fda43eb4e1bf3c61dfdc3ef49fd88b884bd82ad7f4a"
+      },
+      "production_2026-11-13": {
+        "path": "checks/production_2026-11-13.json",
+        "sha256": "e798864b5b385b40cf77806f79758f6ee2a644d870e2a05c6ee5321963b116bf"
+      },
+      "production_2026-11-14": {
+        "path": "checks/production_2026-11-14.json",
+        "sha256": "e26aa779570179d8c58d365f351c953fb3c13c371b48dfeb20c096d1e09df2f8"
+      },
+      "production_2026-11-15": {
+        "path": "checks/production_2026-11-15.json",
+        "sha256": "81a4d517b6c36d17005d24a95df62eaceedc0d7ab934560398e590ff6f03be82"
+      },
+      "production_2026-11-16": {
+        "path": "checks/production_2026-11-16.json",
+        "sha256": "86d85f4c3aa47e596633463aa1545d288e1257f31639b33ed9a6b911272b94c9"
+      },
+      "production_2026-11-17": {
+        "path": "checks/production_2026-11-17.json",
+        "sha256": "591d03bb621a52a07c50006b1ce7b4554d614a70be16be72158f0672bae19f94"
+      },
+      "production_2026-11-18": {
+        "path": "checks/production_2026-11-18.json",
+        "sha256": "7405349f0bb5f8c726d45016fa4390bb0c7ec469ee72d747c4ccf288205a483f"
+      },
+      "production_2026-11-19": {
+        "path": "checks/production_2026-11-19.json",
+        "sha256": "26f2912cfad4eb8852afe4ebd9a6626eea5899e94f0b71feda122ba81204af97"
+      },
+      "pilot_2026-10-23": {
+        "path": "checks/pilot_2026-10-23.json",
+        "sha256": "3d26902bbad898e7ee189c5f6507860dff9381172bd28e823bd2adcffe97bea1"
+      },
+      "pilot_2026-10-24": {
+        "path": "checks/pilot_2026-10-24.json",
+        "sha256": "3326e3aea165ee4edb5ed58ce5b3bbc6492e167efaa6978b559f08a0d694c47c"
+      }
+    }
+  },
+  "execution": {
+    "workers": 1,
+    "order": "chronological",
+    "fresh_english_context_per_game": true,
+    "memory": "explicit full history, newest first, store=false, no previous_interaction_id",
+    "invalid_policy": "malformed, repeated, rejected and ineligible outputs consume attempts",
+    "automatic_retries": false
+  },
+  "automatic_retries": false,
+  "sentinels": [
+    "water",
+    "person",
+    "object"
+  ],
+  "limits": {
+    "production_action": 775,
+    "production_report": 25,
+    "pilot_action": 62,
+    "pilot_report": 2
+  },
+  "retry_reserve": 10,
+  "maximum_requests": 874,
+  "environment": "live Contexto English; not a frozen or reconstructed scorer",
+  "analysis": {
+    "primary": "mean target-level ordinal win/tie/loss of the new best-rank trajectory against each of three archived controls over 30 attempts; equal weight per target",
+    "bootstrap": "10000 whole-target resamples",
+    "seed": 20261123,
+    "inclusion": "completed new game and three verified baseline games"
+  },
+  "source_sha256": {
+    "hint_study.py": "64160c349cffd68ed7244ade3338266620bf8a9e591cfda7dabbb081a48a213e",
+    "hint_analysis.py": "881fb348529aeb99fe4b975718771c5ef0fc25023b592979e5ccedb0089ebc4a",
+    "study_batch.py": "7a2cb40ecde101d7a06ece0e71908175a140a0b7219527a794126bb1421e31db",
+    "study_analysis.py": "caaeef657ee5136ecae95f6127d99b53c6a7d0e6409ed5db795bea7c99c7569f",
+    "gemini_trial.py": "4140568f7700f729446aa5d8b61a7f373d6ddff497d40ec27e678004c78e55fd",
+    "automated_game.py": "8a81c27734c7c990dc12f48787ba0394d09079e81b3f0afe0dfe681af9c59cfa",
+    "evaluation_metrics.py": "8a8a16cf97b5f6c8f6ec0e564e7c1d3187cf7bf68400d0de9085a1042eddbb34"
+  },
+  "fingerprint": "c6b8697172b2d0121511ceec1d25910ae8d0c724272d36c9038b4802129f5027"
+}

@@ -1,0 +1,1172 @@
+{
+  "schema": "contexto-instruction-study/v1",
+  "prepared_at": "2026-11-20T21:33:00.478485+00:00",
+  "model": "gemini-3.8-flash",
+  "settings": {
+    "temperature": 0.6,
+    "thinking_level": "low",
+    "max_output_tokens": 4096,
+    "thinking_summaries": "auto"
+  },
+  "report_settings": {
+    "temperature": 0.6,
+    "thinking_level": "low",
+    "max_output_tokens": 512,
+    "thinking_summaries": "auto"
+  },
+  "max_guesses": 30,
+  "seed": 20261120,
+  "repetitions": 3,
+  "instructions": {
+    "control": "Play an English semantic hidden-word guessing game. Lower ranks are closer; rank 1 identifies the target. Use the provided guesses and ranks. Do not repeat guesses. Return exactly one English word, letters only, in your final answer. You have no external tools. Guess the hidden word using the rank after each guess. You have up to 30 guesses.",
+    "guided": "Play an English semantic hidden-word guessing game. Lower ranks are closer; rank 1 identifies the target. Use the provided guesses and ranks. Do not repeat guesses. Return exactly one English word, letters only, in your final answer. You have no external tools. Guess the hidden word using the rank after each guess. You have up to 30 guesses. Start with guesses from different semantic categories. Compare their ranks. Then focus on words related to your best-ranking guess. If several guesses fail to improve your best rank, switch to a different semantic area."
+  },
+  "report_prompt": "The game has ended. In one or two sentences, describe the strategy you used in this game. Return prose rather than another guess.",
+  "games": [
+    {
+      "id": "production_2026-11-05_control_1",
+      "date": "2026-11-05",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-05_guided_1",
+      "date": "2026-11-05",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-05_guided_2",
+      "date": "2026-11-05",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-05_control_2",
+      "date": "2026-11-05",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-05_control_3",
+      "date": "2026-11-05",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-05_guided_3",
+      "date": "2026-11-05",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-14_control_1",
+      "date": "2026-11-14",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-14_guided_1",
+      "date": "2026-11-14",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-14_guided_2",
+      "date": "2026-11-14",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-14_control_2",
+      "date": "2026-11-14",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-14_control_3",
+      "date": "2026-11-14",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-14_guided_3",
+      "date": "2026-11-14",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-26_guided_1",
+      "date": "2026-10-26",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-26_control_1",
+      "date": "2026-10-26",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-26_control_2",
+      "date": "2026-10-26",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-26_guided_2",
+      "date": "2026-10-26",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-26_guided_3",
+      "date": "2026-10-26",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-26_control_3",
+      "date": "2026-10-26",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-16_control_1",
+      "date": "2026-11-16",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-16_guided_1",
+      "date": "2026-11-16",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-16_guided_2",
+      "date": "2026-11-16",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-16_control_2",
+      "date": "2026-11-16",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-16_control_3",
+      "date": "2026-11-16",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-16_guided_3",
+      "date": "2026-11-16",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-15_guided_1",
+      "date": "2026-11-15",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-15_control_1",
+      "date": "2026-11-15",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-15_control_2",
+      "date": "2026-11-15",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-15_guided_2",
+      "date": "2026-11-15",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-15_guided_3",
+      "date": "2026-11-15",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-15_control_3",
+      "date": "2026-11-15",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-06_control_1",
+      "date": "2026-11-06",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-06_guided_1",
+      "date": "2026-11-06",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-06_guided_2",
+      "date": "2026-11-06",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-06_control_2",
+      "date": "2026-11-06",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-06_control_3",
+      "date": "2026-11-06",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-06_guided_3",
+      "date": "2026-11-06",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-27_guided_1",
+      "date": "2026-10-27",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-27_control_1",
+      "date": "2026-10-27",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-27_control_2",
+      "date": "2026-10-27",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-27_guided_2",
+      "date": "2026-10-27",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-27_guided_3",
+      "date": "2026-10-27",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-27_control_3",
+      "date": "2026-10-27",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-03_control_1",
+      "date": "2026-11-03",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-03_guided_1",
+      "date": "2026-11-03",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-03_guided_2",
+      "date": "2026-11-03",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-03_control_2",
+      "date": "2026-11-03",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-03_control_3",
+      "date": "2026-11-03",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-03_guided_3",
+      "date": "2026-11-03",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-31_guided_1",
+      "date": "2026-10-31",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-31_control_1",
+      "date": "2026-10-31",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-31_control_2",
+      "date": "2026-10-31",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-31_guided_2",
+      "date": "2026-10-31",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-31_guided_3",
+      "date": "2026-10-31",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-31_control_3",
+      "date": "2026-10-31",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-02_guided_1",
+      "date": "2026-11-02",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-02_control_1",
+      "date": "2026-11-02",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-02_control_2",
+      "date": "2026-11-02",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-02_guided_2",
+      "date": "2026-11-02",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-02_guided_3",
+      "date": "2026-11-02",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-02_control_3",
+      "date": "2026-11-02",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-17_control_1",
+      "date": "2026-11-17",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-17_guided_1",
+      "date": "2026-11-17",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-17_guided_2",
+      "date": "2026-11-17",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-17_control_2",
+      "date": "2026-11-17",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-17_control_3",
+      "date": "2026-11-17",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-17_guided_3",
+      "date": "2026-11-17",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-18_control_1",
+      "date": "2026-11-18",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-18_guided_1",
+      "date": "2026-11-18",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-18_guided_2",
+      "date": "2026-11-18",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-18_control_2",
+      "date": "2026-11-18",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-18_control_3",
+      "date": "2026-11-18",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-18_guided_3",
+      "date": "2026-11-18",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-19_guided_1",
+      "date": "2026-11-19",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-19_control_1",
+      "date": "2026-11-19",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-19_control_2",
+      "date": "2026-11-19",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-19_guided_2",
+      "date": "2026-11-19",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-19_guided_3",
+      "date": "2026-11-19",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-19_control_3",
+      "date": "2026-11-19",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-10_control_1",
+      "date": "2026-11-10",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-10_guided_1",
+      "date": "2026-11-10",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-10_guided_2",
+      "date": "2026-11-10",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-10_control_2",
+      "date": "2026-11-10",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-10_control_3",
+      "date": "2026-11-10",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-10_guided_3",
+      "date": "2026-11-10",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-28_control_1",
+      "date": "2026-10-28",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-28_guided_1",
+      "date": "2026-10-28",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-28_guided_2",
+      "date": "2026-10-28",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-28_control_2",
+      "date": "2026-10-28",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-28_control_3",
+      "date": "2026-10-28",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-28_guided_3",
+      "date": "2026-10-28",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-12_guided_1",
+      "date": "2026-11-12",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-12_control_1",
+      "date": "2026-11-12",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-12_control_2",
+      "date": "2026-11-12",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-12_guided_2",
+      "date": "2026-11-12",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-12_guided_3",
+      "date": "2026-11-12",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-12_control_3",
+      "date": "2026-11-12",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-29_guided_1",
+      "date": "2026-10-29",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-29_control_1",
+      "date": "2026-10-29",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-29_control_2",
+      "date": "2026-10-29",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-29_guided_2",
+      "date": "2026-10-29",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-29_guided_3",
+      "date": "2026-10-29",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-29_control_3",
+      "date": "2026-10-29",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-08_guided_1",
+      "date": "2026-11-08",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-08_control_1",
+      "date": "2026-11-08",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-08_control_2",
+      "date": "2026-11-08",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-08_guided_2",
+      "date": "2026-11-08",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-08_guided_3",
+      "date": "2026-11-08",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-08_control_3",
+      "date": "2026-11-08",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-30_control_1",
+      "date": "2026-10-30",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-30_guided_1",
+      "date": "2026-10-30",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-30_guided_2",
+      "date": "2026-10-30",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-30_control_2",
+      "date": "2026-10-30",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-30_control_3",
+      "date": "2026-10-30",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-10-30_guided_3",
+      "date": "2026-10-30",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-01_control_1",
+      "date": "2026-11-01",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-01_guided_1",
+      "date": "2026-11-01",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-01_guided_2",
+      "date": "2026-11-01",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-01_control_2",
+      "date": "2026-11-01",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-01_control_3",
+      "date": "2026-11-01",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-01_guided_3",
+      "date": "2026-11-01",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-04_guided_1",
+      "date": "2026-11-04",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-04_control_1",
+      "date": "2026-11-04",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-04_control_2",
+      "date": "2026-11-04",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-04_guided_2",
+      "date": "2026-11-04",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-04_guided_3",
+      "date": "2026-11-04",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-04_control_3",
+      "date": "2026-11-04",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-07_guided_1",
+      "date": "2026-11-07",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-07_control_1",
+      "date": "2026-11-07",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-07_control_2",
+      "date": "2026-11-07",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-07_guided_2",
+      "date": "2026-11-07",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-07_guided_3",
+      "date": "2026-11-07",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-07_control_3",
+      "date": "2026-11-07",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-11_guided_1",
+      "date": "2026-11-11",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-11_control_1",
+      "date": "2026-11-11",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-11_control_2",
+      "date": "2026-11-11",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-11_guided_2",
+      "date": "2026-11-11",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-11_guided_3",
+      "date": "2026-11-11",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-11_control_3",
+      "date": "2026-11-11",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-13_control_1",
+      "date": "2026-11-13",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-13_guided_1",
+      "date": "2026-11-13",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-13_guided_2",
+      "date": "2026-11-13",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-13_control_2",
+      "date": "2026-11-13",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-13_control_3",
+      "date": "2026-11-13",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-13_guided_3",
+      "date": "2026-11-13",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-09_control_1",
+      "date": "2026-11-09",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-09_guided_1",
+      "date": "2026-11-09",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-09_guided_2",
+      "date": "2026-11-09",
+      "condition": "guided",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-09_control_2",
+      "date": "2026-11-09",
+      "condition": "control",
+      "repetition": 2,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-09_control_3",
+      "date": "2026-11-09",
+      "condition": "control",
+      "repetition": 3,
+      "phase": "production"
+    },
+    {
+      "id": "production_2026-11-09_guided_3",
+      "date": "2026-11-09",
+      "condition": "guided",
+      "repetition": 3,
+      "phase": "production"
+    }
+  ],
+  "pilot_games": [
+    {
+      "id": "pilot_2026-10-24_guided_1",
+      "date": "2026-10-24",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "pilot"
+    },
+    {
+      "id": "pilot_2026-10-24_control_1",
+      "date": "2026-10-24",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "pilot"
+    },
+    {
+      "id": "pilot_2026-10-23_control_1",
+      "date": "2026-10-23",
+      "condition": "control",
+      "repetition": 1,
+      "phase": "pilot"
+    },
+    {
+      "id": "pilot_2026-10-23_guided_1",
+      "date": "2026-10-23",
+      "condition": "guided",
+      "repetition": 1,
+      "phase": "pilot"
+    }
+  ],
+  "target_dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19"
+  ],
+  "previously_started_dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+  ],
+  "selection": "last 25 completed dates as of 20 November 2026, fixed by user",
+  "environment": "live Contexto English; not a frozen or reconstructed scorer",
+  "sentinels": [
+    "water",
+    "person",
+    "object"
+  ],
+  "limits": {
+    "production_guess": 4500,
+    "production_report": 150,
+    "pilot_guess": 120,
+    "pilot_report": 4
+  },
+  "retry_reserve": 50,
+  "maximum_requests": 4824,
+  "memory": "explicit, newest first, store=false, no previous_interaction_id",
+  "invalid_policy": "malformed/duplicate/website-rejected outputs consume attempts",
+  "parser": "last whitespace token; ASCII letters only, lowercase",
+  "analysis": "mean target-level guided ordinal wins over all 9 repeat pairs and 30 turns; ties=0.5; 10000 whole-target bootstrap resamples; complete six-game targets only",
+  "source_sha256": {
+    "study_batch.py": "d99cd12b33478867b490d75a2aaec1d35646cfa6ee6a27e4cb0619f078d074b5",
+    "study_analysis.py": "caaeef657ee5136ecae95f6127d99b53c6a7d0e6409ed5db795bea7c99c7569f",
+    "gemini_trial.py": "4140568f7700f729446aa5d8b61a7f373d6ddff497d40ec27e678004c78e55fd",
+    "automated_game.py": "63d01a18dae0279fda4df7019c96bcf79fd65e4db1d41e84fdbf6dc5c370e39e",
+    "evaluation_metrics.py": "8a8a16cf97b5f6c8f6ec0e564e7c1d3187cf7bf68400d0de9085a1042eddbb34"
+  },
+  "fingerprint": "b99892b8bcb45639804024bd5c02d0bdbf11077986fea1db5a32181c25c86623"
+}
