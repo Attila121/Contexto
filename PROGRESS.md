@@ -10,6 +10,7 @@ Current state only. Details are in the sub-progress files: [instruction study](p
 - **Optional-hint follow-up:** 25 games, audit PASS, 717/874 requests, no retries or exclusions. Hint-enabled solved 12/25 (48%) vs archived control 18/75 (24%); median best rank 2 vs 42; paired score **0.696, CI 0.583-0.800**. [Details](progress/hint_study.md)
 - **Hint mechanism (offline):** the model always took the free hint almost immediately. Part of the lead comes from a changed opening word (prompt confound); the rest looks mainly like a head start. A site hint at rank ~300 beat a self-found <=300 word over the next 15 guesses. [Details](progress/hint_study.md#mechanism)
 - Code: unit tests and `git diff --check` pass; no dependencies added.
+- Shared with team (25 Nov): all code, docs and `results/` summaries pushed to GitHub; raw `runs/` zipped separately as `../Contexto_raw_runs.zip` (559 MB) for a shared drive.
 
 ## Next
 
