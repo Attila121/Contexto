@@ -1,0 +1,232 @@
+[
+{
+"game": 70,
+"date": "20221219",
+"tag": "straddle",
+"target": "imagination",
+"n": 20,
+"tau6": 1.0,
+"tau42": 0.558,
+"call": "OLD-6B"
+},
+{
+"game": 107,
+"date": "20230206",
+"tag": "straddle",
+"target": "menu",
+"n": 16,
+"tau6": 1.0,
+"tau42": 0.7,
+"call": "OLD-6B"
+},
+{
+"game": 120,
+"date": "20230206",
+"tag": "straddle",
+"target": "income",
+"n": 16,
+"tau6": 1.0,
+"tau42": 0.783,
+"call": "OLD-6B"
+},
+{
+"game": 131,
+"date": "20230206",
+"tag": "straddle",
+"target": "doctor",
+"n": 15,
+"tau6": 0.981,
+"tau42": 0.733,
+"call": "OLD-6B"
+},
+{
+"game": 135,
+"date": "20230206",
+"tag": "straddle",
+"target": "needle",
+"n": 16,
+"tau6": 0.867,
+"tau42": 0.55,
+"call": "OLD-6B"
+},
+{
+"game": 136,
+"date": "20230206",
+"tag": "straddle",
+"target": "frog",
+"n": 17,
+"tau6": 0.971,
+"tau42": 0.559,
+"call": "OLD-6B"
+},
+{
+"game": 139,
+"date": "20230206",
+"tag": "straddle",
+"target": "zebra",
+"n": 11,
+"tau6": 0.455,
+"tau42": 0.2,
+"call": "mixed"
+},
+{
+"game": 131,
+"date": "20230208",
+"tag": "straddle",
+"target": "doctor",
+"n": 18,
+"tau6": 0.974,
+"tau42": 0.804,
+"call": "OLD-6B"
+},
+{
+"game": 135,
+"date": "20230208",
+"tag": "straddle",
+"target": "needle",
+"n": 5,
+"tau6": 0.6,
+"tau42": 0.2,
+"call": "mixed"
+},
+{
+"game": 139,
+"date": "20230208",
+"tag": "straddle",
+"target": "zebra",
+"n": 13,
+"tau6": 0.974,
+"tau42": 0.231,
+"call": "OLD-6B"
+},
+{
+"game": 142,
+"date": "20230208",
+"tag": "straddle",
+"target": "watch",
+"n": 20,
+"tau6": 0.621,
+"tau42": 0.747,
+"call": "NEW"
+},
+{
+"game": 143,
+"date": "20230210",
+"tag": "straddle",
+"target": "nature",
+"n": 17,
+"tau6": 0.75,
+"tau42": 0.809,
+"call": "NEW"
+},
+{
+"game": 136,
+"date": "20230212",
+"tag": "straddle",
+"target": "frog",
+"n": 18,
+"tau6": 0.569,
+"tau42": 0.712,
+"call": "NEW"
+},
+{
+"game": 139,
+"date": "20230212",
+"tag": "straddle",
+"target": "zebra",
+"n": 17,
+"tau6": 0.574,
+"tau42": 0.809,
+"call": "NEW"
+},
+{
+"game": 148,
+"date": "20230214",
+"tag": "straddle",
+"target": "red",
+"n": 18,
+"tau6": 0.542,
+"tau42": 0.595,
+"call": "NEW"
+},
+{
+"game": 135,
+"date": "20230227",
+"tag": "straddle",
+"target": "needle",
+"n": 5,
+"tau6": 0.2,
+"tau42": 1.0,
+"call": "NEW"
+},
+{
+"game": 136,
+"date": "20230227",
+"tag": "straddle",
+"target": "frog",
+"n": 9,
+"tau6": 0.778,
+"tau42": 0.778,
+"call": "NEW"
+},
+{
+"game": 91,
+"date": "20230302",
+"tag": "late_oldid",
+"target": "student",
+"n": 10,
+"tau6": 0.733,
+"tau42": 0.867,
+"call": "NEW"
+},
+{
+"game": 123,
+"date": "20230302",
+"tag": "late_oldid",
+"target": "cheese",
+"n": 5,
+"tau6": 1.0,
+"tau42": 1.0,
+"call": "NEW"
+},
+{
+"game": 107,
+"date": "20230507",
+"tag": "late_oldid",
+"target": "menu",
+"n": 14,
+"tau6": 0.604,
+"tau42": 0.912,
+"call": "NEW"
+},
+{
+"game": 120,
+"date": "20230507",
+"tag": "late_oldid",
+"target": "income",
+"n": 9,
+"tau6": 0.833,
+"tau42": 0.944,
+"call": "NEW"
+},
+{
+"game": 107,
+"date": "20230508",
+"tag": "late_oldid",
+"target": "menu",
+"n": 4,
+"tau6": 0.667,
+"tau42": 0.667,
+"call": "NEW"
+},
+{
+"game": 83,
+"date": "20230619",
+"tag": "late_oldid",
+"target": "chicken",
+"n": 5,
+"tau6": 1.0,
+"tau42": 1.0,
+"call": "NEW"
+}
+]

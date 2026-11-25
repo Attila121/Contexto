@@ -1,0 +1,42 @@
+[
+  {
+    "path": "SCORING.md",
+    "bytes": 10381,
+    "sha256": "20b32db5f29d0999c44e1a3197e3bc371fc723c408405dee2e6d07f50ddb8b3b"
+  },
+  {
+    "path": "runs\\scoring_investigation_20261105\\README.md",
+    "bytes": 6226,
+    "sha256": "02fb3bc28be3e9f6605e922643b873001953683d4bca518d0b938b142717e46a"
+  },
+  {
+    "path": "runs\\scoring_investigation_20261105\\review\\candidate_rank_tables.npz",
+    "bytes": 14069980,
+    "sha256": "d12626bdcad69c1f433dd6ec591cea72f11521b037205fade3d91e81a81b2c2c"
+  },
+  {
+    "path": "runs\\scoring_investigation_20261105\\review\\preserve_scoring_evidence.py",
+    "bytes": 3765,
+    "sha256": "e820e55f2ba82f59c4e22535ec42c6451229e466a0a1706b12f2d33cafaca583"
+  },
+  {
+    "path": "runs\\scoring_investigation_20261105\\review\\SCORING_BEFORE_20261105.md",
+    "bytes": 4246,
+    "sha256": "53ab20e3b8974693e0beb0b2a4c25f060772ad87e556e8eaa8eb90aa35a359c5"
+  },
+  {
+    "path": "runs\\scoring_investigation_20261105\\review\\SCORING_CHANGES.diff",
+    "bytes": 15097,
+    "sha256": "ca62cf01e5f131f4c20347485bde08a642b9b2baaf23f53549c2d1d2046e36c6"
+  },
+  {
+    "path": "runs\\scoring_investigation_20261105\\review\\VERIFICATION.json",
+    "bytes": 21504,
+    "sha256": "af44c5b688a0a69e9bd6bd2cc173251037543b7791eca53c45b3c75038c8aaab"
+  },
+  {
+    "path": "runs\\scoring_investigation_20261105\\review\\verify_scoring_investigation.py",
+    "bytes": 13420,
+    "sha256": "3bf39f89519c354dc128f6563cb898df2e133e502776f18574e59043c4a263d1"
+  }
+]

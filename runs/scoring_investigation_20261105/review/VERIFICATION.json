@@ -1,0 +1,826 @@
+{
+  "preserved_source_files_verified": 175,
+  "preserved_source_bytes": 25486563,
+  "trial_log_sha256": {
+    "2026-10-25": "97c75a6ad021f7f3a9d0a4ce9fd50b550454b70e70aa4de9647038ef80cf7a3d",
+    "2026-10-26": "7329fbf578d945deb0ee9f6549bc7ae01bf72bb82738da2ab464d9ea21067a96",
+    "2026-10-27": "ef5b00f51735bbcc34a3fd12a213b79272446e5f6049cc96895316b9ee28800b",
+    "2026-10-28": "498fe3c4dd2e765036201b4fbfbc2c1203304a722ff3cd16a9626d386711206b",
+    "2026-10-29": "c5bfed36dbe0185679eb5318c40d2203f81304cb7461c35ef657d96dc06884d4",
+    "2026-10-30": "20426e606697bb083ffb5713d169a1fcd038625c2121c35e1c9822a3ca0bb622",
+    "2026-10-31": "648c1c960ced16df16cfb96e5d0a2b4ecb031a258af94e9a0802ace5be34ea75",
+    "2026-11-01": "ee90835b3d87ae430a5b10985de1fa24722273b5ccbcaac2bff20a62977c13ec",
+    "2026-11-02": "ecf10e663e1e0d2244710bfa61fe5935cbf1f89271cf5cab2fb1d7515fab4b17",
+    "2026-11-03": "664143d26a93de072d5018c8449759eab16dd3a8b806aad2231a3cc08c6482c0"
+  },
+  "trial_hashes_match_original_completed_audit": true,
+  "ranked_responses": 515,
+  "invalid_counts": {
+    "too_common": 8,
+    "duplicate": 22,
+    "malformed_or_empty": 2,
+    "other_rejected": 5
+  },
+  "invalid_feedback_kinds": {
+    "invalid": 34,
+    "duplicate": 1,
+    "invalid_output": 2
+  },
+  "model_outputs": 552,
+  "counterfactual_rows_match_original_trials": true,
+  "spearman_contexto_vs_candidate": 0.7841327538393298,
+  "transitions": 505,
+  "direction_disagreements": 127,
+  "direction_disagreement_fraction": 0.2514851485148515,
+  "median_candidate_to_contexto_rank_ratio": 2.9761506276150627,
+  "fixed_sequence_targets": {
+    "2026-10-25": {
+      "target": "conclusion",
+      "contexto_hit": true,
+      "exact_token_hit": true
+    },
+    "2026-10-26": {
+      "target": "choice",
+      "contexto_hit": false,
+      "exact_token_hit": false
+    },
+    "2026-10-27": {
+      "target": "pear",
+      "contexto_hit": true,
+      "exact_token_hit": true
+    },
+    "2026-10-28": {
+      "target": "fox",
+      "contexto_hit": false,
+      "exact_token_hit": false
+    },
+    "2026-10-29": {
+      "target": "barn",
+      "contexto_hit": false,
+      "exact_token_hit": false
+    },
+    "2026-10-30": {
+      "target": "hole",
+      "contexto_hit": false,
+      "exact_token_hit": false
+    },
+    "2026-10-31": {
+      "target": "limit",
+      "contexto_hit": true,
+      "exact_token_hit": false
+    },
+    "2026-11-01": {
+      "target": "aircraft",
+      "contexto_hit": false,
+      "exact_token_hit": false
+    },
+    "2026-11-02": {
+      "target": "appearance",
+      "contexto_hit": true,
+      "exact_token_hit": true
+    },
+    "2026-11-03": {
+      "target": "beast",
+      "contexto_hit": true,
+      "exact_token_hit": true
+    }
+  },
+  "limited_example": [
+    {
+      "date": "2026-10-31",
+      "target": "limit",
+      "word": "limited",
+      "ctx": 1,
+      "paper": 28
+    }
+  ],
+  "replay_counts": {
+    "2026-11-04": {
+      "matched": 90
+    },
+    "2026-10-06": {
+      "matched": 38,
+      "changed": 7
+    },
+    "2026-10-07": {
+      "changed": 3,
+      "matched": 9
+    }
+  },
+  "highest_observed_displayed_rank": [
+    78902,
+    "0|responsbility"
+  ],
+  "candidate_model_comparisons": [
+    {
+      "embedding": "fasttext.crawl.300d",
+      "era": "live 2026",
+      "forms": "inflections",
+      "metric": "cos",
+      "n": 34,
+      "mean": 0.294,
+      "min": 0.14,
+      "max": 0.409,
+      "cover": 0.999
+    },
+    {
+      "embedding": "glove.42B.300d",
+      "era": "live 2026",
+      "forms": "inflections",
+      "metric": "cos",
+      "n": 34,
+      "mean": 0.554,
+      "min": 0.257,
+      "max": 0.704,
+      "cover": 1.0
+    },
+    {
+      "embedding": "glove.6B.300d",
+      "era": "live 2026",
+      "forms": "inflections",
+      "metric": "cos",
+      "n": 34,
+      "mean": 0.378,
+      "min": 0.162,
+      "max": 0.519,
+      "cover": 1.0
+    },
+    {
+      "embedding": "glove.840B.300d",
+      "era": "live 2026",
+      "forms": "inflections",
+      "metric": "cos",
+      "n": 34,
+      "mean": 0.453,
+      "min": 0.216,
+      "max": 0.617,
+      "cover": 1.0
+    },
+    {
+      "embedding": "glove.twitter.27B.200d",
+      "era": "live 2026",
+      "forms": "inflections",
+      "metric": "cos",
+      "n": 34,
+      "mean": 0.246,
+      "min": 0.088,
+      "max": 0.451,
+      "cover": 0.988
+    },
+    {
+      "embedding": "word2vec.googlenews.300d",
+      "era": "live 2026",
+      "forms": "inflections",
+      "metric": "cos",
+      "n": 34,
+      "mean": 0.268,
+      "min": 0.069,
+      "max": 0.403,
+      "cover": 0.989
+    }
+  ],
+  "early_restricted_tests": {
+    "lists": 8,
+    "perfect_lists": 6,
+    "perfect_list_pairs": 55280,
+    "all_lists_discordant_pairs": 142,
+    "all_lists_pairs": 64916,
+    "mean_kendall_tau": 0.9910544929964167,
+    "limitation": "WordNet/simple-inflection exclusion is not a verified model of server normalization."
+  },
+  "archived_credit_checks": [
+    {
+      "file": "20220928230730_main.318224d4.js",
+      "stanford_glove_link": true,
+      "bytes_decoded": 254518
+    },
+    {
+      "file": "20260228231225_main.27ee7aa2.js",
+      "stanford_glove_link": true,
+      "bytes_decoded": 495535
+    },
+    {
+      "file": "20260311234956_main.e7748afa.js",
+      "stanford_glove_link": false,
+      "bytes_decoded": 605082
+    }
+  ],
+  "archived_vs_live_game107": {
+    "archive_key": "20230207194608|107",
+    "common_words": 259,
+    "inverted_pairs": 11375
+  },
+  "proximity_formula_checks": {
+    "317756": {
+      "10": 0.8182510070437843,
+      "100": 0.6365020140875686,
+      "1000": 0.4547530211313531
+    },
+    "79000": {
+      "10": 0.7958194894465684,
+      "100": 0.591638978893137,
+      "1000": 0.38745846833970554
+    }
+  },
+  "caveats": [
+    "Original records are not regraded or modified.",
+    "Fixed-trajectory rescoring does not estimate how the model would play with new feedback.",
+    "Matched examples identify a plausible reconstruction, not all undocumented paper details.",
+    "A finite candidate comparison does not identify or exhaust possible live models."
+  ],
+  "independent_vector_checks": {
+    "input": "C:\\Users\\attil\\AppData\\Local\\Temp\\claude\\e840e114a2755629\\cec645c3-45ed-4df4-9640-c20396598481\\scratchpad\\vec\\x\\glove6B300.npz",
+    "sha256": "a3bac8a0e2a101c48c546d98962c8741ee36aec017da0f1f9fe31ff17dfb7bda",
+    "numpy": "2.5.4",
+    "vocabulary": 317756,
+    "dimensions": 300,
+    "cached_rank_mismatches": [],
+    "figure2": {
+      "look": {
+        "reported": 15,
+        "recomputed": 15
+      },
+      "vision": {
+        "reported": 34,
+        "recomputed": 34
+      },
+      "eye": {
+        "reported": 43,
+        "recomputed": 43
+      },
+      "smile": {
+        "reported": 206,
+        "recomputed": 206
+      },
+      "happiness": {
+        "reported": 916,
+        "recomputed": 916
+      },
+      "emotion": {
+        "reported": 3575,
+        "recomputed": 3575
+      },
+      "animal": {
+        "reported": 10867,
+        "recomputed": 10867
+      }
+    },
+    "demo": [
+      {
+        "word": "pineapple",
+        "reported": 4,
+        "recomputed": 4
+      },
+      {
+        "word": "strawberry",
+        "reported": 22,
+        "recomputed": 22
+      },
+      {
+        "word": "fruit",
+        "reported": 7,
+        "recomputed": 7
+      },
+      {
+        "word": "apple",
+        "reported": 40,
+        "recomputed": 40
+      },
+      {
+        "word": "coconut",
+        "reported": 5,
+        "recomputed": 5
+      },
+      {
+        "word": "mango",
+        "reported": 3,
+        "recomputed": 3
+      },
+      {
+        "word": "peanut",
+        "reported": 10,
+        "recomputed": 10
+      },
+      {
+        "word": "chocolate",
+        "reported": 30,
+        "recomputed": 30
+      },
+      {
+        "word": "bananas",
+        "reported": 2,
+        "recomputed": 2
+      },
+      {
+        "word": "apples",
+        "reported": 53,
+        "recomputed": 53
+      },
+      {
+        "word": "the",
+        "reported": 3033,
+        "recomputed": 3033
+      },
+      {
+        "word": "obama",
+        "reported": 26095,
+        "recomputed": 26095
+      },
+      {
+        "word": "google",
+        "reported": 77874,
+        "recomputed": 77874
+      },
+      {
+        "word": "john",
+        "reported": 102558,
+        "recomputed": 102558
+      },
+      {
+        "word": "tokyo",
+        "reported": 157814,
+        "recomputed": 157814
+      },
+      {
+        "word": "bitcoin",
+        "reported": 217417,
+        "recomputed": 217417
+      },
+      {
+        "word": "iphone",
+        "reported": 6593,
+        "recomputed": 6593
+      },
+      {
+        "word": "zzzz",
+        "reported": 188110,
+        "recomputed": 188110
+      },
+      {
+        "word": "plantation",
+        "reported": 48,
+        "recomputed": 48
+      },
+      {
+        "word": "car",
+        "reported": 17100,
+        "recomputed": 17100
+      },
+      {
+        "word": "city",
+        "reported": 228690,
+        "recomputed": 228690
+      },
+      {
+        "word": "computer",
+        "reported": 19906,
+        "recomputed": 19906
+      },
+      {
+        "word": "music",
+        "reported": 14102,
+        "recomputed": 14102
+      },
+      {
+        "word": "river",
+        "reported": 4643,
+        "recomputed": 4643
+      },
+      {
+        "word": "mountain",
+        "reported": 6549,
+        "recomputed": 6549
+      },
+      {
+        "word": "philosophy",
+        "reported": 245491,
+        "recomputed": 245491
+      },
+      {
+        "word": "justice",
+        "reported": 141038,
+        "recomputed": 141038
+      },
+      {
+        "word": "government",
+        "reported": 36126,
+        "recomputed": 36126
+      },
+      {
+        "word": "democracy",
+        "reported": 56743,
+        "recomputed": 56743
+      },
+      {
+        "word": "hospital",
+        "reported": 156352,
+        "recomputed": 156352
+      },
+      {
+        "word": "ran",
+        "reported": 7003,
+        "recomputed": 7003
+      },
+      {
+        "word": "datum",
+        "reported": 11619,
+        "recomputed": 11619
+      },
+      {
+        "word": "physician",
+        "reported": 283787,
+        "recomputed": 283787
+      },
+      {
+        "word": "quixotic",
+        "reported": 231900,
+        "recomputed": 231900
+      },
+      {
+        "word": "perspicacious",
+        "reported": 312192,
+        "recomputed": 312192
+      },
+      {
+        "word": "ecuador",
+        "reported": 171,
+        "recomputed": 171
+      },
+      {
+        "word": "chiquita",
+        "reported": 19,
+        "recomputed": 19
+      },
+      {
+        "word": "yellow",
+        "reported": 712,
+        "recomputed": 712
+      },
+      {
+        "word": "monkey",
+        "reported": 442,
+        "recomputed": 442
+      },
+      {
+        "word": "peel",
+        "reported": 249,
+        "recomputed": 249
+      },
+      {
+        "word": "republic",
+        "reported": 814,
+        "recomputed": 814
+      },
+      {
+        "word": "tree",
+        "reported": 82,
+        "recomputed": 82
+      },
+      {
+        "word": "bread",
+        "reported": 50,
+        "recomputed": 50
+      }
+    ],
+    "figure_matches": 7,
+    "demo_matches": 43,
+    "rank_table_file": "review/candidate_rank_tables.npz",
+    "rank_table_sha256": "d12626bdcad69c1f433dd6ec591cea72f11521b037205fade3d91e81a81b2c2c",
+    "rejection_checks": [
+      {
+        "date": "2026-10-25",
+        "turn": 9,
+        "word": "someone",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 2149
+      },
+      {
+        "date": "2026-10-25",
+        "turn": 10,
+        "word": "being",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 2197
+      },
+      {
+        "date": "2026-10-26",
+        "turn": 36,
+        "word": "eating",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 3413
+      },
+      {
+        "date": "2026-10-26",
+        "turn": 55,
+        "word": "dish",
+        "original_feedback": "duplicate",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": true,
+        "candidate_rank": 2733
+      },
+      {
+        "date": "2026-10-26",
+        "turn": 60,
+        "word": "dine",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 8339
+      },
+      {
+        "date": "2026-10-26",
+        "turn": 68,
+        "word": "dishes",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 3640
+      },
+      {
+        "date": "2026-10-26",
+        "turn": 70,
+        "word": "[invalid output]",
+        "original_feedback": "invalid_output",
+        "in_candidate_vocabulary": false,
+        "exact_token_already_seen": false,
+        "candidate_rank": null
+      },
+      {
+        "date": "2026-10-27",
+        "turn": 16,
+        "word": "baking",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 1163
+      },
+      {
+        "date": "2026-10-27",
+        "turn": 23,
+        "word": "tart",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 13
+      },
+      {
+        "date": "2026-10-27",
+        "turn": 40,
+        "word": "ginger",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 64
+      },
+      {
+        "date": "2026-10-27",
+        "turn": 45,
+        "word": "apples",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 27
+      },
+      {
+        "date": "2026-10-28",
+        "turn": 20,
+        "word": "burnt",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 158431
+      },
+      {
+        "date": "2026-10-28",
+        "turn": 30,
+        "word": "kill",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 1427
+      },
+      {
+        "date": "2026-10-28",
+        "turn": 32,
+        "word": "murder",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 4013
+      },
+      {
+        "date": "2026-10-28",
+        "turn": 37,
+        "word": "assault",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 5385
+      },
+      {
+        "date": "2026-10-28",
+        "turn": 59,
+        "word": "fighting",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 6693
+      },
+      {
+        "date": "2026-10-28",
+        "turn": 66,
+        "word": "[invalid output]",
+        "original_feedback": "invalid_output",
+        "in_candidate_vocabulary": false,
+        "exact_token_already_seen": false,
+        "candidate_rank": null
+      },
+      {
+        "date": "2026-10-29",
+        "turn": 66,
+        "word": "seasons",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 60706
+      },
+      {
+        "date": "2026-10-30",
+        "turn": 15,
+        "word": "wetting",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 12537
+      },
+      {
+        "date": "2026-10-30",
+        "turn": 17,
+        "word": "soaking",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 2779
+      },
+      {
+        "date": "2026-10-30",
+        "turn": 35,
+        "word": "dripping",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 7081
+      },
+      {
+        "date": "2026-10-30",
+        "turn": 36,
+        "word": "soaked",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 1458
+      },
+      {
+        "date": "2026-10-30",
+        "turn": 48,
+        "word": "soil",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 831
+      },
+      {
+        "date": "2026-10-31",
+        "turn": 8,
+        "word": "someone",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 2676
+      },
+      {
+        "date": "2026-10-31",
+        "turn": 18,
+        "word": "some",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 674
+      },
+      {
+        "date": "2026-11-01",
+        "turn": 14,
+        "word": "years",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 1563
+      },
+      {
+        "date": "2026-11-01",
+        "turn": 19,
+        "word": "tomorrow",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 9868
+      },
+      {
+        "date": "2026-11-01",
+        "turn": 27,
+        "word": "today",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 3121
+      },
+      {
+        "date": "2026-11-01",
+        "turn": 33,
+        "word": "now",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 2083
+      },
+      {
+        "date": "2026-11-01",
+        "turn": 50,
+        "word": "advance",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 2536
+      },
+      {
+        "date": "2026-11-01",
+        "turn": 60,
+        "word": "developing",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 1396
+      },
+      {
+        "date": "2026-11-02",
+        "turn": 13,
+        "word": "weeks",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 295
+      },
+      {
+        "date": "2026-11-02",
+        "turn": 26,
+        "word": "episodes",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 296
+      },
+      {
+        "date": "2026-11-02",
+        "turn": 47,
+        "word": "playoffs",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 324
+      },
+      {
+        "date": "2026-11-03",
+        "turn": 10,
+        "word": "men",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 7970
+      },
+      {
+        "date": "2026-11-03",
+        "turn": 14,
+        "word": "being",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 5263
+      },
+      {
+        "date": "2026-11-03",
+        "turn": 16,
+        "word": "humans",
+        "original_feedback": "invalid",
+        "in_candidate_vocabulary": true,
+        "exact_token_already_seen": false,
+        "candidate_rank": 140
+      }
+    ],
+    "rejected_words_valid_as_new_candidate_tokens": 34
+  }
+}

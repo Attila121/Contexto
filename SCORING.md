@@ -1,6 +1,6 @@
 # Contexto scoring: evidence and implications
 
-Updated **5 November 2026**, incorporating Claude's investigation and an independent
+Updated **5 November 2026**, incorporating the initial investigation and an independent
 offline check of its saved evidence. The original 4 November note is preserved
 [here](runs/scoring_investigation_20261105/review/SCORING_BEFORE_20261105.md).
 
@@ -78,7 +78,7 @@ exact date or whether embeddings, normalization, similarity, or several componen
 changed. "Only removals since 2024" remains a hypothesis from limited samples,
 not an established global rule.
 
-The newer saved results complete two analyses that were pending in Claude's
+The newer saved results complete two analyses that were pending in the initial
 pasted report. None of these tested configurations reproduces the live ordering:
 
 | Candidate vectors | Mean Kendall tau against 34 live lists |
@@ -120,7 +120,7 @@ and tokens matching `^[a-z]+$`**, producing exactly 317,756 tokens. It reproduce
 
 - All **7/7** reported Figure 2 ranks.
 - All **43/43** saved public-demo ranks for `banana`.
-- All **515/515** ranks in Claude's saved rescoring of our accepted guesses.
+- All **515/515** ranks in the initial investigation's saved rescoring of our accepted guesses.
 
 These checks strongly support this reconstruction. They do not certify every
 undocumented paper implementation detail. The independent calculations and
@@ -163,7 +163,7 @@ counts accepted unique lemmas. The detailed invalid-output accounting is:
 | Malformed/empty model outputs | 2 |
 | **Total unscored outputs** | **37** |
 
-Claude's 34 rejected attempts cover website responses only; the remaining three
+The initial investigation's 34 rejected attempts cover website responses only; the remaining three
 are one local duplicate and two malformed/empty outputs. All 34 website-rejected
 surface forms are new valid tokens under the tested reconstruction. That is a
 vocabulary/acceptance check, not a prediction of a rerun's outcome.
@@ -183,7 +183,7 @@ necessary to reproduce the live Contexto backend itself.
 
 ## Preserved evidence and reproducibility
 
-- [Original Claude report](runs/scoring_investigation_20261105/CLAUDE_REPORT.md).
+- [Original report](runs/scoring_investigation_20261105/ORIGINAL_REPORT.md).
 - [Preservation manifest](runs/scoring_investigation_20261105/PRESERVATION.json):
   175 files, 25,486,563 bytes; copied content verified by SHA-256.
 - [Independent verification](runs/scoring_investigation_20261105/review/VERIFICATION.json).

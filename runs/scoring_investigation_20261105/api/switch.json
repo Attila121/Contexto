@@ -1,0 +1,2738 @@
+[
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164559",
+"word": "forest",
+"dist": 10013,
+"lemma": "forest"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164851",
+"word": "judge",
+"dist": 388,
+"lemma": "judge"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164458",
+"word": "weight",
+"dist": 4035,
+"lemma": "weight"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164649",
+"word": "athlete",
+"dist": 668,
+"lemma": "athlete"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206020214",
+"word": "worker",
+"dist": 125,
+"lemma": "worker"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164752",
+"word": "gymnast",
+"dist": 11282,
+"lemma": "gymnast"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164839",
+"word": "jury",
+"dist": 1612,
+"lemma": "jury"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206165035",
+"word": "doctor",
+"dist": 0,
+"lemma": "doctor"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164723",
+"word": "profession",
+"dist": 114,
+"lemma": "profession"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206020148",
+"word": "person",
+"dist": 45,
+"lemma": "person"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164116",
+"word": "sleepy",
+"dist": 9316,
+"lemma": "sleepy"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164257",
+"word": "excited",
+"dist": 6397,
+"lemma": "excited"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164817",
+"word": "lawyer",
+"dist": 58,
+"lemma": "lawyer"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164420",
+"word": "exercise",
+"dist": 1890,
+"lemma": "exercise"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164634",
+"word": "human",
+"dist": 492,
+"lemma": "human"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230206",
+"ts": "20230206164202",
+"word": "running",
+"dist": 2777,
+"lemma": "running"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102857",
+"word": "seasick",
+"dist": 34156,
+"lemma": "seasick"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102557",
+"word": "plane",
+"dist": 2077,
+"lemma": "plane"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102334",
+"word": "beef",
+"dist": 12472,
+"lemma": "beef"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102650",
+"word": "pilot",
+"dist": 217,
+"lemma": "pilot"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102706",
+"word": "deck",
+"dist": 10132,
+"lemma": "deck"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102616",
+"word": "captain",
+"dist": 175,
+"lemma": "captain"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208103253",
+"word": "syringe",
+"dist": 2683,
+"lemma": "syringe"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208103201",
+"word": "nurse",
+"dist": 4,
+"lemma": "nurse"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102407",
+"word": "car",
+"dist": 1127,
+"lemma": "car"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102722",
+"word": "copilot",
+"dist": 24163,
+"lemma": "copilot"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102907",
+"word": "radar",
+"dist": 18305,
+"lemma": "radar"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102355",
+"word": "sun",
+"dist": 4653,
+"lemma": "sun"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102345",
+"word": "jar",
+"dist": 7177,
+"lemma": "jar"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208103035",
+"word": "student",
+"dist": 166,
+"lemma": "student"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102547",
+"word": "ship",
+"dist": 887,
+"lemma": "ship"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102503",
+"word": "tire",
+"dist": 1429,
+"lemma": "tire"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102943",
+"word": "signal",
+"dist": 5196,
+"lemma": "signal"
+},
+{
+"tag": "straddle",
+"game": 131,
+"date": "20230208",
+"ts": "20230208102744",
+"word": "leader",
+"dist": 543,
+"lemma": "leader"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206150600",
+"word": "tiny",
+"dist": 295,
+"lemma": "tiny"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206150445",
+"word": "dust",
+"dist": 1203,
+"lemma": "dust"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206151442",
+"word": "blade",
+"dist": 10,
+"lemma": "blade"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206151600",
+"word": "laser",
+"dist": 53,
+"lemma": "laser"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206151542",
+"word": "dagger",
+"dist": 19,
+"lemma": "dagger"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206150920",
+"word": "eyelash",
+"dist": 29131,
+"lemma": "eyelash"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206150830",
+"word": "gene",
+"dist": 13289,
+"lemma": "gene"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206145805",
+"word": "diamond",
+"dist": 1519,
+"lemma": "diamond"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206150412",
+"word": "shoe",
+"dist": 1017,
+"lemma": "shoe"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206150754",
+"word": "miniscule",
+"dist": 5482,
+"lemma": "miniscule"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206150806",
+"word": "compound",
+"dist": 10136,
+"lemma": "compound"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206150327",
+"word": "physics",
+"dist": 21263,
+"lemma": "physic"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206150126",
+"word": "town",
+"dist": 33530,
+"lemma": "town"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206151613",
+"word": "machete",
+"dist": 873,
+"lemma": "machete"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206150518",
+"word": "star",
+"dist": 30924,
+"lemma": "star"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230206",
+"ts": "20230206151101",
+"word": "paper",
+"dist": 1415,
+"lemma": "paper"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230208",
+"ts": "20230208062022",
+"word": "thing",
+"dist": 4259,
+"lemma": "thing"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230208",
+"ts": "20230208062047",
+"word": "hammer",
+"dist": 530,
+"lemma": "hammer"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230208",
+"ts": "20230208061905",
+"word": "fire",
+"dist": 10479,
+"lemma": "fire"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230208",
+"ts": "20230208062006",
+"word": "object",
+"dist": 195,
+"lemma": "object"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230208",
+"ts": "20230208061956",
+"word": "place",
+"dist": 1931,
+"lemma": "place"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230227",
+"ts": "20230227213455",
+"word": "time",
+"dist": 1173,
+"lemma": "time"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230227",
+"ts": "20230227213616",
+"word": "sun",
+"dist": 3765,
+"lemma": "sun"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230227",
+"ts": "20230227213420",
+"word": "space",
+"dist": 206,
+"lemma": "space"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230227",
+"ts": "20230227213436",
+"word": "moon",
+"dist": 3381,
+"lemma": "moon"
+},
+{
+"tag": "straddle",
+"game": 135,
+"date": "20230227",
+"ts": "20230227213521",
+"word": "planet",
+"dist": 7042,
+"lemma": "planet"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206121928",
+"word": "food",
+"dist": 23915,
+"lemma": "food"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206123151",
+"word": "acorn",
+"dist": 1798,
+"lemma": "acorn"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122545",
+"word": "hare",
+"dist": 143,
+"lemma": "hare"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122700",
+"word": "woodchucks",
+"dist": 7811,
+"lemma": "woodchucks"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206123338",
+"word": "frog",
+"dist": 0,
+"lemma": "frog"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122225",
+"word": "wood",
+"dist": 3098,
+"lemma": "wood"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122256",
+"word": "timber",
+"dist": 12138,
+"lemma": "timber"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122912",
+"word": "rodent",
+"dist": 6,
+"lemma": "rodent"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122211",
+"word": "jungle",
+"dist": 690,
+"lemma": "jungle"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122031",
+"word": "forest",
+"dist": 590,
+"lemma": "forest"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122003",
+"word": "sight",
+"dist": 9593,
+"lemma": "sight"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122318",
+"word": "wilderness",
+"dist": 11344,
+"lemma": "wilderness"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122533",
+"word": "racoon",
+"dist": 36147,
+"lemma": "racoon"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206123131",
+"word": "burrow",
+"dist": 37,
+"lemma": "burrow"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122354",
+"word": "rat",
+"dist": 9,
+"lemma": "rat"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206121941",
+"word": "plant",
+"dist": 1210,
+"lemma": "plant"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122723",
+"word": "chipmunks",
+"dist": 269,
+"lemma": "chipmunk"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230206",
+"ts": "20230206122615",
+"word": "marten",
+"dist": 8060,
+"lemma": "marten"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212215513",
+"word": "butterfly",
+"dist": 8,
+"lemma": "butterfly"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212220142",
+"word": "dragonfly",
+"dist": 37,
+"lemma": "dragonfly"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212220040",
+"word": "shake",
+"dist": 3888,
+"lemma": "shake"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212220303",
+"word": "bee",
+"dist": 53,
+"lemma": "bee"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212215252",
+"word": "tree",
+"dist": 63,
+"lemma": "tree"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212215801",
+"word": "red",
+"dist": 182,
+"lemma": "red"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212215919",
+"word": "cockroach",
+"dist": 84,
+"lemma": "cockroach"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212215102",
+"word": "lion",
+"dist": 73,
+"lemma": "lion"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212220358",
+"word": "gay",
+"dist": 4630,
+"lemma": "gay"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212215533",
+"word": "wasp",
+"dist": 266,
+"lemma": "wasp"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212220800",
+"word": "worm",
+"dist": 31,
+"lemma": "worm"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212215134",
+"word": "giraffe",
+"dist": 99,
+"lemma": "giraffe"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212215202",
+"word": "withe",
+"dist": 17569,
+"lemma": "withe"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212215653",
+"word": "hummingbird",
+"dist": 159,
+"lemma": "hummingbird"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212215448",
+"word": "insect",
+"dist": 15,
+"lemma": "insect"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212220541",
+"word": "cobra",
+"dist": 1855,
+"lemma": "cobra"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212215627",
+"word": "fly",
+"dist": 30,
+"lemma": "fly"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230212",
+"ts": "20230212220617",
+"word": "anaconda",
+"dist": 2302,
+"lemma": "anaconda"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230227",
+"ts": "20230227130204",
+"word": "amphibian",
+"dist": 3,
+"lemma": "amphibian"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230227",
+"ts": "20230227125419",
+"word": "seafood",
+"dist": 3955,
+"lemma": "seafood"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230227",
+"ts": "20230227123436",
+"word": "ship",
+"dist": 5301,
+"lemma": "ship"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230227",
+"ts": "20230227122439",
+"word": "fish",
+"dist": 5,
+"lemma": "fish"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230227",
+"ts": "20230227130229",
+"word": "oyster",
+"dist": 1072,
+"lemma": "oyster"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230227",
+"ts": "20230227122905",
+"word": "octopus",
+"dist": 24,
+"lemma": "octopus"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230227",
+"ts": "20230227122741",
+"word": "clam",
+"dist": 1151,
+"lemma": "clam"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230227",
+"ts": "20230227121414",
+"word": "job",
+"dist": 7834,
+"lemma": "job"
+},
+{
+"tag": "straddle",
+"game": 136,
+"date": "20230227",
+"ts": "20230227125137",
+"word": "mussel",
+"dist": 774,
+"lemma": "mussel"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230206",
+"ts": "20230206200511",
+"word": "scales",
+"dist": 30001,
+"lemma": "scale"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230206",
+"ts": "20230206195751",
+"word": "cayman",
+"dist": 38534,
+"lemma": "cayman"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230206",
+"ts": "20230206192109",
+"word": "fly",
+"dist": 35880,
+"lemma": "fly"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230206",
+"ts": "20230206190608",
+"word": "tree",
+"dist": 12139,
+"lemma": "tree"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230206",
+"ts": "20230206191456",
+"word": "wine",
+"dist": 31867,
+"lemma": "wine"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230206",
+"ts": "20230206201517",
+"word": "crocs",
+"dist": 3053,
+"lemma": "crocs"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230206",
+"ts": "20230206195157",
+"word": "snap",
+"dist": 17038,
+"lemma": "snap"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230206",
+"ts": "20230206202513",
+"word": "zebra",
+"dist": 0,
+"lemma": "zebra"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230206",
+"ts": "20230206195339",
+"word": "flesh",
+"dist": 17246,
+"lemma": "flesh"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230206",
+"ts": "20230206194941",
+"word": "forked",
+"dist": 1539,
+"lemma": "fork"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230206",
+"ts": "20230206194759",
+"word": "bite",
+"dist": 6384,
+"lemma": "bite"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230206",
+"ts": "20230206200640",
+"word": "sand",
+"dist": 8158,
+"lemma": "sand"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100703",
+"word": "meerkat",
+"dist": 2028,
+"lemma": "meerkat"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100249",
+"word": "business",
+"dist": 77400,
+"lemma": "business"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100452",
+"word": "paw",
+"dist": 214,
+"lemma": "paw"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100312",
+"word": "planet",
+"dist": 14125,
+"lemma": "planet"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100301",
+"word": "cook",
+"dist": 15894,
+"lemma": "cook"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100422",
+"word": "bobcat",
+"dist": 229,
+"lemma": "bobcat"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100502",
+"word": "whiskers",
+"dist": 315,
+"lemma": "whisker"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100536",
+"word": "meow",
+"dist": 1810,
+"lemma": "meow"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100344",
+"word": "cat",
+"dist": 87,
+"lemma": "cat"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100406",
+"word": "dog",
+"dist": 2066,
+"lemma": "dog"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100518",
+"word": "litter",
+"dist": 1409,
+"lemma": "litter"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100231",
+"word": "game",
+"dist": 42074,
+"lemma": "game"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230208",
+"ts": "20230208100326",
+"word": "mouse",
+"dist": 541,
+"lemma": "mouse"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212210922",
+"word": "pink",
+"dist": 37,
+"lemma": "pink"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212210324",
+"word": "job",
+"dist": 16397,
+"lemma": "job"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212212121",
+"word": "three",
+"dist": 1576,
+"lemma": "three"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212210444",
+"word": "sky",
+"dist": 2791,
+"lemma": "sky"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212210342",
+"word": "color",
+"dist": 155,
+"lemma": "color"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212213429",
+"word": "animal",
+"dist": 19,
+"lemma": "animal"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212212521",
+"word": "brown",
+"dist": 320,
+"lemma": "brown"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212212609",
+"word": "fruit",
+"dist": 3293,
+"lemma": "fruit"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212213416",
+"word": "usa",
+"dist": 17012,
+"lemma": "usa"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212210544",
+"word": "draw",
+"dist": 814,
+"lemma": "draw"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212212916",
+"word": "music",
+"dist": 3700,
+"lemma": "music"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212213556",
+"word": "zoo",
+"dist": 57,
+"lemma": "zoo"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212212803",
+"word": "garden",
+"dist": 2225,
+"lemma": "garden"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212212336",
+"word": "brown",
+"dist": 320,
+"lemma": "brown"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212213254",
+"word": "work",
+"dist": 5059,
+"lemma": "work"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212210649",
+"word": "rainbow",
+"dist": 88,
+"lemma": "rainbow"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212214959",
+"word": "giraffe",
+"dist": 1,
+"lemma": "giraffe"
+},
+{
+"tag": "straddle",
+"game": 139,
+"date": "20230212",
+"ts": "20230212211802",
+"word": "ant",
+"dist": 160,
+"lemma": "ant"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208205037",
+"word": "perform",
+"dist": 1348,
+"lemma": "perform"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208094630",
+"word": "mario",
+"dist": 3254,
+"lemma": "mario"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208211604",
+"word": "monster",
+"dist": 1040,
+"lemma": "monster"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208095032",
+"word": "peer",
+"dist": 2857,
+"lemma": "peer"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208220414",
+"word": "life",
+"dist": 302,
+"lemma": "life"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208213945",
+"word": "captivate",
+"dist": 3126,
+"lemma": "captivate"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208202211",
+"word": "child",
+"dist": 544,
+"lemma": "child"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208214359",
+"word": "internet",
+"dist": 1216,
+"lemma": "internet"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208215835",
+"word": "kindness",
+"dist": 9418,
+"lemma": "kindness"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208094911",
+"word": "boss",
+"dist": 626,
+"lemma": "boss"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208205637",
+"word": "create",
+"dist": 825,
+"lemma": "create"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208215442",
+"word": "hungry",
+"dist": 1066,
+"lemma": "hungry"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208212003",
+"word": "young",
+"dist": 329,
+"lemma": "young"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208205724",
+"word": "solve",
+"dist": 5498,
+"lemma": "solve"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208214649",
+"word": "hug",
+"dist": 2910,
+"lemma": "hug"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208203923",
+"word": "scene",
+"dist": 198,
+"lemma": "scene"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208214349",
+"word": "puzzle",
+"dist": 3767,
+"lemma": "puzzle"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208205542",
+"word": "question",
+"dist": 1111,
+"lemma": "question"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208214339",
+"word": "meta",
+"dist": 11591,
+"lemma": "meta"
+},
+{
+"tag": "straddle",
+"game": 142,
+"date": "20230208",
+"ts": "20230208220215",
+"word": "mirth",
+"dist": 21944,
+"lemma": "mirth"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210112051",
+"word": "sense",
+"dist": 30,
+"lemma": "sense"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210112634",
+"word": "hearing",
+"dist": 4138,
+"lemma": "hearing"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210113343",
+"word": "see",
+"dist": 423,
+"lemma": "see"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210112042",
+"word": "brain",
+"dist": 1159,
+"lemma": "brain"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210113430",
+"word": "nature",
+"dist": 0,
+"lemma": "nature"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210113129",
+"word": "play",
+"dist": 1391,
+"lemma": "play"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210105951",
+"word": "touch",
+"dist": 617,
+"lemma": "touch"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210112200",
+"word": "neuron",
+"dist": 10067,
+"lemma": "neuron"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210105925",
+"word": "smile",
+"dist": 1662,
+"lemma": "smile"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210112148",
+"word": "nerves",
+"dist": 12595,
+"lemma": "nerve"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210105940",
+"word": "pain",
+"dist": 1465,
+"lemma": "pain"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210113414",
+"word": "mind",
+"dist": 14,
+"lemma": "mind"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210105912",
+"word": "happiness",
+"dist": 370,
+"lemma": "happiness"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210113156",
+"word": "fun",
+"dist": 835,
+"lemma": "fun"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210112648",
+"word": "smell",
+"dist": 1656,
+"lemma": "smell"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210112124",
+"word": "eyesight",
+"dist": 11557,
+"lemma": "eyesight"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210105849",
+"word": "feeling",
+"dist": 273,
+"lemma": "feeling"
+},
+{
+"tag": "straddle",
+"game": 143,
+"date": "20230210",
+"ts": "20230210113143",
+"word": "kid",
+"dist": 743,
+"lemma": "kid"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214215543",
+"word": "catch",
+"dist": 320,
+"lemma": "catch"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214220642",
+"word": "diamond",
+"dist": 627,
+"lemma": "diamond"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214212753",
+"word": "lunch",
+"dist": 2349,
+"lemma": "lunch"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214220217",
+"word": "sport",
+"dist": 324,
+"lemma": "sport"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214213627",
+"word": "coat",
+"dist": 677,
+"lemma": "coat"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214213220",
+"word": "toad",
+"dist": 6501,
+"lemma": "toad"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214220337",
+"word": "television",
+"dist": 2621,
+"lemma": "television"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214215853",
+"word": "home",
+"dist": 95,
+"lemma": "home"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214213947",
+"word": "football",
+"dist": 112,
+"lemma": "football"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214212508",
+"word": "jug",
+"dist": 2817,
+"lemma": "jug"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214214551",
+"word": "cricket",
+"dist": 819,
+"lemma": "cricket"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214213713",
+"word": "feather",
+"dist": 1408,
+"lemma": "feather"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214220457",
+"word": "seat",
+"dist": 2219,
+"lemma": "seat"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214212352",
+"word": "boat",
+"dist": 1812,
+"lemma": "boat"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214212658",
+"word": "drink",
+"dist": 946,
+"lemma": "drink"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214213732",
+"word": "baseball",
+"dist": 28,
+"lemma": "baseball"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214213457",
+"word": "sand",
+"dist": 728,
+"lemma": "sand"
+},
+{
+"tag": "straddle",
+"game": 148,
+"date": "20230214",
+"ts": "20230214221049",
+"word": "team",
+"dist": 50,
+"lemma": "team"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206215840",
+"word": "ornithologist",
+"dist": 44752,
+"lemma": "ornithologist"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206220210",
+"word": "creature",
+"dist": 6535,
+"lemma": "creature"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206155001",
+"word": "god",
+"dist": 18495,
+"lemma": "god"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206220924",
+"word": "diner",
+"dist": 19,
+"lemma": "diner"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206220154",
+"word": "sentence",
+"dist": 9365,
+"lemma": "sentence"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206220635",
+"word": "pancake",
+"dist": 181,
+"lemma": "pancake"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206155037",
+"word": "rock",
+"dist": 7246,
+"lemma": "rock"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206220834",
+"word": "mix",
+"dist": 419,
+"lemma": "mix"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206215907",
+"word": "amphibian",
+"dist": 22182,
+"lemma": "amphibian"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206220708",
+"word": "bacon",
+"dist": 559,
+"lemma": "bacon"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206220823",
+"word": "latte",
+"dist": 1182,
+"lemma": "latte"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206220537",
+"word": "oven",
+"dist": 844,
+"lemma": "oven"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206224946",
+"word": "goose",
+"dist": 4774,
+"lemma": "goose"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206220404",
+"word": "tablespoon",
+"dist": 3140,
+"lemma": "tablespoon"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206220314",
+"word": "chef",
+"dist": 22,
+"lemma": "chef"
+},
+{
+"tag": "straddle",
+"game": 107,
+"date": "20230206",
+"ts": "20230206220115",
+"word": "sitcom",
+"dist": 9085,
+"lemma": "sitcom"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206224202",
+"word": "mint",
+"dist": 10110,
+"lemma": "mint"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206223659",
+"word": "luxury",
+"dist": 903,
+"lemma": "luxury"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206221822",
+"word": "glue",
+"dist": 14437,
+"lemma": "glue"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206221804",
+"word": "bag",
+"dist": 3307,
+"lemma": "bag"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206223849",
+"word": "donate",
+"dist": 1204,
+"lemma": "donate"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206221858",
+"word": "milk",
+"dist": 3817,
+"lemma": "milk"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206224255",
+"word": "frog",
+"dist": 16956,
+"lemma": "frog"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206222638",
+"word": "saving",
+"dist": 10,
+"lemma": "saving"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206222122",
+"word": "fragile",
+"dist": 10001,
+"lemma": "fragile"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206221027",
+"word": "banana",
+"dist": 5516,
+"lemma": "banana"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206221502",
+"word": "firefighter",
+"dist": 11051,
+"lemma": "firefighter"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206221356",
+"word": "store",
+"dist": 1696,
+"lemma": "store"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206222809",
+"word": "penny",
+"dist": 1867,
+"lemma": "penny"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206222720",
+"word": "stock",
+"dist": 318,
+"lemma": "stock"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206223305",
+"word": "dollar",
+"dist": 62,
+"lemma": "dollar"
+},
+{
+"tag": "straddle",
+"game": 120,
+"date": "20230206",
+"ts": "20230206222310",
+"word": "farm",
+"dist": 322,
+"lemma": "farm"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219013648",
+"word": "teach",
+"dist": 1082,
+"lemma": "teach"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219012804",
+"word": "send",
+"dist": 22808,
+"lemma": "send"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219023004",
+"word": "enclosure",
+"dist": 23027,
+"lemma": "enclosure"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219013329",
+"word": "monkey",
+"dist": 4296,
+"lemma": "monkey"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219200703",
+"word": "fire",
+"dist": 9107,
+"lemma": "fire"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219200818",
+"word": "smoke",
+"dist": 20077,
+"lemma": "smoke"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219200621",
+"word": "cook",
+"dist": 5449,
+"lemma": "cook"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219012629",
+"word": "net",
+"dist": 17448,
+"lemma": "net"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219200548",
+"word": "work",
+"dist": 1247,
+"lemma": "work"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219013220",
+"word": "snow",
+"dist": 25500,
+"lemma": "snow"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219012834",
+"word": "grab",
+"dist": 1996,
+"lemma": "grab"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219200522",
+"word": "shell",
+"dist": 28784,
+"lemma": "shell"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219012931",
+"word": "insect",
+"dist": 7234,
+"lemma": "insect"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219012804",
+"word": "hunt",
+"dist": 7634,
+"lemma": "hunt"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219012703",
+"word": "throw",
+"dist": 4708,
+"lemma": "throw"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219012426",
+"word": "rope",
+"dist": 10078,
+"lemma": "rope"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219012902",
+"word": "dog",
+"dist": 8068,
+"lemma": "dog"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219200751",
+"word": "store",
+"dist": 6215,
+"lemma": "store"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219013211",
+"word": "grass",
+"dist": 9194,
+"lemma": "grass"
+},
+{
+"tag": "straddle",
+"game": 70,
+"date": "20221219",
+"ts": "20221219012235",
+"word": "season",
+"dist": 10974,
+"lemma": "season"
+},
+{
+"tag": "late_oldid",
+"game": 123,
+"date": "20230302",
+"ts": "20230302201629",
+"word": "milk",
+"dist": 29,
+"lemma": "milk"
+},
+{
+"tag": "late_oldid",
+"game": 123,
+"date": "20230302",
+"ts": "20230302201458",
+"word": "cow",
+"dist": 246,
+"lemma": "cow"
+},
+{
+"tag": "late_oldid",
+"game": 123,
+"date": "20230302",
+"ts": "20230302201448",
+"word": "car",
+"dist": 6536,
+"lemma": "car"
+},
+{
+"tag": "late_oldid",
+"game": 123,
+"date": "20230302",
+"ts": "20230302201605",
+"word": "animal",
+"dist": 1835,
+"lemma": "animal"
+},
+{
+"tag": "late_oldid",
+"game": 123,
+"date": "20230302",
+"ts": "20230302201656",
+"word": "cheese",
+"dist": 0,
+"lemma": "cheese"
+},
+{
+"tag": "late_oldid",
+"game": 123,
+"date": "20230302",
+"ts": "20230302201531",
+"word": "barn",
+"dist": 1398,
+"lemma": "barn"
+},
+{
+"tag": "late_oldid",
+"game": 91,
+"date": "20230302",
+"ts": "20230302202627",
+"word": "collaboration",
+"dist": 653,
+"lemma": "collaboration"
+},
+{
+"tag": "late_oldid",
+"game": 91,
+"date": "20230302",
+"ts": "20230302201856",
+"word": "cow",
+"dist": 8931,
+"lemma": "cow"
+},
+{
+"tag": "late_oldid",
+"game": 91,
+"date": "20230302",
+"ts": "20230302202719",
+"word": "hunt",
+"dist": 2926,
+"lemma": "hunt"
+},
+{
+"tag": "late_oldid",
+"game": 91,
+"date": "20230302",
+"ts": "20230302202317",
+"word": "group",
+"dist": 201,
+"lemma": "group"
+},
+{
+"tag": "late_oldid",
+"game": 91,
+"date": "20230302",
+"ts": "20230302202437",
+"word": "work",
+"dist": 55,
+"lemma": "work"
+},
+{
+"tag": "late_oldid",
+"game": 91,
+"date": "20230302",
+"ts": "20230302203014",
+"word": "farm",
+"dist": 2728,
+"lemma": "farm"
+},
+{
+"tag": "late_oldid",
+"game": 91,
+"date": "20230302",
+"ts": "20230302202006",
+"word": "pet",
+"dist": 4141,
+"lemma": "pet"
+},
+{
+"tag": "late_oldid",
+"game": 91,
+"date": "20230302",
+"ts": "20230302202219",
+"word": "human",
+"dist": 908,
+"lemma": "human"
+},
+{
+"tag": "late_oldid",
+"game": 91,
+"date": "20230302",
+"ts": "20230302202832",
+"word": "company",
+"dist": 1103,
+"lemma": "company"
+},
+{
+"tag": "late_oldid",
+"game": 91,
+"date": "20230302",
+"ts": "20230302201916",
+"word": "animal",
+"dist": 2696,
+"lemma": "animal"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507052451",
+"word": "building",
+"dist": 1887,
+"lemma": "building"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507054114",
+"word": "muffin",
+"dist": 2802,
+"lemma": "muffin"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507053206",
+"word": "sky",
+"dist": 2317,
+"lemma": "sky"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507052326",
+"word": "color",
+"dist": 470,
+"lemma": "color"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507052437",
+"word": "store",
+"dist": 343,
+"lemma": "store"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507053127",
+"word": "day",
+"dist": 699,
+"lemma": "day"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507053420",
+"word": "bar",
+"dist": 11,
+"lemma": "bar"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507052943",
+"word": "destination",
+"dist": 612,
+"lemma": "destination"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507053048",
+"word": "backdrop",
+"dist": 2267,
+"lemma": "backdrop"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507053229",
+"word": "plot",
+"dist": 3037,
+"lemma": "plot"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507052347",
+"word": "place",
+"dist": 236,
+"lemma": "place"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507052808",
+"word": "setting",
+"dist": 24,
+"lemma": "setting"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507052749",
+"word": "movie",
+"dist": 1721,
+"lemma": "movie"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230507",
+"ts": "20230507054043",
+"word": "cookie",
+"dist": 239,
+"lemma": "cookie"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230508",
+"ts": "20230508084154",
+"word": "read",
+"dist": 948,
+"lemma": "read"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230508",
+"ts": "20230508084317",
+"word": "massage",
+"dist": 3180,
+"lemma": "massage"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230508",
+"ts": "20230508084225",
+"word": "bag",
+"dist": 3483,
+"lemma": "bag"
+},
+{
+"tag": "late_oldid",
+"game": 107,
+"date": "20230508",
+"ts": "20230508084106",
+"word": "hair",
+"dist": 5792,
+"lemma": "hair"
+},
+{
+"tag": "late_oldid",
+"game": 120,
+"date": "20230507",
+"ts": "20230507054926",
+"word": "color",
+"dist": 6552,
+"lemma": "color"
+},
+{
+"tag": "late_oldid",
+"game": 120,
+"date": "20230507",
+"ts": "20230507054246",
+"word": "place",
+"dist": 770,
+"lemma": "place"
+},
+{
+"tag": "late_oldid",
+"game": 120,
+"date": "20230507",
+"ts": "20230507054325",
+"word": "natural",
+"dist": 2736,
+"lemma": "natural"
+},
+{
+"tag": "late_oldid",
+"game": 120,
+"date": "20230507",
+"ts": "20230507054450",
+"word": "tower",
+"dist": 8675,
+"lemma": "tower"
+},
+{
+"tag": "late_oldid",
+"game": 120,
+"date": "20230507",
+"ts": "20230507054528",
+"word": "food",
+"dist": 848,
+"lemma": "food"
+},
+{
+"tag": "late_oldid",
+"game": 120,
+"date": "20230507",
+"ts": "20230507054402",
+"word": "city",
+"dist": 527,
+"lemma": "city"
+},
+{
+"tag": "late_oldid",
+"game": 120,
+"date": "20230507",
+"ts": "20230507054649",
+"word": "street",
+"dist": 4171,
+"lemma": "street"
+},
+{
+"tag": "late_oldid",
+"game": 120,
+"date": "20230507",
+"ts": "20230507054219",
+"word": "stick",
+"dist": 4874,
+"lemma": "stick"
+},
+{
+"tag": "late_oldid",
+"game": 120,
+"date": "20230507",
+"ts": "20230507054300",
+"word": "thing",
+"dist": 1242,
+"lemma": "thing"
+},
+{
+"tag": "late_oldid",
+"game": 83,
+"date": "20230619",
+"ts": "20230619020232",
+"word": "fish",
+"dist": 36,
+"lemma": "fish"
+},
+{
+"tag": "late_oldid",
+"game": 83,
+"date": "20230619",
+"ts": "20230619020200",
+"word": "food",
+"dist": 41,
+"lemma": "food"
+},
+{
+"tag": "late_oldid",
+"game": 83,
+"date": "20230619",
+"ts": "20230619020215",
+"word": "animal",
+"dist": 48,
+"lemma": "animal"
+},
+{
+"tag": "late_oldid",
+"game": 83,
+"date": "20230619",
+"ts": "20230619020150",
+"word": "meat",
+"dist": 5,
+"lemma": "meat"
+},
+{
+"tag": "late_oldid",
+"game": 83,
+"date": "20230619",
+"ts": "20230619030320",
+"word": "blood",
+"dist": 1474,
+"lemma": "blood"
+}
+]

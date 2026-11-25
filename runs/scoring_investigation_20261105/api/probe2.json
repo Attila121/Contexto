@@ -1,0 +1,882 @@
+{
+"case_space|PEAR": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"case_space|Pear": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"case_space| pear": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"case_space|pear ": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"case_space|pe ar": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"case_space|pear.": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"case_space|pear-": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"case_space|pear1": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"inflection|running": [
+200,
+{
+"distance": 5453,
+"lemma": "running",
+"word": "running"
+}
+],
+"inflection|ran": [
+200,
+{
+"distance": 3919,
+"lemma": "run",
+"word": "ran"
+}
+],
+"inflection|runs": [
+200,
+{
+"distance": 3919,
+"lemma": "run",
+"word": "runs"
+}
+],
+"inflection|runner": [
+200,
+{
+"distance": 14544,
+"lemma": "runner",
+"word": "runner"
+}
+],
+"inflection|better": [
+200,
+{
+"distance": 2089,
+"lemma": "better",
+"word": "better"
+}
+],
+"inflection|best": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"inflection|good": [
+200,
+{
+"distance": 1228,
+"lemma": "good",
+"word": "good"
+}
+],
+"inflection|well": [
+200,
+{
+"distance": 1279,
+"lemma": "well",
+"word": "well"
+}
+],
+"inflection|mice": [
+200,
+{
+"distance": 9622,
+"lemma": "mouse",
+"word": "mice"
+}
+],
+"inflection|mouse": [
+200,
+{
+"distance": 9622,
+"lemma": "mouse",
+"word": "mouse"
+}
+],
+"inflection|geese": [
+200,
+{
+"distance": 906,
+"lemma": "goose",
+"word": "geese"
+}
+],
+"inflection|goose": [
+200,
+{
+"distance": 906,
+"lemma": "goose",
+"word": "goose"
+}
+],
+"inflection|went": [
+200,
+{
+"distance": 2190,
+"lemma": "go",
+"word": "went"
+}
+],
+"inflection|go": [
+200,
+{
+"distance": 2190,
+"lemma": "go",
+"word": "go"
+}
+],
+"inflection|going": [
+200,
+{
+"distance": 2190,
+"lemma": "go",
+"word": "going"
+}
+],
+"inflection|was": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"inflection|been": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"inflection|children": [
+200,
+{
+"distance": 5025,
+"lemma": "child",
+"word": "children"
+}
+],
+"inflection|child": [
+200,
+{
+"distance": 5025,
+"lemma": "child",
+"word": "child"
+}
+],
+"inflection|leaves": [
+200,
+{
+"distance": 259,
+"lemma": "leaf",
+"word": "leaves"
+}
+],
+"inflection|leaf": [
+200,
+{
+"distance": 259,
+"lemma": "leaf",
+"word": "leaf"
+}
+],
+"inflection|leave": [
+200,
+{
+"distance": 2869,
+"lemma": "leave",
+"word": "leave"
+}
+],
+"inflection|saw": [
+200,
+{
+"distance": 676,
+"lemma": "saw",
+"word": "saw"
+}
+],
+"inflection|see": [
+200,
+{
+"distance": 2361,
+"lemma": "see",
+"word": "see"
+}
+],
+"inflection|seen": [
+200,
+{
+"distance": 2361,
+"lemma": "see",
+"word": "seen"
+}
+],
+"inflection|glasses": [
+200,
+{
+"distance": 578,
+"lemma": "glass",
+"word": "glasses"
+}
+],
+"inflection|glass": [
+200,
+{
+"distance": 578,
+"lemma": "glass",
+"word": "glass"
+}
+],
+"inflection|data": [
+200,
+{
+"distance": 11019,
+"lemma": "data",
+"word": "data"
+}
+],
+"inflection|datum": [
+200,
+{
+"distance": 66567,
+"lemma": "datum",
+"word": "datum"
+}
+],
+"inflection|news": [
+200,
+{
+"distance": 7667,
+"lemma": "news",
+"word": "news"
+}
+],
+"inflection|bigger": [
+200,
+{
+"distance": 1557,
+"lemma": "big",
+"word": "bigger"
+}
+],
+"inflection|big": [
+200,
+{
+"distance": 1557,
+"lemma": "big",
+"word": "big"
+}
+],
+"inflection|happily": [
+200,
+{
+"distance": 3775,
+"lemma": "happily",
+"word": "happily"
+}
+],
+"inflection|happy": [
+200,
+{
+"distance": 2462,
+"lemma": "happy",
+"word": "happy"
+}
+],
+"inflection|happiness": [
+200,
+{
+"distance": 7303,
+"lemma": "happiness",
+"word": "happiness"
+}
+],
+"inflection|pears": [
+200,
+{
+"distance": 0,
+"lemma": "pear",
+"word": "pears"
+}
+],
+"inflection|peaches": [
+200,
+{
+"distance": 2,
+"lemma": "peach",
+"word": "peaches"
+}
+],
+"inflection|apples": [
+200,
+{
+"distance": 1,
+"lemma": "apple",
+"word": "apples"
+}
+],
+"inflection|candied": [
+200,
+{
+"distance": 22,
+"lemma": "candied",
+"word": "candied"
+}
+],
+"inflection|candy": [
+200,
+{
+"distance": 358,
+"lemma": "candy",
+"word": "candy"
+}
+],
+"stop_common|the": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|of": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|and": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|a": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|an": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|to": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|in": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|is": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|it": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|you": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|that": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|he": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|she": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|they": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|we": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|i": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|this": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|there": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|some": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|very": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|not": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|with": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|for": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|on": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"stop_common|at": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"proper_entities|london": [
+200,
+{
+"distance": 2928,
+"lemma": "london",
+"word": "london"
+}
+],
+"proper_entities|paris": [
+200,
+{
+"distance": 6246,
+"lemma": "paris",
+"word": "paris"
+}
+],
+"proper_entities|obama": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"proper_entities|google": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"proper_entities|microsoft": [
+200,
+{
+"distance": 7132,
+"lemma": "microsoft",
+"word": "microsoft"
+}
+],
+"proper_entities|brazil": [
+200,
+{
+"distance": 3753,
+"lemma": "brazil",
+"word": "brazil"
+}
+],
+"proper_entities|john": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"proper_entities|mary": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"proper_entities|einstein": [
+200,
+{
+"distance": 16043,
+"lemma": "einstein",
+"word": "einstein"
+}
+],
+"proper_entities|tokyo": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|asdfqwer": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|qwertyuiop": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|zzzz": [
+200,
+{
+"distance": 56389,
+"lemma": "zzzz",
+"word": "zzzz"
+}
+],
+"nonword_foreign|café": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|cafe": [
+200,
+{
+"distance": 2685,
+"lemma": "cafe",
+"word": "cafe"
+}
+],
+"nonword_foreign|naïve": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|naive": [
+200,
+{
+"distance": 18634,
+"lemma": "naive",
+"word": "naive"
+}
+],
+"nonword_foreign|país": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|fruta": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|manzana": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|2022": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|1999": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|covid": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|chatgpt": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|iphone": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|bitcoin": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|selfie": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|wifi": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|email": [
+200,
+{
+"distance": 5477,
+"lemma": "email",
+"word": "email"
+}
+],
+"nonword_foreign|e-mail": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"nonword_foreign|t-shirt": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"synonym_pairs|tv": [
+200,
+{
+"distance": 9581,
+"lemma": "tv",
+"word": "tv"
+}
+],
+"synonym_pairs|television": [
+200,
+{
+"distance": 16816,
+"lemma": "television",
+"word": "television"
+}
+],
+"synonym_pairs|car": [
+200,
+{
+"distance": 9935,
+"lemma": "car",
+"word": "car"
+}
+],
+"synonym_pairs|automobile": [
+200,
+{
+"distance": 17173,
+"lemma": "automobile",
+"word": "automobile"
+}
+],
+"synonym_pairs|doctor": [
+200,
+{
+"distance": 17616,
+"lemma": "doctor",
+"word": "doctor"
+}
+],
+"synonym_pairs|physician": [
+200,
+{
+"distance": 36559,
+"lemma": "physician",
+"word": "physician"
+}
+],
+"synonym_pairs|usa": [
+200,
+{
+"distance": 7586,
+"lemma": "usa",
+"word": "usa"
+}
+],
+"synonym_pairs|america": [
+200,
+{
+"distance": 12153,
+"lemma": "america",
+"word": "america"
+}
+],
+"rare|aardwolf": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"rare|zymurgy": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"rare|quixotic": [
+200,
+{
+"distance": 46437,
+"lemma": "quixotic",
+"word": "quixotic"
+}
+],
+"rare|defenestrate": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"rare|sesquipedalian": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"rare|floccinaucinihilipilification": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"rare|antidisestablishmentarianism": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"rare|xylophone": [
+200,
+{
+"distance": 10991,
+"lemma": "xylophone",
+"word": "xylophone"
+}
+],
+"rare|abaci": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"rare|obsequious": [
+200,
+{
+"distance": 57788,
+"lemma": "obsequious",
+"word": "obsequious"
+}
+],
+"rare|perspicacious": [
+200,
+{
+"distance": 61036,
+"lemma": "perspicacious",
+"word": "perspicacious"
+}
+],
+"rare|grandiloquent": [
+200,
+{
+"distance": 55784,
+"lemma": "grandiloquent",
+"word": "grandiloquent"
+}
+],
+"rare|nudiustertian": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"rare|borborygmus": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+"rare|ultracrepidarian": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+]
+}

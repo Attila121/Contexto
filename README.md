@@ -52,8 +52,10 @@ Enter each suggested word on Contexto, then type its positive integer rank,
 `runs/` is not in Git (about 1.6 GB). Summary files of the two audited studies
 are tracked in [results/instruction_study](results/instruction_study/) and
 [results/hint_study](results/hint_study/) (results, per-target scores, guess
-trajectories, strategy reports, audits). The `runs/...` links below work only
-with the full raw logs, which are shared separately as a zip
+trajectories, strategy reports, audits). The scoring evidence
+(`runs/scoring_*`) is tracked too, except third-party copies. The literature
+review and analysis plan are in [docs/research](docs/research/). Other
+`runs/...` links below work only with the full raw logs, which are shared separately as a zip
 (`Contexto_raw_runs.zip`,
 [Google Drive folder](https://drive.google.com/drive/folders/1wfoKKR-jA8gTIdhg64-O-iU1vi7iQb06?usp=sharing));
 unzip it into the project folder.

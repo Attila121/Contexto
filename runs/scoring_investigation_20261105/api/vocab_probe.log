@@ -1,0 +1,19 @@
+filtered 317756
+bin 0 1000
+bin 1000 5000
+bin 5000 10000
+bin 10000 20000
+bin 20000 40000
+bin 40000 80000
+bin 80000 160000
+bin 160000 317756
+far [('advisability', 78347), ('vang', 78049), ('chor', 76543), ('integrationist', 76067), ('responsbility', 74515), ('salesroom', 74328), ('neuropsychiatry', 74001), ('kerby', 72821), ('ercole', 72536), ('buckminster', 71432)]
+multi 0 78901
+multi 500 78872
+multi 1000 76443
+multi 1250 72852
+multi 1505 75195
+tip cap max ok distance 999
+consistency True [True, True, True, True, True, True, True, True, True, True, None, None]
+top unique True
+DONE

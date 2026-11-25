@@ -1,0 +1,986 @@
+{
+"classes": {
+"kill": [
+404,
+{
+"error": "This word doesn't count"
+}
+],
+"murder": [
+404,
+{
+"error": "This word doesn't count"
+}
+],
+"assault": [
+404,
+{
+"error": "This word doesn't count"
+}
+],
+"tart": [
+404,
+{
+"error": "This word doesn't count"
+}
+],
+"ginger": [
+404,
+{
+"error": "This word doesn't count"
+}
+],
+"gun": [
+200,
+{
+"distance": 24522,
+"lemma": "gun",
+"word": "gun"
+}
+],
+"war": [
+200,
+{
+"distance": 28100,
+"lemma": "war",
+"word": "war"
+}
+],
+"death": [
+200,
+{
+"distance": 7250,
+"lemma": "death",
+"word": "death"
+}
+],
+"die": [
+200,
+{
+"distance": 5113,
+"lemma": "die",
+"word": "die"
+}
+],
+"bomb": [
+200,
+{
+"distance": 5280,
+"lemma": "bomb",
+"word": "bomb"
+}
+],
+"weapon": [
+200,
+{
+"distance": 35869,
+"lemma": "weapon",
+"word": "weapon"
+}
+],
+"blood": [
+200,
+{
+"distance": 3721,
+"lemma": "blood",
+"word": "blood"
+}
+],
+"violence": [
+200,
+{
+"distance": 28770,
+"lemma": "violence",
+"word": "violence"
+}
+],
+"attack": [
+200,
+{
+"distance": 9068,
+"lemma": "attack",
+"word": "attack"
+}
+],
+"shoot": [
+200,
+{
+"distance": 1151,
+"lemma": "shoot",
+"word": "shoot"
+}
+],
+"crime": [
+200,
+{
+"distance": 22502,
+"lemma": "crime",
+"word": "crime"
+}
+],
+"drug": [
+404,
+{
+"error": "This word doesn't count"
+}
+],
+"sex": [
+404,
+{
+"error": "This word doesn't count"
+}
+],
+"hate": [
+200,
+{
+"distance": 4827,
+"lemma": "hate",
+"word": "hate"
+}
+],
+"suicide": [
+200,
+{
+"distance": 22245,
+"lemma": "suicide",
+"word": "suicide"
+}
+],
+"slave": [
+404,
+{
+"error": "This word doesn't count"
+}
+],
+"cherry": [
+200,
+{
+"distance": 6,
+"lemma": "cherry",
+"word": "cherry"
+}
+],
+"peach": [
+200,
+{
+"distance": 2,
+"lemma": "peach",
+"word": "peach"
+}
+],
+"banana": [
+200,
+{
+"distance": 18,
+"lemma": "banana",
+"word": "banana"
+}
+],
+"tomorrow": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"today": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+"now": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+]
+},
+"removed": {
+"20230302140907|164": [
+[
+100,
+"bermuda",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+236,
+"rolling",
+200,
+{
+"distance": 202,
+"lemma": "roll",
+"word": "rolling"
+}
+],
+[
+249,
+"beneath",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+279,
+"feeding",
+200,
+{
+"distance": 225,
+"lemma": "feed",
+"word": "feeding"
+}
+],
+[
+288,
+"especially",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+294,
+"commonly",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+395,
+"subtropical",
+200,
+{
+"distance": 510,
+"lemma": "subtropical",
+"word": "subtropical"
+}
+],
+[
+399,
+"juniper",
+200,
+{
+"distance": 550,
+"lemma": "juniper",
+"word": "juniper"
+}
+],
+[
+411,
+"standing",
+200,
+{
+"distance": 345,
+"lemma": "stand",
+"word": "standing"
+}
+],
+[
+415,
+"sometimes",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+431,
+"rhododendron",
+200,
+{
+"distance": 524,
+"lemma": "rhododendron",
+"word": "rhododendron"
+}
+],
+[
+438,
+"usually",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+446,
+"swampy",
+200,
+{
+"distance": 516,
+"lemma": "swampy",
+"word": "swampy"
+}
+],
+[
+449,
+"nettle",
+200,
+{
+"distance": 517,
+"lemma": "nettle",
+"word": "nettle"
+}
+],
+[
+451,
+"azalea",
+200,
+{
+"distance": 584,
+"lemma": "azalea",
+"word": "azalea"
+}
+],
+[
+454,
+"everywhere",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+459,
+"cattail",
+200,
+{
+"distance": 523,
+"lemma": "cattail",
+"word": "cattail"
+}
+],
+[
+462,
+"thrive",
+200,
+{
+"distance": 508,
+"lemma": "thrive",
+"word": "thrive"
+}
+],
+[
+463,
+"carnivorous",
+200,
+{
+"distance": 544,
+"lemma": "carnivorous",
+"word": "carnivorous"
+}
+],
+[
+472,
+"susceptible",
+200,
+{
+"distance": 522,
+"lemma": "susceptible",
+"word": "susceptible"
+}
+],
+[
+473,
+"grama",
+200,
+{
+"distance": 537,
+"lemma": "grama",
+"word": "grama"
+}
+],
+[
+475,
+"nutritious",
+200,
+{
+"distance": 502,
+"lemma": "nutritious",
+"word": "nutritious"
+}
+],
+[
+481,
+"lowland",
+200,
+{
+"distance": 578,
+"lemma": "lowland",
+"word": "lowland"
+}
+],
+[
+482,
+"wildlife",
+200,
+{
+"distance": 500,
+"lemma": "wildlife",
+"word": "wildlife"
+}
+]
+],
+"20230613150421|226": [
+[
+112,
+"iss",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+150,
+"apollo",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+174,
+"launcher",
+200,
+{
+"distance": 172,
+"lemma": "launch",
+"word": "launcher"
+}
+],
+[
+178,
+"lhc",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+242,
+"potentially",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+276,
+"chandra",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+307,
+"endeavour",
+200,
+{
+"distance": 285,
+"lemma": "endeavor",
+"word": "endeavour"
+}
+],
+[
+332,
+"heading",
+200,
+{
+"distance": 308,
+"lemma": "head",
+"word": "heading"
+}
+],
+[
+365,
+"eris",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+385,
+"esa",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+408,
+"likely",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+456,
+"beetle",
+200,
+{
+"distance": 516,
+"lemma": "beetle",
+"word": "beetle"
+}
+],
+[
+467,
+"poisonous",
+200,
+{
+"distance": 501,
+"lemma": "poisonous",
+"word": "poisonous"
+}
+],
+[
+469,
+"launching",
+200,
+{
+"distance": 172,
+"lemma": "launch",
+"word": "launching"
+}
+],
+[
+477,
+"bombard",
+200,
+{
+"distance": 543,
+"lemma": "bombard",
+"word": "bombard"
+}
+],
+[
+479,
+"mineral",
+200,
+{
+"distance": 514,
+"lemma": "mineral",
+"word": "mineral"
+}
+],
+[
+487,
+"pitfall",
+200,
+{
+"distance": 535,
+"lemma": "pitfall",
+"word": "pitfall"
+}
+],
+[
+490,
+"elementals",
+200,
+{
+"distance": 546,
+"lemma": "elementals",
+"word": "elementals"
+}
+],
+[
+494,
+"plutonium",
+200,
+{
+"distance": 507,
+"lemma": "plutonium",
+"word": "plutonium"
+}
+],
+[
+495,
+"smash",
+200,
+{
+"distance": 532,
+"lemma": "smash",
+"word": "smash"
+}
+],
+[
+496,
+"intruder",
+200,
+{
+"distance": 530,
+"lemma": "intruder",
+"word": "intruder"
+}
+]
+],
+"20230717012227|295": [
+[
+70,
+"coming",
+200,
+{
+"distance": 52,
+"lemma": "come",
+"word": "coming"
+}
+],
+[
+89,
+"enough",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+90,
+"hanging",
+200,
+{
+"distance": 107,
+"lemma": "hang",
+"word": "hanging"
+}
+],
+[
+119,
+"without",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+124,
+"also",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+129,
+"everything",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+134,
+"making",
+200,
+{
+"distance": 55,
+"lemma": "make",
+"word": "making"
+}
+],
+[
+135,
+"colour",
+200,
+{
+"distance": 58,
+"lemma": "color",
+"word": "colour"
+}
+],
+[
+142,
+"especially",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+145,
+"however",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+161,
+"something",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+171,
+"either",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+186,
+"simply",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+199,
+"nothing",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+213,
+"although",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+216,
+"actually",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+253,
+"coloured",
+200,
+{
+"distance": 58,
+"lemma": "color",
+"word": "coloured"
+}
+],
+[
+256,
+"quite",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+286,
+"sometimes",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+306,
+"everyone",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+322,
+"anything",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+323,
+"several",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+341,
+"suddenly",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+354,
+"usually",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+]
+],
+"20240530181933|168": [
+[
+118,
+"thus",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+156,
+"significantly",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+171,
+"unusually",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+205,
+"likely",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+206,
+"however",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+215,
+"especially",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+241,
+"particularly",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+255,
+"usually",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+278,
+"although",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+292,
+"enough",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+301,
+"depth",
+200,
+{
+"distance": 546,
+"lemma": "depth",
+"word": "depth"
+}
+],
+[
+359,
+"vapour",
+200,
+{
+"distance": 104,
+"lemma": "vapor",
+"word": "vapour"
+}
+],
+[
+398,
+"dramatically",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+422,
+"throughout",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+429,
+"probably",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+449,
+"irradiation",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+457,
+"quite",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+462,
+"either",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+],
+[
+477,
+"actually",
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+]
+]
+}
+}

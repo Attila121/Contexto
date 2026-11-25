@@ -1,7 +1,16 @@
 .conda/
 .venv/
 __pycache__/
-runs/
+runs/*
+!runs/scoring_inspection_20261104/
+!runs/scoring_investigation_20261105/
+# Third-party copies and large binaries stay in the Drive zip only
+runs/scoring_inspection_20261104/frontend.js
+runs/scoring_investigation_20261105/wayback/
+runs/scoring_investigation_20261105/paper/
+runs/scoring_investigation_20261105/web/
+runs/scoring_investigation_20261105/wp/
+runs/scoring_investigation_20261105/**/*.npz
 .env
 html/**/Contexto_files/
 Contexto_Project.docx

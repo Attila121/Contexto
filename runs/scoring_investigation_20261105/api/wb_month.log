@@ -1,0 +1,181 @@
+{'202211': 94, '202212': 730, '202301': 313, '202302': 1324, '202303': 309, '202304': 98, '202305': 272, '202306': 152, '202307': 139, '202308': 124, '202309': 85, '202310': 64, '202311': 26, '202312': 20, '202401': 36, '202402': 9, '202403': 62, '202404': 55, '202405': 68, '202406': 44, '202407': 4, '202408': 30, '202409': 39, '202410': 7, '202412': 10, '202501': 1, '202502': 2, '202503': 35, '202504': 39, '202505': 62, '202508': 11, '202509': 2, '202510': 1, '202512': 8, '202601': 3, '202602': 44, '202603': 650, '202604': 31, '202605': 18, '202606': 1}
+202211 0 zero 31614 4419 False
+202211 1 kid 73 214 False
+202211 1 house 28 16 False
+202211 66 house 2458 1234 False
+202211 66 yellow 2568 889 False
+202211 66 costume 1325 2196 False
+202211 66 marker 7846 2374 False
+202211 63 interest 40 12 False
+202211 1 home 23 6 False
+202211 66 dark 394 651 False
+202212 63 fairy 4444 2509 False
+202212 65 animal 4020 5366 False
+202212 70 trouble 3378 1242 False
+202212 70 fail 2569 2532 False
+202212 70 texture 1849 2244 False
+202212 71 web 7873 2301 False
+202212 99 humanities 3563 947 False
+202212 63 smile 3244 2053 False
+202212 70 chair 19647 7204 False
+202212 70 ball 4496 4328 False
+202301 70 surprise 751 546 False
+202301 99 clam 22669 23485 False
+202301 99 capital 4874 2122 False
+202301 99 cow 6028 8024 False
+202301 95 report 799 656 False
+202301 107 bite 536 1820 False
+202301 107 hibachi 12731 2462 False
+202301 99 marijuana 13242 10295 False
+202301 99 play 112 183 False
+202301 70 awesome 326 1306 False
+202302 150 fruit 920 900 False
+202302 142 creativity 5733 5201 False
+202302 136 chipmunks 269 366 False
+202302 139 refrigerator 20863 19297 False
+202302 120 gecko 51885 22969 False
+202302 143 drama 4119 3644 False
+202302 148 cricket 819 940 False
+202302 143 bird 358 325 False
+202302 142 please 760 311 False
+202302 136 sail 8505 6700 False
+202303 144 money 729 647 False
+202303 143 tree 267 264 False
+202303 172 animal 218 218 True
+202303 189 science 6483 5908 False
+202303 167 poster 11487 10230 False
+202303 168 brick 7689 7365 False
+202303 123 cow 246 231 False
+202303 164 jungle 827 925 False
+202303 177 wire 1131 985 False
+202303 173 alive 4079 3977 False
+202304 197 sea 514 492 False
+202304 197 game 2690 2528 False
+202304 197 group 2604 2541 False
+202304 92 milk 6406 5761 False
+202304 207 world 419 345 False
+202304 197 vacation 6189 5707 False
+202304 198 book 3487 3246 False
+202304 198 happy 1567 1417 False
+202304 107 flour 10187 9217 False
+202304 197 ship 819 885 False
+202305 226 gas 274 287 False
+202305 199 music 50 40 False
+202305 198 gecko 30345 29419 False
+202305 225 statistics 5704 5136 False
+202305 197 cement 634 626 False
+202305 107 city 1805 1717 False
+202305 226 person 14897 13908 False
+202305 107 destination 612 581 False
+202305 150 football 3730 3562 False
+202305 197 subway 16 14 False
+202306 226 volcano 92 100 False
+202306 242 bird 548 469 False
+202306 243 animal 1409 1461 False
+202306 107 juice 2422 2234 False
+202306 242 human 4298 3760 False
+202306 223 bread 9745 9066 False
+202306 226 tsunami 74 78 False
+202306 223 application 158 176 False
+202306 223 move 865 792 False
+202306 223 clean 3435 3189 False
+202307 294 house 1310 1194 False
+202307 308 email 4 4 True
+202307 293 family 5234 4910 False
+202307 295 pitch 1833 1734 False
+202307 295 state 1642 1527 False
+202307 295 time 177 152 False
+202307 199 plant 16067 14564 False
+202307 295 calendar 4461 4253 False
+202307 295 day 153 140 False
+202307 295 heaven 654 613 False
+202308 332 dwarf 5035 4328 False
+202308 332 loyal 13997 12731 False
+202308 332 lebron 4997 5121 False
+202308 332 date 2788 2520 False
+202308 332 brain 4323 3611 False
+202308 332 company 1079 881 False
+202308 192 color 4978 4505 False
+202308 332 pain 2804 2645 False
+202308 332 teeny 13554 13116 False
+202308 332 people 794 695 False
+202309 364 music 1126 1091 False
+202309 364 musical 3646 3440 False
+202309 222 sheep 834 828 False
+202309 364 pop 2997 2757 False
+202309 359 cancer 663 672 False
+202309 358 dinner 7 7 True
+202309 359 energy 813 757 False
+202309 292 shape 834 816 False
+202309 364 number 583 538 False
+202309 364 sound 2411 2181 False
+202310 323 doors 5310 4888 False
+202310 402 school 3 3 True
+202310 322 number 2938 2662 False
+202310 322 phone 2130 2115 False
+202310 322 job 2564 2159 False
+202310 323 hint 10752 10552 False
+202310 378 building 3549 3252 False
+202310 317 shun 23737 21287 False
+202310 323 battery 20481 18639 False
+202310 322 cat 4754 4358 False
+202311 434 drink 596 546 False
+202311 386 animal 3281 3152 False
+202311 434 keyboard 3460 3090 False
+202311 434 rider 2497 2038 False
+202311 434 morning 886 796 False
+202311 436 one 5611 5166 False
+202311 434 coffee 869 787 False
+202311 377 car 797 731 False
+202311 413 bread 7821 7573 False
+Traceback (most recent call last):
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1085, in _send_output
+    self.send(msg)
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1029, in send
+    self.connect()
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1465, in connect
+    super().connect()
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 995, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\attil\AppData\Local\Temp\claude\e840e114a2755629\cec645c3-45ed-4df4-9640-c20396598481\scratchpad\scripts\wb_month.py", line 34, in <module>
+    st,b=fetch(f'https://api.contexto.me/machado/en/game/{g}/{w}',25)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\attil\AppData\Local\Temp\claude\e840e114a2755629\cec645c3-45ed-4df4-9640-c20396598481\scratchpad\scripts\wb_month.py", line 13, in fetch
+    r=urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=timeout); b=r.read(); st=r.status
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\attil\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>

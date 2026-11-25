@@ -1,0 +1,3761 @@
+{
+"games": [
+{
+"date": "2026-10-25",
+"game": 1498,
+"target": "conclusion",
+"attempts": 43,
+"ranked": 41,
+"rho": 0.864,
+"dir_agree": 0.775,
+"n_tr": 40,
+"oov": [],
+"best_ctx": 1,
+"best_paper": 1,
+"solved_ctx": true,
+"paper_oov": 0
+},
+{
+"date": "2026-10-26",
+"game": 1499,
+"target": "choice",
+"attempts": 70,
+"ranked": 65,
+"rho": 0.839,
+"dir_agree": 0.797,
+"n_tr": 64,
+"oov": [],
+"best_ctx": 95,
+"best_paper": 444,
+"solved_ctx": false,
+"paper_oov": 0
+},
+{
+"date": "2026-10-27",
+"game": 1500,
+"target": "pear",
+"attempts": 46,
+"ranked": 42,
+"rho": 0.82,
+"dir_agree": 0.634,
+"n_tr": 41,
+"oov": [],
+"best_ctx": 1,
+"best_paper": 1,
+"solved_ctx": true,
+"paper_oov": 0
+},
+{
+"date": "2026-10-28",
+"game": 1501,
+"target": "fox",
+"attempts": 70,
+"ranked": 64,
+"rho": 0.577,
+"dir_agree": 0.746,
+"n_tr": 63,
+"oov": [],
+"best_ctx": 110,
+"best_paper": 1995,
+"solved_ctx": false,
+"paper_oov": 0
+},
+{
+"date": "2026-10-29",
+"game": 1502,
+"target": "barn",
+"attempts": 70,
+"ranked": 69,
+"rho": 0.617,
+"dir_agree": 0.706,
+"n_tr": 68,
+"oov": [],
+"best_ctx": 205,
+"best_paper": 886,
+"solved_ctx": false,
+"paper_oov": 0
+},
+{
+"date": "2026-10-30",
+"game": 1503,
+"target": "hole",
+"attempts": 70,
+"ranked": 65,
+"rho": 0.658,
+"dir_agree": 0.75,
+"n_tr": 64,
+"oov": [],
+"best_ctx": 21,
+"best_paper": 138,
+"solved_ctx": false,
+"paper_oov": 0
+},
+{
+"date": "2026-10-31",
+"game": 1504,
+"target": "limit",
+"attempts": 40,
+"ranked": 38,
+"rho": 0.77,
+"dir_agree": 0.838,
+"n_tr": 37,
+"oov": [],
+"best_ctx": 1,
+"best_paper": 28,
+"solved_ctx": true,
+"paper_oov": 0
+},
+{
+"date": "2026-11-01",
+"game": 1505,
+"target": "aircraft",
+"attempts": 70,
+"ranked": 64,
+"rho": 0.806,
+"dir_agree": 0.73,
+"n_tr": 63,
+"oov": [],
+"best_ctx": 120,
+"best_paper": 62,
+"solved_ctx": false,
+"paper_oov": 0
+},
+{
+"date": "2026-11-02",
+"game": 1506,
+"target": "appearance",
+"attempts": 54,
+"ranked": 51,
+"rho": 0.79,
+"dir_agree": 0.76,
+"n_tr": 50,
+"oov": [],
+"best_ctx": 1,
+"best_paper": 1,
+"solved_ctx": true,
+"paper_oov": 0
+},
+{
+"date": "2026-11-03",
+"game": 1507,
+"target": "beast",
+"attempts": 19,
+"ranked": 16,
+"rho": 0.868,
+"dir_agree": 0.8,
+"n_tr": 15,
+"oov": [],
+"best_ctx": 1,
+"best_paper": 1,
+"solved_ctx": true,
+"paper_oov": 0
+}
+],
+"rows": [
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "person",
+"ctx": 780,
+"paper": 1930
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "human",
+"ctx": 655,
+"paper": 1435
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "life",
+"ctx": 1264,
+"paper": 2607
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "animal",
+"ctx": 4088,
+"paper": 5394
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "mankind",
+"ctx": 2578,
+"paper": 3972
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "individual",
+"ctx": 523,
+"paper": 2952
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "self",
+"ctx": 3394,
+"paper": 3637
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "citizen",
+"ctx": 1768,
+"paper": 20466
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "member",
+"ctx": 2269,
+"paper": 5932
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "adult",
+"ctx": 1525,
+"paper": 6091
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "entity",
+"ctx": 2672,
+"paper": 19188
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "identity",
+"ctx": 2653,
+"paper": 8247
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "people",
+"ctx": 616,
+"paper": 2649
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "group",
+"ctx": 1808,
+"paper": 4660
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "population",
+"ctx": 1780,
+"paper": 7432
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "man",
+"ctx": 2223,
+"paper": 4130
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "child",
+"ctx": 2101,
+"paper": 4537
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "society",
+"ctx": 1781,
+"paper": 5605
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "public",
+"ctx": 1068,
+"paper": 4635
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "personal",
+"ctx": 937,
+"paper": 3598
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "character",
+"ctx": 1529,
+"paper": 3225
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "private",
+"ctx": 3694,
+"paper": 10043
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "social",
+"ctx": 1148,
+"paper": 4559
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "participant",
+"ctx": 302,
+"paper": 1798
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "volunteer",
+"ctx": 6423,
+"paper": 42267
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "respondent",
+"ctx": 729,
+"paper": 4252
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "subject",
+"ctx": 286,
+"paper": 541
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "patient",
+"ctx": 1048,
+"paper": 4127
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "sample",
+"ctx": 1862,
+"paper": 2156
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "interviewee",
+"ctx": 4195,
+"paper": 130806
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "agent",
+"ctx": 3862,
+"paper": 7364
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "study",
+"ctx": 51,
+"paper": 229
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "research",
+"ctx": 260,
+"paper": 1591
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "survey",
+"ctx": 622,
+"paper": 2938
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "experiment",
+"ctx": 346,
+"paper": 1101
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "analysis",
+"ctx": 66,
+"paper": 212
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "examination",
+"ctx": 340,
+"paper": 688
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "investigation",
+"ctx": 200,
+"paper": 53
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "findings",
+"ctx": 4,
+"paper": 10
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "results",
+"ctx": 42,
+"paper": 88
+},
+{
+"date": "2026-10-25",
+"target": "conclusion",
+"word": "conclusion",
+"ctx": 1,
+"paper": 1
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "water",
+"ctx": 1574,
+"paper": 6562
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "fire",
+"ctx": 2765,
+"paper": 5110
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "river",
+"ctx": 5099,
+"paper": 24366
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "rain",
+"ctx": 6178,
+"paper": 19877
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "ice",
+"ctx": 2557,
+"paper": 6167
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "liquid",
+"ctx": 3640,
+"paper": 9182
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "air",
+"ctx": 2943,
+"paper": 3879
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "heat",
+"ctx": 3022,
+"paper": 7041
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "steam",
+"ctx": 8023,
+"paper": 17128
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "earth",
+"ctx": 2460,
+"paper": 8074
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "drink",
+"ctx": 950,
+"paper": 1552
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "food",
+"ctx": 129,
+"paper": 941
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "meat",
+"ctx": 855,
+"paper": 2999
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "fruit",
+"ctx": 1636,
+"paper": 3558
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "meal",
+"ctx": 307,
+"paper": 2111
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "eat",
+"ctx": 365,
+"paper": 1724
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "dinner",
+"ctx": 665,
+"paper": 1554
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "hungry",
+"ctx": 2688,
+"paper": 7711
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "dish",
+"ctx": 839,
+"paper": 2733
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "lunch",
+"ctx": 807,
+"paper": 1967
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "cook",
+"ctx": 1106,
+"paper": 4458
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "snack",
+"ctx": 1414,
+"paper": 4067
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "breakfast",
+"ctx": 625,
+"paper": 2695
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "feed",
+"ctx": 2067,
+"paper": 5291
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "diet",
+"ctx": 906,
+"paper": 2817
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "dining",
+"ctx": 567,
+"paper": 1858
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "restaurant",
+"ctx": 815,
+"paper": 3169
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "cuisine",
+"ctx": 1429,
+"paper": 5923
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "nutrition",
+"ctx": 1206,
+"paper": 6486
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "bread",
+"ctx": 1596,
+"paper": 2404
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "kitchen",
+"ctx": 1176,
+"paper": 6212
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "table",
+"ctx": 1364,
+"paper": 1909
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "grocery",
+"ctx": 1682,
+"paper": 4063
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "feast",
+"ctx": 4713,
+"paper": 16776
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "foodstuff",
+"ctx": 8347,
+"paper": 23587
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "supper",
+"ctx": 7341,
+"paper": 21531
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "ingredient",
+"ctx": 788,
+"paper": 3742
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "menu",
+"ctx": 291,
+"paper": 444
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "dessert",
+"ctx": 1265,
+"paper": 2842
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "recipe",
+"ctx": 1145,
+"paper": 3176
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "appetizer",
+"ctx": 3307,
+"paper": 6517
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "serve",
+"ctx": 186,
+"paper": 456
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "plate",
+"ctx": 1816,
+"paper": 11879
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "serving",
+"ctx": 846,
+"paper": 2751
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "course",
+"ctx": 95,
+"paper": 685
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "service",
+"ctx": 513,
+"paper": 1404
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "order",
+"ctx": 257,
+"paper": 822
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "entree",
+"ctx": 1921,
+"paper": 3023
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "server",
+"ctx": 3181,
+"paper": 5618
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "catering",
+"ctx": 1252,
+"paper": 11753
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "portion",
+"ctx": 1923,
+"paper": 7814
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "starter",
+"ctx": 1724,
+"paper": 815
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "mealtime",
+"ctx": 10248,
+"paper": 67702
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "buffet",
+"ctx": 1696,
+"paper": 6423
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "main",
+"ctx": 429,
+"paper": 1176
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "soup",
+"ctx": 2390,
+"paper": 7113
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "wine",
+"ctx": 783,
+"paper": 2400
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "fare",
+"ctx": 1161,
+"paper": 797
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "cater",
+"ctx": 1406,
+"paper": 9395
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "side",
+"ctx": 517,
+"paper": 678
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "waiter",
+"ctx": 8497,
+"paper": 10937
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "salad",
+"ctx": 1150,
+"paper": 6422
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "helping",
+"ctx": 496,
+"paper": 3784
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "dishcloth",
+"ctx": 50112,
+"paper": 165580
+},
+{
+"date": "2026-10-26",
+"target": "choice",
+"word": "platter",
+"ctx": 4029,
+"paper": 14425
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "water",
+"ctx": 1555,
+"paper": 59816
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "food",
+"ctx": 715,
+"paper": 60481
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "eat",
+"ctx": 419,
+"paper": 3777
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "dinner",
+"ctx": 955,
+"paper": 16907
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "hungry",
+"ctx": 5565,
+"paper": 57446
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "meal",
+"ctx": 1143,
+"paper": 7373
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "chew",
+"ctx": 2907,
+"paper": 6488
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "lunch",
+"ctx": 1960,
+"paper": 88490
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "feed",
+"ctx": 4461,
+"paper": 19027
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "cook",
+"ctx": 172,
+"paper": 7110
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "bake",
+"ctx": 83,
+"paper": 2121
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "bread",
+"ctx": 163,
+"paper": 344
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "oven",
+"ctx": 942,
+"paper": 10540
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "cake",
+"ctx": 144,
+"paper": 124
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "dough",
+"ctx": 543,
+"paper": 945
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "pastry",
+"ctx": 276,
+"paper": 343
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "baker",
+"ctx": 1511,
+"paper": 83963
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "pie",
+"ctx": 92,
+"paper": 90
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "cookie",
+"ctx": 389,
+"paper": 457
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "crust",
+"ctx": 498,
+"paper": 936
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "biscuit",
+"ctx": 210,
+"paper": 676
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "dessert",
+"ctx": 88,
+"paper": 75
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "pudding",
+"ctx": 72,
+"paper": 192
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "custard",
+"ctx": 78,
+"paper": 120
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "sauce",
+"ctx": 151,
+"paper": 136
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "cream",
+"ctx": 312,
+"paper": 352
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "mousse",
+"ctx": 354,
+"paper": 147
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "crumble",
+"ctx": 320,
+"paper": 644
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "souffle",
+"ctx": 852,
+"paper": 155
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "caramel",
+"ctx": 82,
+"paper": 129
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "vanilla",
+"ctx": 67,
+"paper": 134
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "chocolate",
+"ctx": 168,
+"paper": 331
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "sugar",
+"ctx": 139,
+"paper": 541
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "cinnamon",
+"ctx": 52,
+"paper": 56
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "spice",
+"ctx": 38,
+"paper": 678
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "flavor",
+"ctx": 107,
+"paper": 143
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "nutmeg",
+"ctx": 177,
+"paper": 420
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "clove",
+"ctx": 164,
+"paper": 407
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "pumpkin",
+"ctx": 56,
+"paper": 48
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "apple",
+"ctx": 2,
+"paper": 62
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "cider",
+"ctx": 68,
+"paper": 72
+},
+{
+"date": "2026-10-27",
+"target": "pear",
+"word": "pear",
+"ctx": 1,
+"paper": 1
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "water",
+"ctx": 1201,
+"paper": 9707
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "fire",
+"ctx": 168,
+"paper": 15068
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "flame",
+"ctx": 980,
+"paper": 45749
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "burn",
+"ctx": 1030,
+"paper": 48684
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "smoke",
+"ctx": 2602,
+"paper": 34568
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "blaze",
+"ctx": 500,
+"paper": 64953
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "heat",
+"ctx": 5117,
+"paper": 6546
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "firefighter",
+"ctx": 4143,
+"paper": 93982
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "inferno",
+"ctx": 6829,
+"paper": 152061
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "spark",
+"ctx": 1382,
+"paper": 23930
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "wildfire",
+"ctx": 6192,
+"paper": 123276
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "ignite",
+"ctx": 15820,
+"paper": 195776
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "ember",
+"ctx": 9137,
+"paper": 83990
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "fireplace",
+"ctx": 9285,
+"paper": 46518
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "bonfire",
+"ctx": 18090,
+"paper": 154085
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "torch",
+"ctx": 21838,
+"paper": 22539
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "arson",
+"ctx": 11313,
+"paper": 160062
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "flare",
+"ctx": 15551,
+"paper": 154449
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "ash",
+"ctx": 1290,
+"paper": 25773
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "burning",
+"ctx": 2368,
+"paper": 70500
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "shoot",
+"ctx": 324,
+"paper": 2600
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "gun",
+"ctx": 1380,
+"paper": 5597
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "firing",
+"ctx": 4238,
+"paper": 12085
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "shot",
+"ctx": 523,
+"paper": 2561
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "blast",
+"ctx": 1868,
+"paper": 13430
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "gunfire",
+"ctx": 24725,
+"paper": 66212
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "shootout",
+"ctx": 9295,
+"paper": 16003
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "killer",
+"ctx": 330,
+"paper": 1995
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "firearm",
+"ctx": 5151,
+"paper": 32954
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "shooter",
+"ctx": 6671,
+"paper": 6989
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "bullet",
+"ctx": 3459,
+"paper": 7790
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "attack",
+"ctx": 110,
+"paper": 3869
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "strike",
+"ctx": 1955,
+"paper": 6851
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "target",
+"ctx": 1244,
+"paper": 6026
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "fight",
+"ctx": 199,
+"paper": 2069
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "battle",
+"ctx": 752,
+"paper": 5134
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "enemy",
+"ctx": 1173,
+"paper": 12937
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "combat",
+"ctx": 2496,
+"paper": 8677
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "defense",
+"ctx": 1598,
+"paper": 3564
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "hit",
+"ctx": 285,
+"paper": 2103
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "damage",
+"ctx": 2753,
+"paper": 10199
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "punch",
+"ctx": 6142,
+"paper": 5975
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "raid",
+"ctx": 7276,
+"paper": 8689
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "attacker",
+"ctx": 11570,
+"paper": 103987
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "weapon",
+"ctx": 4511,
+"paper": 7286
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "war",
+"ctx": 1073,
+"paper": 4559
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "offensive",
+"ctx": 5064,
+"paper": 4895
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "wound",
+"ctx": 3800,
+"paper": 7434
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "clash",
+"ctx": 3855,
+"paper": 16175
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "fighter",
+"ctx": 637,
+"paper": 9402
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "deadly",
+"ctx": 1296,
+"paper": 18021
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "bomb",
+"ctx": 4917,
+"paper": 19644
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "ambush",
+"ctx": 2257,
+"paper": 9463
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "firefight",
+"ctx": 26249,
+"paper": 50135
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "confrontation",
+"ctx": 11335,
+"paper": 9114
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "beat",
+"ctx": 590,
+"paper": 5155
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "rage",
+"ctx": 2057,
+"paper": 44973
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "slay",
+"ctx": 5156,
+"paper": 24704
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "defend",
+"ctx": 1719,
+"paper": 5997
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "storm",
+"ctx": 551,
+"paper": 2548
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "charge",
+"ctx": 2112,
+"paper": 3158
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "barrage",
+"ctx": 14731,
+"paper": 15311
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "onslaught",
+"ctx": 9846,
+"paper": 25685
+},
+{
+"date": "2026-10-28",
+"target": "fox",
+"word": "conflict",
+"ctx": 5515,
+"paper": 9009
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "time",
+"ctx": 1679,
+"paper": 15732
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "life",
+"ctx": 2098,
+"paper": 27486
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "world",
+"ctx": 3274,
+"paper": 76299
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "day",
+"ctx": 857,
+"paper": 29425
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "night",
+"ctx": 812,
+"paper": 2817
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "dark",
+"ctx": 783,
+"paper": 2956
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "light",
+"ctx": 698,
+"paper": 4001
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "bright",
+"ctx": 766,
+"paper": 5237
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "sun",
+"ctx": 2521,
+"paper": 7696
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "shadow",
+"ctx": 3219,
+"paper": 44505
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "shine",
+"ctx": 6127,
+"paper": 47781
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "black",
+"ctx": 1359,
+"paper": 5562
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "morning",
+"ctx": 1553,
+"paper": 6452
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "glow",
+"ctx": 6678,
+"paper": 15139
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "sight",
+"ctx": 2496,
+"paper": 4121
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "darkness",
+"ctx": 4918,
+"paper": 43372
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "white",
+"ctx": 656,
+"paper": 2079
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "color",
+"ctx": 2051,
+"paper": 28123
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "gray",
+"ctx": 1045,
+"paper": 2281
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "clear",
+"ctx": 1711,
+"paper": 66015
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "pale",
+"ctx": 3350,
+"paper": 27481
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "snow",
+"ctx": 855,
+"paper": 19830
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "winter",
+"ctx": 205,
+"paper": 12110
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "cold",
+"ctx": 3468,
+"paper": 7849
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "summer",
+"ctx": 417,
+"paper": 6726
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "spring",
+"ctx": 888,
+"paper": 1566
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "autumn",
+"ctx": 628,
+"paper": 2560
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "season",
+"ctx": 1794,
+"paper": 46839
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "december",
+"ctx": 3309,
+"paper": 89732
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "solstice",
+"ctx": 8732,
+"paper": 93759
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "frost",
+"ctx": 5264,
+"paper": 17485
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "weather",
+"ctx": 518,
+"paper": 46242
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "ice",
+"ctx": 2389,
+"paper": 9400
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "rain",
+"ctx": 2034,
+"paper": 24332
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "storm",
+"ctx": 2368,
+"paper": 57229
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "climate",
+"ctx": 9256,
+"paper": 97812
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "wind",
+"ctx": 915,
+"paper": 6886
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "sky",
+"ctx": 1048,
+"paper": 9884
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "fall",
+"ctx": 1303,
+"paper": 24952
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "warm",
+"ctx": 1270,
+"paper": 17577
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "wintry",
+"ctx": 8360,
+"paper": 92104
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "temperature",
+"ctx": 9649,
+"paper": 13722
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "cool",
+"ctx": 2200,
+"paper": 11318
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "seasonal",
+"ctx": 1190,
+"paper": 13159
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "cloud",
+"ctx": 2297,
+"paper": 69036
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "chill",
+"ctx": 12276,
+"paper": 156647
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "wintertime",
+"ctx": 7221,
+"paper": 46516
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "fog",
+"ctx": 7513,
+"paper": 30618
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "vacation",
+"ctx": 1562,
+"paper": 12756
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "sunny",
+"ctx": 1284,
+"paper": 8470
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "arctic",
+"ctx": 8902,
+"paper": 35299
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "freezing",
+"ctx": 8175,
+"paper": 64537
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "year",
+"ctx": 1127,
+"paper": 34559
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "heat",
+"ctx": 955,
+"paper": 28047
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "summertime",
+"ctx": 10748,
+"paper": 15167
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "breeze",
+"ctx": 4938,
+"paper": 14860
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "months",
+"ctx": 1698,
+"paper": 56549
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "mild",
+"ctx": 12209,
+"paper": 90684
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "blizzard",
+"ctx": 6767,
+"paper": 187967
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "frosty",
+"ctx": 4225,
+"paper": 83786
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "olympics",
+"ctx": 4190,
+"paper": 213491
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "air",
+"ctx": 6934,
+"paper": 111839
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "frostbite",
+"ctx": 67848,
+"paper": 225442
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "daylight",
+"ctx": 3086,
+"paper": 16617
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "midwinter",
+"ctx": 11828,
+"paper": 4152
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "snowy",
+"ctx": 1123,
+"paper": 886
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "freeze",
+"ctx": 6115,
+"paper": 61078
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "nature",
+"ctx": 4968,
+"paper": 80948
+},
+{
+"date": "2026-10-29",
+"target": "barn",
+"word": "gale",
+"ctx": 7673,
+"paper": 119678
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "water",
+"ctx": 239,
+"paper": 199
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "river",
+"ctx": 1667,
+"paper": 2208
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "drink",
+"ctx": 1266,
+"paper": 8834
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "liquid",
+"ctx": 1742,
+"paper": 2535
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "rain",
+"ctx": 569,
+"paper": 528
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "ocean",
+"ctx": 643,
+"paper": 1164
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "ice",
+"ctx": 850,
+"paper": 1034
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "sea",
+"ctx": 1700,
+"paper": 808
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "cloud",
+"ctx": 2257,
+"paper": 965
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "wet",
+"ctx": 24,
+"paper": 1272
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "soak",
+"ctx": 615,
+"paper": 4385
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "damp",
+"ctx": 1542,
+"paper": 1942
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "drench",
+"ctx": 2741,
+"paper": 182183
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "dry",
+"ctx": 493,
+"paper": 984
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "moisture",
+"ctx": 1733,
+"paper": 2804
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "puddle",
+"ctx": 2729,
+"paper": 2875
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "towel",
+"ctx": 1735,
+"paper": 4240
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "moist",
+"ctx": 669,
+"paper": 6626
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "soggy",
+"ctx": 3989,
+"paper": 611
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "wipe",
+"ctx": 1633,
+"paper": 7001
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "wetness",
+"ctx": 7777,
+"paper": 147186
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "slippery",
+"ctx": 1487,
+"paper": 1642
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "drip",
+"ctx": 217,
+"paper": 5451
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "drop",
+"ctx": 131,
+"paper": 282
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "splash",
+"ctx": 2184,
+"paper": 2229
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "droplet",
+"ctx": 4829,
+"paper": 4714
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "leak",
+"ctx": 386,
+"paper": 515
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "spill",
+"ctx": 1886,
+"paper": 4001
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "sweat",
+"ctx": 1752,
+"paper": 2602
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "dew",
+"ctx": 4827,
+"paper": 8807
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "tap",
+"ctx": 227,
+"paper": 516
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "faucet",
+"ctx": 1321,
+"paper": 5624
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "wetter",
+"ctx": 16086,
+"paper": 25017
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "trickle",
+"ctx": 3907,
+"paper": 6697
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "soiled",
+"ctx": 604,
+"paper": 38866
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "mud",
+"ctx": 228,
+"paper": 472
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "paint",
+"ctx": 664,
+"paper": 2172
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "muddy",
+"ctx": 1563,
+"paper": 517
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "stain",
+"ctx": 1131,
+"paper": 3929
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "wash",
+"ctx": 1661,
+"paper": 6393
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "slick",
+"ctx": 1348,
+"paper": 2712
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "ground",
+"ctx": 47,
+"paper": 381
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "floor",
+"ctx": 154,
+"paper": 216
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "dirt",
+"ctx": 189,
+"paper": 322
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "earth",
+"ctx": 284,
+"paper": 447
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "surface",
+"ctx": 28,
+"paper": 349
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "land",
+"ctx": 1585,
+"paper": 4663
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "pavement",
+"ctx": 1532,
+"paper": 3023
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "grass",
+"ctx": 1368,
+"paper": 1204
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "drain",
+"ctx": 52,
+"paper": 718
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "gutter",
+"ctx": 1259,
+"paper": 5419
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "drainage",
+"ctx": 306,
+"paper": 577
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "groundwater",
+"ctx": 6182,
+"paper": 6161
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "sink",
+"ctx": 88,
+"paper": 173
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "basin",
+"ctx": 1084,
+"paper": 1521
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "seep",
+"ctx": 2840,
+"paper": 3201
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "pipe",
+"ctx": 21,
+"paper": 138
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "hose",
+"ctx": 159,
+"paper": 790
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "sewer",
+"ctx": 1887,
+"paper": 2467
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "tube",
+"ctx": 41,
+"paper": 496
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "duct",
+"ctx": 1043,
+"paper": 991
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "plumbing",
+"ctx": 2271,
+"paper": 7968
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "tub",
+"ctx": 287,
+"paper": 1628
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "channel",
+"ctx": 1198,
+"paper": 3017
+},
+{
+"date": "2026-10-30",
+"target": "hole",
+"word": "line",
+"ctx": 267,
+"paper": 3407
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "person",
+"ctx": 319,
+"paper": 827
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "human",
+"ctx": 857,
+"paper": 3735
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "man",
+"ctx": 1722,
+"paper": 7017
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "individual",
+"ctx": 112,
+"paper": 347
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "self",
+"ctx": 1356,
+"paper": 2776
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "member",
+"ctx": 1342,
+"paper": 5363
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "entity",
+"ctx": 1623,
+"paper": 5276
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "people",
+"ctx": 253,
+"paper": 1665
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "personal",
+"ctx": 229,
+"paper": 1193
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "particular",
+"ctx": 72,
+"paper": 476
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "specific",
+"ctx": 30,
+"paper": 218
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "precise",
+"ctx": 1444,
+"paper": 2458
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "certain",
+"ctx": 8,
+"paper": 41
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "definite",
+"ctx": 1198,
+"paper": 4778
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "given",
+"ctx": 94,
+"paper": 471
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "distinct",
+"ctx": 1703,
+"paper": 8275
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "various",
+"ctx": 369,
+"paper": 2420
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "special",
+"ctx": 447,
+"paper": 3256
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "sure",
+"ctx": 211,
+"paper": 834
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "single",
+"ctx": 1019,
+"paper": 1410
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "specified",
+"ctx": 26,
+"paper": 37
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "designated",
+"ctx": 408,
+"paper": 2042
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "selected",
+"ctx": 986,
+"paper": 4831
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "determined",
+"ctx": 43,
+"paper": 356
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "fixed",
+"ctx": 156,
+"paper": 298
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "defined",
+"ctx": 37,
+"paper": 116
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "stated",
+"ctx": 193,
+"paper": 1951
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "known",
+"ctx": 698,
+"paper": 5607
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "circumstance",
+"ctx": 221,
+"paper": 8394
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "prescribed",
+"ctx": 380,
+"paper": 745
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "identified",
+"ctx": 1039,
+"paper": 8526
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "established",
+"ctx": 227,
+"paper": 2826
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "concrete",
+"ctx": 3631,
+"paper": 4591
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "stipulated",
+"ctx": 879,
+"paper": 265
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "arbitrary",
+"ctx": 537,
+"paper": 630
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "predetermined",
+"ctx": 590,
+"paper": 1056
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "explicit",
+"ctx": 593,
+"paper": 2255
+},
+{
+"date": "2026-10-31",
+"target": "limit",
+"word": "limited",
+"ctx": 1,
+"paper": 28
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "time",
+"ctx": 826,
+"paper": 1520
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "day",
+"ctx": 1300,
+"paper": 2363
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "year",
+"ctx": 680,
+"paper": 2526
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "month",
+"ctx": 1987,
+"paper": 1797
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "century",
+"ctx": 1171,
+"paper": 5071
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "decade",
+"ctx": 1625,
+"paper": 4342
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "calendar",
+"ctx": 6453,
+"paper": 16152
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "period",
+"ctx": 1706,
+"paper": 2062
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "era",
+"ctx": 2911,
+"paper": 3545
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "annual",
+"ctx": 5498,
+"paper": 10944
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "week",
+"ctx": 2695,
+"paper": 3373
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "season",
+"ctx": 5501,
+"paper": 9419
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "age",
+"ctx": 4159,
+"paper": 6909
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "date",
+"ctx": 3588,
+"paper": 2307
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "history",
+"ctx": 1032,
+"paper": 4618
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "past",
+"ctx": 1346,
+"paper": 1850
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "future",
+"ctx": 647,
+"paper": 2082
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "next",
+"ctx": 2098,
+"paper": 1634
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "ahead",
+"ctx": 3784,
+"paper": 3998
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "present",
+"ctx": 1591,
+"paper": 2897
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "generation",
+"ctx": 996,
+"paper": 1381
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "lifetime",
+"ctx": 3666,
+"paper": 14630
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "moment",
+"ctx": 3426,
+"paper": 4616
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "term",
+"ctx": 2540,
+"paper": 5241
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "prospective",
+"ctx": 5445,
+"paper": 5013
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "legacy",
+"ctx": 3263,
+"paper": 5360
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "destiny",
+"ctx": 5785,
+"paper": 34932
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "current",
+"ctx": 762,
+"paper": 2985
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "trend",
+"ctx": 4976,
+"paper": 10106
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "recent",
+"ctx": 2029,
+"paper": 2523
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "new",
+"ctx": 653,
+"paper": 1393
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "modern",
+"ctx": 567,
+"paper": 1182
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "contemporary",
+"ctx": 4527,
+"paper": 7532
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "world",
+"ctx": 881,
+"paper": 1304
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "society",
+"ctx": 4957,
+"paper": 12467
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "technology",
+"ctx": 596,
+"paper": 811
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "digital",
+"ctx": 4268,
+"paper": 8185
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "innovation",
+"ctx": 3569,
+"paper": 14310
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "science",
+"ctx": 3160,
+"paper": 9782
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "progress",
+"ctx": 1963,
+"paper": 4843
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "advanced",
+"ctx": 377,
+"paper": 387
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "level",
+"ctx": 1926,
+"paper": 3869
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "sophisticated",
+"ctx": 1029,
+"paper": 658
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "higher",
+"ctx": 1315,
+"paper": 3076
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "latest",
+"ctx": 844,
+"paper": 2393
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "technological",
+"ctx": 1525,
+"paper": 5127
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "state",
+"ctx": 365,
+"paper": 5313
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "art",
+"ctx": 1376,
+"paper": 4497
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "nation",
+"ctx": 2188,
+"paper": 3615
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "stage",
+"ctx": 2902,
+"paper": 4122
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "country",
+"ctx": 590,
+"paper": 2698
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "developed",
+"ctx": 404,
+"paper": 497
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "economy",
+"ctx": 1033,
+"paper": 3641
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "development",
+"ctx": 830,
+"paper": 1564
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "industrial",
+"ctx": 294,
+"paper": 1194
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "industry",
+"ctx": 341,
+"paper": 1376
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "manufacturing",
+"ctx": 220,
+"paper": 299
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "production",
+"ctx": 571,
+"paper": 428
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "factory",
+"ctx": 371,
+"paper": 415
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "machinery",
+"ctx": 204,
+"paper": 453
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "equipment",
+"ctx": 120,
+"paper": 62
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "machine",
+"ctx": 326,
+"paper": 604
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "tool",
+"ctx": 1335,
+"paper": 3564
+},
+{
+"date": "2026-11-01",
+"target": "aircraft",
+"word": "apparatus",
+"ctx": 1145,
+"paper": 5900
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "time",
+"ctx": 217,
+"paper": 127
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "day",
+"ctx": 379,
+"paper": 211
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "year",
+"ctx": 91,
+"paper": 454
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "month",
+"ctx": 269,
+"paper": 318
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "decade",
+"ctx": 493,
+"paper": 1997
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "annual",
+"ctx": 560,
+"paper": 467
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "calendar",
+"ctx": 1548,
+"paper": 3381
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "week",
+"ctx": 73,
+"paper": 114
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "weekend",
+"ctx": 268,
+"paper": 166
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "weekly",
+"ctx": 1415,
+"paper": 2360
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "fortnight",
+"ctx": 9459,
+"paper": 6151
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "weekday",
+"ctx": 5077,
+"paper": 4468
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "season",
+"ctx": 9,
+"paper": 17
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "summer",
+"ctx": 805,
+"paper": 388
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "period",
+"ctx": 1229,
+"paper": 1692
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "offseason",
+"ctx": 3870,
+"paper": 3778
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "seasonal",
+"ctx": 2725,
+"paper": 8271
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "series",
+"ctx": 109,
+"paper": 45
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "episode",
+"ctx": 164,
+"paper": 22
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "game",
+"ctx": 349,
+"paper": 51
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "finale",
+"ctx": 326,
+"paper": 25
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "playoff",
+"ctx": 544,
+"paper": 94
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "premiere",
+"ctx": 496,
+"paper": 202
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "quarter",
+"ctx": 1906,
+"paper": 3481
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "schedule",
+"ctx": 134,
+"paper": 246
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "upcoming",
+"ctx": 84,
+"paper": 240
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "next",
+"ctx": 158,
+"paper": 191
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "campaign",
+"ctx": 384,
+"paper": 339
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "opener",
+"ctx": 1884,
+"paper": 329
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "current",
+"ctx": 426,
+"paper": 1317
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "postseason",
+"ctx": 239,
+"paper": 89
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "preseason",
+"ctx": 1130,
+"paper": 774
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "spring",
+"ctx": 1204,
+"paper": 1042
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "program",
+"ctx": 1406,
+"paper": 1792
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "league",
+"ctx": 57,
+"paper": 163
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "tournament",
+"ctx": 322,
+"paper": 73
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "match",
+"ctx": 52,
+"paper": 15
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "fixture",
+"ctx": 1231,
+"paper": 148
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "championship",
+"ctx": 372,
+"paper": 87
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "round",
+"ctx": 226,
+"paper": 177
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "preview",
+"ctx": 414,
+"paper": 884
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "competition",
+"ctx": 359,
+"paper": 390
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "regular",
+"ctx": 48,
+"paper": 67
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "midseason",
+"ctx": 3389,
+"paper": 3413
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "matchup",
+"ctx": 2569,
+"paper": 448
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "starter",
+"ctx": 2603,
+"paper": 1538
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "cup",
+"ctx": 1430,
+"paper": 118
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "career",
+"ctx": 78,
+"paper": 146
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "rookie",
+"ctx": 1527,
+"paper": 2341
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "debut",
+"ctx": 7,
+"paper": 5
+},
+{
+"date": "2026-11-02",
+"target": "appearance",
+"word": "appearance",
+"ctx": 1,
+"paper": 1
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "water",
+"ctx": 1446,
+"paper": 10010
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "person",
+"ctx": 917,
+"paper": 2784
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "man",
+"ctx": 32,
+"paper": 169
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "woman",
+"ctx": 310,
+"paper": 977
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "boy",
+"ctx": 203,
+"paper": 213
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "male",
+"ctx": 938,
+"paper": 986
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "guy",
+"ctx": 233,
+"paper": 1035
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "gentleman",
+"ctx": 1510,
+"paper": 10648
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "father",
+"ctx": 1080,
+"paper": 27438
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "human",
+"ctx": 24,
+"paper": 2701
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "mankind",
+"ctx": 465,
+"paper": 492
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "child",
+"ctx": 1546,
+"paper": 4626
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "humanity",
+"ctx": 862,
+"paper": 2924
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "creature",
+"ctx": 2,
+"paper": 3
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "animal",
+"ctx": 12,
+"paper": 119
+},
+{
+"date": "2026-11-03",
+"target": "beast",
+"word": "beast",
+"ctx": 1,
+"paper": 1
+}
+]
+}

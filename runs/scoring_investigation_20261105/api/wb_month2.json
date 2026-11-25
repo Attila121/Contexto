@@ -1,0 +1,1392 @@
+[
+{
+"ts": "20231128011246",
+"mon": "202311",
+"game": 434,
+"word": "run",
+"arch": 205,
+"live": 179,
+"la": "run",
+"ll": "run"
+},
+{
+"ts": "20231128010905",
+"mon": "202311",
+"game": 434,
+"word": "jesus",
+"arch": 3553,
+"live": 3242,
+"la": "jesus",
+"ll": "jesus"
+},
+{
+"ts": "20231128011021",
+"mon": "202311",
+"game": 434,
+"word": "thanksgiving",
+"arch": 3528,
+"live": 3342,
+"la": "thanksgiving",
+"ll": "thanksgiving"
+},
+{
+"ts": "20231128010937",
+"mon": "202311",
+"game": 434,
+"word": "sandwich",
+"arch": 4075,
+"live": 3547,
+"la": "sandwich",
+"ll": "sandwich"
+},
+{
+"ts": "20231127170847",
+"mon": "202311",
+"game": 434,
+"word": "school",
+"arch": 1125,
+"live": 1021,
+"la": "school",
+"ll": "school"
+},
+{
+"ts": "20231128011306",
+"mon": "202311",
+"game": 434,
+"word": "jump",
+"arch": 260,
+"live": 227,
+"la": "jump",
+"ll": "jump"
+},
+{
+"ts": "20231230145901",
+"mon": "202312",
+"game": 466,
+"word": "relationship",
+"arch": 2189,
+"live": 1844,
+"la": "relationship",
+"ll": "relationship"
+},
+{
+"ts": "20231230144010",
+"mon": "202312",
+"game": 466,
+"word": "pheromone",
+"arch": 14687,
+"live": 14350,
+"la": "pheromone",
+"ll": "pheromone"
+},
+{
+"ts": "20231230144136",
+"mon": "202312",
+"game": 466,
+"word": "love",
+"arch": 266,
+"live": 229,
+"la": "love",
+"ll": "love"
+},
+{
+"ts": "20231228201021",
+"mon": "202312",
+"game": 222,
+"word": "shoe",
+"arch": 6697,
+"live": 5786,
+"la": "shoe",
+"ll": "shoe"
+},
+{
+"ts": "20231230145758",
+"mon": "202312",
+"game": 466,
+"word": "play",
+"arch": 2321,
+"live": 2046,
+"la": "play",
+"ll": "play"
+},
+{
+"ts": "20231230150110",
+"mon": "202312",
+"game": 466,
+"word": "god",
+"arch": 4723,
+"live": 4132,
+"la": "god",
+"ll": "god"
+},
+{
+"ts": "20240130212857",
+"mon": "202401",
+"game": 498,
+"word": "pencil",
+"arch": 15386,
+"live": 13211,
+"la": "pencil",
+"ll": "pencil"
+},
+{
+"ts": "20240105222622",
+"mon": "202401",
+"game": 425,
+"word": "ghost",
+"arch": 5908,
+"live": 5521,
+"la": "ghost",
+"ll": "ghost"
+},
+{
+"ts": "20240130202508",
+"mon": "202401",
+"game": 498,
+"word": "wood",
+"arch": 353,
+"live": 301,
+"la": "wood",
+"ll": "wood"
+},
+{
+"ts": "20240127035343",
+"mon": "202401",
+"game": 492,
+"word": "look",
+"arch": 284,
+"live": 261,
+"la": "look",
+"ll": "look"
+},
+{
+"ts": "20240123001433",
+"mon": "202401",
+"game": 479,
+"word": "plant",
+"arch": 5334,
+"live": 5084,
+"la": "plant",
+"ll": "plant"
+},
+{
+"ts": "20240127035129",
+"mon": "202401",
+"game": 492,
+"word": "fact",
+"arch": 1091,
+"live": 935,
+"la": "fact",
+"ll": "fact"
+},
+{
+"ts": "20240221190720",
+"mon": "202402",
+"game": 150,
+"word": "car",
+"arch": 2902,
+"live": 2667,
+"la": "car",
+"ll": "car"
+},
+{
+"ts": "20240203192416",
+"mon": "202402",
+"game": 320,
+"word": "snake",
+"arch": 22173,
+"live": 21837,
+"la": "snake",
+"ll": "snake"
+},
+{
+"ts": "20240217164104",
+"mon": "202402",
+"game": 493,
+"word": "word",
+"arch": 149,
+"live": 128,
+"la": "word",
+"ll": "word"
+},
+{
+"ts": "20240221190651",
+"mon": "202402",
+"game": 150,
+"word": "select",
+"arch": 2313,
+"live": 2273,
+"la": "select",
+"ll": "select"
+},
+{
+"ts": "20240221190707",
+"mon": "202402",
+"game": 150,
+"word": "piles",
+"arch": 4059,
+"live": 3792,
+"la": "pile",
+"ll": "pile"
+},
+{
+"ts": "20240202154756",
+"mon": "202402",
+"game": 501,
+"word": "shop",
+"arch": 2226,
+"live": 1961,
+"la": "shop",
+"ll": "shop"
+},
+{
+"ts": "20240326232601",
+"mon": "202403",
+"game": 472,
+"word": "universe",
+"arch": 3586,
+"live": 3309,
+"la": "universe",
+"ll": "universe"
+},
+{
+"ts": "20240326232848",
+"mon": "202403",
+"game": 472,
+"word": "education",
+"arch": 1430,
+"live": 1321,
+"la": "education",
+"ll": "education"
+},
+{
+"ts": "20240326232404",
+"mon": "202403",
+"game": 472,
+"word": "business",
+"arch": 2981,
+"live": 2750,
+"la": "business",
+"ll": "business"
+},
+{
+"ts": "20240314193125",
+"mon": "202403",
+"game": 542,
+"word": "price",
+"arch": 2527,
+"live": 2260,
+"la": "price",
+"ll": "price"
+},
+{
+"ts": "20240303160626",
+"mon": "202403",
+"game": 489,
+"word": "rod",
+"arch": 7691,
+"live": 6714,
+"la": "rod",
+"ll": "rod"
+},
+{
+"ts": "20240312140209",
+"mon": "202403",
+"game": 492,
+"word": "air",
+"arch": 200,
+"live": 190,
+"la": "air",
+"ll": "air"
+},
+{
+"ts": "20240422045606",
+"mon": "202404",
+"game": 503,
+"word": "animal",
+"arch": 2365,
+"live": 2282,
+"la": "animal",
+"ll": "animal"
+},
+{
+"ts": "20240416091414",
+"mon": "202404",
+"game": 254,
+"word": "fish",
+"arch": 41,
+"live": 42,
+"la": "fish",
+"ll": "fish"
+},
+{
+"ts": "20240403185122",
+"mon": "202404",
+"game": 562,
+"word": "calendar",
+"arch": 3823,
+"live": 3609,
+"la": "calendar",
+"ll": "calendar"
+},
+{
+"ts": "20240403190848",
+"mon": "202404",
+"game": 562,
+"word": "fall",
+"arch": 921,
+"live": 885,
+"la": "fall",
+"ll": "fall"
+},
+{
+"ts": "20240403190125",
+"mon": "202404",
+"game": 562,
+"word": "backpack",
+"arch": 3951,
+"live": 3727,
+"la": "backpack",
+"ll": "backpack"
+},
+{
+"ts": "20240418080032",
+"mon": "202404",
+"game": 578,
+"word": "fruit",
+"arch": 23,
+"live": 23,
+"la": "fruit",
+"ll": "fruit"
+},
+{
+"ts": "20240515170827",
+"mon": "202405",
+"game": 469,
+"word": "ocean",
+"arch": 13432,
+"live": 12981,
+"la": "ocean",
+"ll": "ocean"
+},
+{
+"ts": "20240513130712",
+"mon": "202405",
+"game": 574,
+"word": "car",
+"arch": 1504,
+"live": 1412,
+"la": "car",
+"ll": "car"
+},
+{
+"ts": "20240513131308",
+"mon": "202405",
+"game": 574,
+"word": "woman",
+"arch": 1112,
+"live": 1030,
+"la": "woman",
+"ll": "woman"
+},
+{
+"ts": "20240513131026",
+"mon": "202405",
+"game": 574,
+"word": "asset",
+"arch": 3330,
+"live": 3117,
+"la": "asset",
+"ll": "asset"
+},
+{
+"ts": "20240515171219",
+"mon": "202405",
+"game": 469,
+"word": "art",
+"arch": 5327,
+"live": 5155,
+"la": "art",
+"ll": "art"
+},
+{
+"ts": "20240530181527",
+"mon": "202405",
+"game": 168,
+"word": "crane",
+"arch": 8802,
+"live": 8464,
+"la": "crane",
+"ll": "crane"
+},
+{
+"ts": "20240612110816",
+"mon": "202406",
+"game": 628,
+"word": "afganistan",
+"arch": 38768,
+"live": 37274,
+"la": "afganistan",
+"ll": "afganistan"
+},
+{
+"ts": "20240612111224",
+"mon": "202406",
+"game": 628,
+"word": "hydrogen",
+"arch": 6808,
+"live": 6420,
+"la": "hydrogen",
+"ll": "hydrogen"
+},
+{
+"ts": "20240612111206",
+"mon": "202406",
+"game": 628,
+"word": "jeffrey",
+"arch": 6877,
+"live": 6487,
+"la": "jeffrey",
+"ll": "jeffrey"
+},
+{
+"ts": "20240612110757",
+"mon": "202406",
+"game": 628,
+"word": "table",
+"arch": 672,
+"live": 621,
+"la": "table",
+"ll": "table"
+},
+{
+"ts": "20240604042206",
+"mon": "202406",
+"game": 600,
+"word": "cow",
+"arch": 5,
+"live": 5,
+"la": "cow",
+"ll": "cow"
+},
+{
+"ts": "20240602042426",
+"mon": "202406",
+"game": 620,
+"word": "rapid",
+"arch": 5097,
+"live": 4874,
+"la": "rapid",
+"ll": "rapid"
+},
+{
+"ts": "20240702210938",
+"mon": "202407",
+"game": 652,
+"word": "shoe",
+"arch": 5827,
+"live": 5572,
+"la": "shoe",
+"ll": "shoe"
+},
+{
+"ts": "20240702210924",
+"mon": "202407",
+"game": 652,
+"word": "beach",
+"arch": 8311,
+"live": 7918,
+"la": "beach",
+"ll": "beach"
+},
+{
+"ts": "20240702210910",
+"mon": "202407",
+"game": 652,
+"word": "pizza",
+"arch": 10737,
+"live": 10183,
+"la": "pizza",
+"ll": "pizza"
+},
+{
+"ts": "20240719024211",
+"mon": "202407",
+"game": 669,
+"word": "domain",
+"arch": 2609,
+"live": 2472,
+"la": "domain",
+"ll": "domain"
+},
+{
+"ts": "20240827182752",
+"mon": "202408",
+"game": 709,
+"word": "balls",
+"arch": 743,
+"live": 648,
+"la": "ball",
+"ll": "ball"
+},
+{
+"ts": "20240812150059",
+"mon": "202408",
+"game": 496,
+"word": "try",
+"arch": 1627,
+"live": 1582,
+"la": "try",
+"ll": "try"
+},
+{
+"ts": "20240830170943",
+"mon": "202408",
+"game": 709,
+"word": "clothes",
+"arch": 1510,
+"live": 1372,
+"la": "clothes",
+"ll": "clothes"
+},
+{
+"ts": "20240830170325",
+"mon": "202408",
+"game": 709,
+"word": "animal",
+"arch": 1901,
+"live": 1726,
+"la": "animal",
+"ll": "animal"
+},
+{
+"ts": "20240830165959",
+"mon": "202408",
+"game": 709,
+"word": "house",
+"arch": 2892,
+"live": 2664,
+"la": "house",
+"ll": "house"
+},
+{
+"ts": "20240830170657",
+"mon": "202408",
+"game": 709,
+"word": "desk",
+"arch": 2420,
+"live": 2214,
+"la": "desk",
+"ll": "desk"
+},
+{
+"ts": "20240923191402",
+"mon": "202409",
+"game": 733,
+"word": "feral",
+"arch": 26948,
+"live": 26075,
+"la": "feral",
+"ll": "feral"
+},
+{
+"ts": "20240923192620",
+"mon": "202409",
+"game": 733,
+"word": "hill",
+"arch": 321,
+"live": 317,
+"la": "hill",
+"ll": "hill"
+},
+{
+"ts": "20240923193617",
+"mon": "202409",
+"game": 733,
+"word": "rock",
+"arch": 67,
+"live": 67,
+"la": "rock",
+"ll": "rock"
+},
+{
+"ts": "20240923191426",
+"mon": "202409",
+"game": 733,
+"word": "jungle",
+"arch": 412,
+"live": 407,
+"la": "jungle",
+"ll": "jungle"
+},
+{
+"ts": "20240923191833",
+"mon": "202409",
+"game": 733,
+"word": "forest",
+"arch": 47,
+"live": 47,
+"la": "forest",
+"ll": "forest"
+},
+{
+"ts": "20240923193349",
+"mon": "202409",
+"game": 733,
+"word": "volcano",
+"arch": 18,
+"live": 18,
+"la": "volcano",
+"ll": "volcano"
+},
+{
+"ts": "20241007172138",
+"mon": "202410",
+"game": 749,
+"word": "water",
+"arch": 819,
+"live": 789,
+"la": "water",
+"ll": "water"
+},
+{
+"ts": "20241004200130",
+"mon": "202410",
+"game": 745,
+"word": "watch",
+"arch": 3228,
+"live": 3055,
+"la": "watch",
+"ll": "watch"
+},
+{
+"ts": "20241009204413",
+"mon": "202410",
+"game": 720,
+"word": "trust",
+"arch": 3177,
+"live": 3031,
+"la": "trust",
+"ll": "trust"
+},
+{
+"ts": "20241007172127",
+"mon": "202410",
+"game": 749,
+"word": "test",
+"arch": 21884,
+"live": 20990,
+"la": "test",
+"ll": "test"
+},
+{
+"ts": "20241004200018",
+"mon": "202410",
+"game": 745,
+"word": "test",
+"arch": 1312,
+"live": 1250,
+"la": "test",
+"ll": "test"
+},
+{
+"ts": "20241004200142",
+"mon": "202410",
+"game": 745,
+"word": "clock",
+"arch": 5139,
+"live": 4856,
+"la": "clock",
+"ll": "clock"
+},
+{
+"ts": "20241218210542",
+"mon": "202412",
+"game": 819,
+"word": "among",
+"arch": 3823,
+"live": 3629,
+"la": "among",
+"ll": "among"
+},
+{
+"ts": "20241220152143",
+"mon": "202412",
+"game": 819,
+"word": "guard",
+"arch": 7761,
+"live": 7420,
+"la": "guard",
+"ll": "guard"
+},
+{
+"ts": "20241220152620",
+"mon": "202412",
+"game": 819,
+"word": "city",
+"arch": 3819,
+"live": 3625,
+"la": "city",
+"ll": "city"
+},
+{
+"ts": "20241220151919",
+"mon": "202412",
+"game": 819,
+"word": "brunel",
+"arch": 5446,
+"live": 5186,
+"la": "brunel",
+"ll": "brunel"
+},
+{
+"ts": "20241218210553",
+"mon": "202412",
+"game": 819,
+"word": "school",
+"arch": 1407,
+"live": 1340,
+"la": "school",
+"ll": "school"
+},
+{
+"ts": "20241220151708",
+"mon": "202412",
+"game": 819,
+"word": "place",
+"arch": 1858,
+"live": 1768,
+"la": "place",
+"ll": "place"
+},
+{
+"ts": "20250119190419",
+"mon": "202501",
+"game": 853,
+"word": "car",
+"arch": 68367,
+"live": 67071,
+"la": "car",
+"ll": "car"
+},
+{
+"ts": "20250226112442",
+"mon": "202502",
+"game": 886,
+"word": "fire",
+"arch": 13219,
+"live": 12783,
+"la": "fire",
+"ll": "fire"
+},
+{
+"ts": "20250207122117",
+"mon": "202502",
+"game": 136,
+"word": "magic",
+"arch": 337,
+"live": 333,
+"la": "magic",
+"ll": "magic"
+},
+{
+"ts": "20250303232308",
+"mon": "202503",
+"game": 881,
+"word": "stone",
+"arch": 416,
+"live": 404,
+"la": "stone",
+"ll": "stone"
+},
+{
+"ts": "20250303234105",
+"mon": "202503",
+"game": 859,
+"word": "meat",
+"arch": 85,
+"live": 83,
+"la": "meat",
+"ll": "meat"
+},
+{
+"ts": "20250303233056",
+"mon": "202503",
+"game": 881,
+"word": "summit",
+"arch": 233,
+"live": 227,
+"la": "summit",
+"ll": "summit"
+},
+{
+"ts": "20250303232742",
+"mon": "202503",
+"game": 881,
+"word": "top",
+"arch": 686,
+"live": 655,
+"la": "top",
+"ll": "top"
+},
+{
+"ts": "20250303232440",
+"mon": "202503",
+"game": 881,
+"word": "mountain",
+"arch": 1,
+"live": 1,
+"la": "mountain",
+"ll": "mountain"
+},
+{
+"ts": "20250303233654",
+"mon": "202503",
+"game": 881,
+"word": "appalachians",
+"arch": 841,
+"live": 804,
+"la": "appalachians",
+"ll": "appalachians"
+},
+{
+"ts": "20250425083607",
+"mon": "202504",
+"game": 503,
+"word": "baby",
+"arch": 4280,
+"live": 4149,
+"la": "baby",
+"ll": "baby"
+},
+{
+"ts": "20250425084711",
+"mon": "202504",
+"game": 503,
+"word": "stomach",
+"arch": 5120,
+"live": 4959,
+"la": "stomach",
+"ll": "stomach"
+},
+{
+"ts": "20250425083507",
+"mon": "202504",
+"game": 503,
+"word": "wood",
+"arch": 3066,
+"live": 2974,
+"la": "wood",
+"ll": "wood"
+},
+{
+"ts": "20250425085950",
+"mon": "202504",
+"game": 503,
+"word": "process",
+"arch": 0,
+"live": 0,
+"la": "process",
+"ll": "process"
+},
+{
+"ts": "20250425083752",
+"mon": "202504",
+"game": 503,
+"word": "recipe",
+"arch": 4444,
+"live": 4309,
+"la": "recipe",
+"ll": "recipe"
+},
+{
+"ts": "20250425084336",
+"mon": "202504",
+"game": 503,
+"word": "banana",
+"arch": 10846,
+"live": 10414,
+"la": "banana",
+"ll": "banana"
+},
+{
+"ts": "20250520154209",
+"mon": "202505",
+"game": 971,
+"word": "federal",
+"arch": 432,
+"live": 408,
+"la": "federal",
+"ll": "federal"
+},
+{
+"ts": "20250515133725",
+"mon": "202505",
+"game": 941,
+"word": "freezer",
+"arch": 8172,
+"live": 7617,
+"la": "freezer",
+"ll": "freezer"
+},
+{
+"ts": "20250520154241",
+"mon": "202505",
+"game": 971,
+"word": "job",
+"arch": 252,
+"live": 244,
+"la": "job",
+"ll": "job"
+},
+{
+"ts": "20250515134805",
+"mon": "202505",
+"game": 941,
+"word": "technician",
+"arch": 3940,
+"live": 3680,
+"la": "technician",
+"ll": "technician"
+},
+{
+"ts": "20250515133914",
+"mon": "202505",
+"game": 941,
+"word": "street",
+"arch": 3336,
+"live": 3122,
+"la": "street",
+"ll": "street"
+},
+{
+"ts": "20250515133932",
+"mon": "202505",
+"game": 941,
+"word": "plant",
+"arch": 3344,
+"live": 3130,
+"la": "plant",
+"ll": "plant"
+},
+{
+"ts": "20250823021228",
+"mon": "202508",
+"game": 284,
+"word": "random",
+"arch": 6432,
+"live": 6339,
+"la": "random",
+"ll": "random"
+},
+{
+"ts": "20250820134441",
+"mon": "202508",
+"game": 1041,
+"word": "pinto",
+"arch": 17489,
+"live": 17070,
+"la": "pinto",
+"ll": "pinto"
+},
+{
+"ts": "20250831231422",
+"mon": "202508",
+"game": 1054,
+"word": "beach",
+"arch": 3705,
+"live": 3638,
+"la": "beach",
+"ll": "beach"
+},
+{
+"ts": "20250821035554",
+"mon": "202508",
+"game": 1011,
+"word": "green",
+"arch": 1823,
+"live": 1814,
+"la": "green",
+"ll": "green"
+},
+{
+"ts": "20250827115737",
+"mon": "202508",
+"game": 82,
+"word": "toothbrush",
+"arch": 18219,
+"live": 17754,
+"la": "toothbrush",
+"ll": "toothbrush"
+},
+{
+"ts": "20250826084020",
+"mon": "202508",
+"game": 1011,
+"word": "animal",
+"arch": 442,
+"live": 441,
+"la": "animal",
+"ll": "animal"
+},
+{
+"ts": "20250904163456",
+"mon": "202509",
+"game": 956,
+"word": "alpha",
+"arch": 1799,
+"live": 1761,
+"la": "alpha",
+"ll": "alpha"
+},
+{
+"ts": "20251002191920",
+"mon": "202510",
+"game": 380,
+"word": "king",
+"arch": 3002,
+"live": 2983,
+"la": "king",
+"ll": "king"
+},
+{
+"ts": "20251203101015",
+"mon": "202512",
+"game": 1114,
+"word": "tree",
+"arch": 66,
+"live": 66,
+"la": "tree",
+"ll": "tree"
+},
+{
+"ts": "20251202052030",
+"mon": "202512",
+"game": 1052,
+"word": "house",
+"arch": 12879,
+"live": 12774,
+"la": "house",
+"ll": "house"
+},
+{
+"ts": "20251202190724",
+"mon": "202512",
+"game": 1114,
+"word": "school",
+"arch": 3386,
+"live": 3379,
+"la": "school",
+"ll": "school"
+},
+{
+"ts": "20251202190737",
+"mon": "202512",
+"game": 1114,
+"word": "school",
+"arch": 3386,
+"live": 3379,
+"la": "school",
+"ll": "school"
+},
+{
+"ts": "20251202190810",
+"mon": "202512",
+"game": 1114,
+"word": "home",
+"arch": 872,
+"live": 871,
+"la": "home",
+"ll": "home"
+},
+{
+"ts": "20251202190733",
+"mon": "202512",
+"game": 1010,
+"word": "poop",
+"arch": 47943,
+"live": 47424,
+"la": "poop",
+"ll": "poop"
+},
+{
+"ts": "20260109172215",
+"mon": "202601",
+"game": 1194,
+"word": "criminal",
+"arch": 7595,
+"live": 7521,
+"la": "criminal",
+"ll": "criminal"
+},
+{
+"ts": "20260109172050",
+"mon": "202601",
+"game": 1194,
+"word": "lego",
+"arch": 6462,
+"live": 6406,
+"la": "lego",
+"ll": "lego"
+},
+{
+"ts": "20260125013004",
+"mon": "202601",
+"game": 1215,
+"word": "car",
+"arch": 14132,
+"live": 13946,
+"la": "car",
+"ll": "car"
+},
+{
+"ts": "20260225193738",
+"mon": "202602",
+"game": 1242,
+"word": "honeydew",
+"arch": 1526,
+"live": 1513,
+"la": "honeydew",
+"ll": "honeydew"
+},
+{
+"ts": "20260224131322",
+"mon": "202602",
+"game": 1242,
+"word": "sun",
+"arch": 1236,
+"live": 1232,
+"la": "sun",
+"ll": "sun"
+},
+{
+"ts": "20260224132347",
+"mon": "202602",
+"game": 1242,
+"word": "bark",
+"arch": 171,
+"live": 171,
+"la": "bark",
+"ll": "bark"
+},
+{
+"ts": "20260211140234",
+"mon": "202602",
+"game": 1242,
+"word": "nuts",
+"arch": 3066,
+"live": 3035,
+"la": "nut",
+"ll": "nut"
+},
+{
+"ts": "20260202214448",
+"mon": "202602",
+"game": 916,
+"word": "good",
+"arch": 236,
+"live": 237,
+"la": "good",
+"ll": "good"
+},
+{
+"ts": "20260220221012",
+"mon": "202602",
+"game": 1242,
+"word": "red",
+"arch": 319,
+"live": 318,
+"la": "red",
+"ll": "red"
+},
+{
+"ts": "20260305152036",
+"mon": "202603",
+"game": 1228,
+"word": "online",
+"arch": 55,
+"live": 55,
+"la": "online",
+"ll": "online"
+},
+{
+"ts": "20260305150655",
+"mon": "202603",
+"game": 1228,
+"word": "sketch",
+"arch": 3911,
+"live": 3852,
+"la": "sketch",
+"ll": "sketch"
+},
+{
+"ts": "20260304140624",
+"mon": "202603",
+"game": 1229,
+"word": "community",
+"arch": 7141,
+"live": 6831,
+"la": "community",
+"ll": "community"
+},
+{
+"ts": "20260306151521",
+"mon": "202603",
+"game": 1225,
+"word": "consume",
+"arch": 2682,
+"live": 2658,
+"la": "consume",
+"ll": "consume"
+},
+{
+"ts": "20260305154010",
+"mon": "202603",
+"game": 1226,
+"word": "food",
+"arch": 258,
+"live": 253,
+"la": "food",
+"ll": "food"
+},
+{
+"ts": "20260305143009",
+"mon": "202603",
+"game": 1228,
+"word": "event",
+"arch": 1752,
+"live": 1731,
+"la": "event",
+"ll": "event"
+},
+{
+"ts": "20260420145342",
+"mon": "202604",
+"game": 1291,
+"word": "leaf",
+"arch": 4314,
+"live": 4283,
+"la": "leaf",
+"ll": "leaf"
+},
+{
+"ts": "20260420145314",
+"mon": "202604",
+"game": 1291,
+"word": "cloud",
+"arch": 5202,
+"live": 5160,
+"la": "cloud",
+"ll": "cloud"
+},
+{
+"ts": "20260420144919",
+"mon": "202604",
+"game": 1291,
+"word": "energy",
+"arch": 520,
+"live": 517,
+"la": "energy",
+"ll": "energy"
+},
+{
+"ts": "20260415112726",
+"mon": "202604",
+"game": 1260,
+"word": "thought",
+"arch": 631,
+"live": 631,
+"la": "thought",
+"ll": "thought"
+},
+{
+"ts": "20260420145011",
+"mon": "202604",
+"game": 1291,
+"word": "forest",
+"arch": 2359,
+"live": 2352,
+"la": "forest",
+"ll": "forest"
+},
+{
+"ts": "20260420145135",
+"mon": "202604",
+"game": 1291,
+"word": "life",
+"arch": 124,
+"live": 124,
+"la": "life",
+"ll": "life"
+},
+{
+"ts": "20260519174720",
+"mon": "202605",
+"game": 1327,
+"word": "attempt",
+"arch": 1802,
+"live": 1800,
+"la": "attempt",
+"ll": "attempt"
+},
+{
+"ts": "20260519174545",
+"mon": "202605",
+"game": 1328,
+"word": "particular",
+"arch": 1375,
+"live": 1376,
+"la": "particular",
+"ll": "particular"
+},
+{
+"ts": "20260508175833",
+"mon": "202605",
+"game": 1327,
+"word": "renaissance",
+"arch": 15,
+"live": 15,
+"la": "renaissance",
+"ll": "renaissance"
+},
+{
+"ts": "20260508180037",
+"mon": "202605",
+"game": 1327,
+"word": "era",
+"arch": 0,
+"live": 0,
+"la": "era",
+"ll": "era"
+},
+{
+"ts": "20260508175402",
+"mon": "202605",
+"game": 1327,
+"word": "cake",
+"arch": 9303,
+"live": 9259,
+"la": "cake",
+"ll": "cake"
+},
+{
+"ts": "20260520152659",
+"mon": "202605",
+"game": 1296,
+"word": "test",
+"arch": 4722,
+"live": 4694,
+"la": "test",
+"ll": "test"
+},
+{
+"ts": "20260602172654",
+"mon": "202606",
+"game": 512,
+"word": "apple",
+"arch": 6533,
+"live": 6498,
+"la": "apple",
+"ll": "apple"
+}
+]

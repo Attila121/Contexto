@@ -1,0 +1,882 @@
+[
+{
+"word": "pineapple",
+"wordpolo": [
+200,
+{
+"guess": "pineapple",
+"rank": 4,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 1,
+"lemma": "pineapple",
+"word": "pineapple"
+}
+]
+},
+{
+"word": "strawberry",
+"wordpolo": [
+200,
+{
+"guess": "strawberry",
+"rank": 22,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 2,
+"lemma": "strawberry",
+"word": "strawberry"
+}
+]
+},
+{
+"word": "fruit",
+"wordpolo": [
+200,
+{
+"guess": "fruit",
+"rank": 7,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 3,
+"lemma": "fruit",
+"word": "fruit"
+}
+]
+},
+{
+"word": "apple",
+"wordpolo": [
+200,
+{
+"guess": "apple",
+"rank": 40,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 4,
+"lemma": "apple",
+"word": "apple"
+}
+]
+},
+{
+"word": "coconut",
+"wordpolo": [
+200,
+{
+"guess": "coconut",
+"rank": 5,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 5,
+"lemma": "coconut",
+"word": "coconut"
+}
+]
+},
+{
+"word": "mango",
+"wordpolo": [
+200,
+{
+"guess": "mango",
+"rank": 3,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 7,
+"lemma": "mango",
+"word": "mango"
+}
+]
+},
+{
+"word": "peanut",
+"wordpolo": [
+200,
+{
+"guess": "peanut",
+"rank": 10,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 6,
+"lemma": "peanut",
+"word": "peanut"
+}
+]
+},
+{
+"word": "chocolate",
+"wordpolo": [
+200,
+{
+"guess": "chocolate",
+"rank": 30,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 10,
+"lemma": "chocolate",
+"word": "chocolate"
+}
+]
+},
+{
+"word": "bananas",
+"wordpolo": [
+200,
+{
+"guess": "bananas",
+"rank": 2,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 0,
+"lemma": "banana",
+"word": "bananas"
+}
+]
+},
+{
+"word": "apples",
+"wordpolo": [
+200,
+{
+"guess": "apples",
+"rank": 53,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 4,
+"lemma": "apple",
+"word": "apples"
+}
+]
+},
+{
+"word": "the",
+"wordpolo": [
+200,
+{
+"guess": "the",
+"rank": 3033,
+"target_word": "banana"
+}
+],
+"contexto": [
+404,
+{
+"error": "This word doesn't count, it's too common"
+}
+]
+},
+{
+"word": "obama",
+"wordpolo": [
+200,
+{
+"guess": "obama",
+"rank": 26095,
+"target_word": "banana"
+}
+],
+"contexto": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+]
+},
+{
+"word": "google",
+"wordpolo": [
+200,
+{
+"guess": "google",
+"rank": 77874,
+"target_word": "banana"
+}
+],
+"contexto": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+]
+},
+{
+"word": "john",
+"wordpolo": [
+200,
+{
+"guess": "john",
+"rank": 102558,
+"target_word": "banana"
+}
+],
+"contexto": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+]
+},
+{
+"word": "tokyo",
+"wordpolo": [
+200,
+{
+"guess": "tokyo",
+"rank": 157814,
+"target_word": "banana"
+}
+],
+"contexto": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+]
+},
+{
+"word": "bitcoin",
+"wordpolo": [
+200,
+{
+"guess": "bitcoin",
+"rank": 217417,
+"target_word": "banana"
+}
+],
+"contexto": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+]
+},
+{
+"word": "iphone",
+"wordpolo": [
+200,
+{
+"guess": "iphone",
+"rank": 6593,
+"target_word": "banana"
+}
+],
+"contexto": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+]
+},
+{
+"word": "asdfqwer",
+"wordpolo": [
+404,
+{
+"error": "Word not found in rankings",
+"guess": "asdfqwer",
+"target_word": "banana"
+}
+],
+"contexto": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+]
+},
+{
+"word": "zzzz",
+"wordpolo": [
+200,
+{
+"guess": "zzzz",
+"rank": 188110,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 43592,
+"lemma": "zzzz",
+"word": "zzzz"
+}
+]
+},
+{
+"word": "1999",
+"wordpolo": [
+404,
+{
+"error": "Word not found in rankings",
+"guess": "1999",
+"target_word": "banana"
+}
+],
+"contexto": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+]
+},
+{
+"word": "plantation",
+"wordpolo": [
+200,
+{
+"guess": "plantation",
+"rank": 48,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 746,
+"lemma": "plantation",
+"word": "plantation"
+}
+]
+},
+{
+"word": "car",
+"wordpolo": [
+200,
+{
+"guess": "car",
+"rank": 17100,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 2491,
+"lemma": "car",
+"word": "car"
+}
+]
+},
+{
+"word": "city",
+"wordpolo": [
+200,
+{
+"guess": "city",
+"rank": 228690,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 4829,
+"lemma": "city",
+"word": "city"
+}
+]
+},
+{
+"word": "computer",
+"wordpolo": [
+200,
+{
+"guess": "computer",
+"rank": 19906,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 5625,
+"lemma": "computer",
+"word": "computer"
+}
+]
+},
+{
+"word": "music",
+"wordpolo": [
+200,
+{
+"guess": "music",
+"rank": 14102,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 1814,
+"lemma": "music",
+"word": "music"
+}
+]
+},
+{
+"word": "river",
+"wordpolo": [
+200,
+{
+"guess": "river",
+"rank": 4643,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 5319,
+"lemma": "river",
+"word": "river"
+}
+]
+},
+{
+"word": "mountain",
+"wordpolo": [
+200,
+{
+"guess": "mountain",
+"rank": 6549,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 1667,
+"lemma": "mountain",
+"word": "mountain"
+}
+]
+},
+{
+"word": "philosophy",
+"wordpolo": [
+200,
+{
+"guess": "philosophy",
+"rank": 245491,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 11107,
+"lemma": "philosophy",
+"word": "philosophy"
+}
+]
+},
+{
+"word": "justice",
+"wordpolo": [
+200,
+{
+"guess": "justice",
+"rank": 141038,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 7985,
+"lemma": "justice",
+"word": "justice"
+}
+]
+},
+{
+"word": "government",
+"wordpolo": [
+200,
+{
+"guess": "government",
+"rank": 36126,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 3757,
+"lemma": "government",
+"word": "government"
+}
+]
+},
+{
+"word": "democracy",
+"wordpolo": [
+200,
+{
+"guess": "democracy",
+"rank": 56743,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 7279,
+"lemma": "democracy",
+"word": "democracy"
+}
+]
+},
+{
+"word": "hospital",
+"wordpolo": [
+200,
+{
+"guess": "hospital",
+"rank": 156352,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 12236,
+"lemma": "hospital",
+"word": "hospital"
+}
+]
+},
+{
+"word": "television",
+"wordpolo": [
+null,
+"TimeoutError('The read operation timed out')"
+],
+"contexto": [
+200,
+{
+"distance": 5402,
+"lemma": "television",
+"word": "television"
+}
+]
+},
+{
+"word": "tv",
+"wordpolo": [
+null,
+"TimeoutError('The read operation timed out')"
+],
+"contexto": [
+200,
+{
+"distance": 2726,
+"lemma": "tv",
+"word": "tv"
+}
+]
+},
+{
+"word": "running",
+"wordpolo": [
+null,
+"TimeoutError('The read operation timed out')"
+],
+"contexto": [
+200,
+{
+"distance": 2670,
+"lemma": "running",
+"word": "running"
+}
+]
+},
+{
+"word": "ran",
+"wordpolo": [
+200,
+{
+"guess": "ran",
+"rank": 7003,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 1883,
+"lemma": "run",
+"word": "ran"
+}
+]
+},
+{
+"word": "datum",
+"wordpolo": [
+200,
+{
+"guess": "datum",
+"rank": 11619,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 57178,
+"lemma": "datum",
+"word": "datum"
+}
+]
+},
+{
+"word": "physician",
+"wordpolo": [
+200,
+{
+"guess": "physician",
+"rank": 283787,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 34033,
+"lemma": "physician",
+"word": "physician"
+}
+]
+},
+{
+"word": "quixotic",
+"wordpolo": [
+200,
+{
+"guess": "quixotic",
+"rank": 231900,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 62629,
+"lemma": "quixotic",
+"word": "quixotic"
+}
+]
+},
+{
+"word": "perspicacious",
+"wordpolo": [
+200,
+{
+"guess": "perspicacious",
+"rank": 312192,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 71881,
+"lemma": "perspicacious",
+"word": "perspicacious"
+}
+]
+},
+{
+"word": "ecuador",
+"wordpolo": [
+200,
+{
+"guess": "ecuador",
+"rank": 171,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 2812,
+"lemma": "ecuador",
+"word": "ecuador"
+}
+]
+},
+{
+"word": "chiquita",
+"wordpolo": [
+200,
+{
+"guess": "chiquita",
+"rank": 19,
+"target_word": "banana"
+}
+],
+"contexto": [
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+]
+},
+{
+"word": "yellow",
+"wordpolo": [
+200,
+{
+"guess": "yellow",
+"rank": 712,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 268,
+"lemma": "yellow",
+"word": "yellow"
+}
+]
+},
+{
+"word": "monkey",
+"wordpolo": [
+200,
+{
+"guess": "monkey",
+"rank": 442,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 169,
+"lemma": "monkey",
+"word": "monkey"
+}
+]
+},
+{
+"word": "peel",
+"wordpolo": [
+200,
+{
+"guess": "peel",
+"rank": 249,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 133,
+"lemma": "peel",
+"word": "peel"
+}
+]
+},
+{
+"word": "republic",
+"wordpolo": [
+200,
+{
+"guess": "republic",
+"rank": 814,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 1312,
+"lemma": "republic",
+"word": "republic"
+}
+]
+},
+{
+"word": "tree",
+"wordpolo": [
+200,
+{
+"guess": "tree",
+"rank": 82,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 362,
+"lemma": "tree",
+"word": "tree"
+}
+]
+},
+{
+"word": "bread",
+"wordpolo": [
+200,
+{
+"guess": "bread",
+"rank": 50,
+"target_word": "banana"
+}
+],
+"contexto": [
+200,
+{
+"distance": 42,
+"lemma": "bread",
+"word": "bread"
+}
+]
+}
+]

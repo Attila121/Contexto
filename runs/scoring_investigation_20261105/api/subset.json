@@ -1,0 +1,660 @@
+{
+"absent": [
+[
+98929,
+"aquaquero",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+107689,
+"bodyshop",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+99925,
+"infostock",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+98869,
+"renesmee",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+103631,
+"pkgs",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+109599,
+"pmaway",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+71127,
+"trendnet",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+70435,
+"sonicwall",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+103925,
+"titleprice",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+100774,
+"subscribesubscribedunsubscribe",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+112642,
+"gman",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+111546,
+"dck",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+70653,
+"incall",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+54880,
+"lotro",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+98440,
+"bewertungen",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+85262,
+"twiends",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+64095,
+"recruiterposted",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+54115,
+"utube",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+106086,
+"owh",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+117237,
+"adorei",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+112950,
+"rdfa",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+40394,
+"peice",
+200,
+{
+"distance": 16293,
+"lemma": "peice",
+"word": "peice"
+}
+],
+[
+110324,
+"progs",
+200,
+{
+"distance": 62771,
+"lemma": "progs",
+"word": "progs"
+}
+],
+[
+94283,
+"locationid",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+98975,
+"docid",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+114483,
+"informationimage",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+111674,
+"keezmovies",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+114124,
+"hbd",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+66457,
+"byod",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+112237,
+"kyriad",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+26781,
+"pmthis",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+105327,
+"observando",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+47550,
+"freeroll",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+46641,
+"braindump",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+37981,
+"lols",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+71207,
+"gynecol",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+78158,
+"albumsmy",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+110621,
+"ubergizmo",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+35529,
+"bdrm",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+99812,
+"applicablefile",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+87627,
+"hyperx",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+97907,
+"joyourself",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+109963,
+"vbadvanced",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+72052,
+"uint",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+104515,
+"lioresal",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+77240,
+"pokern",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+113379,
+"rydges",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+84092,
+"ocena",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+102851,
+"outspark",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+],
+[
+16459,
+"holdem",
+404,
+{
+"error": "I'm sorry, I don't know this word"
+}
+]
+],
+"present": [
+[
+117112,
+"cleverest",
+200,
+{
+"distance": 7341,
+"lemma": "clever",
+"word": "cleverest"
+}
+],
+[
+12240,
+"miracles",
+200,
+{
+"distance": 8892,
+"lemma": "miracle",
+"word": "miracles"
+}
+],
+[
+75848,
+"undercooked",
+200,
+{
+"distance": 3464,
+"lemma": "undercooked",
+"word": "undercooked"
+}
+],
+[
+115487,
+"pettersson",
+200,
+{
+"distance": 32501,
+"lemma": "pettersson",
+"word": "pettersson"
+}
+],
+[
+43453,
+"shovels",
+200,
+{
+"distance": 9553,
+"lemma": "shovel",
+"word": "shovels"
+}
+],
+[
+66422,
+"volcker",
+200,
+{
+"distance": 47945,
+"lemma": "volcker",
+"word": "volcker"
+}
+],
+[
+93767,
+"deaver",
+200,
+{
+"distance": 22536,
+"lemma": "deaver",
+"word": "deaver"
+}
+],
+[
+11975,
+"grooming",
+200,
+{
+"distance": 6054,
+"lemma": "groom",
+"word": "grooming"
+}
+],
+[
+39511,
+"despatch",
+200,
+{
+"distance": 16044,
+"lemma": "despatch",
+"word": "despatch"
+}
+],
+[
+49546,
+"apostrophe",
+200,
+{
+"distance": 30600,
+"lemma": "apostrophe",
+"word": "apostrophe"
+}
+],
+[
+35319,
+"polishes",
+200,
+{
+"distance": 1521,
+"lemma": "polish",
+"word": "polishes"
+}
+],
+[
+86329,
+"outsell",
+200,
+{
+"distance": 26667,
+"lemma": "outsell",
+"word": "outsell"
+}
+],
+[
+45206,
+"glean",
+200,
+{
+"distance": 7650,
+"lemma": "glean",
+"word": "glean"
+}
+],
+[
+4291,
+"courts",
+200,
+{
+"distance": 8247,
+"lemma": "court",
+"word": "courts"
+}
+],
+[
+10066,
+"rugged",
+200,
+{
+"distance": 40250,
+"lemma": "rugged",
+"word": "rugged"
+}
+],
+[
+96095,
+"escapees",
+200,
+{
+"distance": 63549,
+"lemma": "escapee",
+"word": "escapees"
+}
+],
+[
+15712,
+"sasha",
+200,
+{
+"distance": 26757,
+"lemma": "sasha",
+"word": "sasha"
+}
+],
+[
+65265,
+"tyrrell",
+200,
+{
+"distance": 37765,
+"lemma": "tyrrell",
+"word": "tyrrell"
+}
+],
+[
+15693,
+"rocked",
+200,
+{
+"distance": 1730,
+"lemma": "rock",
+"word": "rocked"
+}
+],
+[
+45490,
+"jaffe",
+200,
+{
+"distance": 9542,
+"lemma": "jaffe",
+"word": "jaffe"
+}
+],
+[
+62638,
+"pricy",
+200,
+{
+"distance": 24078,
+"lemma": "pricy",
+"word": "pricy"
+}
+],
+[
+9581,
+"undoubtedly",
+200,
+{
+"distance": 14003,
+"lemma": "undoubtedly",
+"word": "undoubtedly"
+}
+],
+[
+2459,
+"ticket",
+200,
+{
+"distance": 10130,
+"lemma": "ticket",
+"word": "ticket"
+}
+],
+[
+122,
+"two",
+200,
+{
+"distance": 1179,
+"lemma": "two",
+"word": "two"
+}
+],
+[
+32618,
+"ponte",
+200,
+{
+"distance": 55618,
+"lemma": "ponte",
+"word": "ponte"
+}
+]
+]
+}

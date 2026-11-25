@@ -1,0 +1,6256 @@
+{
+"res": [
+{
+"bin": [
+0,
+1000
+],
+"word": "operations",
+"status": 200,
+"resp": {
+"distance": 31436,
+"lemma": "operation",
+"word": "operations"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "playing",
+"status": 200,
+"resp": {
+"distance": 5144,
+"lemma": "play",
+"word": "playing"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "each",
+"status": 404,
+"resp": {
+"error": "This word doesn't count, it's too common"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "small",
+"status": 200,
+"resp": {
+"distance": 1495,
+"lemma": "small",
+"word": "small"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "need",
+"status": 200,
+"resp": {
+"distance": 2267,
+"lemma": "need",
+"word": "need"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "quarter",
+"status": 200,
+"resp": {
+"distance": 282,
+"lemma": "quarter",
+"word": "quarter"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "player",
+"status": 200,
+"resp": {
+"distance": 13727,
+"lemma": "player",
+"word": "player"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "an",
+"status": 404,
+"resp": {
+"error": "This word doesn't count, it's too common"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "report",
+"status": 200,
+"resp": {
+"distance": 7313,
+"lemma": "report",
+"word": "report"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "agency",
+"status": 200,
+"resp": {
+"distance": 7790,
+"lemma": "agency",
+"word": "agency"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "for",
+"status": 404,
+"resp": {
+"error": "This word doesn't count, it's too common"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "border",
+"status": 200,
+"resp": {
+"distance": 4144,
+"lemma": "border",
+"word": "border"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "beat",
+"status": 200,
+"resp": {
+"distance": 2650,
+"lemma": "beat",
+"word": "beat"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "find",
+"status": 200,
+"resp": {
+"distance": 2099,
+"lemma": "find",
+"word": "find"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "exchange",
+"status": 200,
+"resp": {
+"distance": 6763,
+"lemma": "exchange",
+"word": "exchange"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "evidence",
+"status": 200,
+"resp": {
+"distance": 27966,
+"lemma": "evidence",
+"word": "evidence"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "remained",
+"status": 200,
+"resp": {
+"distance": 1486,
+"lemma": "remain",
+"word": "remained"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "form",
+"status": 200,
+"resp": {
+"distance": 3990,
+"lemma": "form",
+"word": "form"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "dead",
+"status": 200,
+"resp": {
+"distance": 4903,
+"lemma": "dead",
+"word": "dead"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "labor",
+"status": 200,
+"resp": {
+"distance": 4014,
+"lemma": "labor",
+"word": "labor"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "president",
+"status": 200,
+"resp": {
+"distance": 5725,
+"lemma": "president",
+"word": "president"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "despite",
+"status": 200,
+"resp": {
+"distance": 7675,
+"lemma": "despite",
+"word": "despite"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "might",
+"status": 200,
+"resp": {
+"distance": 1903,
+"lemma": "might",
+"word": "might"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "yen",
+"status": 200,
+"resp": {
+"distance": 26126,
+"lemma": "yen",
+"word": "yen"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "who",
+"status": 404,
+"resp": {
+"error": "This word doesn't count, it's too common"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "issue",
+"status": 200,
+"resp": {
+"distance": 6020,
+"lemma": "issue",
+"word": "issue"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "effort",
+"status": 200,
+"resp": {
+"distance": 8169,
+"lemma": "effort",
+"word": "effort"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "living",
+"status": 200,
+"resp": {
+"distance": 10305,
+"lemma": "living",
+"word": "living"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "next",
+"status": 200,
+"resp": {
+"distance": 1474,
+"lemma": "next",
+"word": "next"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "index",
+"status": 200,
+"resp": {
+"distance": 5088,
+"lemma": "index",
+"word": "index"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "having",
+"status": 404,
+"resp": {
+"error": "This word doesn't count, it's too common"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "investment",
+"status": 200,
+"resp": {
+"distance": 11797,
+"lemma": "investment",
+"word": "investment"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "think",
+"status": 200,
+"resp": {
+"distance": 1637,
+"lemma": "think",
+"word": "think"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "followed",
+"status": 200,
+"resp": {
+"distance": 1827,
+"lemma": "follow",
+"word": "followed"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "comes",
+"status": 200,
+"resp": {
+"distance": 1366,
+"lemma": "come",
+"word": "comes"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "battle",
+"status": 200,
+"resp": {
+"distance": 22450,
+"lemma": "battle",
+"word": "battle"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "created",
+"status": 200,
+"resp": {
+"distance": 1843,
+"lemma": "create",
+"word": "created"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "down",
+"status": 404,
+"resp": {
+"error": "This word doesn't count, it's too common"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "rates",
+"status": 200,
+"resp": {
+"distance": 9163,
+"lemma": "rate",
+"word": "rates"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "al",
+"status": 200,
+"resp": {
+"distance": 28782,
+"lemma": "al",
+"word": "al"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "presidential",
+"status": 200,
+"resp": {
+"distance": 25368,
+"lemma": "presidential",
+"word": "presidential"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "air",
+"status": 200,
+"resp": {
+"distance": 5068,
+"lemma": "air",
+"word": "air"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "official",
+"status": 200,
+"resp": {
+"distance": 13026,
+"lemma": "official",
+"word": "official"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "any",
+"status": 404,
+"resp": {
+"error": "This word doesn't count, it's too common"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "mexico",
+"status": 200,
+"resp": {
+"distance": 18278,
+"lemma": "mexico",
+"word": "mexico"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "investors",
+"status": 200,
+"resp": {
+"distance": 21668,
+"lemma": "investor",
+"word": "investors"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "union",
+"status": 200,
+"resp": {
+"distance": 5339,
+"lemma": "union",
+"word": "union"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "hard",
+"status": 200,
+"resp": {
+"distance": 2269,
+"lemma": "hard",
+"word": "hard"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "yet",
+"status": 200,
+"resp": {
+"distance": 1524,
+"lemma": "yet",
+"word": "yet"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "agreement",
+"status": 200,
+"resp": {
+"distance": 25512,
+"lemma": "agreement",
+"word": "agreement"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "am",
+"status": 404,
+"resp": {
+"error": "This word doesn't count, it's too common"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "opposition",
+"status": 200,
+"resp": {
+"distance": 35069,
+"lemma": "opposition",
+"word": "opposition"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "justice",
+"status": 200,
+"resp": {
+"distance": 29999,
+"lemma": "justice",
+"word": "justice"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "students",
+"status": 200,
+"resp": {
+"distance": 13421,
+"lemma": "student",
+"word": "students"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "economy",
+"status": 200,
+"resp": {
+"distance": 19758,
+"lemma": "economy",
+"word": "economy"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "road",
+"status": 200,
+"resp": {
+"distance": 6417,
+"lemma": "road",
+"word": "road"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "return",
+"status": 200,
+"resp": {
+"distance": 3506,
+"lemma": "return",
+"word": "return"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "federal",
+"status": 200,
+"resp": {
+"distance": 19932,
+"lemma": "federal",
+"word": "federal"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "around",
+"status": 200,
+"resp": {
+"distance": 2704,
+"lemma": "around",
+"word": "around"
+}
+},
+{
+"bin": [
+0,
+1000
+],
+"word": "hope",
+"status": 200,
+"resp": {
+"distance": 3755,
+"lemma": "hope",
+"word": "hope"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "involvement",
+"status": 200,
+"resp": {
+"distance": 51267,
+"lemma": "involvement",
+"word": "involvement"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "wedding",
+"status": 200,
+"resp": {
+"distance": 1371,
+"lemma": "wedding",
+"word": "wedding"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "joe",
+"status": 200,
+"resp": {
+"distance": 5447,
+"lemma": "joe",
+"word": "joe"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "sex",
+"status": 404,
+"resp": {
+"error": "This word doesn't count"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "unclear",
+"status": 200,
+"resp": {
+"distance": 38238,
+"lemma": "unclear",
+"word": "unclear"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "offensive",
+"status": 200,
+"resp": {
+"distance": 19577,
+"lemma": "offensive",
+"word": "offensive"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "ordinary",
+"status": 200,
+"resp": {
+"distance": 12567,
+"lemma": "ordinary",
+"word": "ordinary"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "highest",
+"status": 200,
+"resp": {
+"distance": 5841,
+"lemma": "high",
+"word": "highest"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "silence",
+"status": 200,
+"resp": {
+"distance": 11015,
+"lemma": "silence",
+"word": "silence"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "mac",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "waves",
+"status": 200,
+"resp": {
+"distance": 6158,
+"lemma": "wave",
+"word": "waves"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "finds",
+"status": 200,
+"resp": {
+"distance": 2099,
+"lemma": "find",
+"word": "finds"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "count",
+"status": 200,
+"resp": {
+"distance": 7729,
+"lemma": "count",
+"word": "count"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "metres",
+"status": 200,
+"resp": {
+"distance": 12410,
+"lemma": "meter",
+"word": "metres"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "roughly",
+"status": 200,
+"resp": {
+"distance": 1942,
+"lemma": "roughly",
+"word": "roughly"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "adult",
+"status": 200,
+"resp": {
+"distance": 11390,
+"lemma": "adult",
+"word": "adult"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "style",
+"status": 200,
+"resp": {
+"distance": 1140,
+"lemma": "style",
+"word": "style"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "triggered",
+"status": 200,
+"resp": {
+"distance": 13630,
+"lemma": "trigger",
+"word": "triggered"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "nobody",
+"status": 404,
+"resp": {
+"error": "This word doesn't count, it's too common"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "veteran",
+"status": 200,
+"resp": {
+"distance": 45364,
+"lemma": "veteran",
+"word": "veteran"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "palm",
+"status": 200,
+"resp": {
+"distance": 919,
+"lemma": "palm",
+"word": "palm"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "faith",
+"status": 200,
+"resp": {
+"distance": 21430,
+"lemma": "faith",
+"word": "faith"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "behavior",
+"status": 200,
+"resp": {
+"distance": 25392,
+"lemma": "behavior",
+"word": "behavior"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "items",
+"status": 200,
+"resp": {
+"distance": 2806,
+"lemma": "item",
+"word": "items"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "convicted",
+"status": 200,
+"resp": {
+"distance": 40799,
+"lemma": "convict",
+"word": "convicted"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "pat",
+"status": 200,
+"resp": {
+"distance": 6134,
+"lemma": "pat",
+"word": "pat"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "vladimir",
+"status": 200,
+"resp": {
+"distance": 16653,
+"lemma": "vladimir",
+"word": "vladimir"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "sarkozy",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "poetry",
+"status": 200,
+"resp": {
+"distance": 7856,
+"lemma": "poetry",
+"word": "poetry"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "cleveland",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "complaint",
+"status": 200,
+"resp": {
+"distance": 22949,
+"lemma": "complaint",
+"word": "complaint"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "ron",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "rock",
+"status": 200,
+"resp": {
+"distance": 1730,
+"lemma": "rock",
+"word": "rock"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "factors",
+"status": 200,
+"resp": {
+"distance": 6064,
+"lemma": "factor",
+"word": "factors"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "treat",
+"status": 200,
+"resp": {
+"distance": 1054,
+"lemma": "treat",
+"word": "treat"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "dole",
+"status": 200,
+"resp": {
+"distance": 802,
+"lemma": "dole",
+"word": "dole"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "iraqis",
+"status": 200,
+"resp": {
+"distance": 71200,
+"lemma": "iraqi",
+"word": "iraqis"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "institutions",
+"status": 200,
+"resp": {
+"distance": 20325,
+"lemma": "institution",
+"word": "institutions"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "backing",
+"status": 200,
+"resp": {
+"distance": 9049,
+"lemma": "backing",
+"word": "backing"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "strategic",
+"status": 200,
+"resp": {
+"distance": 30002,
+"lemma": "strategic",
+"word": "strategic"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "intention",
+"status": 200,
+"resp": {
+"distance": 26444,
+"lemma": "intention",
+"word": "intention"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "toyota",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "transmission",
+"status": 200,
+"resp": {
+"distance": 44436,
+"lemma": "transmission",
+"word": "transmission"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "fundamental",
+"status": 200,
+"resp": {
+"distance": 27689,
+"lemma": "fundamental",
+"word": "fundamental"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "haiti",
+"status": 200,
+"resp": {
+"distance": 47375,
+"lemma": "haiti",
+"word": "haiti"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "date",
+"status": 200,
+"resp": {
+"distance": 994,
+"lemma": "date",
+"word": "date"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "euro",
+"status": 200,
+"resp": {
+"distance": 12881,
+"lemma": "euro",
+"word": "euro"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "clark",
+"status": 200,
+"resp": {
+"distance": 14022,
+"lemma": "clark",
+"word": "clark"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "alleged",
+"status": 200,
+"resp": {
+"distance": 49301,
+"lemma": "allege",
+"word": "alleged"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "mainland",
+"status": 200,
+"resp": {
+"distance": 36385,
+"lemma": "mainland",
+"word": "mainland"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "laid",
+"status": 200,
+"resp": {
+"distance": 2203,
+"lemma": "lay",
+"word": "laid"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "arts",
+"status": 200,
+"resp": {
+"distance": 2135,
+"lemma": "art",
+"word": "arts"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "chicken",
+"status": 200,
+"resp": {
+"distance": 246,
+"lemma": "chicken",
+"word": "chicken"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "villa",
+"status": 200,
+"resp": {
+"distance": 7141,
+"lemma": "villa",
+"word": "villa"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "sessions",
+"status": 200,
+"resp": {
+"distance": 8093,
+"lemma": "session",
+"word": "sessions"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "combination",
+"status": 200,
+"resp": {
+"distance": 1511,
+"lemma": "combination",
+"word": "combination"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "relationships",
+"status": 200,
+"resp": {
+"distance": 7638,
+"lemma": "relationship",
+"word": "relationships"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "heavy",
+"status": 200,
+"resp": {
+"distance": 3412,
+"lemma": "heavy",
+"word": "heavy"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "sa",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+1000,
+5000
+],
+"word": "baker",
+"status": 200,
+"resp": {
+"distance": 1510,
+"lemma": "baker",
+"word": "baker"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "recommend",
+"status": 200,
+"resp": {
+"distance": 3077,
+"lemma": "recommend",
+"word": "recommend"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "cluster",
+"status": 200,
+"resp": {
+"distance": 717,
+"lemma": "cluster",
+"word": "cluster"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "representation",
+"status": 200,
+"resp": {
+"distance": 10483,
+"lemma": "representation",
+"word": "representation"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "throne",
+"status": 200,
+"resp": {
+"distance": 9327,
+"lemma": "throne",
+"word": "throne"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "surname",
+"status": 200,
+"resp": {
+"distance": 16285,
+"lemma": "surname",
+"word": "surname"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "shelters",
+"status": 200,
+"resp": {
+"distance": 27964,
+"lemma": "shelter",
+"word": "shelters"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "spirits",
+"status": 200,
+"resp": {
+"distance": 5775,
+"lemma": "spirit",
+"word": "spirits"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "stricken",
+"status": 200,
+"resp": {
+"distance": 2730,
+"lemma": "strike",
+"word": "stricken"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "sailed",
+"status": 200,
+"resp": {
+"distance": 24336,
+"lemma": "sail",
+"word": "sailed"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "bounced",
+"status": 200,
+"resp": {
+"distance": 2640,
+"lemma": "bounce",
+"word": "bounced"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "graves",
+"status": 200,
+"resp": {
+"distance": 13335,
+"lemma": "grave",
+"word": "graves"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "attackers",
+"status": 200,
+"resp": {
+"distance": 51534,
+"lemma": "attacker",
+"word": "attackers"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "topped",
+"status": 200,
+"resp": {
+"distance": 177,
+"lemma": "top",
+"word": "topped"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "steal",
+"status": 200,
+"resp": {
+"distance": 11263,
+"lemma": "steal",
+"word": "steal"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "genuine",
+"status": 200,
+"resp": {
+"distance": 2419,
+"lemma": "genuine",
+"word": "genuine"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "italians",
+"status": 200,
+"resp": {
+"distance": 1487,
+"lemma": "italian",
+"word": "italians"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "medieval",
+"status": 200,
+"resp": {
+"distance": 24214,
+"lemma": "medieval",
+"word": "medieval"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "loser",
+"status": 200,
+"resp": {
+"distance": 14917,
+"lemma": "loser",
+"word": "loser"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "patriarch",
+"status": 200,
+"resp": {
+"distance": 48687,
+"lemma": "patriarch",
+"word": "patriarch"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "suited",
+"status": 200,
+"resp": {
+"distance": 3538,
+"lemma": "suit",
+"word": "suited"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "tyson",
+"status": 200,
+"resp": {
+"distance": 9662,
+"lemma": "tyson",
+"word": "tyson"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "mixing",
+"status": 200,
+"resp": {
+"distance": 523,
+"lemma": "mix",
+"word": "mixing"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "torch",
+"status": 200,
+"resp": {
+"distance": 10356,
+"lemma": "torch",
+"word": "torch"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "instrument",
+"status": 200,
+"resp": {
+"distance": 18320,
+"lemma": "instrument",
+"word": "instrument"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "cheered",
+"status": 200,
+"resp": {
+"distance": 7944,
+"lemma": "cheer",
+"word": "cheered"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "augusta",
+"status": 200,
+"resp": {
+"distance": 14326,
+"lemma": "augusta",
+"word": "augusta"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "composers",
+"status": 200,
+"resp": {
+"distance": 17466,
+"lemma": "composer",
+"word": "composers"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "flexibility",
+"status": 200,
+"resp": {
+"distance": 28940,
+"lemma": "flexibility",
+"word": "flexibility"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "chocolate",
+"status": 200,
+"resp": {
+"distance": 167,
+"lemma": "chocolate",
+"word": "chocolate"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "ge",
+"status": 200,
+"resp": {
+"distance": 7347,
+"lemma": "ge",
+"word": "ge"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "colored",
+"status": 200,
+"resp": {
+"distance": 688,
+"lemma": "colored",
+"word": "colored"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "underwater",
+"status": 200,
+"resp": {
+"distance": 18050,
+"lemma": "underwater",
+"word": "underwater"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "booming",
+"status": 200,
+"resp": {
+"distance": 25575,
+"lemma": "boom",
+"word": "booming"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "revelations",
+"status": 200,
+"resp": {
+"distance": 19624,
+"lemma": "revelation",
+"word": "revelations"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "se",
+"status": 200,
+"resp": {
+"distance": 10790,
+"lemma": "se",
+"word": "se"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "plunge",
+"status": 200,
+"resp": {
+"distance": 3154,
+"lemma": "plunge",
+"word": "plunge"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "taxpayer",
+"status": 200,
+"resp": {
+"distance": 52087,
+"lemma": "taxpayer",
+"word": "taxpayer"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "tips",
+"status": 200,
+"resp": {
+"distance": 1991,
+"lemma": "tip",
+"word": "tips"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "dc",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "marble",
+"status": 200,
+"resp": {
+"distance": 1227,
+"lemma": "marble",
+"word": "marble"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "theological",
+"status": 200,
+"resp": {
+"distance": 22690,
+"lemma": "theological",
+"word": "theological"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "conjunction",
+"status": 200,
+"resp": {
+"distance": 13012,
+"lemma": "conjunction",
+"word": "conjunction"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "fda",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "bowling",
+"status": 200,
+"resp": {
+"distance": 677,
+"lemma": "bowl",
+"word": "bowling"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "youths",
+"status": 200,
+"resp": {
+"distance": 13607,
+"lemma": "youth",
+"word": "youths"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "hungarian",
+"status": 200,
+"resp": {
+"distance": 12949,
+"lemma": "hungarian",
+"word": "hungarian"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "cake",
+"status": 200,
+"resp": {
+"distance": 143,
+"lemma": "cake",
+"word": "cake"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "arabic",
+"status": 200,
+"resp": {
+"distance": 9873,
+"lemma": "arabic",
+"word": "arabic"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "salem",
+"status": 200,
+"resp": {
+"distance": 41114,
+"lemma": "salem",
+"word": "salem"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "provider",
+"status": 200,
+"resp": {
+"distance": 18137,
+"lemma": "provider",
+"word": "provider"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "venezuelan",
+"status": 200,
+"resp": {
+"distance": 23153,
+"lemma": "venezuelan",
+"word": "venezuelan"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "accelerate",
+"status": 200,
+"resp": {
+"distance": 50743,
+"lemma": "accelerate",
+"word": "accelerate"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "accuse",
+"status": 200,
+"resp": {
+"distance": 35107,
+"lemma": "accuse",
+"word": "accuse"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "dissolved",
+"status": 200,
+"resp": {
+"distance": 5977,
+"lemma": "dissolve",
+"word": "dissolved"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "profitable",
+"status": 200,
+"resp": {
+"distance": 32248,
+"lemma": "profitable",
+"word": "profitable"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "deutsche",
+"status": 200,
+"resp": {
+"distance": 25297,
+"lemma": "deutsche",
+"word": "deutsche"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "trainer",
+"status": 200,
+"resp": {
+"distance": 20556,
+"lemma": "trainer",
+"word": "trainer"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "epic",
+"status": 200,
+"resp": {
+"distance": 25711,
+"lemma": "epic",
+"word": "epic"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "breast",
+"status": 200,
+"resp": {
+"distance": 648,
+"lemma": "breast",
+"word": "breast"
+}
+},
+{
+"bin": [
+5000,
+10000
+],
+"word": "eagles",
+"status": 200,
+"resp": {
+"distance": 5570,
+"lemma": "eagle",
+"word": "eagles"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "dartmouth",
+"status": 200,
+"resp": {
+"distance": 36591,
+"lemma": "dartmouth",
+"word": "dartmouth"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "melodic",
+"status": 200,
+"resp": {
+"distance": 17788,
+"lemma": "melodic",
+"word": "melodic"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "beset",
+"status": 200,
+"resp": {
+"distance": 31016,
+"lemma": "beset",
+"word": "beset"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "gansu",
+"status": 200,
+"resp": {
+"distance": 61118,
+"lemma": "gansu",
+"word": "gansu"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "jospin",
+"status": 200,
+"resp": {
+"distance": 13965,
+"lemma": "jospin",
+"word": "jospin"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "augusto",
+"status": 200,
+"resp": {
+"distance": 24795,
+"lemma": "augusto",
+"word": "augusto"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "latvian",
+"status": 200,
+"resp": {
+"distance": 25870,
+"lemma": "latvian",
+"word": "latvian"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "certainty",
+"status": 200,
+"resp": {
+"distance": 48688,
+"lemma": "certainty",
+"word": "certainty"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "getty",
+"status": 200,
+"resp": {
+"distance": 7890,
+"lemma": "getty",
+"word": "getty"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "zah",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "kafelnikov",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "katz",
+"status": 200,
+"resp": {
+"distance": 14334,
+"lemma": "katz",
+"word": "katz"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "uniformed",
+"status": 200,
+"resp": {
+"distance": 27748,
+"lemma": "uniform",
+"word": "uniformed"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "erotic",
+"status": 404,
+"resp": {
+"error": "This word doesn't count"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "weber",
+"status": 200,
+"resp": {
+"distance": 14957,
+"lemma": "weber",
+"word": "weber"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "barber",
+"status": 200,
+"resp": {
+"distance": 11197,
+"lemma": "barber",
+"word": "barber"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "glamour",
+"status": 200,
+"resp": {
+"distance": 6170,
+"lemma": "glamour",
+"word": "glamour"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "improvised",
+"status": 200,
+"resp": {
+"distance": 36044,
+"lemma": "improvise",
+"word": "improvised"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "lineups",
+"status": 200,
+"resp": {
+"distance": 28832,
+"lemma": "lineup",
+"word": "lineups"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "shinawatra",
+"status": 200,
+"resp": {
+"distance": 70296,
+"lemma": "shinawatra",
+"word": "shinawatra"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "analyses",
+"status": 200,
+"resp": {
+"distance": 10508,
+"lemma": "analysis",
+"word": "analyses"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "choked",
+"status": 200,
+"resp": {
+"distance": 5687,
+"lemma": "choke",
+"word": "choked"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "dunk",
+"status": 200,
+"resp": {
+"distance": 3954,
+"lemma": "dunk",
+"word": "dunk"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "doctoral",
+"status": 200,
+"resp": {
+"distance": 64625,
+"lemma": "doctoral",
+"word": "doctoral"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "dora",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "definitions",
+"status": 200,
+"resp": {
+"distance": 10262,
+"lemma": "definition",
+"word": "definitions"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "hansen",
+"status": 200,
+"resp": {
+"distance": 24294,
+"lemma": "hansen",
+"word": "hansen"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "pornography",
+"status": 404,
+"resp": {
+"error": "This word doesn't count"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "siberian",
+"status": 200,
+"resp": {
+"distance": 2908,
+"lemma": "siberian",
+"word": "siberian"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "compression",
+"status": 200,
+"resp": {
+"distance": 9707,
+"lemma": "compression",
+"word": "compression"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "booster",
+"status": 200,
+"resp": {
+"distance": 22665,
+"lemma": "booster",
+"word": "booster"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "sally",
+"status": 200,
+"resp": {
+"distance": 2949,
+"lemma": "sally",
+"word": "sally"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "emergencies",
+"status": 200,
+"resp": {
+"distance": 30790,
+"lemma": "emergency",
+"word": "emergencies"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "probes",
+"status": 200,
+"resp": {
+"distance": 34581,
+"lemma": "probe",
+"word": "probes"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "prostitutes",
+"status": 404,
+"resp": {
+"error": "This word doesn't count"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "mobil",
+"status": 200,
+"resp": {
+"distance": 57667,
+"lemma": "mobil",
+"word": "mobil"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "disrupting",
+"status": 200,
+"resp": {
+"distance": 70157,
+"lemma": "disrupt",
+"word": "disrupting"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "tentatively",
+"status": 200,
+"resp": {
+"distance": 41285,
+"lemma": "tentatively",
+"word": "tentatively"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "cabins",
+"status": 200,
+"resp": {
+"distance": 7369,
+"lemma": "cabin",
+"word": "cabins"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "relocation",
+"status": 200,
+"resp": {
+"distance": 38979,
+"lemma": "relocation",
+"word": "relocation"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "macquarie",
+"status": 200,
+"resp": {
+"distance": 14254,
+"lemma": "macquarie",
+"word": "macquarie"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "swede",
+"status": 200,
+"resp": {
+"distance": 3061,
+"lemma": "swede",
+"word": "swede"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "motto",
+"status": 200,
+"resp": {
+"distance": 50684,
+"lemma": "motto",
+"word": "motto"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "markus",
+"status": 200,
+"resp": {
+"distance": 39116,
+"lemma": "markus",
+"word": "markus"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "paperwork",
+"status": 200,
+"resp": {
+"distance": 23902,
+"lemma": "paperwork",
+"word": "paperwork"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "steinberg",
+"status": 200,
+"resp": {
+"distance": 12864,
+"lemma": "steinberg",
+"word": "steinberg"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "herbal",
+"status": 200,
+"resp": {
+"distance": 1756,
+"lemma": "herbal",
+"word": "herbal"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "lockhart",
+"status": 200,
+"resp": {
+"distance": 39867,
+"lemma": "lockhart",
+"word": "lockhart"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "funk",
+"status": 200,
+"resp": {
+"distance": 6022,
+"lemma": "funk",
+"word": "funk"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "harboring",
+"status": 200,
+"resp": {
+"distance": 16905,
+"lemma": "harbor",
+"word": "harboring"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "stumps",
+"status": 200,
+"resp": {
+"distance": 4074,
+"lemma": "stump",
+"word": "stumps"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "frogs",
+"status": 200,
+"resp": {
+"distance": 1147,
+"lemma": "frog",
+"word": "frogs"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "newsroom",
+"status": 200,
+"resp": {
+"distance": 36449,
+"lemma": "newsroom",
+"word": "newsroom"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "spouses",
+"status": 200,
+"resp": {
+"distance": 14056,
+"lemma": "spouse",
+"word": "spouses"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "gripping",
+"status": 200,
+"resp": {
+"distance": 2817,
+"lemma": "grip",
+"word": "gripping"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "sherwood",
+"status": 200,
+"resp": {
+"distance": 4853,
+"lemma": "sherwood",
+"word": "sherwood"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "possessions",
+"status": 200,
+"resp": {
+"distance": 28095,
+"lemma": "possession",
+"word": "possessions"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "ovation",
+"status": 200,
+"resp": {
+"distance": 54762,
+"lemma": "ovation",
+"word": "ovation"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "autocratic",
+"status": 200,
+"resp": {
+"distance": 61536,
+"lemma": "autocratic",
+"word": "autocratic"
+}
+},
+{
+"bin": [
+10000,
+20000
+],
+"word": "nuns",
+"status": 200,
+"resp": {
+"distance": 35446,
+"lemma": "nun",
+"word": "nuns"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "rumblings",
+"status": 200,
+"resp": {
+"distance": 24113,
+"lemma": "rumbling",
+"word": "rumblings"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "sarcastic",
+"status": 200,
+"resp": {
+"distance": 23339,
+"lemma": "sarcastic",
+"word": "sarcastic"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "expulsions",
+"status": 200,
+"resp": {
+"distance": 42203,
+"lemma": "expulsion",
+"word": "expulsions"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "mettle",
+"status": 200,
+"resp": {
+"distance": 47684,
+"lemma": "mettle",
+"word": "mettle"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "sonata",
+"status": 200,
+"resp": {
+"distance": 35231,
+"lemma": "sonata",
+"word": "sonata"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "thanh",
+"status": 200,
+"resp": {
+"distance": 66432,
+"lemma": "thanh",
+"word": "thanh"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "protectionist",
+"status": 200,
+"resp": {
+"distance": 25290,
+"lemma": "protectionist",
+"word": "protectionist"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "marguerite",
+"status": 200,
+"resp": {
+"distance": 17343,
+"lemma": "marguerite",
+"word": "marguerite"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "bounces",
+"status": 200,
+"resp": {
+"distance": 2640,
+"lemma": "bounce",
+"word": "bounces"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "emptying",
+"status": 200,
+"resp": {
+"distance": 2901,
+"lemma": "empty",
+"word": "emptying"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "monique",
+"status": 200,
+"resp": {
+"distance": 6114,
+"lemma": "monique",
+"word": "monique"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "cleanse",
+"status": 200,
+"resp": {
+"distance": 6087,
+"lemma": "cleanse",
+"word": "cleanse"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "follower",
+"status": 200,
+"resp": {
+"distance": 56638,
+"lemma": "follower",
+"word": "follower"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "fixation",
+"status": 200,
+"resp": {
+"distance": 24790,
+"lemma": "fixation",
+"word": "fixation"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "doldrums",
+"status": 200,
+"resp": {
+"distance": 37865,
+"lemma": "doldrums",
+"word": "doldrums"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "tripp",
+"status": 200,
+"resp": {
+"distance": 25429,
+"lemma": "tripp",
+"word": "tripp"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "tvb",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "subic",
+"status": 200,
+"resp": {
+"distance": 68013,
+"lemma": "subic",
+"word": "subic"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "colombians",
+"status": 200,
+"resp": {
+"distance": 2945,
+"lemma": "colombian",
+"word": "colombians"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "toad",
+"status": 200,
+"resp": {
+"distance": 1295,
+"lemma": "toad",
+"word": "toad"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "boomerang",
+"status": 200,
+"resp": {
+"distance": 21569,
+"lemma": "boomerang",
+"word": "boomerang"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "disintegrating",
+"status": 200,
+"resp": {
+"distance": 41583,
+"lemma": "disintegrate",
+"word": "disintegrating"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "coldest",
+"status": 200,
+"resp": {
+"distance": 1856,
+"lemma": "cold",
+"word": "coldest"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "indulged",
+"status": 200,
+"resp": {
+"distance": 3444,
+"lemma": "indulge",
+"word": "indulged"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "sever",
+"status": 200,
+"resp": {
+"distance": 12378,
+"lemma": "sever",
+"word": "sever"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "tilted",
+"status": 200,
+"resp": {
+"distance": 21865,
+"lemma": "tilt",
+"word": "tilted"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "canoeing",
+"status": 200,
+"resp": {
+"distance": 5153,
+"lemma": "canoe",
+"word": "canoeing"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "fairer",
+"status": 200,
+"resp": {
+"distance": 2429,
+"lemma": "fair",
+"word": "fairer"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "traveller",
+"status": 200,
+"resp": {
+"distance": 28250,
+"lemma": "traveller",
+"word": "traveller"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "peered",
+"status": 200,
+"resp": {
+"distance": 8236,
+"lemma": "peer",
+"word": "peered"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "spaghetti",
+"status": 200,
+"resp": {
+"distance": 1062,
+"lemma": "spaghetti",
+"word": "spaghetti"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "optioned",
+"status": 200,
+"resp": {
+"distance": 3974,
+"lemma": "option",
+"word": "optioned"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "vang",
+"status": 200,
+"resp": {
+"distance": 78049,
+"lemma": "vang",
+"word": "vang"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "chords",
+"status": 200,
+"resp": {
+"distance": 11049,
+"lemma": "chord",
+"word": "chords"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "mouthpiece",
+"status": 200,
+"resp": {
+"distance": 27949,
+"lemma": "mouthpiece",
+"word": "mouthpiece"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "pia",
+"status": 200,
+"resp": {
+"distance": 23863,
+"lemma": "pia",
+"word": "pia"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "cystic",
+"status": 200,
+"resp": {
+"distance": 12915,
+"lemma": "cystic",
+"word": "cystic"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "alston",
+"status": 200,
+"resp": {
+"distance": 40326,
+"lemma": "alston",
+"word": "alston"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "caustic",
+"status": 200,
+"resp": {
+"distance": 25911,
+"lemma": "caustic",
+"word": "caustic"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "galina",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "nad",
+"status": 404,
+"resp": {
+"error": "This word doesn't count"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "electrifying",
+"status": 200,
+"resp": {
+"distance": 57783,
+"lemma": "electrify",
+"word": "electrifying"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "mistrial",
+"status": 200,
+"resp": {
+"distance": 47384,
+"lemma": "mistrial",
+"word": "mistrial"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "mclennan",
+"status": 200,
+"resp": {
+"distance": 51086,
+"lemma": "mclennan",
+"word": "mclennan"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "att",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "callas",
+"status": 200,
+"resp": {
+"distance": 5236,
+"lemma": "callas",
+"word": "callas"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "pacify",
+"status": 200,
+"resp": {
+"distance": 55634,
+"lemma": "pacify",
+"word": "pacify"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "thibault",
+"status": 200,
+"resp": {
+"distance": 33624,
+"lemma": "thibault",
+"word": "thibault"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "woeful",
+"status": 200,
+"resp": {
+"distance": 21785,
+"lemma": "woeful",
+"word": "woeful"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "millwood",
+"status": 200,
+"resp": {
+"distance": 24978,
+"lemma": "millwood",
+"word": "millwood"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "scares",
+"status": 200,
+"resp": {
+"distance": 12322,
+"lemma": "scare",
+"word": "scares"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "kerviel",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "clube",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "thrills",
+"status": 200,
+"resp": {
+"distance": 12005,
+"lemma": "thrill",
+"word": "thrills"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "clones",
+"status": 200,
+"resp": {
+"distance": 6924,
+"lemma": "clone",
+"word": "clones"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "emptive",
+"status": 200,
+"resp": {
+"distance": 56961,
+"lemma": "emptive",
+"word": "emptive"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "shopkeeper",
+"status": 200,
+"resp": {
+"distance": 58429,
+"lemma": "shopkeeper",
+"word": "shopkeeper"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "decider",
+"status": 200,
+"resp": {
+"distance": 50300,
+"lemma": "decider",
+"word": "decider"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "sd",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+20000,
+40000
+],
+"word": "usair",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "bezos",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "pineiro",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "juanico",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "umc",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "kez",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "verna",
+"status": 200,
+"resp": {
+"distance": 7216,
+"lemma": "verna",
+"word": "verna"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "pulmonate",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "dampers",
+"status": 200,
+"resp": {
+"distance": 33466,
+"lemma": "damper",
+"word": "dampers"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "hahnemann",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "pakhtunkhwa",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "obliterate",
+"status": 200,
+"resp": {
+"distance": 38572,
+"lemma": "obliterate",
+"word": "obliterate"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "fillings",
+"status": 200,
+"resp": {
+"distance": 635,
+"lemma": "filling",
+"word": "fillings"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "disciplining",
+"status": 200,
+"resp": {
+"distance": 34896,
+"lemma": "discipline",
+"word": "disciplining"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "smoothie",
+"status": 200,
+"resp": {
+"distance": 436,
+"lemma": "smoothie",
+"word": "smoothie"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "hyo",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "brut",
+"status": 200,
+"resp": {
+"distance": 3031,
+"lemma": "brut",
+"word": "brut"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "confide",
+"status": 200,
+"resp": {
+"distance": 49166,
+"lemma": "confide",
+"word": "confide"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "zulle",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "weatherly",
+"status": 200,
+"resp": {
+"distance": 39379,
+"lemma": "weatherly",
+"word": "weatherly"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "marleau",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "ercole",
+"status": 200,
+"resp": {
+"distance": 72536,
+"lemma": "ercole",
+"word": "ercole"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "ww",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "timpani",
+"status": 200,
+"resp": {
+"distance": 40630,
+"lemma": "timpani",
+"word": "timpani"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "stb",
+"status": 200,
+"resp": {
+"distance": 69326,
+"lemma": "stb",
+"word": "stb"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "bossa",
+"status": 200,
+"resp": {
+"distance": 9071,
+"lemma": "bossa",
+"word": "bossa"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "cardio",
+"status": 200,
+"resp": {
+"distance": 6645,
+"lemma": "cardio",
+"word": "cardio"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "retrograde",
+"status": 200,
+"resp": {
+"distance": 35969,
+"lemma": "retrograde",
+"word": "retrograde"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "wees",
+"status": 200,
+"resp": {
+"distance": 3227,
+"lemma": "wee",
+"word": "wees"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "palladio",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "tabbed",
+"status": 200,
+"resp": {
+"distance": 50646,
+"lemma": "tabbed",
+"word": "tabbed"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "seljuk",
+"status": 200,
+"resp": {
+"distance": 63488,
+"lemma": "seljuk",
+"word": "seljuk"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "uam",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "keeled",
+"status": 200,
+"resp": {
+"distance": 7536,
+"lemma": "keel",
+"word": "keeled"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "sinise",
+"status": 200,
+"resp": {
+"distance": 46515,
+"lemma": "sinise",
+"word": "sinise"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "chor",
+"status": 200,
+"resp": {
+"distance": 76543,
+"lemma": "chor",
+"word": "chor"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "radin",
+"status": 200,
+"resp": {
+"distance": 35410,
+"lemma": "radin",
+"word": "radin"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "tedesco",
+"status": 200,
+"resp": {
+"distance": 63295,
+"lemma": "tedesco",
+"word": "tedesco"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "stampeders",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "mercies",
+"status": 200,
+"resp": {
+"distance": 16787,
+"lemma": "mercy",
+"word": "mercies"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "ferdinando",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "aerobatic",
+"status": 200,
+"resp": {
+"distance": 37481,
+"lemma": "aerobatic",
+"word": "aerobatic"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "misogyny",
+"status": 200,
+"resp": {
+"distance": 16275,
+"lemma": "misogyny",
+"word": "misogyny"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "kiwa",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "vandort",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "entitle",
+"status": 200,
+"resp": {
+"distance": 35059,
+"lemma": "entitle",
+"word": "entitle"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "buckminster",
+"status": 200,
+"resp": {
+"distance": 71432,
+"lemma": "buckminster",
+"word": "buckminster"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "gallegos",
+"status": 200,
+"resp": {
+"distance": 70095,
+"lemma": "gallegos",
+"word": "gallegos"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "perdana",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "undersides",
+"status": 200,
+"resp": {
+"distance": 7034,
+"lemma": "underside",
+"word": "undersides"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "skaggs",
+"status": 200,
+"resp": {
+"distance": 23176,
+"lemma": "skaggs",
+"word": "skaggs"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "insanely",
+"status": 200,
+"resp": {
+"distance": 12173,
+"lemma": "insanely",
+"word": "insanely"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "needling",
+"status": 200,
+"resp": {
+"distance": 4120,
+"lemma": "needle",
+"word": "needling"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "salles",
+"status": 200,
+"resp": {
+"distance": 33993,
+"lemma": "salles",
+"word": "salles"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "urbanisation",
+"status": 200,
+"resp": {
+"distance": 67184,
+"lemma": "urbanisation",
+"word": "urbanisation"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "couplets",
+"status": 200,
+"resp": {
+"distance": 60153,
+"lemma": "couplet",
+"word": "couplets"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "lk",
+"status": 200,
+"resp": {
+"distance": 18092,
+"lemma": "lk",
+"word": "lk"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "boheme",
+"status": 200,
+"resp": {
+"distance": 7555,
+"lemma": "boheme",
+"word": "boheme"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "billington",
+"status": 200,
+"resp": {
+"distance": 14154,
+"lemma": "billington",
+"word": "billington"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "counterfeits",
+"status": 200,
+"resp": {
+"distance": 42707,
+"lemma": "counterfeit",
+"word": "counterfeits"
+}
+},
+{
+"bin": [
+40000,
+80000
+],
+"word": "msp",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "tetragrammaton",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "rudisha",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "ogbaudu",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "undocked",
+"status": 200,
+"resp": {
+"distance": 32971,
+"lemma": "undock",
+"word": "undocked"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "sardonically",
+"status": 200,
+"resp": {
+"distance": 45661,
+"lemma": "sardonically",
+"word": "sardonically"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "directeur",
+"status": 200,
+"resp": {
+"distance": 45846,
+"lemma": "directeur",
+"word": "directeur"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "neuropsychiatry",
+"status": 200,
+"resp": {
+"distance": 74001,
+"lemma": "neuropsychiatry",
+"word": "neuropsychiatry"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "czarny",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "baisya",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "saalfeld",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "xiangtan",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "whooshing",
+"status": 200,
+"resp": {
+"distance": 45065,
+"lemma": "whoosh",
+"word": "whooshing"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "javaid",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "flowstation",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "krio",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "maupassant",
+"status": 200,
+"resp": {
+"distance": 9265,
+"lemma": "maupassant",
+"word": "maupassant"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "mjallby",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "fonds",
+"status": 200,
+"resp": {
+"distance": 23801,
+"lemma": "fonds",
+"word": "fonds"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "indinavir",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "integrationist",
+"status": 200,
+"resp": {
+"distance": 76067,
+"lemma": "integrationist",
+"word": "integrationist"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "bacary",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "lunas",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "salesroom",
+"status": 200,
+"resp": {
+"distance": 74328,
+"lemma": "salesroom",
+"word": "salesroom"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "fernsehen",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "mcmahons",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "advisability",
+"status": 200,
+"resp": {
+"distance": 78347,
+"lemma": "advisability",
+"word": "advisability"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "rhe",
+"status": 200,
+"resp": {
+"distance": 51363,
+"lemma": "rhe",
+"word": "rhe"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "addu",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "cerulli",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "gss",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "clowe",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "paice",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "liel",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "byam",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "construe",
+"status": 200,
+"resp": {
+"distance": 29811,
+"lemma": "construe",
+"word": "construe"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "hankie",
+"status": 200,
+"resp": {
+"distance": 12948,
+"lemma": "hankie",
+"word": "hankie"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "baral",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "formalist",
+"status": 200,
+"resp": {
+"distance": 27646,
+"lemma": "formalist",
+"word": "formalist"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "soyer",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "gritschuk",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "crossbills",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "forevermore",
+"status": 200,
+"resp": {
+"distance": 44126,
+"lemma": "forevermore",
+"word": "forevermore"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "metway",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "xterra",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "stingiest",
+"status": 200,
+"resp": {
+"distance": 48054,
+"lemma": "stingy",
+"word": "stingiest"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "bogomil",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "kerby",
+"status": 200,
+"resp": {
+"distance": 72821,
+"lemma": "kerby",
+"word": "kerby"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "kanemaru",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "stegall",
+"status": 200,
+"resp": {
+"distance": 66222,
+"lemma": "stegall",
+"word": "stegall"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "nationalise",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "ericaceae",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "caspersen",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "quae",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "vlada",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "lutter",
+"status": 200,
+"resp": {
+"distance": 46765,
+"lemma": "lutter",
+"word": "lutter"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "mown",
+"status": 200,
+"resp": {
+"distance": 11998,
+"lemma": "mow",
+"word": "mown"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "apapa",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "mkii",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "socialistic",
+"status": 200,
+"resp": {
+"distance": 60924,
+"lemma": "socialistic",
+"word": "socialistic"
+}
+},
+{
+"bin": [
+80000,
+160000
+],
+"word": "ween",
+"status": 200,
+"resp": {
+"distance": 7137,
+"lemma": "ween",
+"word": "ween"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "prevot",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "gitlow",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "tragus",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "hauptplatz",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "baleine",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "valleyfair",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "gaung",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "calwyn",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "litho",
+"status": 200,
+"resp": {
+"distance": 17484,
+"lemma": "litho",
+"word": "litho"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "hoopers",
+"status": 200,
+"resp": {
+"distance": 6621,
+"lemma": "hoopers",
+"word": "hoopers"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "kelani",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "sumagaya",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "udhr",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "lumbard",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "palestinans",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "sateh",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "zepter",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "anmol",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "jaray",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "hazebrouck",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "xindi",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "rescored",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "bywords",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "zadi",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "reefed",
+"status": 200,
+"resp": {
+"distance": 31230,
+"lemma": "reef",
+"word": "reefed"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "ferveez",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "sabes",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "ameena",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "badrshein",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "apponyi",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "nanjie",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "peaslee",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "pagbilao",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "godefroid",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "thrashy",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "piere",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "khvoreh",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "nauseum",
+"status": 200,
+"resp": {
+"distance": 58974,
+"lemma": "nauseum",
+"word": "nauseum"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "prokosch",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "khorenatsi",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "edhem",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "elzhi",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "seoane",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "cuil",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "verint",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "tschirnhaus",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "sobornost",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "pramac",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "responsbility",
+"status": 200,
+"resp": {
+"distance": 74515,
+"lemma": "responsbility",
+"word": "responsbility"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "philaret",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "deloraine",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "yanco",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "stebbings",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "batul",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "popple",
+"status": 200,
+"resp": {
+"distance": 25822,
+"lemma": "popple",
+"word": "popple"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "oxynoemacheilus",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "ferate",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "simukonda",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "funnest",
+"status": 200,
+"resp": {
+"distance": 29848,
+"lemma": "funnest",
+"word": "funnest"
+}
+},
+{
+"bin": [
+160000,
+317756
+],
+"word": "velonews",
+"status": 404,
+"resp": {
+"error": "I'm sorry, I don't know this word"
+}
+}
+],
+"multi": {
+"0|advisability": 68230,
+"0|vang": 50796,
+"0|chor": 18093,
+"0|integrationist": 75108,
+"0|responsbility": 78901,
+"0|salesroom": 60666,
+"0|neuropsychiatry": 78889,
+"0|kerby": 49789,
+"0|ercole": 78563,
+"0|buckminster": 65251,
+"0|iraqi": 18005,
+"0|shinawatra": 65085,
+"0|disrupt": 26181,
+"0|gallegos": 48859,
+"0|stb": 56016,
+"0|subic": 24659,
+"0|urbanisation": 49866,
+"0|thanh": 30367,
+"0|stegall": 72990,
+"0|doctoral": 59299,
+"0|seljuk": 60421,
+"0|tedesco": 50426,
+"0|autocratic": 45151,
+"0|gansu": 68376,
+"0|socialistic": 49314,
+"500|advisability": 65024,
+"500|vang": 65927,
+"500|chor": 57189,
+"500|integrationist": 78872,
+"500|responsbility": 62370,
+"500|salesroom": 57291,
+"500|neuropsychiatry": 46265,
+"500|kerby": 40224,
+"500|ercole": 70735,
+"500|buckminster": 62050,
+"500|iraqi": 24607,
+"500|shinawatra": 30433,
+"500|disrupt": 22080,
+"500|gallegos": 73331,
+"500|stb": 41191,
+"500|subic": 34599,
+"500|urbanisation": 71811,
+"500|thanh": 42492,
+"500|stegall": 71047,
+"500|doctoral": 33396,
+"500|seljuk": 28073,
+"500|tedesco": 58497,
+"500|autocratic": 27564,
+"500|gansu": 45880,
+"500|socialistic": 44873,
+"1000|advisability": 60504,
+"1000|vang": 76443,
+"1000|chor": 39563,
+"1000|integrationist": 63100,
+"1000|responsbility": 70507,
+"1000|salesroom": 55488,
+"1000|neuropsychiatry": 59068,
+"1000|kerby": 49063,
+"1000|ercole": 49622,
+"1000|buckminster": 52560,
+"1000|iraqi": 15773,
+"1000|shinawatra": 26765,
+"1000|disrupt": 17435,
+"1000|gallegos": 37582,
+"1000|stb": 72798,
+"1000|subic": 65417,
+"1000|urbanisation": 71223,
+"1000|thanh": 74851,
+"1000|stegall": 38688,
+"1000|doctoral": 21420,
+"1000|seljuk": 63453,
+"1000|tedesco": 67572,
+"1000|autocratic": 30946,
+"1000|gansu": 55664,
+"1000|socialistic": 60642,
+"1250|advisability": 49842,
+"1250|vang": 9618,
+"1250|chor": 15998,
+"1250|integrationist": 44517,
+"1250|responsbility": 44714,
+"1250|salesroom": 36754,
+"1250|neuropsychiatry": 33843,
+"1250|kerby": 52735,
+"1250|ercole": 44676,
+"1250|buckminster": 62462,
+"1250|iraqi": 4958,
+"1250|shinawatra": 26372,
+"1250|disrupt": 28843,
+"1250|gallegos": 5423,
+"1250|stb": 29495,
+"1250|subic": 16560,
+"1250|urbanisation": 55620,
+"1250|thanh": 9880,
+"1250|stegall": 64187,
+"1250|doctoral": 27001,
+"1250|seljuk": 72852,
+"1250|tedesco": 32809,
+"1250|autocratic": 22708,
+"1250|gansu": 21799,
+"1250|socialistic": 35430,
+"1505|advisability": 19355,
+"1505|vang": 30986,
+"1505|chor": 47310,
+"1505|integrationist": 23215,
+"1505|responsbility": 71034,
+"1505|salesroom": 52626,
+"1505|neuropsychiatry": 57315,
+"1505|kerby": 39508,
+"1505|ercole": 51775,
+"1505|buckminster": 23099,
+"1505|iraqi": 651,
+"1505|shinawatra": 44582,
+"1505|disrupt": 2611,
+"1505|gallegos": 44226,
+"1505|stb": 7890,
+"1505|subic": 31113,
+"1505|urbanisation": 31119,
+"1505|thanh": 39783,
+"1505|stegall": 66197,
+"1505|doctoral": 27523,
+"1505|seljuk": 21222,
+"1505|tedesco": 75195,
+"1505|autocratic": 33591,
+"1505|gansu": 61758,
+"1505|socialistic": 35471
+},
+"tip_cap": 999,
+"cons": [
+{
+"d": 1,
+"tip": {
+"distance": 1,
+"lemma": "apple",
+"word": "apple"
+},
+"game": {
+"distance": 1,
+"lemma": "apple",
+"word": "apple"
+},
+"top_match": true
+},
+{
+"d": 2,
+"tip": {
+"distance": 2,
+"lemma": "peach",
+"word": "peach"
+},
+"game": {
+"distance": 2,
+"lemma": "peach",
+"word": "peach"
+},
+"top_match": true
+},
+{
+"d": 3,
+"tip": {
+"distance": 3,
+"lemma": "plum",
+"word": "plum"
+},
+"game": {
+"distance": 3,
+"lemma": "plum",
+"word": "plum"
+},
+"top_match": true
+},
+{
+"d": 10,
+"tip": {
+"distance": 10,
+"lemma": "rhubarb",
+"word": "rhubarb"
+},
+"game": {
+"distance": 10,
+"lemma": "rhubarb",
+"word": "rhubarb"
+},
+"top_match": true
+},
+{
+"d": 50,
+"tip": {
+"distance": 50,
+"lemma": "caramelized",
+"word": "caramelized"
+},
+"game": {
+"distance": 50,
+"lemma": "caramelized",
+"word": "caramelized"
+},
+"top_match": true
+},
+{
+"d": 100,
+"tip": {
+"distance": 100,
+"lemma": "honeysuckle",
+"word": "honeysuckle"
+},
+"game": {
+"distance": 100,
+"lemma": "honeysuckle",
+"word": "honeysuckle"
+},
+"top_match": true
+},
+{
+"d": 200,
+"tip": {
+"distance": 200,
+"lemma": "pancetta",
+"word": "pancetta"
+},
+"game": {
+"distance": 200,
+"lemma": "pancetta",
+"word": "pancetta"
+},
+"top_match": true
+},
+{
+"d": 300,
+"tip": {
+"distance": 300,
+"lemma": "dumpling",
+"word": "dumpling"
+},
+"game": {
+"distance": 300,
+"lemma": "dumpling",
+"word": "dumpling"
+},
+"top_match": true
+},
+{
+"d": 400,
+"tip": {
+"distance": 400,
+"lemma": "molasses",
+"word": "molasses"
+},
+"game": {
+"distance": 400,
+"lemma": "molasses",
+"word": "molasses"
+},
+"top_match": true
+},
+{
+"d": 499,
+"tip": {
+"distance": 499,
+"lemma": "ingredient",
+"word": "ingredient"
+},
+"game": {
+"distance": 499,
+"lemma": "ingredient",
+"word": "ingredient"
+},
+"top_match": true
+},
+{
+"d": 500,
+"tip": {
+"distance": 500,
+"lemma": "grain",
+"word": "grain"
+},
+"game": {
+"distance": 500,
+"lemma": "grain",
+"word": "grain"
+},
+"top_match": null
+},
+{
+"d": 999,
+"tip": {
+"distance": 999,
+"lemma": "crayfish",
+"word": "crayfish"
+},
+"game": {
+"distance": 999,
+"lemma": "crayfish",
+"word": "crayfish"
+},
+"top_match": null
+}
+]
+}

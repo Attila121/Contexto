@@ -1,0 +1,167 @@
+[
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "old (<2023-02-08)",
+"forms": "lemma-vector",
+"metric": "cos",
+"n": 8,
+"mean": 0.28,
+"min": 0.234,
+"max": 0.322,
+"cover": 0.98
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "old (<2023-02-08)",
+"forms": "inflections",
+"metric": "cos",
+"n": 8,
+"mean": 0.297,
+"min": 0.259,
+"max": 0.355,
+"cover": 0.982
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "old (<2023-02-08)",
+"forms": "inflections",
+"metric": "dot",
+"n": 8,
+"mean": 0.255,
+"min": 0.215,
+"max": 0.304,
+"cover": 0.982
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "old (<2023-02-08)",
+"forms": "inflections",
+"metric": "euc",
+"n": 8,
+"mean": 0.198,
+"min": 0.118,
+"max": 0.254,
+"cover": 0.982
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "old (<2023-02-08)",
+"forms": "inflect+comparative",
+"metric": "cos",
+"n": 8,
+"mean": 0.297,
+"min": 0.256,
+"max": 0.357,
+"cover": 0.983
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "2023-02-08..2024",
+"forms": "lemma-vector",
+"metric": "cos",
+"n": 6,
+"mean": 0.244,
+"min": 0.179,
+"max": 0.289,
+"cover": 0.984
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "2023-02-08..2024",
+"forms": "inflections",
+"metric": "cos",
+"n": 6,
+"mean": 0.254,
+"min": 0.178,
+"max": 0.32,
+"cover": 0.985
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "2023-02-08..2024",
+"forms": "inflections",
+"metric": "dot",
+"n": 6,
+"mean": 0.214,
+"min": 0.143,
+"max": 0.304,
+"cover": 0.985
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "2023-02-08..2024",
+"forms": "inflections",
+"metric": "euc",
+"n": 6,
+"mean": 0.188,
+"min": 0.092,
+"max": 0.268,
+"cover": 0.985
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "2023-02-08..2024",
+"forms": "inflect+comparative",
+"metric": "cos",
+"n": 6,
+"mean": 0.257,
+"min": 0.186,
+"max": 0.322,
+"cover": 0.985
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "live 2026",
+"forms": "lemma-vector",
+"metric": "cos",
+"n": 34,
+"mean": 0.256,
+"min": 0.06,
+"max": 0.39,
+"cover": 0.988
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "live 2026",
+"forms": "inflections",
+"metric": "cos",
+"n": 34,
+"mean": 0.268,
+"min": 0.069,
+"max": 0.403,
+"cover": 0.989
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "live 2026",
+"forms": "inflections",
+"metric": "dot",
+"n": 34,
+"mean": 0.232,
+"min": 0.032,
+"max": 0.341,
+"cover": 0.989
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "live 2026",
+"forms": "inflections",
+"metric": "euc",
+"n": 34,
+"mean": 0.184,
+"min": -0.001,
+"max": 0.275,
+"cover": 0.989
+},
+{
+"embedding": "word2vec.googlenews.300d",
+"era": "live 2026",
+"forms": "inflect+comparative",
+"metric": "cos",
+"n": 34,
+"mean": 0.268,
+"min": 0.055,
+"max": 0.384,
+"cover": 0.989
+}
+]

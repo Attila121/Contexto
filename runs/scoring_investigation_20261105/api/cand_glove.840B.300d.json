@@ -1,0 +1,167 @@
+[
+{
+"embedding": "glove.840B.300d",
+"era": "old (<2023-02-08)",
+"forms": "lemma-vector",
+"metric": "cos",
+"n": 8,
+"mean": 0.333,
+"min": 0.249,
+"max": 0.404,
+"cover": 0.998
+},
+{
+"embedding": "glove.840B.300d",
+"era": "old (<2023-02-08)",
+"forms": "inflections",
+"metric": "cos",
+"n": 8,
+"mean": 0.365,
+"min": 0.271,
+"max": 0.447,
+"cover": 0.998
+},
+{
+"embedding": "glove.840B.300d",
+"era": "old (<2023-02-08)",
+"forms": "inflections",
+"metric": "dot",
+"n": 8,
+"mean": 0.346,
+"min": 0.271,
+"max": 0.424,
+"cover": 0.998
+},
+{
+"embedding": "glove.840B.300d",
+"era": "old (<2023-02-08)",
+"forms": "inflections",
+"metric": "euc",
+"n": 8,
+"mean": 0.284,
+"min": 0.225,
+"max": 0.362,
+"cover": 0.998
+},
+{
+"embedding": "glove.840B.300d",
+"era": "old (<2023-02-08)",
+"forms": "inflect+comparative",
+"metric": "cos",
+"n": 8,
+"mean": 0.367,
+"min": 0.268,
+"max": 0.454,
+"cover": 0.998
+},
+{
+"embedding": "glove.840B.300d",
+"era": "2023-02-08..2024",
+"forms": "lemma-vector",
+"metric": "cos",
+"n": 6,
+"mean": 0.36,
+"min": 0.17,
+"max": 0.42,
+"cover": 1.0
+},
+{
+"embedding": "glove.840B.300d",
+"era": "2023-02-08..2024",
+"forms": "inflections",
+"metric": "cos",
+"n": 6,
+"mean": 0.39,
+"min": 0.168,
+"max": 0.491,
+"cover": 1.0
+},
+{
+"embedding": "glove.840B.300d",
+"era": "2023-02-08..2024",
+"forms": "inflections",
+"metric": "dot",
+"n": 6,
+"mean": 0.317,
+"min": 0.155,
+"max": 0.505,
+"cover": 1.0
+},
+{
+"embedding": "glove.840B.300d",
+"era": "2023-02-08..2024",
+"forms": "inflections",
+"metric": "euc",
+"n": 6,
+"mean": 0.343,
+"min": 0.185,
+"max": 0.489,
+"cover": 1.0
+},
+{
+"embedding": "glove.840B.300d",
+"era": "2023-02-08..2024",
+"forms": "inflect+comparative",
+"metric": "cos",
+"n": 6,
+"mean": 0.389,
+"min": 0.168,
+"max": 0.49,
+"cover": 1.0
+},
+{
+"embedding": "glove.840B.300d",
+"era": "live 2026",
+"forms": "lemma-vector",
+"metric": "cos",
+"n": 34,
+"mean": 0.411,
+"min": 0.213,
+"max": 0.542,
+"cover": 1.0
+},
+{
+"embedding": "glove.840B.300d",
+"era": "live 2026",
+"forms": "inflections",
+"metric": "cos",
+"n": 34,
+"mean": 0.453,
+"min": 0.216,
+"max": 0.617,
+"cover": 1.0
+},
+{
+"embedding": "glove.840B.300d",
+"era": "live 2026",
+"forms": "inflections",
+"metric": "dot",
+"n": 34,
+"mean": 0.377,
+"min": 0.183,
+"max": 0.569,
+"cover": 1.0
+},
+{
+"embedding": "glove.840B.300d",
+"era": "live 2026",
+"forms": "inflections",
+"metric": "euc",
+"n": 34,
+"mean": 0.371,
+"min": 0.232,
+"max": 0.515,
+"cover": 1.0
+},
+{
+"embedding": "glove.840B.300d",
+"era": "live 2026",
+"forms": "inflect+comparative",
+"metric": "cos",
+"n": 34,
+"mean": 0.453,
+"min": 0.216,
+"max": 0.619,
+"cover": 1.0
+}
+]

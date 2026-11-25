@@ -1,0 +1,1913 @@
+[
+{
+"game": 1504,
+"word": "known",
+"rec_rank": 698,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 697,
+"lemma": "known",
+"word": "known"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "extinguisher",
+"rec_rank": 794,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 793,
+"lemma": "extinguisher",
+"word": "extinguisher"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1498,
+"word": "analysis",
+"rec_rank": 66,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 65,
+"lemma": "analysis",
+"word": "analysis"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "position",
+"rec_rank": 36,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 35,
+"lemma": "position",
+"word": "position"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "safeguard",
+"rec_rank": 337,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 336,
+"lemma": "safeguard",
+"word": "safeguard"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1500,
+"word": "sauce",
+"rec_rank": 151,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 150,
+"lemma": "sauce",
+"word": "sauce"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "life",
+"rec_rank": 6090,
+"rec_date": "2026-10-07",
+"live": {
+"distance": 6086,
+"lemma": "life",
+"word": "life"
+},
+"match": false,
+"setcookie": null
+},
+{
+"game": 1499,
+"word": "dessert",
+"rec_rank": 1265,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1264,
+"lemma": "dessert",
+"word": "dessert"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "space",
+"rec_rank": 38,
+"rec_date": "2026-10-07",
+"live": {
+"distance": 37,
+"lemma": "space",
+"word": "space"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1505,
+"word": "next",
+"rec_rank": 2098,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 2097,
+"lemma": "next",
+"word": "next"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1504,
+"word": "certain",
+"rec_rank": 8,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 7,
+"lemma": "certain",
+"word": "certain"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "soggy",
+"rec_rank": 3989,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 3988,
+"lemma": "soggy",
+"word": "soggy"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1478,
+"word": "water",
+"rec_rank": 2119,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 2118,
+"lemma": "water",
+"word": "water"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "extent",
+"rec_rank": 705,
+"rec_date": "2026-10-07",
+"live": {
+"distance": 704,
+"lemma": "extent",
+"word": "extent"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1502,
+"word": "frosty",
+"rec_rank": 4225,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 4224,
+"lemma": "frosty",
+"word": "frosty"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1505,
+"word": "prospective",
+"rec_rank": 5445,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 5444,
+"lemma": "prospective",
+"word": "prospective"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "wet",
+"rec_rank": 24,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 23,
+"lemma": "wet",
+"word": "wet"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "area",
+"rec_rank": 9,
+"rec_date": "2026-10-07",
+"live": {
+"distance": 8,
+"lemma": "area",
+"word": "area"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1502,
+"word": "season",
+"rec_rank": 1794,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1793,
+"lemma": "season",
+"word": "season"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "water",
+"rec_rank": 1598,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 1597,
+"lemma": "water",
+"word": "water"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1498,
+"word": "survey",
+"rec_rank": 622,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 621,
+"lemma": "survey",
+"word": "survey"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "drill",
+"rec_rank": 1048,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 1047,
+"lemma": "drill",
+"word": "drill"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "time",
+"rec_rank": 1825,
+"rec_date": "2026-10-07",
+"live": {
+"distance": 1824,
+"lemma": "time",
+"word": "time"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1507,
+"word": "guy",
+"rec_rank": 233,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 232,
+"lemma": "guy",
+"word": "guy"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1499,
+"word": "fruit",
+"rec_rank": 1636,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1635,
+"lemma": "fruit",
+"word": "fruit"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "flame",
+"rec_rank": 3882,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 3879,
+"lemma": "flame",
+"word": "flame"
+},
+"match": false,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "wipe",
+"rec_rank": 1633,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1632,
+"lemma": "wipe",
+"word": "wipe"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "wash",
+"rec_rank": 1661,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1660,
+"lemma": "wash",
+"word": "wash"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "watch",
+"rec_rank": 9539,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 9534,
+"lemma": "watch",
+"word": "watch"
+},
+"match": false,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "region",
+"rec_rank": 619,
+"rec_date": "2026-10-07",
+"live": {
+"distance": 618,
+"lemma": "region",
+"word": "region"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "drain",
+"rec_rank": 52,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 51,
+"lemma": "drain",
+"word": "drain"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "firefighter",
+"rec_rank": 2227,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 2226,
+"lemma": "firefighter",
+"word": "firefighter"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1500,
+"word": "mousse",
+"rec_rank": 354,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 353,
+"lemma": "mousse",
+"word": "mousse"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "site",
+"rec_rank": 678,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 677,
+"lemma": "site",
+"word": "site"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "location",
+"rec_rank": 187,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 186,
+"lemma": "location",
+"word": "location"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1506,
+"word": "program",
+"rec_rank": 1406,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1405,
+"lemma": "program",
+"word": "program"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1498,
+"word": "public",
+"rec_rank": 1068,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1067,
+"lemma": "public",
+"word": "public"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "guard",
+"rec_rank": 8,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 7,
+"lemma": "guard",
+"word": "guard"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "hit",
+"rec_rank": 285,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 284,
+"lemma": "hit",
+"word": "hit"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "spot",
+"rec_rank": 293,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 292,
+"lemma": "spot",
+"word": "spot"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1500,
+"word": "dough",
+"rec_rank": 543,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 542,
+"lemma": "dough",
+"word": "dough"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "firefight",
+"rec_rank": 26249,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 26248,
+"lemma": "firefight",
+"word": "firefight"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1505,
+"word": "recent",
+"rec_rank": 2029,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 2028,
+"lemma": "recent",
+"word": "recent"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1506,
+"word": "upcoming",
+"rec_rank": 84,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 83,
+"lemma": "upcoming",
+"word": "upcoming"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1505,
+"word": "calendar",
+"rec_rank": 6453,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 6452,
+"lemma": "calendar",
+"word": "calendar"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1498,
+"word": "conclusion",
+"rec_rank": 1,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 0,
+"lemma": "conclusion",
+"word": "conclusion"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "bodyguard",
+"rec_rank": 1942,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 1941,
+"lemma": "bodyguard",
+"word": "bodyguard"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "distance",
+"rec_rank": 69,
+"rec_date": "2026-10-07",
+"live": {
+"distance": 68,
+"lemma": "distance",
+"word": "distance"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1504,
+"word": "determined",
+"rec_rank": 43,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 42,
+"lemma": "determine",
+"word": "determined"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1504,
+"word": "person",
+"rec_rank": 319,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 318,
+"lemma": "person",
+"word": "person"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "fire",
+"rec_rank": 168,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 167,
+"lemma": "fire",
+"word": "fire"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "confrontation",
+"rec_rank": 11335,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 11334,
+"lemma": "confrontation",
+"word": "confrontation"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "muddy",
+"rec_rank": 1563,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1562,
+"lemma": "muddy",
+"word": "muddy"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1502,
+"word": "frost",
+"rec_rank": 5264,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 5263,
+"lemma": "frost",
+"word": "frost"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "safety",
+"rec_rank": 203,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 202,
+"lemma": "safety",
+"word": "safety"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "officer",
+"rec_rank": 829,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 828,
+"lemma": "officer",
+"word": "officer"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "burning",
+"rec_rank": 2368,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 2367,
+"lemma": "burning",
+"word": "burning"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "alert",
+"rec_rank": 1255,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 1254,
+"lemma": "alert",
+"word": "alert"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "hazard",
+"rec_rank": 457,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 456,
+"lemma": "hazard",
+"word": "hazard"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "grass",
+"rec_rank": 1368,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1367,
+"lemma": "grass",
+"word": "grass"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "leak",
+"rec_rank": 386,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 385,
+"lemma": "leak",
+"word": "leak"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "seep",
+"rec_rank": 2840,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 2839,
+"lemma": "seep",
+"word": "seep"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "time",
+"rec_rank": 1825,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 1824,
+"lemma": "time",
+"word": "time"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "dimension",
+"rec_rank": 292,
+"rec_date": "2026-10-07",
+"live": {
+"distance": 291,
+"lemma": "dimension",
+"word": "dimension"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "placement",
+"rec_rank": 1043,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 1042,
+"lemma": "placement",
+"word": "placement"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1504,
+"word": "prescribed",
+"rec_rank": 380,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 379,
+"lemma": "prescribe",
+"word": "prescribed"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "distance",
+"rec_rank": 69,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 68,
+"lemma": "distance",
+"word": "distance"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "damp",
+"rec_rank": 1542,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1541,
+"lemma": "damp",
+"word": "damp"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1498,
+"word": "population",
+"rec_rank": 1780,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1779,
+"lemma": "population",
+"word": "population"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "region",
+"rec_rank": 619,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 618,
+"lemma": "region",
+"word": "region"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "dry",
+"rec_rank": 493,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 492,
+"lemma": "dry",
+"word": "dry"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1500,
+"word": "oven",
+"rec_rank": 942,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 941,
+"lemma": "oven",
+"word": "oven"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1500,
+"word": "vanilla",
+"rec_rank": 67,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 66,
+"lemma": "vanilla",
+"word": "vanilla"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1499,
+"word": "appetizer",
+"rec_rank": 3307,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 3306,
+"lemma": "appetizer",
+"word": "appetizer"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1502,
+"word": "months",
+"rec_rank": 1698,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1697,
+"lemma": "month",
+"word": "months"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "universe",
+"rec_rank": 6795,
+"rec_date": "2026-10-07",
+"live": {
+"distance": 6790,
+"lemma": "universe",
+"word": "universe"
+},
+"match": false,
+"setcookie": null
+},
+{
+"game": 1505,
+"word": "machine",
+"rec_rank": 326,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 325,
+"lemma": "machine",
+"word": "machine"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "escape",
+"rec_rank": 2307,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 2306,
+"lemma": "escape",
+"word": "escape"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1505,
+"word": "period",
+"rec_rank": 1706,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1705,
+"lemma": "period",
+"word": "period"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1502,
+"word": "midwinter",
+"rec_rank": 11828,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 11827,
+"lemma": "midwinter",
+"word": "midwinter"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "onslaught",
+"rec_rank": 9846,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 9845,
+"lemma": "onslaught",
+"word": "onslaught"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1502,
+"word": "summer",
+"rec_rank": 417,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 416,
+"lemma": "summer",
+"word": "summer"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1505,
+"word": "day",
+"rec_rank": 1300,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1299,
+"lemma": "day",
+"word": "day"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "shoot",
+"rec_rank": 324,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 323,
+"lemma": "shoot",
+"word": "shoot"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "exit",
+"rec_rank": 613,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 612,
+"lemma": "exit",
+"word": "exit"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "money",
+"rec_rank": 14335,
+"rec_date": "2026-10-07",
+"live": {
+"distance": 14327,
+"lemma": "money",
+"word": "money"
+},
+"match": false,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "patrol",
+"rec_rank": 34,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 33,
+"lemma": "patrol",
+"word": "patrol"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1504,
+"word": "defined",
+"rec_rank": 37,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 36,
+"lemma": "define",
+"word": "defined"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "channel",
+"rec_rank": 1198,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1197,
+"lemma": "channel",
+"word": "channel"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "shot",
+"rec_rank": 523,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 522,
+"lemma": "shot",
+"word": "shot"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "danger",
+"rec_rank": 2660,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 2659,
+"lemma": "danger",
+"word": "danger"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1504,
+"word": "specific",
+"rec_rank": 30,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 29,
+"lemma": "specific",
+"word": "specific"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1506,
+"word": "seasonal",
+"rec_rank": 2725,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 2724,
+"lemma": "seasonal",
+"word": "seasonal"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1505,
+"word": "art",
+"rec_rank": 1376,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1375,
+"lemma": "art",
+"word": "art"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1506,
+"word": "spring",
+"rec_rank": 1204,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1203,
+"lemma": "spring",
+"word": "spring"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "security",
+"rec_rank": 16,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 15,
+"lemma": "security",
+"word": "security"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "ocean",
+"rec_rank": 643,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 642,
+"lemma": "ocean",
+"word": "ocean"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "weapon",
+"rec_rank": 4511,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 4510,
+"lemma": "weapon",
+"word": "weapon"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1505,
+"word": "innovation",
+"rec_rank": 3569,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 3568,
+"lemma": "innovation",
+"word": "innovation"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1500,
+"word": "nutmeg",
+"rec_rank": 177,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 176,
+"lemma": "nutmeg",
+"word": "nutmeg"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1502,
+"word": "storm",
+"rec_rank": 2368,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 2367,
+"lemma": "storm",
+"word": "storm"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "heat",
+"rec_rank": 1643,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 1642,
+"lemma": "heat",
+"word": "heat"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "alarm",
+"rec_rank": 504,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 503,
+"lemma": "alarm",
+"word": "alarm"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "coordinates",
+"rec_rank": 319,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 318,
+"lemma": "coordinate",
+"word": "coordinates"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "sentry",
+"rec_rank": 99,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 98,
+"lemma": "sentry",
+"word": "sentry"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "universe",
+"rec_rank": 6795,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 6790,
+"lemma": "universe",
+"word": "universe"
+},
+"match": false,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "prevention",
+"rec_rank": 1075,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 1074,
+"lemma": "prevention",
+"word": "prevention"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "space",
+"rec_rank": 38,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 37,
+"lemma": "space",
+"word": "space"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1504,
+"word": "circumstance",
+"rec_rank": 221,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 220,
+"lemma": "circumstance",
+"word": "circumstance"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1502,
+"word": "pale",
+"rec_rank": 3350,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 3349,
+"lemma": "pale",
+"word": "pale"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1505,
+"word": "digital",
+"rec_rank": 4268,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 4267,
+"lemma": "digital",
+"word": "digital"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "emergency",
+"rec_rank": 638,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 637,
+"lemma": "emergency",
+"word": "emergency"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "dimension",
+"rec_rank": 292,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 291,
+"lemma": "dimension",
+"word": "dimension"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "enemy",
+"rec_rank": 1173,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1172,
+"lemma": "enemy",
+"word": "enemy"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1506,
+"word": "season",
+"rec_rank": 9,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 8,
+"lemma": "season",
+"word": "season"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "inferno",
+"rec_rank": 6829,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 6828,
+"lemma": "inferno",
+"word": "inferno"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "point",
+"rec_rank": 277,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 276,
+"lemma": "point",
+"word": "point"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1506,
+"word": "current",
+"rec_rank": 426,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 425,
+"lemma": "current",
+"word": "current"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1499,
+"word": "starter",
+"rec_rank": 1724,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1723,
+"lemma": "starter",
+"word": "starter"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "duct",
+"rec_rank": 1043,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1042,
+"lemma": "duct",
+"word": "duct"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1506,
+"word": "weekly",
+"rec_rank": 1415,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1414,
+"lemma": "weekly",
+"word": "weekly"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1498,
+"word": "society",
+"rec_rank": 1781,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1780,
+"lemma": "society",
+"word": "society"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1478,
+"word": "earth",
+"rec_rank": 3570,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 3567,
+"lemma": "earth",
+"word": "earth"
+},
+"match": false,
+"setcookie": null
+},
+{
+"game": 1499,
+"word": "helping",
+"rec_rank": 496,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 495,
+"lemma": "helping",
+"word": "helping"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "ember",
+"rec_rank": 9137,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 9136,
+"lemma": "ember",
+"word": "ember"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1501,
+"word": "target",
+"rec_rank": 1244,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1243,
+"lemma": "target",
+"word": "target"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "burn",
+"rec_rank": 4216,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 4212,
+"lemma": "burn",
+"word": "burn"
+},
+"match": false,
+"setcookie": null
+},
+{
+"game": 1498,
+"word": "findings",
+"rec_rank": 4,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 3,
+"lemma": "finding",
+"word": "findings"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1506,
+"word": "year",
+"rec_rank": 91,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 90,
+"lemma": "year",
+"word": "year"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "siren",
+"rec_rank": 2109,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 2108,
+"lemma": "siren",
+"word": "siren"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1500,
+"word": "cream",
+"rec_rank": 312,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 311,
+"lemma": "cream",
+"word": "cream"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "span",
+"rec_rank": 559,
+"rec_date": "2026-10-07",
+"live": {
+"distance": 558,
+"lemma": "span",
+"word": "span"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "gun",
+"rec_rank": 2997,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 2995,
+"lemma": "gun",
+"word": "gun"
+},
+"match": false,
+"setcookie": null
+},
+{
+"game": 1499,
+"word": "hungry",
+"rec_rank": 2688,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 2687,
+"lemma": "hungry",
+"word": "hungry"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1506,
+"word": "fortnight",
+"rec_rank": 9459,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 9458,
+"lemma": "fortnight",
+"word": "fortnight"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1504,
+"word": "precise",
+"rec_rank": 1444,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1443,
+"lemma": "precise",
+"word": "precise"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1505,
+"word": "modern",
+"rec_rank": 567,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 566,
+"lemma": "modern",
+"word": "modern"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "fire",
+"rec_rank": 244,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 243,
+"lemma": "fire",
+"word": "fire"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "sink",
+"rec_rank": 88,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 87,
+"lemma": "sink",
+"word": "sink"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "smoke",
+"rec_rank": 5714,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 5710,
+"lemma": "smoke",
+"word": "smoke"
+},
+"match": false,
+"setcookie": null
+},
+{
+"game": 1498,
+"word": "social",
+"rec_rank": 1148,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1147,
+"lemma": "social",
+"word": "social"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1503,
+"word": "slippery",
+"rec_rank": 1487,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 1486,
+"lemma": "slippery",
+"word": "slippery"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "place",
+"rec_rank": 229,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 228,
+"lemma": "place",
+"word": "place"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "surface",
+"rec_rank": 61,
+"rec_date": "2026-10-07",
+"live": {
+"distance": 60,
+"lemma": "surface",
+"word": "surface"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1500,
+"word": "dinner",
+"rec_rank": 955,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 954,
+"lemma": "dinner",
+"word": "dinner"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1473,
+"word": "protection",
+"rec_rank": 205,
+"rec_date": "2026-10-06",
+"live": {
+"distance": 204,
+"lemma": "protection",
+"word": "protection"
+},
+"match": true,
+"setcookie": null
+},
+{
+"game": 1499,
+"word": "foodstuff",
+"rec_rank": 8347,
+"rec_date": "2026-11-04",
+"live": {
+"distance": 8346,
+"lemma": "foodstuff",
+"word": "foodstuff"
+},
+"match": true,
+"setcookie": null
+}
+]

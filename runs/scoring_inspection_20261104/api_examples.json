@@ -1,0 +1,26 @@
+[
+  {
+    "guess": "pear",
+    "response": {
+      "distance": 0,
+      "lemma": "pear",
+      "word": "pear"
+    }
+  },
+  {
+    "guess": "apple",
+    "response": {
+      "distance": 1,
+      "lemma": "apple",
+      "word": "apple"
+    }
+  },
+  {
+    "guess": "apples",
+    "response": {
+      "distance": 1,
+      "lemma": "apple",
+      "word": "apples"
+    }
+  }
+]

@@ -1,0 +1,167 @@
+[
+{
+"embedding": "fasttext.crawl.300d",
+"era": "old (<2023-02-08)",
+"forms": "lemma-vector",
+"metric": "cos",
+"n": 8,
+"mean": 0.294,
+"min": 0.243,
+"max": 0.328,
+"cover": 0.996
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "old (<2023-02-08)",
+"forms": "inflections",
+"metric": "cos",
+"n": 8,
+"mean": 0.309,
+"min": 0.258,
+"max": 0.344,
+"cover": 0.996
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "old (<2023-02-08)",
+"forms": "inflections",
+"metric": "dot",
+"n": 8,
+"mean": 0.252,
+"min": 0.187,
+"max": 0.284,
+"cover": 0.996
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "old (<2023-02-08)",
+"forms": "inflections",
+"metric": "euc",
+"n": 8,
+"mean": 0.247,
+"min": 0.195,
+"max": 0.307,
+"cover": 0.996
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "old (<2023-02-08)",
+"forms": "inflect+comparative",
+"metric": "cos",
+"n": 8,
+"mean": 0.308,
+"min": 0.264,
+"max": 0.343,
+"cover": 0.996
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "2023-02-08..2024",
+"forms": "lemma-vector",
+"metric": "cos",
+"n": 6,
+"mean": 0.248,
+"min": 0.132,
+"max": 0.339,
+"cover": 0.999
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "2023-02-08..2024",
+"forms": "inflections",
+"metric": "cos",
+"n": 6,
+"mean": 0.264,
+"min": 0.131,
+"max": 0.367,
+"cover": 0.999
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "2023-02-08..2024",
+"forms": "inflections",
+"metric": "dot",
+"n": 6,
+"mean": 0.219,
+"min": 0.036,
+"max": 0.312,
+"cover": 0.999
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "2023-02-08..2024",
+"forms": "inflections",
+"metric": "euc",
+"n": 6,
+"mean": 0.244,
+"min": 0.143,
+"max": 0.367,
+"cover": 0.999
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "2023-02-08..2024",
+"forms": "inflect+comparative",
+"metric": "cos",
+"n": 6,
+"mean": 0.263,
+"min": 0.12,
+"max": 0.38,
+"cover": 0.999
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "live 2026",
+"forms": "lemma-vector",
+"metric": "cos",
+"n": 34,
+"mean": 0.279,
+"min": 0.133,
+"max": 0.394,
+"cover": 0.999
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "live 2026",
+"forms": "inflections",
+"metric": "cos",
+"n": 34,
+"mean": 0.294,
+"min": 0.14,
+"max": 0.409,
+"cover": 0.999
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "live 2026",
+"forms": "inflections",
+"metric": "dot",
+"n": 34,
+"mean": 0.234,
+"min": 0.075,
+"max": 0.335,
+"cover": 0.999
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "live 2026",
+"forms": "inflections",
+"metric": "euc",
+"n": 34,
+"mean": 0.276,
+"min": 0.152,
+"max": 0.401,
+"cover": 0.999
+},
+{
+"embedding": "fasttext.crawl.300d",
+"era": "live 2026",
+"forms": "inflect+comparative",
+"metric": "cos",
+"n": 34,
+"mean": 0.293,
+"min": 0.133,
+"max": 0.41,
+"cover": 0.999
+}
+]

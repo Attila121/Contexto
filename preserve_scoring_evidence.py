@@ -44,9 +44,9 @@ def preserve(source, destination, report):
             records.append({"path": relative.as_posix(), "bytes": after.st_size,
                             "source_mtime_ns": after.st_mtime_ns, "sha256": copy_hash})
     report = Path(report)
-    shutil.copy2(report, destination / "CLAUDE_REPORT.md")
-    records.append({"path": "CLAUDE_REPORT.md", "bytes": report.stat().st_size,
-                    "sha256": sha256(destination / "CLAUDE_REPORT.md")})
+    shutil.copy2(report, destination / "ORIGINAL_REPORT.md")
+    records.append({"path": "ORIGINAL_REPORT.md", "bytes": report.stat().st_size,
+                    "sha256": sha256(destination / "ORIGINAL_REPORT.md")})
     excluded = []
     for name in ("vec", "venv", "nltk_data"):
         directory = source / name
